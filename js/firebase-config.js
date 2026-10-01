@@ -1,0 +1,1 @@
+window.FB_CONFIG={apiKey:"AIzaSyA_2Bsck7D8__p9qFYopMEK4COyHlnUdQQ",authDomain:"edtracker-x.firebaseapp.com",projectId:"edtracker-x",storageBucket:"edtracker-x.firebasestorage.app",messagingSenderId:"564419524401",appId:"1:564419524401:web:73cacc75a734f883aee210"};
