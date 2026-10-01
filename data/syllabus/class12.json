@@ -1,0 +1,565 @@
+{
+ "class": 12,
+ "session": "2026-27",
+ "subjects": [
+  {
+   "id": "c12-eng",
+   "name": "English Core (301)",
+   "chapters": [
+    {
+     "id": "c12-eng-01",
+     "name": "Reading Skills",
+     "topics": [
+      "Unseen passage",
+      "Case-based factual passage"
+     ]
+    },
+    {
+     "id": "c12-eng-02",
+     "name": "Creative Writing",
+     "topics": [
+      "Notice",
+      "Invitation and reply",
+      "Letters (job application, letter to editor)",
+      "Article / Report"
+     ]
+    },
+    {
+     "id": "c12-eng-03",
+     "name": "Flamingo – Prose",
+     "topics": [
+      "The Last Lesson",
+      "Lost Spring",
+      "Deep Water",
+      "The Rattrap",
+      "Indigo",
+      "Poets and Pancakes",
+      "The Interview",
+      "Going Places"
+     ]
+    },
+    {
+     "id": "c12-eng-04",
+     "name": "Flamingo – Poetry",
+     "topics": [
+      "My Mother at Sixty-Six",
+      "Keeping Quiet",
+      "A Thing of Beauty",
+      "A Roadside Stand",
+      "Aunt Jennifer's Tigers"
+     ]
+    },
+    {
+     "id": "c12-eng-05",
+     "name": "Vistas",
+     "topics": [
+      "The Third Level",
+      "The Tiger King",
+      "Journey to the End of the Earth",
+      "The Enemy",
+      "On the Face of It",
+      "Memories of Childhood: The Cutting of My Long Hair",
+      "Memories of Childhood: We Too are Human Beings"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c12-phy",
+   "name": "Physics (042)",
+   "chapters": [
+    {
+     "id": "c12-phy-01",
+     "name": "Electric Charges and Fields",
+     "topics": [
+      "Charge, conservation, Coulomb's law, superposition",
+      "Electric field, field lines",
+      "Electric dipole and torque in uniform field",
+      "Electric flux, Gauss's theorem and applications"
+     ]
+    },
+    {
+     "id": "c12-phy-02",
+     "name": "Electrostatic Potential and Capacitance",
+     "topics": [
+      "Potential, potential difference, equipotential surfaces",
+      "Potential energy of charges and dipole",
+      "Conductors, dielectrics, polarisation",
+      "Capacitors, combinations, energy stored"
+     ]
+    },
+    {
+     "id": "c12-phy-03",
+     "name": "Current Electricity",
+     "topics": [
+      "Drift velocity, mobility, Ohm's law, V-I characteristics",
+      "Resistivity, conductivity, temperature dependence",
+      "Energy and power",
+      "EMF, internal resistance, cells in series and parallel",
+      "Kirchhoff's rules, Wheatstone bridge"
+     ]
+    },
+    {
+     "id": "c12-phy-04",
+     "name": "Moving Charges and Magnetism",
+     "topics": [
+      "Oersted, Biot-Savart law (circular loop)",
+      "Ampere's law, solenoid (qualitative)",
+      "Force on moving charge in E and B fields",
+      "Force on conductor, parallel currents, ampere",
+      "Torque on loop, magnetic dipole, galvanometer"
+     ]
+    },
+    {
+     "id": "c12-phy-05",
+     "name": "Magnetism and Matter",
+     "topics": [
+      "Bar magnet as solenoid, field of dipole",
+      "Torque on dipole, field lines",
+      "Para-, dia-, ferromagnetism, magnetisation"
+     ]
+    },
+    {
+     "id": "c12-phy-06",
+     "name": "Electromagnetic Induction",
+     "topics": [
+      "Faraday's laws, induced emf",
+      "Lenz's law",
+      "Self and mutual induction"
+     ]
+    },
+    {
+     "id": "c12-phy-07",
+     "name": "Alternating Current",
+     "topics": [
+      "Peak and RMS values",
+      "Reactance, impedance, LCR phasors, resonance",
+      "Power, power factor, wattless current",
+      "AC generator, transformer"
+     ]
+    },
+    {
+     "id": "c12-phy-08",
+     "name": "Electromagnetic Waves",
+     "topics": [
+      "Displacement current",
+      "EM waves and characteristics",
+      "EM spectrum and uses"
+     ]
+    },
+    {
+     "id": "c12-phy-09",
+     "name": "Ray Optics and Optical Instruments",
+     "topics": [
+      "Reflection, spherical mirrors, mirror formula",
+      "Refraction, TIR, optical fibres",
+      "Refraction at spherical surfaces, lenses, lens maker's formula",
+      "Power, combination of lenses, prism",
+      "Microscopes and telescopes"
+     ]
+    },
+    {
+     "id": "c12-phy-10",
+     "name": "Wave Optics",
+     "topics": [
+      "Huygens principle, reflection and refraction by wavefronts",
+      "Interference, Young's double slit, fringe width",
+      "Coherent sources",
+      "Single-slit diffraction"
+     ]
+    },
+    {
+     "id": "c12-phy-11",
+     "name": "Dual Nature of Radiation and Matter",
+     "topics": [
+      "Photoelectric effect, Hertz and Lenard",
+      "Einstein's photoelectric equation",
+      "Experimental study",
+      "Matter waves, de Broglie relation"
+     ]
+    },
+    {
+     "id": "c12-phy-12",
+     "name": "Atoms",
+     "topics": [
+      "Alpha-particle scattering, Rutherford model",
+      "Bohr model: radius, velocity, energy of nth orbit",
+      "Hydrogen line spectra"
+     ]
+    },
+    {
+     "id": "c12-phy-13",
+     "name": "Nuclei",
+     "topics": [
+      "Composition and size, nuclear force",
+      "Mass-energy, mass defect",
+      "Binding energy per nucleon curve",
+      "Fission and fusion"
+     ]
+    },
+    {
+     "id": "c12-phy-14",
+     "name": "Semiconductor Electronics",
+     "topics": [
+      "Energy bands",
+      "Intrinsic and extrinsic, p-n junction",
+      "Diode I-V characteristics",
+      "Diode as a rectifier"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c12-chem",
+   "name": "Chemistry (043)",
+   "chapters": [
+    {
+     "id": "c12-chem-01",
+     "name": "Solutions",
+     "topics": [
+      "Types, concentration",
+      "Solubility, vapour pressure",
+      "Ideal and non-ideal solutions",
+      "Colligative properties, molar mass",
+      "Abnormal molecular masses"
+     ]
+    },
+    {
+     "id": "c12-chem-02",
+     "name": "Electrochemistry",
+     "topics": [
+      "Electrochemical and galvanic cells, Nernst equation",
+      "Conductance of electrolytic solutions",
+      "Electrolysis",
+      "Batteries, fuel cells, corrosion"
+     ]
+    },
+    {
+     "id": "c12-chem-03",
+     "name": "Chemical Kinetics",
+     "topics": [
+      "Rate of reaction, factors",
+      "Integrated rate equations",
+      "Temperature dependence",
+      "Collision theory"
+     ]
+    },
+    {
+     "id": "c12-chem-04",
+     "name": "d- and f-Block Elements",
+     "topics": [
+      "Position, electronic configuration",
+      "General properties of transition elements",
+      "Important compounds",
+      "Lanthanoids and actinoids, applications"
+     ]
+    },
+    {
+     "id": "c12-chem-05",
+     "name": "Coordination Compounds",
+     "topics": [
+      "Werner's theory, terms",
+      "Nomenclature",
+      "Isomerism",
+      "Bonding, metal carbonyls",
+      "Importance and applications"
+     ]
+    },
+    {
+     "id": "c12-chem-06",
+     "name": "Haloalkanes and Haloarenes",
+     "topics": [
+      "Classification, nomenclature, C-X bond",
+      "Preparation",
+      "Physical properties, reactions",
+      "Polyhalogen compounds"
+     ]
+    },
+    {
+     "id": "c12-chem-07",
+     "name": "Alcohols, Phenols and Ethers",
+     "topics": [
+      "Classification, nomenclature, structures",
+      "Alcohols and phenols",
+      "Commercially important alcohols",
+      "Ethers"
+     ]
+    },
+    {
+     "id": "c12-chem-08",
+     "name": "Aldehydes, Ketones and Carboxylic Acids",
+     "topics": [
+      "Carbonyl group, preparation",
+      "Properties, reactions, uses",
+      "Carboxylic acids: preparation",
+      "Carboxylic acids: properties, reactions, uses"
+     ]
+    },
+    {
+     "id": "c12-chem-09",
+     "name": "Amines",
+     "topics": [
+      "Structure, classification, nomenclature",
+      "Preparation",
+      "Physical and chemical properties",
+      "Diazonium salts"
+     ]
+    },
+    {
+     "id": "c12-chem-10",
+     "name": "Biomolecules",
+     "topics": [
+      "Carbohydrates",
+      "Proteins",
+      "Enzymes",
+      "Vitamins",
+      "Nucleic acids",
+      "Hormones"
+     ]
+    },
+    {
+     "id": "c12-chem-11",
+     "name": "Surface Chemistry (formative only)",
+     "topics": [
+      "Adsorption",
+      "Colloids, emulsions"
+     ]
+    },
+    {
+     "id": "c12-chem-12",
+     "name": "General Principles of Isolation of Elements (formative only)",
+     "topics": [
+      "Concentration, oxidation, reduction",
+      "Electrolytic method, refining"
+     ]
+    },
+    {
+     "id": "c12-chem-13",
+     "name": "Polymers (formative only)",
+     "topics": [
+      "Polymerisation, homopolymers, copolymers"
+     ]
+    },
+    {
+     "id": "c12-chem-14",
+     "name": "Chemistry in Everyday Life (formative only)",
+     "topics": [
+      "Chemicals in medicines",
+      "Chemicals in food"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c12-math",
+   "name": "Mathematics (041)",
+   "chapters": [
+    {
+     "id": "c12-math-01",
+     "name": "Relations and Functions",
+     "topics": [
+      "Types of relations, equivalence relations",
+      "One-one and onto functions"
+     ]
+    },
+    {
+     "id": "c12-math-02",
+     "name": "Inverse Trigonometric Functions",
+     "topics": [
+      "Domain, range, principal value branch",
+      "Graphs"
+     ]
+    },
+    {
+     "id": "c12-math-03",
+     "name": "Matrices",
+     "topics": [
+      "Types, equality, transpose, symmetric and skew-symmetric",
+      "Operations, non-commutativity",
+      "Invertible matrices"
+     ]
+    },
+    {
+     "id": "c12-math-04",
+     "name": "Determinants",
+     "topics": [
+      "Determinants, minors, cofactors, area of triangle",
+      "Adjoint and inverse",
+      "Consistency, solving linear systems"
+     ]
+    },
+    {
+     "id": "c12-math-05",
+     "name": "Continuity and Differentiability",
+     "topics": [
+      "Continuity and differentiability, chain rule",
+      "Inverse trig, implicit functions",
+      "Exponential and log derivatives, log differentiation",
+      "Parametric forms, second order"
+     ]
+    },
+    {
+     "id": "c12-math-06",
+     "name": "Applications of Derivatives",
+     "topics": [
+      "Rate of change",
+      "Increasing and decreasing functions",
+      "Maxima and minima"
+     ]
+    },
+    {
+     "id": "c12-math-07",
+     "name": "Integrals",
+     "topics": [
+      "Integration as inverse of differentiation, substitution",
+      "Partial fractions and by parts",
+      "Special standard integrals",
+      "Fundamental Theorem, definite integrals"
+     ]
+    },
+    {
+     "id": "c12-math-08",
+     "name": "Applications of Integrals",
+     "topics": [
+      "Area under simple curves"
+     ]
+    },
+    {
+     "id": "c12-math-09",
+     "name": "Differential Equations",
+     "topics": [
+      "Order, degree, general and particular solutions",
+      "Separation of variables",
+      "Homogeneous equations",
+      "Linear differential equations"
+     ]
+    },
+    {
+     "id": "c12-math-10",
+     "name": "Vectors",
+     "topics": [
+      "Basics, direction cosines and ratios, types",
+      "Addition, scalar multiplication, section",
+      "Dot (scalar) product",
+      "Cross (vector) product"
+     ]
+    },
+    {
+     "id": "c12-math-11",
+     "name": "Three-dimensional Geometry",
+     "topics": [
+      "Direction cosines and ratios of a line",
+      "Equations of a line (Cartesian, vector)",
+      "Angle between lines",
+      "Skew lines, shortest distance"
+     ]
+    },
+    {
+     "id": "c12-math-12",
+     "name": "Linear Programming",
+     "topics": [
+      "Terminology, formulation",
+      "Graphical method, feasible regions"
+     ]
+    },
+    {
+     "id": "c12-math-13",
+     "name": "Probability",
+     "topics": [
+      "Conditional probability, multiplication theorem",
+      "Independent events",
+      "Total probability, Bayes' theorem"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c12-pe",
+   "name": "Physical Education (048)",
+   "chapters": [
+    {
+     "id": "c12-pe-01",
+     "name": "Unit 1: Management of Sporting Events",
+     "topics": [
+      "Functions of sports event management",
+      "Committees and responsibilities",
+      "Fixtures: knock-out, league, combination",
+      "Intramural and extramural",
+      "Community sports programmes"
+     ]
+    },
+    {
+     "id": "c12-pe-02",
+     "name": "Unit 2: Children and Women in Sports",
+     "topics": [
+      "WHO exercise guidelines",
+      "Postural deformities and corrections",
+      "Women's participation in sports",
+      "Menarche and menstrual dysfunction",
+      "Female athlete triad"
+     ]
+    },
+    {
+     "id": "c12-pe-03",
+     "name": "Unit 3: Yoga for Lifestyle Disease",
+     "topics": [
+      "Obesity",
+      "Diabetes",
+      "Asthma",
+      "Hypertension",
+      "Back pain"
+     ]
+    },
+    {
+     "id": "c12-pe-04",
+     "name": "Unit 4: PE and Sports for CWSN",
+     "topics": [
+      "Whole unit"
+     ]
+    },
+    {
+     "id": "c12-pe-05",
+     "name": "Unit 5: Sports and Nutrition",
+     "topics": [
+      "Whole unit"
+     ]
+    },
+    {
+     "id": "c12-pe-06",
+     "name": "Unit 6: Test and Measurement in Sports",
+     "topics": [
+      "Whole unit"
+     ]
+    },
+    {
+     "id": "c12-pe-07",
+     "name": "Unit 7: Physiology and Injuries in Sport",
+     "topics": [
+      "Whole unit"
+     ]
+    },
+    {
+     "id": "c12-pe-08",
+     "name": "Unit 8: Biomechanics and Sports",
+     "topics": [
+      "Whole unit"
+     ]
+    },
+    {
+     "id": "c12-pe-09",
+     "name": "Unit 9: Psychology and Sports",
+     "topics": [
+      "Whole unit"
+     ]
+    },
+    {
+     "id": "c12-pe-10",
+     "name": "Unit 10: Training in Sports",
+     "topics": [
+      "Whole unit"
+     ]
+    }
+   ]
+  }
+ ]
+}
