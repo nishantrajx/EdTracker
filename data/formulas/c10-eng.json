@@ -1,0 +1,90 @@
+{
+  "subject": "c10-eng",
+  "chapters": [
+    {
+      "id": "c10-eng-01",
+      "formulas": [
+        {
+          "label": "Reading comprehension",
+          "tex": "\\text{Read for main idea}\\rightarrow\\text{locate evidence}\\rightarrow\\text{answer from the passage}",
+          "unit": ""
+        },
+        {
+          "label": "Inference",
+          "tex": "\\text{Inference}=\\text{explicit evidence}+\\text{logical conclusion}",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c10-eng-02",
+      "formulas": [
+        {
+          "label": "Formal letter structure",
+          "tex": "\\text{Sender's address}\\rightarrow\\text{Date}\\rightarrow\\text{Recipient's address}\\rightarrow\\text{Subject}\\rightarrow\\text{Salutation}\\rightarrow\\text{Body}\\rightarrow\\text{Closing}",
+          "unit": ""
+        },
+        {
+          "label": "Analytical paragraph structure",
+          "tex": "\\text{Introduction}\\rightarrow\\text{Key features/data}\\rightarrow\\text{Comparison}\\rightarrow\\text{Conclusion}",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c10-eng-03",
+      "formulas": [
+        {
+          "label": "Tense consistency",
+          "tex": "\\text{Maintain the required time reference consistently unless context requires a shift}",
+          "unit": ""
+        },
+        {
+          "label": "Subject–verb agreement",
+          "tex": "\\text{Singular subject}\\rightarrow\\text{singular verb};\\quad\\text{plural subject}\\rightarrow\\text{plural verb}",
+          "unit": ""
+        },
+        {
+          "label": "Modals",
+          "tex": "\\text{Modal}+\\text{base form of verb}",
+          "unit": ""
+        },
+        {
+          "label": "Determiners",
+          "tex": "\\text{Determiner}+\\text{noun/noun phrase}",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c10-eng-04",
+      "formulas": [
+        {
+          "label": "Reported command/request",
+          "tex": "\\text{Reporting verb}+\\text{object}+\\text{to/not to}+\\text{base verb}",
+          "unit": ""
+        },
+        {
+          "label": "Reported statement",
+          "tex": "\\text{Reporting clause}+\\text{that}+\\text{reported clause}",
+          "unit": ""
+        },
+        {
+          "label": "Reported question",
+          "tex": "\\text{Reporting verb}+\\text{if/whether or wh-word}+\\text{statement word order}",
+          "unit": ""
+        },
+        {
+          "label": "Backshift in reported speech",
+          "tex": "\\text{Present}\\rightarrow\\text{Past};\\quad\\text{Past}\\rightarrow\\text{Past Perfect, where required by context}",
+          "unit": ""
+        },
+        {
+          "label": "Pronoun/time-word adjustment",
+          "tex": "\\text{Adjust person and time/place expressions to the reporting context}",
+          "unit": ""
+        }
+      ]
+    }
+  ]
+}

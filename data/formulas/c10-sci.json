@@ -1,431 +1,585 @@
 {
- "subject": "c10-sci",
- "chapters": [
-  {
-   "id": "c10-sci-01",
-   "formulas": [
+  "subject": "c10-sci",
+  "chapters": [
     {
-     "label": "Quicklime with water (combination)",
-     "tex": "\\mathrm{CaO + H_2O}\\rightarrow \\mathrm{Ca(OH)_2 + heat}"
+      "id": "c10-sci-01",
+      "formulas": [
+        {
+          "label": "General balanced chemical equation",
+          "tex": "\\text{Reactants}\\rightarrow\\text{Products}",
+          "unit": ""
+        },
+        {
+          "label": "Combination reaction pattern",
+          "tex": "A+B\\rightarrow AB",
+          "unit": ""
+        },
+        {
+          "label": "Decomposition reaction pattern",
+          "tex": "AB\\rightarrow A+B",
+          "unit": ""
+        },
+        {
+          "label": "Displacement reaction pattern",
+          "tex": "A+BC\\rightarrow AC+B",
+          "unit": ""
+        },
+        {
+          "label": "Double displacement reaction pattern",
+          "tex": "AB+CD\\rightarrow AD+CB",
+          "unit": ""
+        },
+        {
+          "label": "Oxidation",
+          "tex": "\\text{Addition of oxygen or removal of hydrogen}",
+          "unit": ""
+        },
+        {
+          "label": "Reduction",
+          "tex": "\\text{Removal of oxygen or addition of hydrogen}",
+          "unit": ""
+        },
+        {
+          "label": "Redox reaction",
+          "tex": "\\text{Oxidation and reduction occur simultaneously}",
+          "unit": ""
+        }
+      ]
     },
     {
-     "label": "Hydrogen burning (combination)",
-     "tex": "\\mathrm{2H_2 + O_2}\\rightarrow \\mathrm{2H_2O}"
+      "id": "c10-sci-02",
+      "formulas": [
+        {
+          "label": "Hydrogen-ion concentration and pH",
+          "tex": "\\mathrm{pH}=-\\log_{10}[\\mathrm{H^+}]",
+          "unit": ""
+        },
+        {
+          "label": "Neutralisation",
+          "tex": "\\mathrm{Acid+Base\\rightarrow Salt+Water}",
+          "unit": ""
+        },
+        {
+          "label": "Acid + metal",
+          "tex": "\\mathrm{Acid+Metal\\rightarrow Salt+H_2\\uparrow}",
+          "unit": ""
+        },
+        {
+          "label": "Acid + metal carbonate",
+          "tex": "\\mathrm{Acid+Metal\\ Carbonate\\rightarrow Salt+CO_2+H_2O}",
+          "unit": ""
+        },
+        {
+          "label": "Acid + metal hydrogencarbonate",
+          "tex": "\\mathrm{Acid+Metal\\ Hydrogencarbonate\\rightarrow Salt+CO_2+H_2O}",
+          "unit": ""
+        },
+        {
+          "label": "Baking soda",
+          "tex": "\\mathrm{NaHCO_3}",
+          "unit": ""
+        },
+        {
+          "label": "Washing soda",
+          "tex": "\\mathrm{Na_2CO_3\\cdot10H_2O}",
+          "unit": ""
+        },
+        {
+          "label": "Bleaching powder",
+          "tex": "\\mathrm{CaOCl_2}",
+          "unit": ""
+        },
+        {
+          "label": "Plaster of Paris",
+          "tex": "\\mathrm{CaSO_4\\cdot\\frac12H_2O}",
+          "unit": ""
+        },
+        {
+          "label": "Gypsum",
+          "tex": "\\mathrm{CaSO_4\\cdot2H_2O}",
+          "unit": ""
+        }
+      ]
     },
     {
-     "label": "Limestone (thermal decomposition)",
-     "tex": "\\mathrm{CaCO_3}\\xrightarrow{\\text{heat}}\\mathrm{CaO + CO_2}"
+      "id": "c10-sci-03",
+      "formulas": [
+        {
+          "label": "General ionic compound formation",
+          "tex": "\\mathrm{M^{n+}+nX^-\\rightarrow MX_n}",
+          "unit": ""
+        },
+        {
+          "label": "General metal + oxygen",
+          "tex": "\\mathrm{Metal+O_2\\rightarrow Metal\\ Oxide}",
+          "unit": ""
+        },
+        {
+          "label": "General metal + water",
+          "tex": "\\mathrm{Metal+H_2O\\rightarrow Metal\\ Hydroxide+H_2}",
+          "unit": ""
+        },
+        {
+          "label": "General metal + acid",
+          "tex": "\\mathrm{Metal+Acid\\rightarrow Salt+H_2\\uparrow}",
+          "unit": ""
+        },
+        {
+          "label": "Corrosion of iron",
+          "tex": "\\mathrm{4Fe+3O_2+6H_2O\\rightarrow4Fe(OH)_3}",
+          "unit": ""
+        },
+        {
+          "label": "Aluminium oxide: amphoteric reaction with acid",
+          "tex": "\\mathrm{Al_2O_3+6HCl\\rightarrow2AlCl_3+3H_2O}",
+          "unit": ""
+        },
+        {
+          "label": "Aluminium oxide: amphoteric reaction with base",
+          "tex": "\\mathrm{Al_2O_3+2NaOH\\rightarrow2NaAlO_2+H_2O}",
+          "unit": ""
+        }
+      ]
     },
     {
-     "label": "Ferrous sulphate crystals on heating",
-     "tex": "\\mathrm{2FeSO_4}\\xrightarrow{\\text{heat}}\\mathrm{Fe_2O_3 + SO_2 + SO_3}"
+      "id": "c10-sci-04",
+      "formulas": [
+        {
+          "label": "General combustion of a hydrocarbon",
+          "tex": "\\mathrm{C_xH_y+\\left(x+\\frac{y}{4}\\right)O_2\\rightarrow xCO_2+\\frac{y}{2}H_2O}",
+          "unit": ""
+        },
+        {
+          "label": "General addition reaction",
+          "tex": "\\mathrm{Unsaturated\\ compound+H_2\\xrightarrow{Ni}Saturated\\ compound}",
+          "unit": ""
+        },
+        {
+          "label": "General substitution reaction",
+          "tex": "\\mathrm{CH_4+Cl_2\\xrightarrow{sunlight}CH_3Cl+HCl}",
+          "unit": ""
+        },
+        {
+          "label": "Oxidation of ethanol",
+          "tex": "\\mathrm{CH_3CH_2OH+2[O]\\rightarrow CH_3COOH+H_2O}",
+          "unit": ""
+        },
+        {
+          "label": "Ethanol",
+          "tex": "\\mathrm{C_2H_5OH}",
+          "unit": ""
+        },
+        {
+          "label": "Ethanoic acid",
+          "tex": "\\mathrm{CH_3COOH}",
+          "unit": ""
+        },
+        {
+          "label": "Esterification",
+          "tex": "\\mathrm{CH_3COOH+C_2H_5OH\\xrightarrow{conc.\\ H_2SO_4}CH_3COOC_2H_5+H_2O}",
+          "unit": ""
+        },
+        {
+          "label": "Saponification",
+          "tex": "\\mathrm{Ester+NaOH\\rightarrow Alcohol+Sodium\\ salt\\ of\\ acid}",
+          "unit": ""
+        },
+        {
+          "label": "Methane",
+          "tex": "\\mathrm{CH_4}",
+          "unit": ""
+        },
+        {
+          "label": "Ethene",
+          "tex": "\\mathrm{C_2H_4}",
+          "unit": ""
+        },
+        {
+          "label": "Ethyne",
+          "tex": "\\mathrm{C_2H_2}",
+          "unit": ""
+        }
+      ]
     },
     {
-     "label": "Lead nitrate on heating",
-     "tex": "\\mathrm{2Pb(NO_3)_2}\\xrightarrow{\\text{heat}}\\mathrm{2PbO + 4NO_2 + O_2}"
+      "id": "c10-sci-05",
+      "formulas": [
+        {
+          "label": "Photosynthesis",
+          "tex": "\\mathrm{6CO_2+6H_2O\\xrightarrow{light,\\ chlorophyll}C_6H_{12}O_6+6O_2}",
+          "unit": ""
+        },
+        {
+          "label": "Aerobic respiration",
+          "tex": "\\mathrm{C_6H_{12}O_6+6O_2\\rightarrow6CO_2+6H_2O+Energy}",
+          "unit": ""
+        },
+        {
+          "label": "Anaerobic respiration in yeast",
+          "tex": "\\mathrm{C_6H_{12}O_6\\rightarrow2C_2H_5OH+2CO_2+Energy}",
+          "unit": ""
+        },
+        {
+          "label": "Anaerobic respiration in muscles",
+          "tex": "\\mathrm{C_6H_{12}O_6\\rightarrow2C_3H_6O_3+Energy}",
+          "unit": ""
+        },
+        {
+          "label": "Cardiac output",
+          "tex": "\\text{Cardiac output}=\\text{heart rate}\\times\\text{stroke volume}",
+          "unit": ""
+        },
+        {
+          "label": "Stomatal gas exchange",
+          "tex": "\\mathrm{CO_2\\leftrightarrow O_2}",
+          "unit": ""
+        }
+      ]
     },
     {
-     "label": "Electrolysis of water",
-     "tex": "\\mathrm{2H_2O}\\xrightarrow{\\text{electricity}}\\mathrm{2H_2 + O_2}"
+      "id": "c10-sci-06",
+      "formulas": [
+        {
+          "label": "Reflex arc sequence",
+          "tex": "\\text{Receptor}\\rightarrow\\text{sensory neuron}\\rightarrow\\text{relay neuron}\\rightarrow\\text{motor neuron}\\rightarrow\\text{effector}",
+          "unit": ""
+        },
+        {
+          "label": "Plant tropism: phototropism",
+          "tex": "\\text{Growth response to light direction}",
+          "unit": ""
+        },
+        {
+          "label": "Plant hormone: auxin",
+          "tex": "\\text{Auxin promotes cell elongation in shoots}",
+          "unit": ""
+        },
+        {
+          "label": "Insulin function",
+          "tex": "\\text{Insulin lowers blood glucose level}",
+          "unit": ""
+        },
+        {
+          "label": "Adrenaline response",
+          "tex": "\\text{Adrenaline increases heart rate and breathing rate}",
+          "unit": ""
+        }
+      ]
     },
     {
-     "label": "Silver chloride (photolytic)",
-     "tex": "\\mathrm{2AgCl}\\xrightarrow{\\text{sunlight}}\\mathrm{2Ag + Cl_2}"
+      "id": "c10-sci-07",
+      "formulas": [
+        {
+          "label": "Binary fission",
+          "tex": "\\text{One parent cell}\\rightarrow\\text{two daughter cells}",
+          "unit": ""
+        },
+        {
+          "label": "Vegetative propagation",
+          "tex": "\\text{Parent plant part}\\rightarrow\\text{new plant}",
+          "unit": ""
+        },
+        {
+          "label": "Pollination",
+          "tex": "\\text{Pollen transfer from anther to stigma}",
+          "unit": ""
+        },
+        {
+          "label": "Fertilisation",
+          "tex": "\\mathrm{Male\\ gamete+Female\\ gamete\\rightarrow Zygote}",
+          "unit": ""
+        },
+        {
+          "label": "Human chromosome number",
+          "tex": "2n=46",
+          "unit": ""
+        },
+        {
+          "label": "Human gamete chromosome number",
+          "tex": "n=23",
+          "unit": ""
+        }
+      ]
     },
     {
-     "label": "Displacement",
-     "tex": "\\mathrm{Fe + CuSO_4}\\rightarrow \\mathrm{FeSO_4 + Cu}"
+      "id": "c10-sci-08",
+      "formulas": [
+        {
+          "label": "Mendelian dominant phenotype ratio",
+          "tex": "3:1",
+          "unit": ""
+        },
+        {
+          "label": "Mendelian monohybrid genotypic ratio",
+          "tex": "1:2:1",
+          "unit": ""
+        },
+        {
+          "label": "Probability of a child's sex: female",
+          "tex": "P(\\text{female})=\\frac12",
+          "unit": ""
+        },
+        {
+          "label": "Probability of a child's sex: male",
+          "tex": "P(\\text{male})=\\frac12",
+          "unit": ""
+        },
+        {
+          "label": "Chromosome basis of sex determination",
+          "tex": "\\text{Female: }XX,\\qquad\\text{Male: }XY",
+          "unit": ""
+        }
+      ]
     },
     {
-     "label": "Double displacement (white precipitate)",
-     "tex": "\\mathrm{Na_2SO_4 + BaCl_2}\\rightarrow \\mathrm{BaSO_4\\downarrow + 2NaCl}"
+      "id": "c10-sci-09",
+      "formulas": [
+        {
+          "label": "Inheritance of acquired characteristics",
+          "tex": "\\text{Acquired traits are not ordinarily inherited through genes}",
+          "unit": ""
+        },
+        {
+          "label": "Natural selection",
+          "tex": "\\text{Heritable variation + differential survival/reproduction}\\rightarrow\\text{change in population}",
+          "unit": ""
+        },
+        {
+          "label": "Speciation factors",
+          "tex": "\\text{Variation + isolation + selection}\\rightarrow\\text{new species}",
+          "unit": ""
+        }
+      ]
     },
     {
-     "label": "Oxidation of copper",
-     "tex": "\\mathrm{2Cu + O_2}\\xrightarrow{\\text{heat}}\\mathrm{2CuO}"
+      "id": "c10-sci-10",
+      "formulas": [
+        {
+          "label": "Law of reflection",
+          "tex": "\\angle i=\\angle r",
+          "unit": ""
+        },
+        {
+          "label": "Mirror formula",
+          "tex": "\\frac1f=\\frac1v+\\frac1u",
+          "unit": "m"
+        },
+        {
+          "label": "Mirror magnification",
+          "tex": "m=\\frac{h_i}{h_o}=-\\frac{v}{u}",
+          "unit": ""
+        },
+        {
+          "label": "Spherical mirror relation",
+          "tex": "R=2f",
+          "unit": "m"
+        },
+        {
+          "label": "Refractive index",
+          "tex": "n=\\frac{c}{v}",
+          "unit": ""
+        },
+        {
+          "label": "Snell's law",
+          "tex": "n_1\\sin i=n_2\\sin r",
+          "unit": ""
+        },
+        {
+          "label": "Relative refractive index",
+          "tex": "n_{21}=\\frac{n_2}{n_1}=\\frac{v_1}{v_2}",
+          "unit": ""
+        },
+        {
+          "label": "Lens formula",
+          "tex": "\\frac1f=\\frac1v-\\frac1u",
+          "unit": "m"
+        },
+        {
+          "label": "Lens magnification",
+          "tex": "m=\\frac{h_i}{h_o}=\\frac{v}{u}",
+          "unit": ""
+        },
+        {
+          "label": "Power of a lens",
+          "tex": "P=\\frac1f",
+          "unit": "D when f is in metres"
+        },
+        {
+          "label": "Power of combined lenses",
+          "tex": "P=P_1+P_2+\\cdots",
+          "unit": "D"
+        },
+        {
+          "label": "Lens power with focal length in cm",
+          "tex": "P=\\frac{100}{f(\\mathrm{cm})}",
+          "unit": "D"
+        }
+      ]
     },
     {
-     "label": "Redox: CuO reduced, H₂ oxidised",
-     "tex": "\\mathrm{CuO + H_2}\\xrightarrow{\\text{heat}}\\mathrm{Cu + H_2O}"
+      "id": "c10-sci-11",
+      "formulas": [
+        {
+          "label": "Power of accommodation",
+          "tex": "\\text{Ability of eye lens to change focal length}",
+          "unit": ""
+        },
+        {
+          "label": "Near point of normal eye",
+          "tex": "d_n=25\\ \\mathrm{cm}",
+          "unit": "cm"
+        },
+        {
+          "label": "Far point of normal eye",
+          "tex": "d_f=\\infty",
+          "unit": ""
+        },
+        {
+          "label": "Lens power",
+          "tex": "P=\\frac1f",
+          "unit": "D when f is in metres"
+        },
+        {
+          "label": "Atmospheric refraction",
+          "tex": "\\text{Apparent position differs from actual position due to refraction}",
+          "unit": ""
+        }
+      ]
     },
     {
-     "label": "Respiration (exothermic)",
-     "tex": "\\mathrm{C_6H_{12}O_6 + 6O_2}\\rightarrow \\mathrm{6CO_2 + 6H_2O + energy}"
+      "id": "c10-sci-12",
+      "formulas": [
+        {
+          "label": "Electric current",
+          "tex": "I=\\frac{Q}{t}",
+          "unit": "A"
+        },
+        {
+          "label": "Potential difference",
+          "tex": "V=\\frac{W}{Q}",
+          "unit": "V"
+        },
+        {
+          "label": "Ohm's law",
+          "tex": "V=IR",
+          "unit": "V"
+        },
+        {
+          "label": "Resistance",
+          "tex": "R=\\frac{V}{I}",
+          "unit": "\\Omega"
+        },
+        {
+          "label": "Resistance of a uniform conductor",
+          "tex": "R=\\rho\\frac{l}{A}",
+          "unit": "\\Omega"
+        },
+        {
+          "label": "Resistivity",
+          "tex": "\\rho=\\frac{RA}{l}",
+          "unit": "\\Omega\\,m"
+        },
+        {
+          "label": "Series resistance",
+          "tex": "R_s=R_1+R_2+\\cdots+R_n",
+          "unit": "\\Omega"
+        },
+        {
+          "label": "Parallel resistance",
+          "tex": "\\frac1{R_p}=\\frac1{R_1}+\\frac1{R_2}+\\cdots+\\frac1{R_n}",
+          "unit": "\\Omega"
+        },
+        {
+          "label": "Two resistors in parallel",
+          "tex": "R_p=\\frac{R_1R_2}{R_1+R_2}",
+          "unit": "\\Omega"
+        },
+        {
+          "label": "Electrical work",
+          "tex": "W=VIt",
+          "unit": "J"
+        },
+        {
+          "label": "Electrical power",
+          "tex": "P=VI",
+          "unit": "W"
+        },
+        {
+          "label": "Power using Ohm's law",
+          "tex": "P=I^2R=\\frac{V^2}{R}",
+          "unit": "W"
+        },
+        {
+          "label": "Electrical energy",
+          "tex": "E=Pt=VIt",
+          "unit": "J"
+        },
+        {
+          "label": "Commercial unit of electrical energy",
+          "tex": "1\\ \\mathrm{kWh}=3.6\\times10^6\\ \\mathrm{J}",
+          "unit": "J"
+        },
+        {
+          "label": "Heating effect of current",
+          "tex": "H=I^2Rt",
+          "unit": "J"
+        }
+      ]
+    },
+    {
+      "id": "c10-sci-13",
+      "formulas": [
+        {
+          "label": "Magnetic field around current-carrying conductor",
+          "tex": "B\\propto I",
+          "unit": ""
+        },
+        {
+          "label": "Force on a current-carrying conductor",
+          "tex": "F\\propto BIl",
+          "unit": ""
+        },
+        {
+          "label": "AC frequency in India",
+          "tex": "f=50\\ \\mathrm{Hz}",
+          "unit": "Hz"
+        },
+        {
+          "label": "AC time period",
+          "tex": "T=\\frac1f",
+          "unit": "s"
+        },
+        {
+          "label": "Electrical energy from power",
+          "tex": "E=Pt",
+          "unit": "J"
+        }
+      ]
+    },
+    {
+      "id": "c10-sci-14",
+      "formulas": [
+        {
+          "label": "Energy flow in an ecosystem",
+          "tex": "\\text{Sun}\\rightarrow\\text{producers}\\rightarrow\\text{consumers}",
+          "unit": ""
+        },
+        {
+          "label": "Ten percent law",
+          "tex": "\\text{Energy transferred to next trophic level}\\approx10\\%",
+          "unit": ""
+        },
+        {
+          "label": "Biodegradable material",
+          "tex": "\\text{Material decomposed by biological agents}",
+          "unit": ""
+        },
+        {
+          "label": "Non-biodegradable material",
+          "tex": "\\text{Material not readily decomposed by biological agents}",
+          "unit": ""
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "c10-sci-02",
-   "formulas": [
-    {
-     "label": "Döbereiner's triad (middle element)",
-     "tex": "m_{\\text{middle}}\\approx\\dfrac{m_1+m_3}{2}"
-    },
-    {
-     "label": "Modern periodic law",
-     "tex": "\\text{Properties are periodic functions of atomic number}"
-    }
-   ]
-  },
-  {
-   "id": "c10-sci-03",
-   "formulas": [
-    {
-     "label": "Acid gives H⁺ ions",
-     "tex": "\\mathrm{HCl}\\rightarrow \\mathrm{H^+ + Cl^-}"
-    },
-    {
-     "label": "Base gives OH⁻ ions",
-     "tex": "\\mathrm{NaOH}\\rightarrow \\mathrm{Na^+ + OH^-}"
-    },
-    {
-     "label": "pH scale",
-     "tex": "\\text{pH}<7\\ \\text{acidic},\\quad \\text{pH}=7\\ \\text{neutral},\\quad \\text{pH}>7\\ \\text{basic}"
-    },
-    {
-     "label": "Acid + metal",
-     "tex": "\\mathrm{Zn + 2HCl}\\rightarrow \\mathrm{ZnCl_2 + H_2}"
-    },
-    {
-     "label": "Acid + metal carbonate",
-     "tex": "\\mathrm{Na_2CO_3 + 2HCl}\\rightarrow \\mathrm{2NaCl + H_2O + CO_2}"
-    },
-    {
-     "label": "Acid + hydrogencarbonate",
-     "tex": "\\mathrm{NaHCO_3 + HCl}\\rightarrow \\mathrm{NaCl + H_2O + CO_2}"
-    },
-    {
-     "label": "Neutralisation",
-     "tex": "\\mathrm{HCl + NaOH}\\rightarrow \\mathrm{NaCl + H_2O}"
-    },
-    {
-     "label": "Acid + metal oxide",
-     "tex": "\\mathrm{CuO + 2HCl}\\rightarrow \\mathrm{CuCl_2 + H_2O}"
-    },
-    {
-     "label": "Base + non-metal oxide",
-     "tex": "\\mathrm{Ca(OH)_2 + CO_2}\\rightarrow \\mathrm{CaCO_3 + H_2O}"
-    },
-    {
-     "label": "Sodium hydroxide (chlor-alkali process)",
-     "tex": "\\mathrm{2NaCl + 2H_2O}\\xrightarrow{\\text{electricity}}\\mathrm{2NaOH + Cl_2 + H_2}"
-    },
-    {
-     "label": "Bleaching powder",
-     "tex": "\\mathrm{Ca(OH)_2 + Cl_2}\\rightarrow \\mathrm{CaOCl_2 + H_2O}"
-    },
-    {
-     "label": "Baking soda",
-     "tex": "\\mathrm{NaCl + H_2O + CO_2 + NH_3}\\rightarrow \\mathrm{NH_4Cl + NaHCO_3}"
-    },
-    {
-     "label": "Baking soda on heating",
-     "tex": "\\mathrm{2NaHCO_3}\\xrightarrow{\\text{heat}}\\mathrm{Na_2CO_3 + H_2O + CO_2}"
-    },
-    {
-     "label": "Washing soda (crystals)",
-     "tex": "\\mathrm{Na_2CO_3 + 10H_2O}\\rightarrow \\mathrm{Na_2CO_3\\cdot 10H_2O}"
-    },
-    {
-     "label": "Plaster of Paris (gypsum heated)",
-     "tex": "\\mathrm{CaSO_4\\cdot 2H_2O}\\xrightarrow{\\text{373 K}}\\mathrm{CaSO_4\\cdot\\tfrac12 H_2O + 1\\tfrac12 H_2O}"
-    },
-    {
-     "label": "Setting of Plaster of Paris",
-     "tex": "\\mathrm{CaSO_4\\cdot\\tfrac12 H_2O + 1\\tfrac12 H_2O}\\rightarrow \\mathrm{CaSO_4\\cdot 2H_2O}"
-    }
-   ]
-  },
-  {
-   "id": "c10-sci-04",
-   "formulas": [
-    {
-     "label": "Reactivity series (most to least reactive)",
-     "tex": "\\mathrm{K>Na>Ca>Mg>Al>Zn>Fe>Pb>H>Cu>Hg>Ag>Au}"
-    },
-    {
-     "label": "Magnesium burning",
-     "tex": "\\mathrm{2Mg + O_2}\\rightarrow \\mathrm{2MgO}"
-    },
-    {
-     "label": "Aluminium with oxygen",
-     "tex": "\\mathrm{4Al + 3O_2}\\rightarrow \\mathrm{2Al_2O_3}"
-    },
-    {
-     "label": "Sodium with water",
-     "tex": "\\mathrm{2Na + 2H_2O}\\rightarrow \\mathrm{2NaOH + H_2}"
-    },
-    {
-     "label": "Magnesium with hot water",
-     "tex": "\\mathrm{Mg + 2H_2O}\\rightarrow \\mathrm{Mg(OH)_2 + H_2}"
-    },
-    {
-     "label": "Iron with steam",
-     "tex": "\\mathrm{3Fe + 4H_2O}\\rightarrow \\mathrm{Fe_3O_4 + 4H_2}"
-    },
-    {
-     "label": "Metal + acid",
-     "tex": "\\mathrm{Mg + 2HCl}\\rightarrow \\mathrm{MgCl_2 + H_2}"
-    },
-    {
-     "label": "Thermite reaction",
-     "tex": "\\mathrm{Fe_2O_3 + 2Al}\\xrightarrow{\\text{heat}}\\mathrm{2Fe + Al_2O_3}"
-    },
-    {
-     "label": "Roasting",
-     "tex": "\\mathrm{2ZnS + 3O_2}\\xrightarrow{\\text{heat}}\\mathrm{2ZnO + 2SO_2}"
-    },
-    {
-     "label": "Calcination",
-     "tex": "\\mathrm{ZnCO_3}\\xrightarrow{\\text{heat}}\\mathrm{ZnO + CO_2}"
-    },
-    {
-     "label": "Reduction with carbon",
-     "tex": "\\mathrm{ZnO + C}\\rightarrow \\mathrm{Zn + CO}"
-    },
-    {
-     "label": "Cinnabar roasted",
-     "tex": "\\mathrm{2HgS + 3O_2}\\xrightarrow{\\text{heat}}\\mathrm{2HgO + 2SO_2}"
-    },
-    {
-     "label": "Mercuric oxide on heating",
-     "tex": "\\mathrm{2HgO}\\xrightarrow{\\text{heat}}\\mathrm{2Hg + O_2}"
-    },
-    {
-     "label": "Formation of NaCl (ionic)",
-     "tex": "\\mathrm{Na\\rightarrow Na^+ + e^-},\\quad \\mathrm{Cl + e^-\\rightarrow Cl^-}"
-    },
-    {
-     "label": "Electrolytic reduction (e.g. sodium)",
-     "tex": "\\text{Cathode: }\\mathrm{Na^+ + e^-\\rightarrow Na},\\quad\\text{Anode: }\\mathrm{2Cl^-\\rightarrow Cl_2 + 2e^-}"
-    },
-    {
-     "label": "Rusting",
-     "tex": "\\mathrm{Fe + O_2 + H_2O\\rightarrow Fe_2O_3\\cdot xH_2O}"
-    }
-   ]
-  },
-  {
-   "id": "c10-sci-05",
-   "formulas": [
-    {
-     "label": "Alkanes",
-     "tex": "\\mathrm{C_nH_{2n+2}}"
-    },
-    {
-     "label": "Alkenes",
-     "tex": "\\mathrm{C_nH_{2n}}"
-    },
-    {
-     "label": "Alkynes",
-     "tex": "\\mathrm{C_nH_{2n-2}}"
-    },
-    {
-     "label": "Homologous series: successive members differ by",
-     "tex": "\\mathrm{CH_2}\\ (14\\ \\text{u})"
-    },
-    {
-     "label": "Combustion of methane",
-     "tex": "\\mathrm{CH_4 + 2O_2}\\rightarrow \\mathrm{CO_2 + 2H_2O + heat + light}"
-    },
-    {
-     "label": "Combustion of ethanol",
-     "tex": "\\mathrm{C_2H_5OH + 3O_2}\\rightarrow \\mathrm{2CO_2 + 3H_2O}"
-    },
-    {
-     "label": "Oxidation of ethanol",
-     "tex": "\\mathrm{CH_3CH_2OH}\\xrightarrow{\\text{alkaline }\\mathrm{KMnO_4}\\text{ + heat}}\\mathrm{CH_3COOH}"
-    },
-    {
-     "label": "Addition (hydrogenation)",
-     "tex": "\\mathrm{CH_2{=}CH_2 + H_2}\\xrightarrow{\\text{Ni}}\\mathrm{CH_3{-}CH_3}"
-    },
-    {
-     "label": "Substitution",
-     "tex": "\\mathrm{CH_4 + Cl_2}\\xrightarrow{\\text{sunlight}}\\mathrm{CH_3Cl + HCl}"
-    },
-    {
-     "label": "Ethanol with sodium",
-     "tex": "\\mathrm{2Na + 2CH_3CH_2OH}\\rightarrow \\mathrm{2CH_3CH_2ONa + H_2}"
-    },
-    {
-     "label": "Dehydration of ethanol",
-     "tex": "\\mathrm{CH_3CH_2OH}\\xrightarrow{\\text{conc. }\\mathrm{H_2SO_4}\\text{, 443 K}}\\mathrm{CH_2{=}CH_2 + H_2O}"
-    },
-    {
-     "label": "Esterification",
-     "tex": "\\mathrm{CH_3COOH + C_2H_5OH}\\xrightarrow{\\text{conc. }\\mathrm{H_2SO_4}}\\mathrm{CH_3COOC_2H_5 + H_2O}"
-    },
-    {
-     "label": "Saponification (ester + base)",
-     "tex": "\\mathrm{CH_3COOC_2H_5 + NaOH}\\rightarrow \\mathrm{C_2H_5OH + CH_3COONa}"
-    },
-    {
-     "label": "Ethanoic acid + base",
-     "tex": "\\mathrm{CH_3COOH + NaOH}\\rightarrow \\mathrm{CH_3COONa + H_2O}"
-    },
-    {
-     "label": "Ethanoic acid + hydrogencarbonate",
-     "tex": "\\mathrm{CH_3COOH + NaHCO_3}\\rightarrow \\mathrm{CH_3COONa + H_2O + CO_2}"
-    }
-   ]
-  },
-  {
-   "id": "c10-sci-10",
-   "formulas": [
-    {
-     "label": "Laws of reflection",
-     "tex": "\\angle i=\\angle r"
-    },
-    {
-     "label": "Mirror formula",
-     "tex": "\\dfrac1v+\\dfrac1u=\\dfrac1f",
-     "unit": "cm or m"
-    },
-    {
-     "label": "Magnification (mirror)",
-     "tex": "m=\\dfrac{h'}{h}=-\\dfrac{v}{u}"
-    },
-    {
-     "label": "Focal length and radius of curvature",
-     "tex": "f=\\dfrac R2"
-    },
-    {
-     "label": "Sign convention (mirrors)",
-     "tex": "\\text{Distances measured from the pole; direction of incident light is positive}"
-    },
-    {
-     "label": "Sign of focal length",
-     "tex": "\\text{Concave mirror: }f<0;\\quad \\text{Convex mirror: }f>0"
-    }
-   ]
-  },
-  {
-   "id": "c10-sci-11",
-   "formulas": [
-    {
-     "label": "Snell's law",
-     "tex": "\\dfrac{\\sin i}{\\sin r}=\\text{constant}=n"
-    },
-    {
-     "label": "Refractive index",
-     "tex": "n=\\dfrac{c}{v}=\\dfrac{\\text{speed of light in vacuum}}{\\text{speed of light in medium}}"
-    },
-    {
-     "label": "Lens formula",
-     "tex": "\\dfrac1v-\\dfrac1u=\\dfrac1f",
-     "unit": "cm or m"
-    },
-    {
-     "label": "Magnification (lens)",
-     "tex": "m=\\dfrac{h'}{h}=\\dfrac vu"
-    },
-    {
-     "label": "Power of a lens (f in metres)",
-     "tex": "P=\\dfrac1f",
-     "unit": "dioptre, D"
-    },
-    {
-     "label": "Power of combined lenses",
-     "tex": "P=P_1+P_2+P_3+\\cdots",
-     "unit": "D"
-    }
-   ]
-  },
-  {
-   "id": "c10-sci-12",
-   "formulas": [
-    {
-     "label": "Normal eye: near point and far point",
-     "tex": "\\text{near point}=25\\ \\text{cm},\\quad \\text{far point}=\\infty"
-    },
-    {
-     "label": "Power of corrective lens",
-     "tex": "P=\\dfrac1f",
-     "unit": "D"
-    },
-    {
-     "label": "Myopia and hypermetropia",
-     "tex": "\\text{Myopia: concave lens;}\\quad \\text{Hypermetropia: convex lens}"
-    }
-   ]
-  },
-  {
-   "id": "c10-sci-13",
-   "formulas": [
-    {
-     "label": "Electric current",
-     "tex": "I=\\dfrac Qt",
-     "unit": "ampere, A"
-    },
-    {
-     "label": "Charge and number of electrons",
-     "tex": "Q=ne,\\quad e=1.6\\times10^{-19}\\ \\text{C}",
-     "unit": "coulomb, C"
-    },
-    {
-     "label": "Potential difference",
-     "tex": "V=\\dfrac WQ",
-     "unit": "volt, V = J/C"
-    },
-    {
-     "label": "Ohm's law",
-     "tex": "V=IR"
-    },
-    {
-     "label": "Resistance of a conductor",
-     "tex": "R=\\rho\\dfrac lA",
-     "unit": "ρ in Ω m"
-    },
-    {
-     "label": "Resistors in series",
-     "tex": "R_s=R_1+R_2+R_3+\\cdots"
-    },
-    {
-     "label": "Resistors in parallel",
-     "tex": "\\dfrac1{R_p}=\\dfrac1{R_1}+\\dfrac1{R_2}+\\dfrac1{R_3}+\\cdots"
-    },
-    {
-     "label": "Two resistors in parallel",
-     "tex": "R_p=\\dfrac{R_1R_2}{R_1+R_2}",
-     "unit": "Ω"
-    },
-    {
-     "label": "Heating effect (Joule's law)",
-     "tex": "H=I^2Rt=VIt=\\dfrac{V^2}{R}t",
-     "unit": "joule, J"
-    },
-    {
-     "label": "Electric power",
-     "tex": "P=VI=I^2R=\\dfrac{V^2}{R}",
-     "unit": "watt, W"
-    },
-    {
-     "label": "Electrical energy",
-     "tex": "E=Pt"
-    },
-    {
-     "label": "Commercial unit of energy",
-     "tex": "1\\ \\text{kWh}=3.6\\times10^{6}\\ \\text{J}"
-    }
-   ]
-  },
-  {
-   "id": "c10-sci-14",
-   "formulas": [
-    {
-     "label": "Fleming's left-hand rule",
-     "tex": "\\text{Forefinger = field, middle finger = current, thumb = force}"
-    },
-    {
-     "label": "AC in India",
-     "tex": "f=50\\ \\text{Hz (direction reverses every }\\tfrac1{100}\\text{ s)}"
-    },
-    {
-     "label": "Domestic supply",
-     "tex": "220\\ \\text{V}\\ ,\\ 50\\ \\text{Hz}"
-    }
-   ]
-  }
- ]
+  ]
 }

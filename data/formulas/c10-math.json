@@ -1,448 +1,585 @@
 {
- "subject": "c10-math",
- "chapters": [
-  {
-   "id": "c10-math-01",
-   "formulas": [
+  "subject": "c10-math",
+  "chapters": [
     {
-     "label": "Euclid's division lemma",
-     "tex": "a = bq + r,\\quad 0 \\le r < b"
+      "id": "c10-math-01",
+      "formulas": [
+        {
+          "label": "Fundamental Theorem of Arithmetic",
+          "tex": "N=p_1^{a_1}p_2^{a_2}\\cdots p_k^{a_k}",
+          "unit": ""
+        },
+        {
+          "label": "Prime factorisation: HCF",
+          "tex": "\\operatorname{HCF}(a,b)=\\prod p_i^{\\min(\\alpha_i,\\beta_i)}",
+          "unit": ""
+        },
+        {
+          "label": "Prime factorisation: LCM",
+          "tex": "\\operatorname{LCM}(a,b)=\\prod p_i^{\\max(\\alpha_i,\\beta_i)}",
+          "unit": ""
+        },
+        {
+          "label": "HCF–LCM relationship",
+          "tex": "\\operatorname{HCF}(a,b)\\times\\operatorname{LCM}(a,b)=a\\times b",
+          "unit": ""
+        },
+        {
+          "label": "Terminating decimal condition",
+          "tex": "\\frac{p}{q}\\text{ terminates iff }q=2^m5^n\\text{ after reduction}",
+          "unit": ""
+        }
+      ]
     },
     {
-     "label": "HCF and LCM of two positive integers",
-     "tex": "\\text{HCF}(a,b)\\times\\text{LCM}(a,b)=a\\times b"
+      "id": "c10-math-02",
+      "formulas": [
+        {
+          "label": "Quadratic polynomial",
+          "tex": "p(x)=ax^2+bx+c,\\quad a\\ne0",
+          "unit": ""
+        },
+        {
+          "label": "Sum of zeroes",
+          "tex": "\\alpha+\\beta=-\\frac{b}{a}",
+          "unit": ""
+        },
+        {
+          "label": "Product of zeroes",
+          "tex": "\\alpha\\beta=\\frac{c}{a}",
+          "unit": ""
+        },
+        {
+          "label": "Quadratic polynomial from zeroes",
+          "tex": "p(x)=a\\left[x^2-(\\alpha+\\beta)x+\\alpha\\beta\\right]",
+          "unit": ""
+        },
+        {
+          "label": "Polynomial division algorithm",
+          "tex": "p(x)=g(x)q(x)+r(x),\\quad \\deg r<\\deg g",
+          "unit": ""
+        },
+        {
+          "label": "Zero of a polynomial",
+          "tex": "p(\\alpha)=0",
+          "unit": ""
+        }
+      ]
     },
     {
-     "label": "Fundamental Theorem of Arithmetic (unique prime factorisation)",
-     "tex": "n = p_1^{a_1}\\,p_2^{a_2}\\cdots p_k^{a_k}"
+      "id": "c10-math-03",
+      "formulas": [
+        {
+          "label": "Standard pair of linear equations",
+          "tex": "a_1x+b_1y+c_1=0,\\qquad a_2x+b_2y+c_2=0",
+          "unit": ""
+        },
+        {
+          "label": "Unique solution condition",
+          "tex": "\\frac{a_1}{a_2}\\ne\\frac{b_1}{b_2}",
+          "unit": ""
+        },
+        {
+          "label": "No solution condition",
+          "tex": "\\frac{a_1}{a_2}=\\frac{b_1}{b_2}\\ne\\frac{c_1}{c_2}",
+          "unit": ""
+        },
+        {
+          "label": "Infinitely many solutions condition",
+          "tex": "\\frac{a_1}{a_2}=\\frac{b_1}{b_2}=\\frac{c_1}{c_2}",
+          "unit": ""
+        },
+        {
+          "label": "Substitution method",
+          "tex": "x=\\frac{-b_1y-c_1}{a_1}",
+          "unit": ""
+        },
+        {
+          "label": "Cross-multiplication method",
+          "tex": "\\frac{x}{b_1c_2-b_2c_1}=\\frac{y}{c_1a_2-c_2a_1}=\\frac{1}{a_1b_2-a_2b_1}",
+          "unit": ""
+        }
+      ]
     },
     {
-     "label": "Irrationality (key result)",
-     "tex": "\\sqrt{p}\\ \\text{is irrational for every prime } p"
+      "id": "c10-math-04",
+      "formulas": [
+        {
+          "label": "Standard form",
+          "tex": "ax^2+bx+c=0,\\quad a\\ne0",
+          "unit": ""
+        },
+        {
+          "label": "Quadratic formula",
+          "tex": "x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}",
+          "unit": ""
+        },
+        {
+          "label": "Discriminant",
+          "tex": "D=b^2-4ac",
+          "unit": ""
+        },
+        {
+          "label": "Two distinct real roots",
+          "tex": "D>0",
+          "unit": ""
+        },
+        {
+          "label": "Equal real roots",
+          "tex": "D=0",
+          "unit": ""
+        },
+        {
+          "label": "No real roots",
+          "tex": "D<0",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c10-math-05",
+      "formulas": [
+        {
+          "label": "nth term of an AP",
+          "tex": "a_n=a+(n-1)d",
+          "unit": ""
+        },
+        {
+          "label": "Common difference",
+          "tex": "d=a_{n+1}-a_n",
+          "unit": ""
+        },
+        {
+          "label": "Sum of first n terms",
+          "tex": "S_n=\\frac{n}{2}\\left[2a+(n-1)d\\right]",
+          "unit": ""
+        },
+        {
+          "label": "Sum using first and last terms",
+          "tex": "S_n=\\frac{n}{2}(a+l)",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c10-math-06",
+      "formulas": [
+        {
+          "label": "Distance between two points",
+          "tex": "d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}",
+          "unit": ""
+        },
+        {
+          "label": "Section formula: internal division",
+          "tex": "\\left(\\frac{mx_2+nx_1}{m+n},\\frac{my_2+ny_1}{m+n}\\right)",
+          "unit": ""
+        },
+        {
+          "label": "Midpoint formula",
+          "tex": "\\left(\\frac{x_1+x_2}{2},\\frac{y_1+y_2}{2}\\right)",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c10-math-07",
+      "formulas": [
+        {
+          "label": "Basic Proportionality Theorem",
+          "tex": "\\frac{AD}{DB}=\\frac{AE}{EC}",
+          "unit": ""
+        },
+        {
+          "label": "Converse of BPT",
+          "tex": "\\frac{AD}{DB}=\\frac{AE}{EC}\\Rightarrow DE\\parallel BC",
+          "unit": ""
+        },
+        {
+          "label": "AA similarity",
+          "tex": "\\angle A=\\angle D,\\quad\\angle B=\\angle E\\Rightarrow\\triangle ABC\\sim\\triangle DEF",
+          "unit": ""
+        },
+        {
+          "label": "SSS similarity",
+          "tex": "\\frac{AB}{DE}=\\frac{BC}{EF}=\\frac{CA}{FD}\\Rightarrow\\triangle ABC\\sim\\triangle DEF",
+          "unit": ""
+        },
+        {
+          "label": "SAS similarity",
+          "tex": "\\frac{AB}{DE}=\\frac{AC}{DF},\\quad\\angle A=\\angle D\\Rightarrow\\triangle ABC\\sim\\triangle DEF",
+          "unit": ""
+        },
+        {
+          "label": "Corresponding sides of similar triangles",
+          "tex": "\\triangle ABC\\sim\\triangle DEF\\Rightarrow\\frac{AB}{DE}=\\frac{BC}{EF}=\\frac{CA}{FD}",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c10-math-08",
+      "formulas": [
+        {
+          "label": "Tangent–radius theorem",
+          "tex": "OT\\perp PT",
+          "unit": ""
+        },
+        {
+          "label": "Tangents from an external point",
+          "tex": "PA=PB",
+          "unit": ""
+        },
+        {
+          "label": "Right triangle relation at tangent point",
+          "tex": "OP^2=OT^2+PT^2",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c10-math-09",
+      "formulas": [
+        {
+          "label": "Sine of an acute angle",
+          "tex": "\\sin\\theta=\\frac{\\text{perpendicular}}{\\text{hypotenuse}}",
+          "unit": ""
+        },
+        {
+          "label": "Cosine of an acute angle",
+          "tex": "\\cos\\theta=\\frac{\\text{base}}{\\text{hypotenuse}}",
+          "unit": ""
+        },
+        {
+          "label": "Tangent of an acute angle",
+          "tex": "\\tan\\theta=\\frac{\\text{perpendicular}}{\\text{base}}",
+          "unit": ""
+        },
+        {
+          "label": "Cosecant",
+          "tex": "\\cosec\\theta=\\frac{1}{\\sin\\theta}",
+          "unit": ""
+        },
+        {
+          "label": "Secant",
+          "tex": "\\sec\\theta=\\frac{1}{\\cos\\theta}",
+          "unit": ""
+        },
+        {
+          "label": "Cotangent",
+          "tex": "\\cot\\theta=\\frac{1}{\\tan\\theta}",
+          "unit": ""
+        },
+        {
+          "label": "Tangent as sine/cosine",
+          "tex": "\\tan\\theta=\\frac{\\sin\\theta}{\\cos\\theta}",
+          "unit": ""
+        },
+        {
+          "label": "Cotangent as cosine/sine",
+          "tex": "\\cot\\theta=\\frac{\\cos\\theta}{\\sin\\theta}",
+          "unit": ""
+        },
+        {
+          "label": "Sine at 0° and 90°",
+          "tex": "\\sin0^\\circ=0,\\quad\\sin90^\\circ=1",
+          "unit": ""
+        },
+        {
+          "label": "Cosine at 0° and 90°",
+          "tex": "\\cos0^\\circ=1,\\quad\\cos90^\\circ=0",
+          "unit": ""
+        },
+        {
+          "label": "Tangent at 0° and 45°",
+          "tex": "\\tan0^\\circ=0,\\quad\\tan45^\\circ=1",
+          "unit": ""
+        },
+        {
+          "label": "Tangent at 30° and 60°",
+          "tex": "\\tan30^\\circ=\\frac{1}{\\sqrt3},\\quad\\tan60^\\circ=\\sqrt3",
+          "unit": ""
+        },
+        {
+          "label": "Standard-angle sine/cosine values",
+          "tex": "\\sin30^\\circ=\\frac12,\\ \\sin45^\\circ=\\frac{1}{\\sqrt2},\\ \\sin60^\\circ=\\frac{\\sqrt3}{2}",
+          "unit": ""
+        },
+        {
+          "label": "Standard-angle cosine values",
+          "tex": "\\cos0^\\circ=1,\\ \\cos30^\\circ=\\frac{\\sqrt3}{2},\\ \\cos45^\\circ=\\frac{1}{\\sqrt2},\\ \\cos60^\\circ=\\frac12,\\ \\cos90^\\circ=0",
+          "unit": ""
+        },
+        {
+          "label": "Standard-angle tangent values",
+          "tex": "\\tan0^\\circ=0,\\ \\tan30^\\circ=\\frac{1}{\\sqrt3},\\ \\tan45^\\circ=1,\\ \\tan60^\\circ=\\sqrt3",
+          "unit": ""
+        },
+        {
+          "label": "Standard-angle cosecant values",
+          "tex": "\\cosec30^\\circ=2,\\ \\cosec45^\\circ=\\sqrt2,\\ \\cosec60^\\circ=\\frac{2}{\\sqrt3}",
+          "unit": ""
+        },
+        {
+          "label": "Standard-angle secant values",
+          "tex": "\\sec0^\\circ=1,\\ \\sec30^\\circ=\\frac{2}{\\sqrt3},\\ \\sec45^\\circ=\\sqrt2,\\ \\sec60^\\circ=2",
+          "unit": ""
+        },
+        {
+          "label": "Standard-angle cotangent values",
+          "tex": "\\cot30^\\circ=\\sqrt3,\\ \\cot45^\\circ=1,\\ \\cot60^\\circ=\\frac{1}{\\sqrt3}",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c10-math-10",
+      "formulas": [
+        {
+          "label": "Fundamental trigonometric identity",
+          "tex": "\\sin^2A+\\cos^2A=1",
+          "unit": ""
+        },
+        {
+          "label": "Derived identity",
+          "tex": "1+\\tan^2A=\\sec^2A",
+          "unit": ""
+        },
+        {
+          "label": "Derived identity",
+          "tex": "1+\\cot^2A=\\cosec^2A",
+          "unit": ""
+        },
+        {
+          "label": "Reciprocal relationships",
+          "tex": "\\sin A=\\frac1{\\cosec A},\\quad\\cos A=\\frac1{\\sec A},\\quad\\tan A=\\frac1{\\cot A}",
+          "unit": ""
+        },
+        {
+          "label": "Quotient relationships",
+          "tex": "\\tan A=\\frac{\\sin A}{\\cos A},\\quad\\cot A=\\frac{\\cos A}{\\sin A}",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c10-math-11",
+      "formulas": [
+        {
+          "label": "Tangent definition in height problems",
+          "tex": "\\tan\\theta=\\frac{\\text{height}}{\\text{horizontal distance}}",
+          "unit": ""
+        },
+        {
+          "label": "Angle of elevation",
+          "tex": "\\tan\\theta=\\frac{h}{d}",
+          "unit": ""
+        },
+        {
+          "label": "Height from elevation angle",
+          "tex": "h=d\\tan\\theta",
+          "unit": ""
+        },
+        {
+          "label": "Distance from elevation angle",
+          "tex": "d=\\frac{h}{\\tan\\theta}",
+          "unit": ""
+        },
+        {
+          "label": "Angle of depression",
+          "tex": "\\tan\\theta=\\frac{\\text{vertical difference}}{\\text{horizontal distance}}",
+          "unit": ""
+        },
+        {
+          "label": "Complementary-angle relation",
+          "tex": "\\sin\\theta=\\cos(90^\\circ-\\theta)",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c10-math-12",
+      "formulas": [
+        {
+          "label": "Circumference of a circle",
+          "tex": "C=2\\pi r",
+          "unit": ""
+        },
+        {
+          "label": "Area of a circle",
+          "tex": "A=\\pi r^2",
+          "unit": ""
+        },
+        {
+          "label": "Arc length",
+          "tex": "l=\\frac{\\theta}{360^\\circ}\\,2\\pi r",
+          "unit": ""
+        },
+        {
+          "label": "Area of a sector",
+          "tex": "A_{\\text{sector}}=\\frac{\\theta}{360^\\circ}\\,\\pi r^2",
+          "unit": ""
+        },
+        {
+          "label": "Perimeter of a sector",
+          "tex": "P_{\\text{sector}}=2r+\\frac{\\theta}{360^\\circ}\\,2\\pi r",
+          "unit": ""
+        },
+        {
+          "label": "Area of a segment",
+          "tex": "A_{\\text{segment}}=A_{\\text{sector}}-A_{\\text{triangle}}",
+          "unit": ""
+        },
+        {
+          "label": "Area of a sector using arc length",
+          "tex": "A_{\\text{sector}}=\\frac12rl",
+          "unit": ""
+        },
+        {
+          "label": "Area of a triangle using two radii",
+          "tex": "A_{\\triangle}=\\frac12r^2\\sin\\theta",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c10-math-13",
+      "formulas": [
+        {
+          "label": "Cuboid volume",
+          "tex": "V=lbh",
+          "unit": ""
+        },
+        {
+          "label": "Cuboid total surface area",
+          "tex": "TSA=2(lb+bh+hl)",
+          "unit": ""
+        },
+        {
+          "label": "Cube volume",
+          "tex": "V=a^3",
+          "unit": ""
+        },
+        {
+          "label": "Cube total surface area",
+          "tex": "TSA=6a^2",
+          "unit": ""
+        },
+        {
+          "label": "Cylinder curved surface area",
+          "tex": "CSA=2\\pi rh",
+          "unit": ""
+        },
+        {
+          "label": "Cylinder total surface area",
+          "tex": "TSA=2\\pi r(h+r)",
+          "unit": ""
+        },
+        {
+          "label": "Cylinder volume",
+          "tex": "V=\\pi r^2h",
+          "unit": ""
+        },
+        {
+          "label": "Cone curved surface area",
+          "tex": "CSA=\\pi rl",
+          "unit": ""
+        },
+        {
+          "label": "Cone total surface area",
+          "tex": "TSA=\\pi r(l+r)",
+          "unit": ""
+        },
+        {
+          "label": "Cone volume",
+          "tex": "V=\\frac13\\pi r^2h",
+          "unit": ""
+        },
+        {
+          "label": "Sphere surface area",
+          "tex": "SA=4\\pi r^2",
+          "unit": ""
+        },
+        {
+          "label": "Sphere volume",
+          "tex": "V=\\frac43\\pi r^3",
+          "unit": ""
+        },
+        {
+          "label": "Hemisphere curved surface area",
+          "tex": "CSA=2\\pi r^2",
+          "unit": ""
+        },
+        {
+          "label": "Hemisphere total surface area",
+          "tex": "TSA=3\\pi r^2",
+          "unit": ""
+        },
+        {
+          "label": "Hemisphere volume",
+          "tex": "V=\\frac23\\pi r^3",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c10-math-14",
+      "formulas": [
+        {
+          "label": "Mean: direct method",
+          "tex": "\\bar{x}=\\frac{\\sum f_ix_i}{\\sum f_i}",
+          "unit": ""
+        },
+        {
+          "label": "Assumed mean method",
+          "tex": "\\bar{x}=a+\\frac{\\sum f_id_i}{\\sum f_i}",
+          "unit": ""
+        },
+        {
+          "label": "Step-deviation method",
+          "tex": "\\bar{x}=a+h\\frac{\\sum f_iu_i}{\\sum f_i}",
+          "unit": ""
+        },
+        {
+          "label": "Deviation from assumed mean",
+          "tex": "d_i=x_i-a",
+          "unit": ""
+        },
+        {
+          "label": "Step deviation",
+          "tex": "u_i=\\frac{x_i-a}{h}",
+          "unit": ""
+        },
+        {
+          "label": "Grouped-data median",
+          "tex": "\\operatorname{Median}=l+\\left(\\frac{\\frac{N}{2}-cf}{f}\\right)h",
+          "unit": ""
+        },
+        {
+          "label": "Grouped-data mode",
+          "tex": "\\operatorname{Mode}=l+\\left(\\frac{f_1-f_0}{2f_1-f_0-f_2}\\right)h",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "c10-math-15",
+      "formulas": [
+        {
+          "label": "Classical probability",
+          "tex": "P(E)=\\frac{\\text{number of favourable outcomes}}{\\text{total number of equally likely outcomes}}",
+          "unit": ""
+        },
+        {
+          "label": "Probability range",
+          "tex": "0\\le P(E)\\le1",
+          "unit": ""
+        },
+        {
+          "label": "Complementary event",
+          "tex": "P(\\overline{E})=1-P(E)",
+          "unit": ""
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "c10-math-02",
-   "formulas": [
-    {
-     "label": "Quadratic polynomial, zeros α and β",
-     "tex": "p(x)=ax^2+bx+c,\\ a\\neq 0"
-    },
-    {
-     "label": "Sum of zeros",
-     "tex": "\\alpha+\\beta=-\\dfrac{b}{a}"
-    },
-    {
-     "label": "Product of zeros",
-     "tex": "\\alpha\\beta=\\dfrac{c}{a}"
-    },
-    {
-     "label": "Polynomial from its zeros",
-     "tex": "x^2-(\\alpha+\\beta)x+\\alpha\\beta"
-    }
-   ]
-  },
-  {
-   "id": "c10-math-03",
-   "formulas": [
-    {
-     "label": "Pair of linear equations",
-     "tex": "a_1x+b_1y+c_1=0,\\quad a_2x+b_2y+c_2=0"
-    },
-    {
-     "label": "Unique solution (lines intersect)",
-     "tex": "\\dfrac{a_1}{a_2}\\neq\\dfrac{b_1}{b_2}"
-    },
-    {
-     "label": "Infinitely many solutions (coincident lines)",
-     "tex": "\\dfrac{a_1}{a_2}=\\dfrac{b_1}{b_2}=\\dfrac{c_1}{c_2}"
-    },
-    {
-     "label": "No solution (parallel lines)",
-     "tex": "\\dfrac{a_1}{a_2}=\\dfrac{b_1}{b_2}\\neq\\dfrac{c_1}{c_2}"
-    }
-   ]
-  },
-  {
-   "id": "c10-math-04",
-   "formulas": [
-    {
-     "label": "Standard form",
-     "tex": "ax^2+bx+c=0,\\ a\\neq 0"
-    },
-    {
-     "label": "Quadratic formula",
-     "tex": "x=\\dfrac{-b\\pm\\sqrt{b^2-4ac}}{2a}"
-    },
-    {
-     "label": "Discriminant",
-     "tex": "D=b^2-4ac"
-    },
-    {
-     "label": "D > 0: two distinct real roots",
-     "tex": "D>0"
-    },
-    {
-     "label": "D = 0: two equal real roots",
-     "tex": "D=0,\\quad x=-\\dfrac{b}{2a}"
-    },
-    {
-     "label": "D < 0: no real roots",
-     "tex": "D<0"
-    }
-   ]
-  },
-  {
-   "id": "c10-math-05",
-   "formulas": [
-    {
-     "label": "nth term",
-     "tex": "a_n=a+(n-1)d"
-    },
-    {
-     "label": "Common difference",
-     "tex": "d=a_{n}-a_{n-1}"
-    },
-    {
-     "label": "Sum of first n terms",
-     "tex": "S_n=\\dfrac{n}{2}\\left[2a+(n-1)d\\right]"
-    },
-    {
-     "label": "Sum using last term l",
-     "tex": "S_n=\\dfrac{n}{2}(a+l)"
-    },
-    {
-     "label": "nth term from sums",
-     "tex": "a_n=S_n-S_{n-1}"
-    }
-   ]
-  },
-  {
-   "id": "c10-math-06",
-   "formulas": [
-    {
-     "label": "Distance between two points",
-     "tex": "d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}"
-    },
-    {
-     "label": "Distance from the origin",
-     "tex": "d=\\sqrt{x^2+y^2}"
-    },
-    {
-     "label": "Section formula (internal division m₁ : m₂)",
-     "tex": "P\\left(\\dfrac{m_1x_2+m_2x_1}{m_1+m_2},\\ \\dfrac{m_1y_2+m_2y_1}{m_1+m_2}\\right)"
-    },
-    {
-     "label": "Mid-point",
-     "tex": "\\left(\\dfrac{x_1+x_2}{2},\\ \\dfrac{y_1+y_2}{2}\\right)"
-    }
-   ]
-  },
-  {
-   "id": "c10-math-07",
-   "formulas": [
-    {
-     "label": "Basic Proportionality Theorem (DE ∥ BC)",
-     "tex": "\\dfrac{AD}{DB}=\\dfrac{AE}{EC}"
-    },
-    {
-     "label": "Converse of BPT",
-     "tex": "\\dfrac{AD}{DB}=\\dfrac{AE}{EC}\\ \\Rightarrow\\ DE\\parallel BC"
-    },
-    {
-     "label": "AA similarity",
-     "tex": "\\angle A=\\angle D,\\ \\angle B=\\angle E\\ \\Rightarrow\\ \\triangle ABC\\sim\\triangle DEF"
-    },
-    {
-     "label": "SSS similarity",
-     "tex": "\\dfrac{AB}{DE}=\\dfrac{BC}{EF}=\\dfrac{CA}{FD}\\ \\Rightarrow\\ \\triangle ABC\\sim\\triangle DEF"
-    },
-    {
-     "label": "SAS similarity",
-     "tex": "\\angle A=\\angle D,\\ \\dfrac{AB}{DE}=\\dfrac{AC}{DF}\\ \\Rightarrow\\ \\triangle ABC\\sim\\triangle DEF"
-    },
-    {
-     "label": "Pythagoras theorem (right angle at B)",
-     "tex": "AC^2=AB^2+BC^2"
-    }
-   ]
-  },
-  {
-   "id": "c10-math-08",
-   "formulas": [
-    {
-     "label": "Tangent is perpendicular to the radius at the point of contact",
-     "tex": "OP\\perp PT"
-    },
-    {
-     "label": "Tangents from an external point are equal",
-     "tex": "PA=PB"
-    },
-    {
-     "label": "Length of tangent from a point at distance d from centre",
-     "tex": "PT=\\sqrt{d^2-r^2}"
-    }
-   ]
-  },
-  {
-   "id": "c10-math-09",
-   "formulas": [
-    {
-     "label": "Trigonometric ratios (right triangle, angle θ)",
-     "tex": "\\sin\\theta=\\dfrac{\\text{opp}}{\\text{hyp}},\\ \\cos\\theta=\\dfrac{\\text{adj}}{\\text{hyp}},\\ \\tan\\theta=\\dfrac{\\text{opp}}{\\text{adj}}"
-    },
-    {
-     "label": "Reciprocal ratios",
-     "tex": "\\operatorname{cosec}\\theta=\\dfrac{1}{\\sin\\theta},\\ \\sec\\theta=\\dfrac{1}{\\cos\\theta},\\ \\cot\\theta=\\dfrac{1}{\\tan\\theta}"
-    },
-    {
-     "label": "Quotient relations",
-     "tex": "\\tan\\theta=\\dfrac{\\sin\\theta}{\\cos\\theta},\\ \\cot\\theta=\\dfrac{\\cos\\theta}{\\sin\\theta}"
-    },
-    {
-     "label": "Values of sin, cos, tan",
-     "tex": "\\begin{array}{c|ccccc}\\theta&0^\\circ&30^\\circ&45^\\circ&60^\\circ&90^\\circ\\\\\\hline \\sin\\theta&0&\\tfrac12&\\tfrac{1}{\\sqrt2}&\\tfrac{\\sqrt3}{2}&1\\\\\\cos\\theta&1&\\tfrac{\\sqrt3}{2}&\\tfrac{1}{\\sqrt2}&\\tfrac12&0\\\\\\tan\\theta&0&\\tfrac{1}{\\sqrt3}&1&\\sqrt3&\\text{not defined}\\end{array}"
-    },
-    {
-     "label": "Values of cosec, sec, cot",
-     "tex": "\\begin{array}{c|ccccc}\\theta&0^\\circ&30^\\circ&45^\\circ&60^\\circ&90^\\circ\\\\\\hline \\operatorname{cosec}\\theta&\\text{not defined}&2&\\sqrt2&\\tfrac{2}{\\sqrt3}&1\\\\\\sec\\theta&1&\\tfrac{2}{\\sqrt3}&\\sqrt2&2&\\text{not defined}\\\\\\cot\\theta&\\text{not defined}&\\sqrt3&1&\\tfrac{1}{\\sqrt3}&0\\end{array}"
-    },
-    {
-     "label": "Complementary angles",
-     "tex": "\\sin(90^\\circ-\\theta)=\\cos\\theta,\\ \\cos(90^\\circ-\\theta)=\\sin\\theta,\\ \\tan(90^\\circ-\\theta)=\\cot\\theta"
-    },
-    {
-     "label": "Complementary angles (reciprocals)",
-     "tex": "\\sec(90^\\circ-\\theta)=\\operatorname{cosec}\\theta,\\ \\operatorname{cosec}(90^\\circ-\\theta)=\\sec\\theta,\\ \\cot(90^\\circ-\\theta)=\\tan\\theta"
-    }
-   ]
-  },
-  {
-   "id": "c10-math-10",
-   "formulas": [
-    {
-     "label": "Basic identity",
-     "tex": "\\sin^2\\theta+\\cos^2\\theta=1"
-    },
-    {
-     "label": "Identity with tan and sec (0° ≤ θ < 90°)",
-     "tex": "1+\\tan^2\\theta=\\sec^2\\theta"
-    },
-    {
-     "label": "Identity with cot and cosec (0° < θ ≤ 90°)",
-     "tex": "1+\\cot^2\\theta=\\operatorname{cosec}^2\\theta"
-    }
-   ]
-  },
-  {
-   "id": "c10-math-11",
-   "formulas": [
-    {
-     "label": "Height and horizontal distance (angle of elevation θ)",
-     "tex": "\\tan\\theta=\\dfrac{\\text{height}}{\\text{horizontal distance}}"
-    },
-    {
-     "label": "Height and line of sight",
-     "tex": "\\sin\\theta=\\dfrac{\\text{height}}{\\text{line of sight}}"
-    },
-    {
-     "label": "Angle of elevation = angle of depression (alternate angles)",
-     "tex": "\\angle\\text{elevation}=\\angle\\text{depression}"
-    }
-   ]
-  },
-  {
-   "id": "c10-math-12",
-   "formulas": [
-    {
-     "label": "Circumference",
-     "tex": "C=2\\pi r",
-     "unit": "units"
-    },
-    {
-     "label": "Area of a circle",
-     "tex": "A=\\pi r^2",
-     "unit": "square units"
-    },
-    {
-     "label": "Length of arc (angle θ in degrees)",
-     "tex": "l=\\dfrac{\\theta}{360^\\circ}\\times 2\\pi r",
-     "unit": "units"
-    },
-    {
-     "label": "Area of sector",
-     "tex": "A=\\dfrac{\\theta}{360^\\circ}\\times\\pi r^2=\\dfrac{1}{2}lr",
-     "unit": "square units"
-    },
-    {
-     "label": "Perimeter of sector",
-     "tex": "P=2r+\\dfrac{\\theta}{360^\\circ}\\times 2\\pi r",
-     "unit": "units"
-    },
-    {
-     "label": "Area of triangle OAB (central angle θ)",
-     "tex": "\\dfrac12 r^2\\sin\\theta"
-    },
-    {
-     "label": "Area of minor segment",
-     "tex": "\\dfrac{\\theta}{360^\\circ}\\pi r^2-\\dfrac12 r^2\\sin\\theta",
-     "unit": "square units"
-    },
-    {
-     "label": "Area of major segment",
-     "tex": "\\pi r^2-\\text{area of minor segment}",
-     "unit": "square units"
-    },
-    {
-     "label": "Area of a ring (R outer, r inner)",
-     "tex": "\\pi(R^2-r^2)",
-     "unit": "square units"
-    }
-   ]
-  },
-  {
-   "id": "c10-math-13",
-   "formulas": [
-    {
-     "label": "Cuboid volume",
-     "tex": "V=l\\,b\\,h",
-     "unit": "cubic units"
-    },
-    {
-     "label": "Cuboid total surface area",
-     "tex": "2(lb+bh+hl)",
-     "unit": "square units"
-    },
-    {
-     "label": "Cuboid lateral surface area",
-     "tex": "2h(l+b)",
-     "unit": "square units"
-    },
-    {
-     "label": "Cuboid diagonal",
-     "tex": "\\sqrt{l^2+b^2+h^2}",
-     "unit": "units"
-    },
-    {
-     "label": "Cube volume, TSA, LSA",
-     "tex": "V=a^3,\\quad \\text{TSA}=6a^2,\\quad \\text{LSA}=4a^2"
-    },
-    {
-     "label": "Cube diagonal",
-     "tex": "\\sqrt3\\,a",
-     "unit": "units"
-    },
-    {
-     "label": "Cylinder volume",
-     "tex": "V=\\pi r^2h",
-     "unit": "cubic units"
-    },
-    {
-     "label": "Cylinder CSA and TSA",
-     "tex": "\\text{CSA}=2\\pi rh,\\quad \\text{TSA}=2\\pi r(r+h)",
-     "unit": "square units"
-    },
-    {
-     "label": "Cone volume",
-     "tex": "V=\\dfrac13\\pi r^2h",
-     "unit": "cubic units"
-    },
-    {
-     "label": "Cone slant height",
-     "tex": "l=\\sqrt{r^2+h^2}",
-     "unit": "units"
-    },
-    {
-     "label": "Cone CSA and TSA",
-     "tex": "\\text{CSA}=\\pi rl,\\quad \\text{TSA}=\\pi r(r+l)",
-     "unit": "square units"
-    },
-    {
-     "label": "Sphere volume and surface area",
-     "tex": "V=\\dfrac43\\pi r^3,\\quad S=4\\pi r^2"
-    },
-    {
-     "label": "Hemisphere volume",
-     "tex": "V=\\dfrac23\\pi r^3",
-     "unit": "cubic units"
-    },
-    {
-     "label": "Hemisphere CSA and TSA",
-     "tex": "\\text{CSA}=2\\pi r^2,\\quad \\text{TSA}=3\\pi r^2",
-     "unit": "square units"
-    },
-    {
-     "label": "Combined solid: volume (key result)",
-     "tex": "V=V_1+V_2"
-    },
-    {
-     "label": "Combined solid: surface area (key result)",
-     "tex": "\\text{Total}=\\text{visible surfaces only (not the sum of the two TSAs)}"
-    },
-    {
-     "label": "Melting and recasting (key result)",
-     "tex": "\\text{Volume before}=\\text{Volume after}"
-    }
-   ]
-  },
-  {
-   "id": "c10-math-14",
-   "formulas": [
-    {
-     "label": "Class mark",
-     "tex": "x_i=\\dfrac{\\text{upper limit}+\\text{lower limit}}{2}"
-    },
-    {
-     "label": "Mean (direct method)",
-     "tex": "\\bar{x}=\\dfrac{\\sum f_ix_i}{\\sum f_i}"
-    },
-    {
-     "label": "Mean (assumed mean method)",
-     "tex": "\\bar{x}=a+\\dfrac{\\sum f_id_i}{\\sum f_i},\\quad d_i=x_i-a"
-    },
-    {
-     "label": "Mean (step-deviation method)",
-     "tex": "\\bar{x}=a+h\\,\\dfrac{\\sum f_iu_i}{\\sum f_i},\\quad u_i=\\dfrac{x_i-a}{h}"
-    },
-    {
-     "label": "Median of grouped data",
-     "tex": "\\text{Median}=l+\\left(\\dfrac{\\frac n2-cf}{f}\\right)h"
-    },
-    {
-     "label": "Mode of grouped data",
-     "tex": "\\text{Mode}=l+\\left(\\dfrac{f_1-f_0}{2f_1-f_0-f_2}\\right)h"
-    },
-    {
-     "label": "Empirical relation (if your book includes it)",
-     "tex": "\\text{Mode}=3\\,\\text{Median}-2\\,\\text{Mean}"
-    }
-   ]
-  },
-  {
-   "id": "c10-math-15",
-   "formulas": [
-    {
-     "label": "Classical probability",
-     "tex": "P(E)=\\dfrac{\\text{number of favourable outcomes}}{\\text{total number of outcomes}}"
-    },
-    {
-     "label": "Range of probability",
-     "tex": "0\\le P(E)\\le 1"
-    },
-    {
-     "label": "Complementary events",
-     "tex": "P(E)+P(\\text{not }E)=1"
-    },
-    {
-     "label": "Sure and impossible events",
-     "tex": "P(\\text{sure})=1,\\quad P(\\text{impossible})=0"
-    },
-    {
-     "label": "All elementary events",
-     "tex": "\\sum P(E_i)=1"
-    }
-   ]
-  }
- ]
+  ]
 }
