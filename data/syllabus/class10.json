@@ -857,27 +857,36 @@
           "id": "c10-sci-10",
           "name": "Light – Reflection and Refraction",
           "topics": [
-            "Functioning of the human eye",
-            "Defects of vision",
-            "Correction of vision defects",
-            "Refraction through a prism",
-            "Dispersion of light",
-            "Scattering of light",
-            "Applications of scattering and dispersion in daily life (excluding colour of the sun at sunrise and sunset)"
+            "Reflection of light by curved surfaces",
+            "Images formed by spherical mirrors",
+            "Centre of curvature",
+            "Principal axis",
+            "Principal focus",
+            "Focal length",
+            "Mirror formula",
+            "Magnification",
+            "Refraction of light",
+            "Laws of refraction",
+            "Refractive index",
+            "Refraction of light by spherical lenses",
+            "Images formed by spherical lenses",
+            "Lens formula",
+            "Magnification",
+            "Power of a lens",
+            "Applications of spherical mirrors and lenses"
           ]
         },
         {
           "id": "c10-sci-11",
           "name": "The Human Eye and the Colourful World",
           "topics": [
-            "Functioning of the human eye",
+            "Functioning of a lens in the human eye",
             "Defects of vision",
             "Correction of vision defects",
-            "Refraction through a prism",
+            "Refraction of light through a prism",
             "Dispersion of light",
             "Scattering of light",
-            "Applications of scattering and dispersion in daily life",
-            "Colour of the sun at sunrise and sunset excluded from year-end assessment"
+            "Applications of scattering and dispersion in daily life (excluding colour of the sun at sunrise and sunset)"
           ]
         },
         {
