@@ -1,66 +1,81 @@
 {
- "subject": "c12-pe",
- "weightage": [
-  {
-   "id": "c12-pe-01",
-   "marks": "5 + 4*"
-  },
-  {
-   "id": "c12-pe-02",
-   "marks": "7"
-  },
-  {
-   "id": "c12-pe-03",
-   "marks": "6 + 1*"
-  },
-  {
-   "id": "c12-pe-04",
-   "marks": "4 + 4*"
-  },
-  {
-   "id": "c12-pe-05",
-   "marks": "7"
-  },
-  {
-   "id": "c12-pe-06",
-   "marks": "8"
-  },
-  {
-   "id": "c12-pe-07",
-   "marks": "4 + 4*"
-  },
-  {
-   "id": "c12-pe-08",
-   "marks": "10"
-  },
-  {
-   "id": "c12-pe-09",
-   "marks": "7"
-  },
-  {
-   "id": "c12-pe-10",
-   "marks": "9"
-  }
- ],
- "note": "Unit marks as printed in the CBSE 2026-27 syllabus (* = concept-based questions). The printed figures do not add up to the stated theory total of 70, so use them as a guide only. Practical is 30 marks.",
- "mistakes": [
-  "Fixtures: check the count first. A knock-out needs n - 1 matches and a single league needs n(n - 1)/2.",
-  "Byes are needed only when the number of teams is not a power of 2. Byes = next power of 2 minus the number of teams.",
-  "For each asana, write the procedure, the benefits and the contraindications separately. Do not skip the contraindications.",
-  "Harvard Step Test: use the exercise time in seconds and the pulse count taken 1 to 1.5 minutes after exercise.",
-  "Keep the record file complete and neat: the record file and viva together carry 10 of the 30 practical marks."
- ],
- "order": [
-  "Start with Unit 8, Biomechanics (10 marks): Newton's laws, levers, friction, projectile.",
-  "Then Unit 1 (5 + 4*) and Unit 10 (9).",
-  "Then Units 4, 6 and 7, which are about 8 marks each.",
-  "Then Units 2, 3, 5 and 9, which are about 7 marks each.",
-  "Do practical and record file work alongside the theory."
- ],
- "resources": [
-  {
-   "label": "CBSE Physical Education Class XII textbook (PDF)",
-   "url": "https://cbseacademic.nic.in/web_material/Manuals/PhysicalEducation12_2022.pdf"
-  }
- ]
+  "subject": "c12-pe",
+  "weightage": [
+    {
+      "id": "c12-pe-01",
+      "marks": "05 + 04b*"
+    },
+    {
+      "id": "c12-pe-02",
+      "marks": "07"
+    },
+    {
+      "id": "c12-pe-03",
+      "marks": "06 + 01b*"
+    },
+    {
+      "id": "c12-pe-04",
+      "marks": "04 + 04b*"
+    },
+    {
+      "id": "c12-pe-05",
+      "marks": "07"
+    },
+    {
+      "id": "c12-pe-06",
+      "marks": "08"
+    },
+    {
+      "id": "c12-pe-07",
+      "marks": "04 + 04b*"
+    },
+    {
+      "id": "c12-pe-08",
+      "marks": "10"
+    },
+    {
+      "id": "c12-pe-09",
+      "marks": "07"
+    },
+    {
+      "id": "c12-pe-10",
+      "marks": "09"
+    }
+  ],
+  "note": "Official CBSE table prints the unit marks exactly as shown above. b* denotes concept-based questions such as tactile diagram, data interpretation or case-based study for visually impaired students. Theory is 70 marks and practical is separate 30 marks.",
+  "mistakes": [
+    "Management of Sporting Events: mixing committee responsibilities or tournament procedures.",
+    "Children and Women in Sports: memorising terms without knowing the meaning, examples and relevant corrective/participation considerations.",
+    "Yoga: writing an asana name without its procedure, benefits and contraindications.",
+    "CWSN: confusing inclusion, classification and divisioning, or listing organisations without their roles.",
+    "Sports and Nutrition: mixing macro/micronutrients, sources and functions.",
+    "Test and Measurement: confusing test purpose, procedure, scoring and interpretation.",
+    "Physiology and Injuries: mixing injury classification, causes, prevention, first aid and management.",
+    "Biomechanics: applying Newton's laws, levers, equilibrium, friction and projectile concepts without a sports-specific example.",
+    "Psychology: confusing personality, motivation, aggression and psychological attributes.",
+    "Training: mixing training cycles with training methods and failing to distinguish the component being developed."
+  ],
+  "order": [
+    "Start with Management of Sporting Events because it establishes tournament terminology and fixture procedures.",
+    "Study Children and Women in Sports, Yoga and CWSN using compact comparison tables for concepts, procedures and precautions.",
+    "Complete Sports and Nutrition and Test and Measurement with definitions plus calculation/procedure practice.",
+    "Study Physiology and Injuries before Biomechanics so the physiological and movement concepts are connected.",
+    "Finish Psychology and Training with definition-to-application examples.",
+    "Revise all ten units using short-answer recall followed by case/application questions.",
+    "Keep practical-file and practical-performance preparation separate from the 70-mark theory revision."
+  ],
+  "resources": [
+    {
+      "label": "CBSE Physical Education 2026-27 syllabus",
+      "url": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/PhysicalEducation_SecP2_2026-27.pdf"
+    },
+    {
+      "label": "NCERT Textbooks",
+      "url": "https://ncert.nic.in/textbook.php"
+    },
+    {
+      "label": "CBSE Class XII 2026-27 SQP & Marking Scheme",
+      "url": "https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html"
+    }
+  ]
 }

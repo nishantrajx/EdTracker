@@ -1,68 +1,82 @@
 {
- "subject": "c12-chem",
- "weightage": [
-  {
-   "id": "c12-chem-01",
-   "marks": "7"
-  },
-  {
-   "id": "c12-chem-02",
-   "marks": "9"
-  },
-  {
-   "id": "c12-chem-03",
-   "marks": "7"
-  },
-  {
-   "id": "c12-chem-04",
-   "marks": "7"
-  },
-  {
-   "id": "c12-chem-05",
-   "marks": "7"
-  },
-  {
-   "id": "c12-chem-06",
-   "marks": "6"
-  },
-  {
-   "id": "c12-chem-07",
-   "marks": "6"
-  },
-  {
-   "id": "c12-chem-08",
-   "marks": "8"
-  },
-  {
-   "id": "c12-chem-09",
-   "marks": "6"
-  },
-  {
-   "id": "c12-chem-10",
-   "marks": "7"
-  }
- ],
- "note": "Marks are official (course structure, total 70). CBSE also says to cover all chapters even though no separate chapter-wise weightage is given. Chapters 11 to 14 are formative only and carry no theory marks. Question mix: remembering and understanding 28 marks (40%), applying 21 (30%), analysing, evaluating and creating 21 (30%). There is no overall choice, but 33% internal choice is given. Practical is 30 marks.",
- "mistakes": [
-  "Electrochemistry: check the sign and units. E°cell = E°cathode − E°anode, and use the correct n in the Nernst equation.",
-  "Chemical kinetics: the unit of the rate constant k depends on the order of the reaction.",
-  "Solutions: do not mix up molarity and molality, and note which one changes with temperature.",
-  "Coordination compounds: in names, write ligands in alphabetical order, then the metal with its oxidation state. Count ligands carefully for the formula and charge.",
-  "Organic conversions: write the reagent and conditions on every arrow. A missing reagent or condition can cost the step.",
-  "Draw structures neatly with the correct bonds, so the examiner can read each one."
- ],
- "order": [
-  "Physical chemistry first: Chapters 1 to 3 (23 marks). Electrochemistry is the biggest single chapter at 9.",
-  "Then inorganic: Chapters 4 and 5 (14 marks).",
-  "Then organic in order, Chapters 6 to 9 (26 marks), because the conversions link one chapter to the next.",
-  "Then Biomolecules, Chapter 10 (7 marks).",
-  "Read the formative-only Chapters 11 to 14 last, for school assessment.",
-  "Do practical and record file work alongside the theory."
- ],
- "resources": [
-  {
-   "label": "NCERT textbooks (official site)",
-   "url": "https://ncert.nic.in/textbook.php"
-  }
- ]
+  "subject": "c12-chem",
+  "weightage": [
+    {
+      "id": "c12-chem-01",
+      "marks": "7"
+    },
+    {
+      "id": "c12-chem-02",
+      "marks": "9"
+    },
+    {
+      "id": "c12-chem-03",
+      "marks": "7"
+    },
+    {
+      "id": "c12-chem-04",
+      "marks": "7"
+    },
+    {
+      "id": "c12-chem-05",
+      "marks": "7"
+    },
+    {
+      "id": "c12-chem-06",
+      "marks": "6"
+    },
+    {
+      "id": "c12-chem-07",
+      "marks": "6"
+    },
+    {
+      "id": "c12-chem-08",
+      "marks": "8"
+    },
+    {
+      "id": "c12-chem-09",
+      "marks": "6"
+    },
+    {
+      "id": "c12-chem-10",
+      "marks": "7"
+    }
+  ],
+  "note": "Official CBSE Class XII Chemistry theory paper: 70 marks. The 2026-27 course structure assigns marks directly to the ten listed units; practical is separate.",
+  "mistakes": [
+    "Solutions: confusing molarity and molality or using temperature-dependent concentration units in a temperature-sensitive context.",
+    "Solutions: applying colligative-property relations without checking the van't Hoff factor or abnormal-molar-mass condition.",
+    "Electrochemistry: reversing anode/cathode or oxidation/reduction signs when moving between galvanic and electrolytic cells.",
+    "Electrochemistry: using the Nernst equation with an incorrect reaction quotient or inconsistent logarithm convention.",
+    "Chemical Kinetics: mixing zero-order and first-order integrated equations and half-life relations.",
+    "Chemical Kinetics: confusing rate constant units with reaction rate units.",
+    "d- and f-Block: memorising trends without distinguishing general transition-metal behaviour from specific exceptions and compounds.",
+    "Coordination Compounds: losing track of ligand names, coordination number, oxidation state, geometry and isomerism while naming a complex.",
+    "Organic Chemistry: writing a reaction without checking the reagent, condition, substrate class and major product.",
+    "Amines: confusing basicity trends and chemical properties, or mixing diazotisation and coupling conditions.",
+    "Biomolecules: memorising classifications without connecting monomers, linkages, functions and examples."
+  ],
+  "order": [
+    "Do Solutions, Electrochemistry and Chemical Kinetics first; practise their numerical patterns immediately after learning each concept.",
+    "Study d- and f-Block with a compact trend/compound sheet and revise it repeatedly rather than cramming once.",
+    "Complete Coordination Compounds next, especially terminology, nomenclature, isomerism and bonding.",
+    "Study the organic sequence in order: Haloalkanes and Haloarenes → Alcohols, Phenols and Ethers → Aldehydes, Ketones and Carboxylic Acids → Amines.",
+    "Finish Biomolecules with linked tables for carbohydrates, proteins, enzymes, vitamins, nucleic acids and hormones.",
+    "After the first complete pass, practise mixed conversion/reaction questions and numerical questions together.",
+    "Use the official sample paper and marking scheme to check answer style and coverage."
+  ],
+  "resources": [
+    {
+      "label": "CBSE Chemistry 2026-27 syllabus",
+      "url": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Chemistry_SecP2_2026-27.pdf"
+    },
+    {
+      "label": "NCERT Textbooks",
+      "url": "https://ncert.nic.in/textbook.php"
+    },
+    {
+      "label": "CBSE Class XII 2026-27 SQP & Marking Scheme",
+      "url": "https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html"
+    }
+  ]
 }

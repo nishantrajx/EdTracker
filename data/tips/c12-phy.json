@@ -1,71 +1,83 @@
 {
- "subject": "c12-phy",
- "weightage": [
-  {
-   "label": "Electrostatics + Current Electricity (Ch 1 to 3)",
-   "ids": [
-    "c12-phy-01",
-    "c12-phy-02",
-    "c12-phy-03"
-   ],
-   "marks": "16"
-  },
-  {
-   "label": "Magnetism + Induction and AC (Ch 4 to 7)",
-   "ids": [
-    "c12-phy-04",
-    "c12-phy-05",
-    "c12-phy-06",
-    "c12-phy-07"
-   ],
-   "marks": "17"
-  },
-  {
-   "label": "EM Waves + Optics (Ch 8 to 10)",
-   "ids": [
-    "c12-phy-08",
-    "c12-phy-09",
-    "c12-phy-10"
-   ],
-   "marks": "18"
-  },
-  {
-   "label": "Dual Nature + Atoms and Nuclei (Ch 11 to 13)",
-   "ids": [
-    "c12-phy-11",
-    "c12-phy-12",
-    "c12-phy-13"
-   ],
-   "marks": "12"
-  },
-  {
-   "label": "Electronic Devices (Ch 14)",
-   "ids": [
-    "c12-phy-14"
-   ],
-   "marks": "7"
-  }
- ],
- "note": "Marks are official and given per group of units (total 70). Question mix: remembering and understanding 27 marks (38%), applying 22 (32%), analysing, evaluating and creating 21 (30%). Practical is 30 marks.",
- "mistakes": [
-  "Numericals: write the formula, substitute with units, and state the unit in the answer. Unit and sign slips lose easy marks.",
-  "Ray optics: apply the sign convention consistently, measuring all distances from the pole or optical centre.",
-  "Alternating current: do not mix peak and rms values.",
-  "Draw neat, labelled diagrams, including arrows on rays, field lines and circuit symbols.",
-  "Learn each derivation as a short chain of steps, so you can rewrite it without memorising it word for word."
- ],
- "order": [
-  "Chapters 1 to 3 (16 marks) first: electric field and circuits are the base for later chapters.",
-  "Chapters 4 to 7 (17 marks) next: AC builds on electromagnetic induction.",
-  "Chapters 8 to 10 (18 marks, the largest group): EM waves and optics.",
-  "Chapters 11 to 13 (12 marks): modern physics.",
-  "Chapter 14 (7 marks) last, as it is the shortest.",
-  "Do practical and record file work alongside the theory."
- ],
- "resources": [
-  {
-   "label": "NCERT textbooks (official site)",
-   "url": "https://ncert.nic.in/textbook.php"
-  }
- ]
+  "subject": "c12-phy",
+  "weightage": [
+    {
+      "label": "Unit I — Electrostatics",
+      "ids": [
+        "c12-phy-01",
+        "c12-phy-02"
+      ],
+      "marks": "16"
+    },
+    {
+      "label": "Unit II–IV — Current Electricity; Magnetic Effects of Current and Magnetism; Electromagnetic Induction and Alternating Currents",
+      "ids": [
+        "c12-phy-03",
+        "c12-phy-04",
+        "c12-phy-05",
+        "c12-phy-06",
+        "c12-phy-07"
+      ],
+      "marks": "17"
+    },
+    {
+      "label": "Unit V–VI — Electromagnetic Waves; Optics",
+      "ids": [
+        "c12-phy-08",
+        "c12-phy-09",
+        "c12-phy-10"
+      ],
+      "marks": "18"
+    },
+    {
+      "label": "Unit VII–VIII — Dual Nature; Atoms and Nuclei",
+      "ids": [
+        "c12-phy-11",
+        "c12-phy-12",
+        "c12-phy-13"
+      ],
+      "marks": "12"
+    },
+    {
+      "id": "c12-phy-14",
+      "marks": "7"
+    }
+  ],
+  "note": "Official CBSE theory paper: 70 marks. The syllabus gives marks by unit groups, not individual chapter weightage. Practical is separate: 30 marks. NCERT content explicitly excluded for 2026-27 is not assessed.",
+  "mistakes": [
+    "Mixing scalar and vector quantities or dropping vector direction/signs in field, force and magnetic-effect problems.",
+    "Using the wrong geometry or distance variable in Coulomb, Gauss-law, potential and capacitance problems.",
+    "Confusing emf, terminal voltage, resistance, resistivity and conductivity in current-electricity questions.",
+    "Applying Kirchhoff's rules without first choosing consistent loop/current directions and then carrying the signs consistently.",
+    "Using right-hand-rule directions mechanically without checking the actual vector cross-product direction.",
+    "Confusing magnetic field due to a current element, force on a moving charge, and force on a current-carrying conductor.",
+    "In AC problems, mixing peak and RMS quantities or using reactance/impedance formulas with inconsistent units.",
+    "In optics, mixing sign conventions between mirror, lens and refraction problems.",
+    "In wave optics, confusing path difference, phase difference, fringe width and fringe position.",
+    "In modern physics, confusing work function, threshold frequency, stopping potential, binding energy and mass defect.",
+    "In semiconductor questions, drawing p-n junction/rectifier characteristics without labelling the relevant regions and terminals."
+  ],
+  "order": [
+    "Start with Electrostatics and Current Electricity; build a clean base of field, potential, capacitance, current and circuit reasoning.",
+    "Do Moving Charges and Magnetism before Magnetism and Matter, then connect both to electromagnetic induction.",
+    "Study AC immediately after EMI so phasors, reactance, impedance, resonance and transformer ideas stay connected.",
+    "Complete Optics as one block: Ray Optics first, then Wave Optics.",
+    "Finish Dual Nature, Atoms and Nuclei together because they form the modern-physics sequence.",
+    "Finish Semiconductor Electronics with diagrams and characteristic curves, then solve mixed numericals and conceptual questions.",
+    "Use timed mixed practice across units rather than practising only one chapter type repeatedly."
+  ],
+  "resources": [
+    {
+      "label": "CBSE Physics 2026-27 syllabus",
+      "url": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Physics_SecP2_2026-27.pdf"
+    },
+    {
+      "label": "NCERT Textbooks",
+      "url": "https://ncert.nic.in/textbook.php"
+    },
+    {
+      "label": "CBSE Class XII 2026-27 SQP & Marking Scheme",
+      "url": "https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html"
+    }
+  ]
 }

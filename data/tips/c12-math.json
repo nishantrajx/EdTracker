@@ -1,80 +1,61 @@
 {
- "subject": "c12-math",
- "weightage": [
-  {
-   "label": "Relations and Functions + Inverse Trigonometry (Ch 1 to 2)",
-   "ids": [
-    "c12-math-01",
-    "c12-math-02"
-   ],
-   "marks": "8"
-  },
-  {
-   "label": "Algebra: Matrices and Determinants (Ch 3 to 4)",
-   "ids": [
-    "c12-math-03",
-    "c12-math-04"
-   ],
-   "marks": "10"
-  },
-  {
-   "label": "Calculus (Ch 5 to 9)",
-   "ids": [
-    "c12-math-05",
-    "c12-math-06",
-    "c12-math-07",
-    "c12-math-08",
-    "c12-math-09"
-   ],
-   "marks": "35"
-  },
-  {
-   "label": "Vectors and 3D Geometry (Ch 10 to 11)",
-   "ids": [
-    "c12-math-10",
-    "c12-math-11"
-   ],
-   "marks": "14"
-  },
-  {
-   "label": "Linear Programming (Ch 12)",
-   "ids": [
-    "c12-math-12"
-   ],
-   "marks": "5"
-  },
-  {
-   "label": "Probability (Ch 13)",
-   "ids": [
-    "c12-math-13"
-   ],
-   "marks": "8"
-  }
- ],
- "note": "Marks are official and given per unit (theory total 80, internal assessment 20). CBSE gives no chapter-wise weightage and says to cover all chapters. Question mix: remembering and understanding 44 marks (55%), applying 20 (25%), analysing, evaluating and creating 16 (20%).",
- "mistakes": [
-  "Calculus is 35 of 80 marks. Practise differentiation and integration rules regularly, and do not forget +C in indefinite integrals.",
-  "When you change the variable in a definite integral, change the limits too, or go back to the original variable.",
-  "Inverse trigonometric functions: use the principal value ranges when writing answers.",
-  "Matrices and determinants: AB is not always equal to BA, and cofactor signs alternate. Check the order before multiplying.",
-  "Vectors: do not mix up the dot product (a number) and the cross product (a vector). In 3D, keep direction ratios and direction cosines apart.",
-  "Linear programming: shade the feasible region carefully and test every corner point in the objective function.",
-  "Probability: define your events clearly before using Bayes' theorem or conditional probability.",
-  "Show every step of your working, so you can earn method marks even if the final answer is wrong."
- ],
- "order": [
-  "Chapters 1 and 2 first (8 marks): they are the base for later chapters.",
-  "Chapters 3 and 4 (10 marks): matrices and determinants.",
-  "Calculus, Chapters 5 to 9 (35 marks): give this the most time and keep practising daily.",
-  "Vectors and 3D Geometry, Chapters 10 and 11 (14 marks).",
-  "Probability, Chapter 13 (8 marks).",
-  "Linear Programming, Chapter 12 (5 marks): a short chapter to revise before the exam.",
-  "Practise past-style questions with full written working, not only reading."
- ],
- "resources": [
-  {
-   "label": "NCERT textbooks (official site)",
-   "url": "https://ncert.nic.in/textbook.php"
-  }
- ]
+  "subject": "c12-math",
+  "weightage": [
+    {
+      "label": "Complete theory syllabus",
+      "ids": [
+        "c12-math-01",
+        "c12-math-02",
+        "c12-math-03",
+        "c12-math-04",
+        "c12-math-05",
+        "c12-math-06",
+        "c12-math-07",
+        "c12-math-08",
+        "c12-math-09",
+        "c12-math-10",
+        "c12-math-11",
+        "c12-math-12",
+        "c12-math-13"
+      ],
+      "marks": "80"
+    }
+  ],
+  "note": "Official CBSE Mathematics theory paper: 80 marks. The 2026-27 syllabus explicitly states that there is no chapter-wise weightage; all chapters should be covered. Internal assessment is separate: 20 marks.",
+  "mistakes": [
+    "Relations and Functions: confusing relation properties or treating one-to-one and onto as the same condition.",
+    "Inverse Trigonometric Functions: ignoring the principal-value branch and writing identities outside their valid ranges.",
+    "Matrices and Determinants: changing multiplication order or applying determinant/adjoint rules as if matrices were scalars.",
+    "Continuity and Differentiability: skipping domain restrictions and chain-rule factors.",
+    "Applications of Derivatives: solving critical-point problems without checking endpoints or the required first/second derivative conditions.",
+    "Integrals: choosing a method mechanically; identify substitution, partial fractions, by-parts or standard form before calculating.",
+    "Definite integrals: losing limits or using symmetry properties without checking the interval and function.",
+    "Differential Equations: losing the constant of integration or applying the integrating factor incorrectly.",
+    "Vectors and 3D: confusing dot and cross products or mixing vector and Cartesian line forms.",
+    "Linear Programming: drawing an incorrect feasible region or checking only one vertex.",
+    "Probability: confusing conditional probability with ordinary probability and using independence without justification."
+  ],
+  "order": [
+    "Complete Relations and Functions, Inverse Trigonometric Functions, Matrices and Determinants first to establish the algebraic base.",
+    "Move through Calculus in sequence: Continuity and Differentiability → Applications of Derivatives → Integrals → Applications of Integrals → Differential Equations.",
+    "Study Vectors and Three-dimensional Geometry together.",
+    "Finish Linear Programming and Probability after the main calculus/algebra sequence.",
+    "Maintain a separate error log for algebraic slips, domain/range errors, sign errors and method-selection errors.",
+    "Practise mixed questions regularly because the official syllabus has no chapter-wise weightage.",
+    "Use timed full-paper practice and review every unsolved or partially solved question, not only final-answer mistakes."
+  ],
+  "resources": [
+    {
+      "label": "CBSE Mathematics 2026-27 syllabus",
+      "url": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Maths_SecP2_2026-27.pdf"
+    },
+    {
+      "label": "NCERT Textbooks",
+      "url": "https://ncert.nic.in/textbook.php"
+    },
+    {
+      "label": "CBSE Class XII 2026-27 SQP & Marking Scheme",
+      "url": "https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html"
+    }
+  ]
 }
