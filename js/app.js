@@ -1,4 +1,10 @@
 const $=s=>document.querySelector(s),app=$('#app');
+const THEMES=[['auto','Auto'],['light','Day'],['dark','Night']];
+const getTheme=()=>{try{return localStorage.getItem('theme')||'auto'}catch(e){return'auto'}};
+function applyTheme(t){const r=document.documentElement;t=='auto'?r.removeAttribute('data-theme'):r.setAttribute('data-theme',t);
+ try{t=='auto'?localStorage.removeItem('theme'):localStorage.setItem('theme',t)}catch(e){}
+ document.querySelectorAll('meta[name=theme-color]').forEach(m=>{m.dataset.o=m.dataset.o||m.content;m.content=t=='light'?'#f4f6f4':t=='dark'?'#131917':m.dataset.o})}
+applyTheme(getTheme());
 const el=(t,a={},...c)=>{const e=document.createElement(t);for(const k in a){if(k.startsWith('on')||k=='checked'||k=='value')e[k]=a[k];else e.setAttribute(k,a[k])}c.flat().forEach(x=>e.append(x&&x.nodeType?x:document.createTextNode(x??'')));return e};
 firebase.initializeApp(FB_CONFIG);const auth=firebase.auth(),db=firebase.firestore();
 let uid,S={},DATA,DEF={},tab='home',FORM={},TIPS={},fq='',open=new Set(),msg='',timer;
@@ -43,8 +49,7 @@ function home(){const today=new Date();today.setHours(0,0,0,0);
   rows.map(({s,e,d,days,st})=>{const left=st.t-st.d;
    return det('h'+s.id,el('span',{class:'row'},ring(st),el('b',{},s.name),el('span',{class:'muted'},days==null?'—':days>=0?days+' days':'Over')),[
     el('div',{class:'row'},el('input',{type:'date',value:d||'',onchange:ev=>{S.exam=S.exam||{};S.exam[s.id]={d:ev.target.value,t:Date.now()};save();render()}}),el('span',{class:'tag'+(e?'':' est')},e?'edited':'estimated')),
-    el('div',{class:'muted',style:'margin-top:8px'},st.t?left+' of '+st.t+' topics still uncovered':'Syllabus not added yet'),
-    days>0&&left?el('div',{class:'muted'},'about '+(left/days).toFixed(1)+' topics per day needed'):''])}))}
+    el('div',{class:'muted',style:'margin-top:8px'},st.t?left+' of '+st.t+' topics still uncovered':'Syllabus not added yet')])}))}
 let tipc='';
 const goTips=(s,c)=>{tab='tips';tipc=c.id;open.add('ts'+s.id);render();const t=document.querySelector('[data-c~="'+c.id+'"]');t&&t.scrollIntoView({block:'center'})};
 const lk=(s,c)=>{const b=[];if(FORM[s.id]&&(FORM[s.id][c.id]||[]).length)b.push(el('button',{onclick:()=>go(s,c)},'Formulas'));if(TIPS[s.id]&&(TIPS[s.id].weightage||[]).some(w=>(w.ids||[w.id]).includes(c.id)))b.push(el('button',{onclick:()=>goTips(s,c)},'Tips'));return b.length?el('div',{class:'go'},b):''};
@@ -58,6 +63,7 @@ function tips(){const subs=DATA.subjects.filter(s=>TIPS[s.id]);
    ...(T.resources&&T.resources.length?[el('div',{class:'tt'},'Resources'),...T.resources.map(r=>el('a',{href:r.url,target:'_blank',rel:'noopener',class:'lnk'},r.label))]:[])],subs.length==1)}))}
 function settings(){const inp=el('input',{type:'file',accept:'.json',style:'display:none',onchange:async ev=>{try{const j=JSON.parse(await ev.target.files[0].text());S={...S,...merge(S,j)};save();render();alert('Backup merged.')}catch(e){alert('That file could not be read.')}}});
  return el('div',{},el('div',{class:'card'},el('b',{},S.profile.name+' · Class '+S.profile.cls),el('div',{class:'muted'},auth.currentUser.email)),
+ el('div',{class:'card'},el('b',{},'Appearance'),el('div',{class:'row seg'},THEMES.map(([k,l])=>el('button',{class:getTheme()==k?'on':'',onclick:()=>{applyTheme(k);render()}},l)))),
  el('div',{class:'card'},el('b',{},'Backup'),el('div',{class:'row'},el('button',{onclick:()=>{const a=el('a',{href:URL.createObjectURL(new Blob([JSON.stringify({app:'board-tracker',v:1,profile:S.profile,ticks:S.ticks,exam:S.exam})],{type:'application/json'})),download:'study-backup.json'});a.click()}},'Export JSON'),el('button',{onclick:()=>inp.click()},'Import JSON'),inp)),
  el('div',{class:'card'},el('button',{onclick:()=>auth.signOut()},'Sign out')),
  el('div',{class:'card danger'},el('b',{},'Change profile / reset'),el('p',{class:'muted'},'Warning: this erases your name, class, ticked topics and edited exam dates for this account on ALL devices. Export a backup first.'),
