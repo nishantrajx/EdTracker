@@ -1,46 +1,115 @@
 {
- "subject": "c10-eng",
- "weightage": [
-  {
-   "id": "c10-eng-01",
-   "marks": "20"
-  },
-  {
-   "label": "Writing Skills and Grammar (Ch 2 and 3): grammar 10 + writing 10",
-   "ids": [
-    "c10-eng-02",
-    "c10-eng-03"
-   ],
-   "marks": "20"
-  },
-  {
-   "label": "Language through Literature: First Flight and Footprints Without Feet (Ch 4 to 6)",
-   "ids": [
-    "c10-eng-04",
-    "c10-eng-05",
-    "c10-eng-06"
-   ],
-   "marks": "40"
-  }
- ],
- "note": "Marks are official (theory total 80; internal assessment 20). Reading 20 = a discursive passage (10) and a case-based factual passage (10). Writing and Grammar 20 = grammar 10 (answer 10 of 12 gap-filling, editing or transformation questions) and writing 10 (formal letter 5, analytical paragraph 5). Literature 40 = extracts 5 + 5, First Flight short answers 12, Footprints short answers 6, First Flight long answers 6, Footprints long answer 6.",
- "mistakes": [
-  "Grammar: you attempt 10 out of 12 questions, so skip the two you are least sure of.",
-  "Reading short answers: keep them to 30 to 40 words, and answer from the passage.",
-  "Formal letter and analytical paragraph: stay within 100 to 120 words and follow the format. For the paragraph, use the data in the map, chart or cue given.",
-  "Literature short answers are 40 to 50 words, and long answers are about 100 to 120 words. Keep to the limit.",
-  "For extract questions, read the whole extract before answering, and answer from the lines given."
- ],
- "order": [
-  "Literature first (Ch 4 to 6, 40 marks): read each prose piece, poem and story from both books and write short notes.",
-  "Then Reading (20 marks): practise one discursive and one case-based passage each week.",
-  "Then Writing and Grammar (20 marks): practise the formal letter and the analytical paragraph, and revise the grammar topics in the syllabus.",
-  "Keep internal assessment (20 marks) on schedule with your school."
- ],
- "resources": [
-  {
-   "label": "NCERT textbooks (official site)",
-   "url": "https://ncert.nic.in/textbook.php"
-  }
- ]
+  "subject": "c10-eng",
+  "weightage": [
+    {
+      "id": "c10-eng-01",
+      "marks": "20"
+    },
+    {
+      "label": "Writing Skills and Grammar (Ch 2–3)",
+      "ids": [
+        "c10-eng-02",
+        "c10-eng-03"
+      ],
+      "marks": "20"
+    },
+    {
+      "label": "Language through Literature: First Flight + Footprints Without Feet (Ch 4–31)",
+      "ids": [
+        "c10-eng-04",
+        "c10-eng-05",
+        "c10-eng-06",
+        "c10-eng-07",
+        "c10-eng-08",
+        "c10-eng-09",
+        "c10-eng-10",
+        "c10-eng-11",
+        "c10-eng-12",
+        "c10-eng-13",
+        "c10-eng-14",
+        "c10-eng-15",
+        "c10-eng-16",
+        "c10-eng-17",
+        "c10-eng-18",
+        "c10-eng-19",
+        "c10-eng-20",
+        "c10-eng-21",
+        "c10-eng-22",
+        "c10-eng-23",
+        "c10-eng-24",
+        "c10-eng-25",
+        "c10-eng-26",
+        "c10-eng-27",
+        "c10-eng-28",
+        "c10-eng-29",
+        "c10-eng-30",
+        "c10-eng-31"
+      ],
+      "marks": "40"
+    }
+  ],
+  "note": "Official 2026-27 theory: Reading 20, Writing Skills and Grammar 20, Literature 40; internal assessment is 20. Grammar covers determiners, tenses, modals, subject–verb concord and reported speech (commands/requests, statements, questions). Writing is a formal letter (100–120 words, 5) and an analytical paragraph (100–120 words, 5). Literature includes extracts, First Flight and Footprints Without Feet short answers, and one long answer from each book. Words and Expressions-II is prescribed but is not named in the 80-mark section-wise weightage.",
+  "reference": [
+    {
+      "label": "Reading: main idea and evidence",
+      "text": "Read for the central idea, locate supporting evidence, then answer from the passage rather than adding unsupported information."
+    },
+    {
+      "label": "Inference",
+      "text": "Use explicit evidence from the passage plus a logical conclusion; do not turn an inference into a guess."
+    },
+    {
+      "label": "Formal letter structure",
+      "text": "Sender's address → Date → Recipient's address → Subject → Salutation → Body → Closing."
+    },
+    {
+      "label": "Analytical paragraph structure",
+      "text": "Introduction → key features/data → relevant comparison → conclusion. Use the given chart, graph, map or cues."
+    },
+    {
+      "label": "Reported command/request",
+      "text": "Reporting verb + object + to/not to + base verb."
+    },
+    {
+      "label": "Reported statement",
+      "text": "Reporting clause + that + reported clause, with tense/pronoun/time-word changes where required."
+    },
+    {
+      "label": "Reported question",
+      "text": "Reporting verb + if/whether or wh-word + statement word order; do not keep question word order."
+    },
+    {
+      "label": "Grammar checklist",
+      "text": "Check determiner choice, tense consistency, subject–verb concord and modal + base verb before submitting."
+    },
+    {
+      "label": "Literature answer frame",
+      "text": "Use the text's event/detail → interpretation → evidence or example → direct conclusion. For character/theme questions, stay tied to the text."
+    }
+  ],
+  "mistakes": [
+    "Grammar: attempt 10 of the 12 questions; use the choice to skip the two least certain answers.",
+    "Do not copy whole sentences from a reading passage when a shorter, precise answer is enough.",
+    "Formal letter: missing subject, salutation, closing or incorrect format can cost marks even when the content is relevant.",
+    "Analytical paragraph: do not list every number mechanically; identify the main trend and compare the important features.",
+    "Reported questions: change to statement word order; do not retain the original question structure.",
+    "Literature: answer the exact demand—theme, inference, character, message or evidence—rather than retelling the entire plot."
+  ],
+  "order": [
+    "Build the literature base: read First Flight and Footprints Without Feet, including the prescribed poems and stories.",
+    "Practise Reading regularly: one discursive and one case-based passage, then review wrong answers.",
+    "Master Grammar in small sets: determiners → tenses → modals → subject–verb concord → reported speech.",
+    "Practise Writing repeatedly: formal letter and analytical paragraph within the 100–120 word limit.",
+    "Finish with mixed timed papers so Reading, Grammar, Writing and Literature are practised together."
+  ],
+  "resources": [
+    {
+      "label": "CBSE 2026-27 English Language and Literature syllabus",
+      "url": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/English_LL_SecP1_2026-27.pdf"
+    },
+    {
+      "label": "NCERT textbooks",
+      "url": "https://ncert.nic.in/textbook.php"
+    }
+  ]
 }

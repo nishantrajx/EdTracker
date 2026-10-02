@@ -280,53 +280,23 @@
           "unit": ""
         },
         {
-          "label": "Sine at 0° and 90°",
-          "tex": "\\sin0^\\circ=0,\\quad\\sin90^\\circ=1",
-          "unit": ""
-        },
-        {
-          "label": "Cosine at 0° and 90°",
-          "tex": "\\cos0^\\circ=1,\\quad\\cos90^\\circ=0",
-          "unit": ""
-        },
-        {
-          "label": "Tangent at 0° and 45°",
-          "tex": "\\tan0^\\circ=0,\\quad\\tan45^\\circ=1",
-          "unit": ""
-        },
-        {
-          "label": "Tangent at 30° and 60°",
-          "tex": "\\tan30^\\circ=\\frac{1}{\\sqrt3},\\quad\\tan60^\\circ=\\sqrt3",
-          "unit": ""
-        },
-        {
-          "label": "Standard-angle sine/cosine values",
-          "tex": "\\sin30^\\circ=\\frac12,\\ \\sin45^\\circ=\\frac{1}{\\sqrt2},\\ \\sin60^\\circ=\\frac{\\sqrt3}{2}",
+          "label": "Standard-angle sine values",
+          "tex": "\\sin0^\\circ=0,\\quad\\sin30^\\circ=\\frac12,\\quad\\sin45^\\circ=\\frac1{\\sqrt2},\\quad\\sin60^\\circ=\\frac{\\sqrt3}{2},\\quad\\sin90^\\circ=1",
           "unit": ""
         },
         {
           "label": "Standard-angle cosine values",
-          "tex": "\\cos0^\\circ=1,\\ \\cos30^\\circ=\\frac{\\sqrt3}{2},\\ \\cos45^\\circ=\\frac{1}{\\sqrt2},\\ \\cos60^\\circ=\\frac12,\\ \\cos90^\\circ=0",
+          "tex": "\\cos0^\\circ=1,\\quad\\cos30^\\circ=\\frac{\\sqrt3}{2},\\quad\\cos45^\\circ=\\frac1{\\sqrt2},\\quad\\cos60^\\circ=\\frac12,\\quad\\cos90^\\circ=0",
           "unit": ""
         },
         {
           "label": "Standard-angle tangent values",
-          "tex": "\\tan0^\\circ=0,\\ \\tan30^\\circ=\\frac{1}{\\sqrt3},\\ \\tan45^\\circ=1,\\ \\tan60^\\circ=\\sqrt3",
+          "tex": "\\tan0^\\circ=0,\\quad\\tan30^\\circ=\\frac1{\\sqrt3},\\quad\\tan45^\\circ=1,\\quad\\tan60^\\circ=\\sqrt3",
           "unit": ""
         },
         {
-          "label": "Standard-angle cosecant values",
-          "tex": "\\cosec30^\\circ=2,\\ \\cosec45^\\circ=\\sqrt2,\\ \\cosec60^\\circ=\\frac{2}{\\sqrt3}",
-          "unit": ""
-        },
-        {
-          "label": "Standard-angle secant values",
-          "tex": "\\sec0^\\circ=1,\\ \\sec30^\\circ=\\frac{2}{\\sqrt3},\\ \\sec45^\\circ=\\sqrt2,\\ \\sec60^\\circ=2",
-          "unit": ""
-        },
-        {
-          "label": "Standard-angle cotangent values",
-          "tex": "\\cot30^\\circ=\\sqrt3,\\ \\cot45^\\circ=1,\\ \\cot60^\\circ=\\frac{1}{\\sqrt3}",
+          "label": "Standard-angle reciprocal ratios",
+          "tex": "\\cosec30^\\circ=2,\\;\\cosec45^\\circ=\\sqrt2,\\;\\cosec60^\\circ=\\frac2{\\sqrt3};\\quad\\sec0^\\circ=1,\\;\\sec30^\\circ=\\frac2{\\sqrt3},\\;\\sec45^\\circ=\\sqrt2,\\;\\sec60^\\circ=2;\\quad\\cot30^\\circ=\\sqrt3,\\;\\cot45^\\circ=1,\\;\\cot60^\\circ=\\frac1{\\sqrt3}",
           "unit": ""
         }
       ]
@@ -340,12 +310,12 @@
           "unit": ""
         },
         {
-          "label": "Derived identity",
+          "label": "Identity: 1 + tan²A = sec²A",
           "tex": "1+\\tan^2A=\\sec^2A",
           "unit": ""
         },
         {
-          "label": "Derived identity",
+          "label": "Identity: 1 + cot²A = cosec²A",
           "tex": "1+\\cot^2A=\\cosec^2A",
           "unit": ""
         },
@@ -388,11 +358,6 @@
           "label": "Angle of depression",
           "tex": "\\tan\\theta=\\frac{\\text{vertical difference}}{\\text{horizontal distance}}",
           "unit": ""
-        },
-        {
-          "label": "Complementary-angle relation",
-          "tex": "\\sin\\theta=\\cos(90^\\circ-\\theta)",
-          "unit": ""
         }
       ]
     },
@@ -432,11 +397,6 @@
         {
           "label": "Area of a sector using arc length",
           "tex": "A_{\\text{sector}}=\\frac12rl",
-          "unit": ""
-        },
-        {
-          "label": "Area of a triangle using two radii",
-          "tex": "A_{\\triangle}=\\frac12r^2\\sin\\theta",
           "unit": ""
         }
       ]

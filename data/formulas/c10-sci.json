@@ -47,161 +47,6 @@
       ]
     },
     {
-      "id": "c10-sci-02",
-      "formulas": [
-        {
-          "label": "Hydrogen-ion concentration and pH",
-          "tex": "\\mathrm{pH}=-\\log_{10}[\\mathrm{H^+}]",
-          "unit": ""
-        },
-        {
-          "label": "Neutralisation",
-          "tex": "\\mathrm{Acid+Base\\rightarrow Salt+Water}",
-          "unit": ""
-        },
-        {
-          "label": "Acid + metal",
-          "tex": "\\mathrm{Acid+Metal\\rightarrow Salt+H_2\\uparrow}",
-          "unit": ""
-        },
-        {
-          "label": "Acid + metal carbonate",
-          "tex": "\\mathrm{Acid+Metal\\ Carbonate\\rightarrow Salt+CO_2+H_2O}",
-          "unit": ""
-        },
-        {
-          "label": "Acid + metal hydrogencarbonate",
-          "tex": "\\mathrm{Acid+Metal\\ Hydrogencarbonate\\rightarrow Salt+CO_2+H_2O}",
-          "unit": ""
-        },
-        {
-          "label": "Baking soda",
-          "tex": "\\mathrm{NaHCO_3}",
-          "unit": ""
-        },
-        {
-          "label": "Washing soda",
-          "tex": "\\mathrm{Na_2CO_3\\cdot10H_2O}",
-          "unit": ""
-        },
-        {
-          "label": "Bleaching powder",
-          "tex": "\\mathrm{CaOCl_2}",
-          "unit": ""
-        },
-        {
-          "label": "Plaster of Paris",
-          "tex": "\\mathrm{CaSO_4\\cdot\\frac12H_2O}",
-          "unit": ""
-        },
-        {
-          "label": "Gypsum",
-          "tex": "\\mathrm{CaSO_4\\cdot2H_2O}",
-          "unit": ""
-        }
-      ]
-    },
-    {
-      "id": "c10-sci-03",
-      "formulas": [
-        {
-          "label": "General ionic compound formation",
-          "tex": "\\mathrm{M^{n+}+nX^-\\rightarrow MX_n}",
-          "unit": ""
-        },
-        {
-          "label": "General metal + oxygen",
-          "tex": "\\mathrm{Metal+O_2\\rightarrow Metal\\ Oxide}",
-          "unit": ""
-        },
-        {
-          "label": "General metal + water",
-          "tex": "\\mathrm{Metal+H_2O\\rightarrow Metal\\ Hydroxide+H_2}",
-          "unit": ""
-        },
-        {
-          "label": "General metal + acid",
-          "tex": "\\mathrm{Metal+Acid\\rightarrow Salt+H_2\\uparrow}",
-          "unit": ""
-        },
-        {
-          "label": "Corrosion of iron",
-          "tex": "\\mathrm{4Fe+3O_2+6H_2O\\rightarrow4Fe(OH)_3}",
-          "unit": ""
-        },
-        {
-          "label": "Aluminium oxide: amphoteric reaction with acid",
-          "tex": "\\mathrm{Al_2O_3+6HCl\\rightarrow2AlCl_3+3H_2O}",
-          "unit": ""
-        },
-        {
-          "label": "Aluminium oxide: amphoteric reaction with base",
-          "tex": "\\mathrm{Al_2O_3+2NaOH\\rightarrow2NaAlO_2+H_2O}",
-          "unit": ""
-        }
-      ]
-    },
-    {
-      "id": "c10-sci-04",
-      "formulas": [
-        {
-          "label": "General combustion of a hydrocarbon",
-          "tex": "\\mathrm{C_xH_y+\\left(x+\\frac{y}{4}\\right)O_2\\rightarrow xCO_2+\\frac{y}{2}H_2O}",
-          "unit": ""
-        },
-        {
-          "label": "General addition reaction",
-          "tex": "\\mathrm{Unsaturated\\ compound+H_2\\xrightarrow{Ni}Saturated\\ compound}",
-          "unit": ""
-        },
-        {
-          "label": "General substitution reaction",
-          "tex": "\\mathrm{CH_4+Cl_2\\xrightarrow{sunlight}CH_3Cl+HCl}",
-          "unit": ""
-        },
-        {
-          "label": "Oxidation of ethanol",
-          "tex": "\\mathrm{CH_3CH_2OH+2[O]\\rightarrow CH_3COOH+H_2O}",
-          "unit": ""
-        },
-        {
-          "label": "Ethanol",
-          "tex": "\\mathrm{C_2H_5OH}",
-          "unit": ""
-        },
-        {
-          "label": "Ethanoic acid",
-          "tex": "\\mathrm{CH_3COOH}",
-          "unit": ""
-        },
-        {
-          "label": "Esterification",
-          "tex": "\\mathrm{CH_3COOH+C_2H_5OH\\xrightarrow{conc.\\ H_2SO_4}CH_3COOC_2H_5+H_2O}",
-          "unit": ""
-        },
-        {
-          "label": "Saponification",
-          "tex": "\\mathrm{Ester+NaOH\\rightarrow Alcohol+Sodium\\ salt\\ of\\ acid}",
-          "unit": ""
-        },
-        {
-          "label": "Methane",
-          "tex": "\\mathrm{CH_4}",
-          "unit": ""
-        },
-        {
-          "label": "Ethene",
-          "tex": "\\mathrm{C_2H_4}",
-          "unit": ""
-        },
-        {
-          "label": "Ethyne",
-          "tex": "\\mathrm{C_2H_2}",
-          "unit": ""
-        }
-      ]
-    },
-    {
       "id": "c10-sci-05",
       "formulas": [
         {
@@ -223,16 +68,6 @@
           "label": "Anaerobic respiration in muscles",
           "tex": "\\mathrm{C_6H_{12}O_6\\rightarrow2C_3H_6O_3+Energy}",
           "unit": ""
-        },
-        {
-          "label": "Cardiac output",
-          "tex": "\\text{Cardiac output}=\\text{heart rate}\\times\\text{stroke volume}",
-          "unit": ""
-        },
-        {
-          "label": "Stomatal gas exchange",
-          "tex": "\\mathrm{CO_2\\leftrightarrow O_2}",
-          "unit": ""
         }
       ]
     },
@@ -243,47 +78,12 @@
           "label": "Reflex arc sequence",
           "tex": "\\text{Receptor}\\rightarrow\\text{sensory neuron}\\rightarrow\\text{relay neuron}\\rightarrow\\text{motor neuron}\\rightarrow\\text{effector}",
           "unit": ""
-        },
-        {
-          "label": "Plant tropism: phototropism",
-          "tex": "\\text{Growth response to light direction}",
-          "unit": ""
-        },
-        {
-          "label": "Plant hormone: auxin",
-          "tex": "\\text{Auxin promotes cell elongation in shoots}",
-          "unit": ""
-        },
-        {
-          "label": "Insulin function",
-          "tex": "\\text{Insulin lowers blood glucose level}",
-          "unit": ""
-        },
-        {
-          "label": "Adrenaline response",
-          "tex": "\\text{Adrenaline increases heart rate and breathing rate}",
-          "unit": ""
         }
       ]
     },
     {
       "id": "c10-sci-07",
       "formulas": [
-        {
-          "label": "Binary fission",
-          "tex": "\\text{One parent cell}\\rightarrow\\text{two daughter cells}",
-          "unit": ""
-        },
-        {
-          "label": "Vegetative propagation",
-          "tex": "\\text{Parent plant part}\\rightarrow\\text{new plant}",
-          "unit": ""
-        },
-        {
-          "label": "Pollination",
-          "tex": "\\text{Pollen transfer from anther to stigma}",
-          "unit": ""
-        },
         {
           "label": "Fertilisation",
           "tex": "\\mathrm{Male\\ gamete+Female\\ gamete\\rightarrow Zygote}",
@@ -312,41 +112,6 @@
         {
           "label": "Mendelian monohybrid genotypic ratio",
           "tex": "1:2:1",
-          "unit": ""
-        },
-        {
-          "label": "Probability of a child's sex: female",
-          "tex": "P(\\text{female})=\\frac12",
-          "unit": ""
-        },
-        {
-          "label": "Probability of a child's sex: male",
-          "tex": "P(\\text{male})=\\frac12",
-          "unit": ""
-        },
-        {
-          "label": "Chromosome basis of sex determination",
-          "tex": "\\text{Female: }XX,\\qquad\\text{Male: }XY",
-          "unit": ""
-        }
-      ]
-    },
-    {
-      "id": "c10-sci-09",
-      "formulas": [
-        {
-          "label": "Inheritance of acquired characteristics",
-          "tex": "\\text{Acquired traits are not ordinarily inherited through genes}",
-          "unit": ""
-        },
-        {
-          "label": "Natural selection",
-          "tex": "\\text{Heritable variation + differential survival/reproduction}\\rightarrow\\text{change in population}",
-          "unit": ""
-        },
-        {
-          "label": "Speciation factors",
-          "tex": "\\text{Variation + isolation + selection}\\rightarrow\\text{new species}",
           "unit": ""
         }
       ]
@@ -548,11 +313,6 @@
           "label": "AC time period",
           "tex": "T=\\frac1f",
           "unit": "s"
-        },
-        {
-          "label": "Electrical energy from power",
-          "tex": "E=Pt",
-          "unit": "J"
         }
       ]
     },

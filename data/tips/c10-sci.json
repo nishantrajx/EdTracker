@@ -1,70 +1,112 @@
 {
- "subject": "c10-sci",
- "weightage": [
-  {
-   "label": "Chemical Substances: Nature and Behaviour (Ch 1, 3, 4, 5)",
-   "ids": [
-    "c10-sci-01",
-    "c10-sci-03",
-    "c10-sci-04",
-    "c10-sci-05"
-   ],
-   "marks": "25"
-  },
-  {
-   "label": "World of Living (Ch 6, 7, 8)",
-   "ids": [
-    "c10-sci-06",
-    "c10-sci-07",
-    "c10-sci-08"
-   ],
-   "marks": "25"
-  },
-  {
-   "label": "Natural Phenomena: Light and Eye (Ch 10 to 12)",
-   "ids": [
-    "c10-sci-10",
-    "c10-sci-11",
-    "c10-sci-12"
-   ],
-   "marks": "12"
-  },
-  {
-   "label": "Effects of Current (Ch 13, 14)",
-   "ids": [
-    "c10-sci-13",
-    "c10-sci-14"
-   ],
-   "marks": "13"
-  },
-  {
-   "label": "Natural Resources: Our Environment (Ch 15)",
-   "ids": [
-    "c10-sci-15"
-   ],
-   "marks": "5"
-  }
- ],
- "note": "Marks are official and given per unit (theory total 80, internal assessment 20). Periodic Classification (Ch 2) and Heredity and Evolution (Ch 9) are marked as not in the year-end exam. Question mix: knowledge and understanding 50%, application 30%, formulate, analyse, evaluate and create 20%. About 33% internal choice is given.",
- "mistakes": [
-  "Chemical equations: balance them, and add state symbols or conditions when the question asks.",
-  "Ray diagrams: draw rays with arrows, label the points, and apply the sign convention in numericals.",
-  "Electricity numericals: write the formula, substitute with units, and check whether the resistors are in series or parallel.",
-  "Biology diagrams: draw neat, labelled diagrams and label every part the question asks for.",
-  "Assertion-reasoning questions: read both statements carefully and test each one separately.",
-  "Case-based questions: read the whole passage before you answer."
- ],
- "order": [
-  "Chemical Substances (25 marks) and World of Living (25 marks) first: together they are 50 of 80 marks.",
-  "Then Effects of Current (13 marks): Electricity and Magnetic Effects.",
-  "Then Light and the Human Eye (12 marks).",
-  "Our Environment (5 marks) is a short unit to revise before the exam.",
-  "Read Chapters 2 and 9 for school tests, but they are not in the year-end exam."
- ],
- "resources": [
-  {
-   "label": "NCERT textbooks (official site)",
-   "url": "https://ncert.nic.in/textbook.php"
-  }
- ]
+  "subject": "c10-sci",
+  "weightage": [
+    {
+      "label": "Unit I: Chemical Substances — board-assessed portion (Ch 1)",
+      "ids": [
+        "c10-sci-01"
+      ],
+      "marks": "25"
+    },
+    {
+      "label": "Unit II: World of Living (Ch 5–8)",
+      "ids": [
+        "c10-sci-05",
+        "c10-sci-06",
+        "c10-sci-07",
+        "c10-sci-08"
+      ],
+      "marks": "25"
+    },
+    {
+      "label": "Unit III: Natural Phenomena (Ch 10–11)",
+      "ids": [
+        "c10-sci-10",
+        "c10-sci-11"
+      ],
+      "marks": "12"
+    },
+    {
+      "label": "Unit IV: Effects of Current (Ch 12–13)",
+      "ids": [
+        "c10-sci-12",
+        "c10-sci-13"
+      ],
+      "marks": "13"
+    },
+    {
+      "label": "Unit V: Natural Resources (Ch 14)",
+      "ids": [
+        "c10-sci-14"
+      ],
+      "marks": "5"
+    }
+  ],
+  "note": "Official 2026-27 annual-exam unit marks: Chemical Substances 25, World of Living 25, Natural Phenomena 12, Effects of Current 13, Natural Resources 5; total 80, internal assessment 20. Acids, Bases and Salts; Metals and Non-metals; Carbon and its Compounds; and Evolution are explicitly identified as formative-only in the annual-exam structure. The formula/reference file therefore keeps only useful board-relevant formula material and excludes the formative-only Evolution chapter.",
+  "reference": [
+    {
+      "label": "Chemical equations",
+      "text": "Use the correct reactants/products and balance atoms on both sides. Identify combination, decomposition, displacement and double-displacement patterns from the reaction itself."
+    },
+    {
+      "label": "Oxidation and reduction",
+      "text": "At this level, remember oxidation as addition of oxygen/removal of hydrogen and reduction as removal of oxygen/addition of hydrogen; both occur together in a redox reaction."
+    },
+    {
+      "label": "Life processes",
+      "text": "For biology processes, learn the sequence and function: nutrition → respiration → transport → excretion. Pair every process with its key organ/structure and role."
+    },
+    {
+      "label": "Control and coordination",
+      "text": "Reflex arc: receptor → sensory neuron → relay neuron → motor neuron → effector. Distinguish nervous control from hormonal control."
+    },
+    {
+      "label": "Reproduction and heredity",
+      "text": "Keep a clear distinction between asexual and sexual reproduction, gamete formation, fertilisation and inheritance. For Mendelian monohybrid crosses, track genotype and phenotype separately."
+    },
+    {
+      "label": "Light",
+      "text": "Use the mirror/lens sign convention consistently. Keep the mirror formula, lens formula, magnification and power relationships together and draw the ray diagram when useful."
+    },
+    {
+      "label": "Human eye",
+      "text": "Normal eye: near point ≈ 25 cm and far point at infinity. Understand accommodation as change in focal length to focus at different distances."
+    },
+    {
+      "label": "Electricity",
+      "text": "I = Q/t, V = W/Q, V = IR, R = ρl/A, series resistances add, parallel conductances add, P = VI = I²R = V²/R, and electrical energy E = Pt."
+    },
+    {
+      "label": "Magnetic effects",
+      "text": "For a current-carrying conductor, the force depends on magnetic field, current and conductor length; remember Fleming's left-hand rule for direction."
+    },
+    {
+      "label": "Our Environment",
+      "text": "Energy flows Sun → producers → consumers; only a small fraction is transferred to the next trophic level. Distinguish biodegradable from non-biodegradable waste."
+    }
+  ],
+  "mistakes": [
+    "Chemical equations: balance atoms, preserve chemical formulas and write conditions/catalysts only where required.",
+    "Ray diagrams and electricity numericals: write the convention/formula first, substitute carefully and include units.",
+    "Biology: do not confuse structure, function and process; use labelled diagrams where they clarify the answer.",
+    "Heredity: keep genotype and phenotype separate and do not confuse dominant expression with frequency in a population.",
+    "Case-based and assertion-reason questions: test each statement against the scientific concept before selecting an option."
+  ],
+  "order": [
+    "World of Living and the board-assessed part of Chemical Substances first: together these units carry 50 of 80 marks.",
+    "Then Effects of Current (13 marks): Electricity → Magnetic Effects.",
+    "Then Natural Phenomena (12 marks): Light → Human Eye.",
+    "Finish with Our Environment (5 marks), then use mixed questions to connect concepts across units.",
+    "Study the formative-only chapters for school learning, but do not count them as annual-board marks."
+  ],
+  "resources": [
+    {
+      "label": "CBSE 2026-27 Science syllabus",
+      "url": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Science_SecP1_2026-27.pdf"
+    },
+    {
+      "label": "NCERT textbooks",
+      "url": "https://ncert.nic.in/textbook.php"
+    }
+  ]
 }

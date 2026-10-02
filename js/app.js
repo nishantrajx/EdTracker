@@ -59,15 +59,19 @@ function tips(){const subs=DATA.subjects.filter(s=>TIPS[s.id]);
  return el('div',{},el('p',{class:'muted'},'Marks are as printed in the CBSE 2026-27 syllabus. "General advice" is not official; your teachers know best.'),subs.map(s=>{const T=TIPS[s.id];
   return det('ts'+s.id,el('b',{},s.name),[el('div',{class:'tt'},'Marks by unit'),
    ...(T.weightage||[]).map(w=>{const ids=w.ids||[w.id],cs=s.chapters.filter(c=>ids.includes(c.id));return cs.length?el('div',{class:'wt'+(ids.includes(tipc)?' hl':''),'data-c':ids.join(' ')},el('span',{},w.label||cs[0].name),el('b',{},w.marks)):''}),
-   T.note?el('p',{class:'muted'},T.note):'',...list('Common mistakes',T.mistakes),...list('Study order',T.order),
+   T.note?el('p',{class:'muted'},T.note):'',
+   ...(T.reference&&T.reference.length?[el('div',{class:'tt'},'Quick reference'),el('ol',{class:'tl'},T.reference.map(r=>el('li',{},el('b',{},r.label+': '),r.text)))]:[]),
+   ...list('Common mistakes',T.mistakes),...list('Study order',T.order),
    ...(T.resources&&T.resources.length?[el('div',{class:'tt'},'Resources'),...T.resources.map(r=>el('a',{href:r.url,target:'_blank',rel:'noopener',class:'lnk'},r.label))]:[])],subs.length==1)}))}
-function settings(){const inp=el('input',{type:'file',accept:'.json',style:'display:none',onchange:async ev=>{try{const j=JSON.parse(await ev.target.files[0].text());S={...S,...merge(S,j)};save();render();alert('Backup merged.')}catch(e){alert('That file could not be read.')}}});
- return el('div',{},el('div',{class:'card'},el('b',{},S.profile.name+' · Class '+S.profile.cls),el('div',{class:'muted'},auth.currentUser.email)),
- el('div',{class:'card'},el('b',{},'Appearance'),el('div',{class:'row seg'},THEMES.map(([k,l])=>el('button',{class:getTheme()==k?'on':'',onclick:()=>{applyTheme(k);render()}},l)))),
- el('div',{class:'card'},el('b',{},'Backup'),el('div',{class:'row'},el('button',{onclick:()=>{const a=el('a',{href:URL.createObjectURL(new Blob([JSON.stringify({app:'board-tracker',v:1,profile:S.profile,ticks:S.ticks,exam:S.exam})],{type:'application/json'})),download:'study-backup.json'});a.click()}},'Export JSON'),el('button',{onclick:()=>inp.click()},'Import JSON'),inp)),
- el('div',{class:'card'},el('button',{onclick:()=>auth.signOut()},'Sign out')),
- el('div',{class:'card danger'},el('b',{},'Change profile / reset'),el('p',{class:'muted'},'Warning: this erases your name, class, ticked topics and edited exam dates for this account on ALL devices. Export a backup first.'),
-  el('button',{onclick:()=>{if(confirm('Erase all progress for this account and set up the profile again?')){S={wipe:1,ticks:{},exam:{}};store();start();sync()}}},'Reset everything')))}
+function settings(){
+ const inp=el('input',{type:'file',accept:'.json',style:'display:none',onchange:async ev=>{try{const j=JSON.parse(await ev.target.files[0].text());S={...S,...merge(S,j)};save();render();alert('Backup merged.')}catch(e){alert('That file could not be read.')}}});
+ const profile=el('div',{class:'card'},el('b',{},S.profile.name+' · Class '+S.profile.cls),el('div',{class:'muted'},auth.currentUser.email));
+ const appearance=el('div',{class:'card'},el('b',{},'Appearance'),el('div',{class:'row seg'},THEMES.map(([k,l])=>el('button',{class:getTheme()==k?'on':'',onclick:()=>{applyTheme(k);render()}},l))));
+ const backup=el('div',{class:'card'},el('b',{},'Backup'),el('div',{class:'row'},el('button',{onclick:()=>{const a=el('a',{href:URL.createObjectURL(new Blob([JSON.stringify({app:'board-tracker',v:1,profile:S.profile,ticks:S.ticks,exam:S.exam})],{type:'application/json'})),download:'study-backup.json'});a.click()}},'Export JSON'),el('button',{onclick:()=>inp.click()},'Import JSON'),inp));
+ const signout=el('div',{class:'card'},el('button',{onclick:()=>auth.signOut()},'Sign out'));
+ const danger=el('div',{class:'card danger'},el('b',{},'Change profile / reset'),el('p',{class:'muted'},'Warning: this erases your name, class, ticked topics and edited exam dates for this account on ALL devices. Export a backup first.'),el('button',{onclick:()=>{if(confirm('Erase all progress for this account and set up the profile again?')){S={wipe:1,ticks:{},exam:{}};store();start();sync()}}},'Reset everything'));
+ return el('div',{},profile,appearance,backup,signout,danger)
+}
 const IC={home:'<path d="M4 11l8-7 8 7v8a1 1 0 0 1-1 1h-4v-6h-6v6H5a1 1 0 0 1-1-1z"/>',formulas:'<path d="M18 6H7l6 6-6 6h11"/>',tracker:'<circle cx="12" cy="12" r="9"/><path d="M8 12.5l3 3 5-6"/>',tips:'<path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.7.7 1 1.5 1 2.5h6c0-1 .3-1.8 1-2.5A6 6 0 0 0 12 3z"/>',settings:'<circle cx="12" cy="8" r="4"/><path d="M4 20c1.5-4 14.5-4 16 0"/>'};
 const nav=()=>el('nav',{},[['home','Home'],['formulas','Formulas'],['tracker','Syllabus'],['tips','Tips'],['settings','Profile']].map(([k,l])=>{const b=el('button',{class:tab==k?'on':'',onclick:()=>{tab=k;tipc='';render()}});b.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+IC[k]+'</svg><span>'+l+'</span>';return b}));
 function render(statusOnly){if(!S.profile||!DATA)return;if(statusOnly){const m=$('#msg');if(m)m.textContent=msg;m.className=stCls();return}

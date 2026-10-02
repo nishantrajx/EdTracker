@@ -1,85 +1,134 @@
 {
- "subject": "c10-math",
- "weightage": [
-  {
-   "label": "Number Systems (Ch 1)",
-   "ids": [
-    "c10-math-01"
-   ],
-   "marks": "6"
-  },
-  {
-   "label": "Algebra (Ch 2 to 5)",
-   "ids": [
-    "c10-math-02",
-    "c10-math-03",
-    "c10-math-04",
-    "c10-math-05"
-   ],
-   "marks": "20"
-  },
-  {
-   "label": "Coordinate Geometry (Ch 6)",
-   "ids": [
-    "c10-math-06"
-   ],
-   "marks": "6"
-  },
-  {
-   "label": "Geometry: Triangles and Circles (Ch 7 to 8)",
-   "ids": [
-    "c10-math-07",
-    "c10-math-08"
-   ],
-   "marks": "15"
-  },
-  {
-   "label": "Trigonometry (Ch 9 to 11)",
-   "ids": [
-    "c10-math-09",
-    "c10-math-10",
-    "c10-math-11"
-   ],
-   "marks": "12"
-  },
-  {
-   "label": "Mensuration (Ch 12 to 13)",
-   "ids": [
-    "c10-math-12",
-    "c10-math-13"
-   ],
-   "marks": "10"
-  },
-  {
-   "label": "Statistics and Probability (Ch 14 to 15)",
-   "ids": [
-    "c10-math-14",
-    "c10-math-15"
-   ],
-   "marks": "11"
-  }
- ],
- "note": "Marks are official and given per unit (theory total 80, internal assessment 20: pen-paper test and multiple assessment 5+5, portfolio 5, lab practical 5). Question mix: remembering and understanding 43 marks (54%), applying 19 (24%), analysing, evaluating and creating 18 (22%).",
- "mistakes": [
-  "Algebra is 20 of 80 marks. Practise quadratic equations and arithmetic progressions regularly and check your roots by substituting them back.",
-  "Show every step of your working so that you can earn method marks even if the final answer is wrong.",
-  "Coordinate geometry: be careful when substituting values into the distance and section formulas, especially signs.",
-  "Heights and distances: draw a clear figure and mark the angle of elevation or depression correctly before you calculate.",
-  "Mensuration: check whether the question asks for curved surface area, total surface area or volume, and give the correct unit.",
-  "Statistics: write the class intervals and the table clearly before applying the formula for mean, median or mode."
- ],
- "order": [
-  "Algebra first (Ch 2 to 5, 20 marks): the largest unit, and Chapters 3 and 4 build on each other.",
-  "Geometry next (Ch 7 and 8, 15 marks).",
-  "Then Trigonometry (Ch 9 to 11, 12 marks).",
-  "Then Statistics and Probability (Ch 14 and 15, 11 marks) and Mensuration (Ch 12 and 13, 10 marks).",
-  "Finish with Number Systems and Coordinate Geometry (6 marks each), which are shorter.",
-  "Keep portfolio and lab activities (10 internal marks) on schedule with your school."
- ],
- "resources": [
-  {
-   "label": "NCERT textbooks (official site)",
-   "url": "https://ncert.nic.in/textbook.php"
-  }
- ]
+  "subject": "c10-math",
+  "weightage": [
+    {
+      "label": "Number Systems (Ch 1)",
+      "ids": [
+        "c10-math-01"
+      ],
+      "marks": "6"
+    },
+    {
+      "label": "Algebra (Ch 2–5)",
+      "ids": [
+        "c10-math-02",
+        "c10-math-03",
+        "c10-math-04",
+        "c10-math-05"
+      ],
+      "marks": "20"
+    },
+    {
+      "label": "Coordinate Geometry (Ch 6)",
+      "ids": [
+        "c10-math-06"
+      ],
+      "marks": "6"
+    },
+    {
+      "label": "Geometry: Triangles and Circles (Ch 7–8)",
+      "ids": [
+        "c10-math-07",
+        "c10-math-08"
+      ],
+      "marks": "15"
+    },
+    {
+      "label": "Trigonometry (Ch 9–11)",
+      "ids": [
+        "c10-math-09",
+        "c10-math-10",
+        "c10-math-11"
+      ],
+      "marks": "12"
+    },
+    {
+      "label": "Mensuration (Ch 12–13)",
+      "ids": [
+        "c10-math-12",
+        "c10-math-13"
+      ],
+      "marks": "10"
+    },
+    {
+      "label": "Statistics and Probability (Ch 14–15)",
+      "ids": [
+        "c10-math-14",
+        "c10-math-15"
+      ],
+      "marks": "11"
+    }
+  ],
+  "note": "Official 2026-27 theory unit marks: Number Systems 6, Algebra 20, Coordinate Geometry 6, Geometry 15, Trigonometry 12, Mensuration 10, Statistics and Probability 11; total 80, internal assessment 20. The curriculum emphasises conceptual understanding, problem-solving, visualisation, mathematical communication and real-life applications.",
+  "reference": [
+    {
+      "label": "Quadratic roots",
+      "text": "For ax² + bx + c = 0: x = (−b ± √(b² − 4ac))/(2a). Discriminant D = b² − 4ac; D>0 gives two distinct real roots, D=0 equal real roots, D<0 no real roots."
+    },
+    {
+      "label": "Pair of linear equations",
+      "text": "Unique solution: a₁/a₂ ≠ b₁/b₂. No solution: a₁/a₂ = b₁/b₂ ≠ c₁/c₂. Infinitely many solutions: all three ratios equal."
+    },
+    {
+      "label": "Arithmetic progression",
+      "text": "aₙ = a + (n−1)d and Sₙ = n/2[2a + (n−1)d] = n/2(a+l)."
+    },
+    {
+      "label": "Coordinate geometry",
+      "text": "Distance = √[(x₂−x₁)²+(y₂−y₁)²]; internal section formula = ((mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n))."
+    },
+    {
+      "label": "Trigonometric standard values",
+      "text": "Memorise the 0°, 30°, 45°, 60°, 90° values of sin, cos and tan; derive reciprocal ratios when needed instead of memorising unnecessary duplicates."
+    },
+    {
+      "label": "Core identities",
+      "text": "sin²A + cos²A = 1; 1 + tan²A = sec²A; 1 + cot²A = cosec²A; tan A = sin A/cos A."
+    },
+    {
+      "label": "Heights and distances",
+      "text": "Draw the right triangle first. Identify the horizontal distance and vertical height, then choose sin/cos/tan. Board-syllabus angles are 30°, 45° and 60°, with no more than two right triangles."
+    },
+    {
+      "label": "Circle sectors and segments",
+      "text": "Sector area = θ/360° × πr²; arc length = θ/360° × 2πr; segment area = sector area − corresponding triangle area."
+    },
+    {
+      "label": "Surface area and volume",
+      "text": "Check whether the question asks CSA, TSA or volume. For combinations of solids, calculate only the exposed surfaces required by the diagram."
+    },
+    {
+      "label": "Statistics",
+      "text": "Grouped-data mean can use direct, assumed-mean or step-deviation method; median and mode use the grouped-data formulas with the correct class interval and cumulative frequency."
+    },
+    {
+      "label": "Probability",
+      "text": "For equally likely outcomes, P(E) = favourable outcomes / total outcomes; 0 ≤ P(E) ≤ 1 and P(not E) = 1 − P(E)."
+    }
+  ],
+  "mistakes": [
+    "Do not substitute signs carelessly in coordinate, quadratic and linear-equation formulas; write the values first, then simplify.",
+    "For geometry proofs, state the theorem or criterion you are using instead of jumping directly to the conclusion.",
+    "In trigonometry, draw and label the triangle before choosing a ratio.",
+    "In mensuration, distinguish curved surface area, total surface area and volume and attach the correct units.",
+    "In statistics, identify l, h, f, cf, f₀, f₁ and f₂ from the correct classes before substituting.",
+    "In probability, check that the outcomes being counted are equally likely before applying the classical formula."
+  ],
+  "order": [
+    "Algebra first (20 marks): Polynomials → Pair of Linear Equations → Quadratic Equations → Arithmetic Progressions.",
+    "Then Geometry (15 marks): Triangles → Circles, with theorem statements and proof practice.",
+    "Then Trigonometry (12 marks): ratios → standard values → identities → heights and distances.",
+    "Then Statistics and Probability (11 marks), followed by Mensuration (10 marks).",
+    "Finish with Number Systems and Coordinate Geometry, while revisiting them through mixed questions."
+  ],
+  "resources": [
+    {
+      "label": "CBSE 2026-27 Mathematics syllabus",
+      "url": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Maths_SecP1X_2026-27.pdf"
+    },
+    {
+      "label": "NCERT textbooks",
+      "url": "https://ncert.nic.in/textbook.php"
+    }
+  ]
 }

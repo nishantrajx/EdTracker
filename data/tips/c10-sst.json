@@ -1,69 +1,116 @@
 {
- "subject": "c10-sst",
- "weightage": [
-  {
-   "label": "History (Ch 1, 2, 3 and 5)",
-   "ids": [
-    "c10-sst-01",
-    "c10-sst-02",
-    "c10-sst-03",
-    "c10-sst-05"
-   ],
-   "marks": "18 + 2 map"
-  },
-  {
-   "label": "Geography (Ch 6 to 12)",
-   "ids": [
-    "c10-sst-06",
-    "c10-sst-07",
-    "c10-sst-08",
-    "c10-sst-09",
-    "c10-sst-10",
-    "c10-sst-11",
-    "c10-sst-12"
-   ],
-   "marks": "17 + 3 map"
-  },
-  {
-   "label": "Political Science (Ch 13 to 17)",
-   "ids": [
-    "c10-sst-13",
-    "c10-sst-14",
-    "c10-sst-15",
-    "c10-sst-16",
-    "c10-sst-17"
-   ],
-   "marks": "20"
-  },
-  {
-   "label": "Economics (Ch 18 to 21)",
-   "ids": [
-    "c10-sst-18",
-    "c10-sst-19",
-    "c10-sst-20",
-    "c10-sst-21"
-   ],
-   "marks": "20"
-  }
- ],
- "note": "Marks are official (theory total 80, four subjects at 20 each; map pointing is 5 marks in all, 2 in History and 3 in Geography). Board exam rules in the course structure: Making of a Global World only subtopics 1 to 1.3; Age of Industrialisation is assessed in periodic assessment only; Lifelines of National Economy is map pointing only; Globalisation and the Indian Economy covers the first two subtopics. Question types: MCQ 20 x 1, 2-mark answers 4 x 2, 3-mark answers 5 x 3, case studies 3 x 4, 5-mark answers 4 x 5, plus map pointing 5. Competency mix: remembering and understanding 24 marks, applying 11, analysing, evaluating and creating 40, map skill 5.",
- "mistakes": [
-  "Practise map pointing for History and Geography regularly. It is 5 marks, and marking and labelling take practice.",
-  "Case-study questions: read the source carefully and answer from it, not from memory alone.",
-  "Five-mark answers: organise the answer in clear points with an introduction, key points with examples or dates, and a short conclusion.",
-  "Learn key terms and definitions exactly, as many MCQs test them.",
-  "Do not spend board-exam time on parts that are periodic-assessment-only or project-only. Check the course structure notes above."
- ],
- "order": [
-  "All four subjects carry 20 marks each, so give them balanced time.",
-  "Start with History and Geography, so you can practise map pointing from the beginning.",
-  "Then Political Science and Economics, which are short enough to revise more than once.",
-  "Read Age of Industrialisation (Ch 4) and the project work (Ch 22) for school assessments, not for the board paper."
- ],
- "resources": [
-  {
-   "label": "NCERT textbooks (official site)",
-   "url": "https://ncert.nic.in/textbook.php"
-  }
- ]
+  "subject": "c10-sst",
+  "weightage": [
+    {
+      "label": "History: assessed chapters (Ch 1, 2, 3, 5)",
+      "ids": [
+        "c10-sst-01",
+        "c10-sst-02",
+        "c10-sst-03",
+        "c10-sst-05"
+      ],
+      "marks": "18 + 2 map pointing"
+    },
+    {
+      "label": "Geography (Ch 6–12)",
+      "ids": [
+        "c10-sst-06",
+        "c10-sst-07",
+        "c10-sst-08",
+        "c10-sst-09",
+        "c10-sst-10",
+        "c10-sst-11",
+        "c10-sst-12"
+      ],
+      "marks": "17 + 3 map pointing"
+    },
+    {
+      "label": "Political Science (Ch 13–17)",
+      "ids": [
+        "c10-sst-13",
+        "c10-sst-14",
+        "c10-sst-15",
+        "c10-sst-16",
+        "c10-sst-17"
+      ],
+      "marks": "20"
+    },
+    {
+      "label": "Economics: assessed chapters (Ch 18–21)",
+      "ids": [
+        "c10-sst-18",
+        "c10-sst-19",
+        "c10-sst-20",
+        "c10-sst-21"
+      ],
+      "marks": "20"
+    }
+  ],
+  "note": "Official 2026-27 course structure gives 20 marks each to History, Geography, Political Science and Economics, with map pointing included in History (2) and Geography (3). Making of a Global World is board-evaluated only for subtopics 1–1.3; Age of Industrialisation is periodic-assessment only; Lifelines of National Economy is map-pointing only in the board exam; Consumer Rights is project work; Globalisation and the Indian Economy is board-evaluated for What is Globalisation? and Factors that have enabled Globalisation, with the remaining listed project component assessed internally.",
+  "reference": [
+    {
+      "label": "History answer chain",
+      "text": "For a historical event, connect cause → event/process → important actors or groups → consequence. Use dates/names only when they strengthen the answer."
+    },
+    {
+      "label": "History map work",
+      "text": "Practise the exact locations from the current syllabus. Learn the place name together with the event/resource it represents."
+    },
+    {
+      "label": "Geography resource/crop questions",
+      "text": "For a resource or crop, revise distribution/location → conditions → major uses/production → relevant environmental or economic issue."
+    },
+    {
+      "label": "Geography map work",
+      "text": "Separate map-pointing practice from theory revision; identify the location quickly and label it cleanly."
+    },
+    {
+      "label": "Political Science",
+      "text": "For power-sharing and federalism, connect institutional arrangement → reason/need → example → democratic outcome. For parties and democracy, distinguish functions, challenges and outcomes."
+    },
+    {
+      "label": "Economics development",
+      "text": "Do not equate development with income alone; use the indicators and limitations discussed in the chapter."
+    },
+    {
+      "label": "Sectors of economy",
+      "text": "Compare primary, secondary and tertiary sectors by activity, employment/output and the issues highlighted in the chapter."
+    },
+    {
+      "label": "Money and credit",
+      "text": "Keep formal and informal sources of credit separate and connect terms of credit with interest, collateral, documentation and risk."
+    },
+    {
+      "label": "Globalisation",
+      "text": "Know the two board-assessed starting points clearly: what globalisation is and the factors that enabled it; keep project-only portions separate."
+    },
+    {
+      "label": "Long answers",
+      "text": "Use a short introduction, several distinct points with examples/evidence, and a direct conclusion rather than one long paragraph."
+    }
+  ],
+  "mistakes": [
+    "Do not treat Age of Industrialisation as a board-paper chapter; it is marked periodic-assessment only in the current course structure.",
+    "Do not prepare Consumer Rights as a board theory chapter; it is project work.",
+    "Lifelines of National Economy is board-assessed through map pointing only, so practise the map locations separately.",
+    "For source/case questions, use the information in the source together with the relevant chapter concept instead of writing an unrelated memorised answer.",
+    "In five-mark answers, use separate points and relevant examples; avoid repeating the same idea in different words."
+  ],
+  "order": [
+    "Give all four disciplines balanced time because each carries 20 marks.",
+    "Build History and Geography together with map practice from the beginning.",
+    "Then revise Political Science and Economics through concept comparisons and short-answer practice.",
+    "Keep the restricted/project portions clearly separated in your notes so they are not confused with board-assessed content.",
+    "Finish with mixed case-study, long-answer and map practice."
+  ],
+  "resources": [
+    {
+      "label": "CBSE 2026-27 Social Science syllabus",
+      "url": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/SocialScience_SecP1X_2026-27.pdf"
+    },
+    {
+      "label": "NCERT textbooks",
+      "url": "https://ncert.nic.in/textbook.php"
+    }
+  ]
 }

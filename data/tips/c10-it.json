@@ -1,72 +1,134 @@
 {
- "subject": "c10-it",
- "weightage": [
-  {
-   "label": "Part A: Employability Skills (Ch 1)",
-   "ids": [
-    "c10-it-01"
-   ],
-   "marks": "10"
-  },
-  {
-   "label": "Part B Unit 1: Digital Documentation, Writer (Ch 2 to 4)",
-   "ids": [
-    "c10-it-02",
-    "c10-it-03",
-    "c10-it-04"
-   ],
-   "marks": "8"
-  },
-  {
-   "label": "Part B Unit 2: Spreadsheet, Calc (Ch 5 to 8)",
-   "ids": [
-    "c10-it-05",
-    "c10-it-06",
-    "c10-it-07",
-    "c10-it-08"
-   ],
-   "marks": "10"
-  },
-  {
-   "label": "Part B Unit 3: Database, Base (Ch 9 to 13)",
-   "ids": [
-    "c10-it-09",
-    "c10-it-10",
-    "c10-it-11",
-    "c10-it-12",
-    "c10-it-13"
-   ],
-   "marks": "12"
-  },
-  {
-   "label": "Part B Unit 4: Healthy, Safe and Secure Working Environment (Ch 14 to 16)",
-   "ids": [
-    "c10-it-14",
-    "c10-it-15",
-    "c10-it-16"
-   ],
-   "marks": "10"
-  }
- ],
- "note": "Marks are official (Part A 10 + Part B 40 = 50). The other 50 of the 100 marks are practical: Part C practical exam and viva 30 (Writer 5, Calc 5, Base 10, viva 10) and Part D project work 10 and portfolio or practical file 10. The portfolio needs printouts of at least 5 problems each from Writer, Calc and Base.",
- "mistakes": [
-  "Half the marks are practical, so practise on LibreOffice itself, not only from the book.",
-  "Keep the portfolio complete: at least 5 problems each in Writer, Calc and Base, with printouts.",
-  "Base: plan the tables, primary keys and relationships before you build queries, forms and reports.",
-  "Do not skip the workplace health, safety and security unit. It is 10 marks of theory.",
-  "Save your practice files in clearly named folders, so you can find them for the project and the portfolio."
- ],
- "order": [
-  "Database with Base (Part B Unit 3, 12 marks) first: the largest unit and the most practical hours.",
-  "Then Spreadsheet with Calc (10 marks) and the workplace safety unit (10 marks).",
-  "Then Employability Skills (Part A, 10 marks, five short units).",
-  "Then Digital Documentation with Writer (8 marks).",
-  "Work on the project (10) and portfolio (10) all through the year."
- ],
- "resources": [
-  {
-   "label": "CBSE Department of Skill Education: curriculum and material",
-   "url": "https://cbseacademic.nic.in/"
-  }
- ]
+  "subject": "c10-it",
+  "weightage": [
+    {
+      "label": "Part A: Employability Skills (Ch 1–5)",
+      "ids": [
+        "c10-it-01",
+        "c10-it-02",
+        "c10-it-03",
+        "c10-it-04",
+        "c10-it-05"
+      ],
+      "marks": "10"
+    },
+    {
+      "label": "Part B Unit 1: Digital Documentation (Writer, Ch 6–8)",
+      "ids": [
+        "c10-it-06",
+        "c10-it-07",
+        "c10-it-08"
+      ],
+      "marks": "8"
+    },
+    {
+      "label": "Part B Unit 2: Electronic Spreadsheet (Calc, Ch 9–12)",
+      "ids": [
+        "c10-it-09",
+        "c10-it-10",
+        "c10-it-11",
+        "c10-it-12"
+      ],
+      "marks": "10"
+    },
+    {
+      "label": "Part B Unit 3: Database Management System (Base, Ch 13–17)",
+      "ids": [
+        "c10-it-13",
+        "c10-it-14",
+        "c10-it-15",
+        "c10-it-16",
+        "c10-it-17"
+      ],
+      "marks": "12"
+    },
+    {
+      "label": "Part B Unit 4: Maintain Healthy, Safe and Secure Working Environment (Ch 18–20)",
+      "ids": [
+        "c10-it-18",
+        "c10-it-19",
+        "c10-it-20"
+      ],
+      "marks": "10"
+    }
+  ],
+  "note": "Official 2026-27 theory marks: Part A Employability Skills 10 and Part B subject-specific skills 40 (Writer 8, Calc 10, Base 12, workplace health/safety/security 10). The other 50 marks are practical: practical examination and viva 30, project work 10, portfolio/practical file 10. The portfolio is specified to contain printouts of at least 5 problems each from Writer, Calc and Base.",
+  "reference": [
+    {
+      "label": "Communication cycle",
+      "text": "Sender → Message → Channel → Receiver → Feedback. Keep the communication clear, complete, concise, correct and considerate."
+    },
+    {
+      "label": "SMART goals",
+      "text": "Specific → Measurable → Achievable → Relevant → Time-bound."
+    },
+    {
+      "label": "ICT security",
+      "text": "Remember the three basic security goals: confidentiality, integrity and availability; use strong, unique passwords and safe digital practices."
+    },
+    {
+      "label": "Writer: styles and TOC",
+      "text": "Heading styles → hierarchy → Table of Contents generation → navigation. Update the TOC after structural changes."
+    },
+    {
+      "label": "Writer: images",
+      "text": "Insert → modify/resize/crop → arrange/anchor/align → choose text wrapping. Keep the image relationship with surrounding text intentional."
+    },
+    {
+      "label": "Writer: review",
+      "text": "Prepare document → record changes/comments → review → accept/reject → compare when needed."
+    },
+    {
+      "label": "Calc: Goal Seek",
+      "text": "Specify the desired result and target cell; Goal Seek adjusts the chosen input cell to reach that result."
+    },
+    {
+      "label": "Calc: cell references",
+      "text": "Relative A1 changes when copied; absolute $A$1 stays fixed; mixed $A1 or A$1 fixes one dimension."
+    },
+    {
+      "label": "Calc: linking data",
+      "text": "Use references between sheets/documents and distinguish ordinary references from hyperlinks or external/registered data links."
+    },
+    {
+      "label": "Base: database structure",
+      "text": "Database → tables → fields/columns + records/rows. Primary key uniquely identifies a record; foreign key connects related tables."
+    },
+    {
+      "label": "Base: relationships",
+      "text": "Common relationship types are 1:1, 1:N and N:M. Use appropriate keys and maintain referential integrity."
+    },
+    {
+      "label": "Base: queries, forms and reports",
+      "text": "Query = retrieve/filter data; Form = enter/view/edit data; Report = formatted presentation/output of selected data."
+    },
+    {
+      "label": "Workplace safety",
+      "text": "Identify hazards → assess risk → apply control measures. In an emergency, protect people, raise the alarm/call for help and evacuate or assist safely according to procedure."
+    }
+  ],
+  "mistakes": [
+    "Do not study IT only as theory: the official assessment includes 50 practical marks, so practise Writer, Calc and Base directly.",
+    "In Calc, check whether a reference should be relative, absolute or mixed before copying a formula.",
+    "In Base, define keys and relationships before building dependent queries, forms and reports.",
+    "For Writer, distinguish a style, template, table of contents, comment and tracked change; they solve different problems.",
+    "Keep the portfolio and project work organised throughout the year rather than trying to reconstruct them immediately before assessment."
+  ],
+  "order": [
+    "Build Employability Skills steadily in short sessions because all five Part A units contribute to the theory paper.",
+    "Practise Writer hands-on, especially styles, images, TOC, templates and review features.",
+    "Spend substantial practical time on Calc: scenarios/Goal Seek → macros → linking → sharing/review.",
+    "Then master Base: tables/keys → relationships → queries → forms/reports.",
+    "Keep workplace safety, project work and portfolio work active throughout the year."
+  ],
+  "resources": [
+    {
+      "label": "CBSE 2026-27 Information Technology (402) curriculum",
+      "url": "https://cbseacademic.nic.in/web_material/Curriculum27/Sec/402-IT-X.pdf"
+    },
+    {
+      "label": "CBSE Department of Skill Education",
+      "url": "https://cbseacademic.nic.in/skill-education.html"
+    }
+  ]
 }
