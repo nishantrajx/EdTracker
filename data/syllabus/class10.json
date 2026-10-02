@@ -1,751 +1,1542 @@
 {
- "class": 10,
- "session": "2026-27",
- "subjects": [
-  {
-   "id": "c10-hin",
-   "name": "Hindi A (002)",
-   "chapters": [
+  "class": 10,
+  "session": "2026-27",
+  "subjects": [
     {
-     "id": "c10-hin-01",
-     "name": "अपठित बोध",
-     "topics": [
-      "अपठित गद्यांश",
-      "अपठित काव्यांश"
-     ]
+      "id": "c10-hin",
+      "name": "Hindi A (002)",
+      "chapters": [
+        {
+          "id": "c10-hin-01",
+          "name": "अपठित बोध",
+          "topics": [
+            "अपठित गद्यांश",
+            "अपठित काव्यांश"
+          ]
+        },
+        {
+          "id": "c10-hin-02",
+          "name": "व्यावहारिक व्याकरण",
+          "topics": [
+            "रचना के आधार पर वाक्य भेद",
+            "वाच्य",
+            "पद परिचय",
+            "अलंकार: उपमा",
+            "अलंकार: रूपक",
+            "अलंकार: उत्प्रेक्षा",
+            "अलंकार: अतिशयोक्ति",
+            "अलंकार: मानवीकरण"
+          ]
+        },
+        {
+          "id": "c10-hin-03",
+          "name": "क्षितिज: नेताजी का चश्मा – स्वयं प्रकाश",
+          "topics": [
+            "पाठ-बोध और केंद्रीय विचार",
+            "पात्र, घटनाएँ और व्यंग्य",
+            "भाषा-शैली और अभिव्यक्ति"
+          ]
+        },
+        {
+          "id": "c10-hin-04",
+          "name": "क्षितिज: बालगोबिन भगत – रामवृक्ष बेनीपुरी",
+          "topics": [
+            "पाठ-बोध और केंद्रीय विचार",
+            "बालगोबिन भगत का चरित्र और जीवन-दृष्टि",
+            "लोक-संस्कृति, संगीत और भाषा-शैली"
+          ]
+        },
+        {
+          "id": "c10-hin-05",
+          "name": "क्षितिज: लखनवी अंदाज़ – यशपाल",
+          "topics": [
+            "पाठ-बोध और केंद्रीय विचार",
+            "व्यंग्य और सामाजिक व्यवहार",
+            "भाषा-शैली और अभिव्यक्ति"
+          ]
+        },
+        {
+          "id": "c10-hin-06",
+          "name": "क्षितिज: मानवीय करुणा की दिव्य चमक – सर्वेश्वर दयाल सक्सेना (परीक्षा में प्रश्न नहीं)",
+          "topics": [
+            "पाठ-बोध और केंद्रीय विचार",
+            "मानवीय करुणा और व्यक्तित्व",
+            "भाषा-शैली"
+          ]
+        },
+        {
+          "id": "c10-hin-07",
+          "name": "क्षितिज: एक कहानी यह भी – मन्नू भंडारी",
+          "topics": [
+            "पाठ-बोध और केंद्रीय विचार",
+            "लेखिका का जीवन और संघर्ष",
+            "नारी-चेतना, सामाजिक संदर्भ और भाषा-शैली"
+          ]
+        },
+        {
+          "id": "c10-hin-08",
+          "name": "क्षितिज: स्त्री-शिक्षा के विरोधी कुतर्कों का खंडन – महावीर प्रसाद द्विवेदी (परीक्षा में प्रश्न नहीं)",
+          "topics": [
+            "पाठ-बोध और केंद्रीय विचार",
+            "स्त्री-शिक्षा के पक्ष में तर्क",
+            "भाषा-शैली और तर्क-विन्यास"
+          ]
+        },
+        {
+          "id": "c10-hin-09",
+          "name": "क्षितिज: नौबतखाने में इबादत – यतींद्र मिश्र",
+          "topics": [
+            "पाठ-बोध और केंद्रीय विचार",
+            "बिस्मिल्ला खाँ का व्यक्तित्व और संगीत-साधना",
+            "सांस्कृतिक संदर्भ और भाषा-शैली"
+          ]
+        },
+        {
+          "id": "c10-hin-10",
+          "name": "क्षितिज: संस्कृति – भदंत आनंद कौसल्यायन",
+          "topics": [
+            "पाठ-बोध और केंद्रीय विचार",
+            "संस्कृति की अवधारणा",
+            "सभ्यता, संस्कृति और मानवीय मूल्य"
+          ]
+        },
+        {
+          "id": "c10-hin-11",
+          "name": "क्षितिज: पद – सूरदास",
+          "topics": [
+            "श्रीकृष्ण-भक्ति और वात्सल्य",
+            "पदों का भाव-सौंदर्य",
+            "भाषा, अलंकार और काव्य-शिल्प"
+          ]
+        },
+        {
+          "id": "c10-hin-12",
+          "name": "क्षितिज: राम-लक्ष्मण-परशुराम संवाद – तुलसीदास",
+          "topics": [
+            "संवाद और प्रसंग",
+            "राम, लक्ष्मण और परशुराम के चरित्र",
+            "वीर रस, भाषा और काव्य-शिल्प"
+          ]
+        },
+        {
+          "id": "c10-hin-13",
+          "name": "क्षितिज: सवैया, कवित्त – देव (परीक्षा में प्रश्न नहीं)",
+          "topics": [
+            "श्रृंगारिक भाव और काव्य-सौंदर्य",
+            "भाषा, अलंकार और काव्य-शिल्प"
+          ]
+        },
+        {
+          "id": "c10-hin-14",
+          "name": "क्षितिज: आत्मकथ्य – जयशंकर प्रसाद",
+          "topics": [
+            "कवि-व्यक्तित्व और आत्मकथ्य",
+            "जीवन, सृजन और संवेदना",
+            "भाषा और काव्य-शिल्प"
+          ]
+        },
+        {
+          "id": "c10-hin-15",
+          "name": "क्षितिज: उत्साह – सूर्यकांत त्रिपाठी 'निराला'",
+          "topics": [
+            "प्रकृति और नवजीवन की भावना",
+            "उत्साह और सृजनात्मक ऊर्जा",
+            "भाषा, बिंब और काव्य-शिल्प"
+          ]
+        },
+        {
+          "id": "c10-hin-16",
+          "name": "क्षितिज: अट नहीं रही है – सूर्यकांत त्रिपाठी 'निराला'",
+          "topics": [
+            "वसंत और प्रकृति का चित्रण",
+            "उल्लास और सौंदर्य-बोध",
+            "भाषा, बिंब और काव्य-शिल्प"
+          ]
+        },
+        {
+          "id": "c10-hin-17",
+          "name": "क्षितिज: यह दंतुरित मुस्कान – नागार्जुन",
+          "topics": [
+            "बाल-सुलभ मुस्कान और वात्सल्य",
+            "कवि की संवेदना",
+            "भाषा और काव्य-शिल्प"
+          ]
+        },
+        {
+          "id": "c10-hin-18",
+          "name": "क्षितिज: फसल – नागार्जुन",
+          "topics": [
+            "फसल और श्रम का संबंध",
+            "प्रकृति, किसान और सामूहिक श्रम",
+            "भाषा और काव्य-शिल्प"
+          ]
+        },
+        {
+          "id": "c10-hin-19",
+          "name": "क्षितिज: छाया मत छूना – गिरिजाकुमार माथुर (परीक्षा में प्रश्न नहीं)",
+          "topics": [
+            "मोह और यथार्थ",
+            "जीवन-दृष्टि",
+            "भाषा और काव्य-शिल्प"
+          ]
+        },
+        {
+          "id": "c10-hin-20",
+          "name": "क्षितिज: कन्यादान – ऋतुराज (परीक्षा में प्रश्न नहीं)",
+          "topics": [
+            "माँ-बेटी का संबंध",
+            "स्त्री-जीवन और सामाजिक यथार्थ",
+            "भाषा और काव्य-शिल्प"
+          ]
+        },
+        {
+          "id": "c10-hin-21",
+          "name": "क्षितिज: संगतकार – मंगलेश डबराल",
+          "topics": [
+            "संगतकार की भूमिका",
+            "कला, सहयोग और अनदेखा श्रम",
+            "भाषा और काव्य-शिल्प"
+          ]
+        },
+        {
+          "id": "c10-hin-22",
+          "name": "कृतिका: माता का आँचल – शिवपूजन सहाय",
+          "topics": [
+            "बाल्यजीवन और ग्रामीण परिवेश",
+            "माता-पिता और बाल-मन",
+            "भाषा-शैली और संस्मरणात्मकता"
+          ]
+        },
+        {
+          "id": "c10-hin-23",
+          "name": "कृतिका: जॉर्ज पंचम की नाक – कमलेश्वर (परीक्षा में प्रश्न नहीं)",
+          "topics": [
+            "व्यंग्य और राजनीतिक-सामाजिक संदर्भ",
+            "प्रतीक और विडंबना",
+            "भाषा-शैली"
+          ]
+        },
+        {
+          "id": "c10-hin-24",
+          "name": "कृतिका: साना-साना हाथ जोड़ि – मधु कांकरिया",
+          "topics": [
+            "यात्रा-वृत्तांत और सिक्किम का प्राकृतिक परिवेश",
+            "स्थानीय जीवन और संस्कृति",
+            "प्रकृति, संवेदना और भाषा-शैली"
+          ]
+        },
+        {
+          "id": "c10-hin-25",
+          "name": "कृतिका: एही ठैयाँ झुलनी हेरानी हो रामा! – शिवप्रसाद मिश्र 'रुद्र' (परीक्षा में प्रश्न नहीं)",
+          "topics": [
+            "पाठ-बोध और सामाजिक-सांस्कृतिक संदर्भ",
+            "लोक-संस्कृति और मानवीय संवेदना",
+            "भाषा-शैली"
+          ]
+        },
+        {
+          "id": "c10-hin-26",
+          "name": "कृतिका: मैं क्यों लिखता हूँ? – अज्ञेय",
+          "topics": [
+            "लेखन की प्रेरणा",
+            "रचनाकार और सामाजिक अनुभव",
+            "सृजन-प्रक्रिया और भाषा-शैली"
+          ]
+        },
+        {
+          "id": "c10-hin-27",
+          "name": "रचनात्मक लेखन",
+          "topics": [
+            "अनुच्छेद लेखन",
+            "पत्र लेखन",
+            "स्ववृत्त लेखन",
+            "ई-मेल लेखन",
+            "विज्ञापन लेखन",
+            "संदेश लेखन"
+          ]
+        }
+      ]
     },
     {
-     "id": "c10-hin-02",
-     "name": "व्यावहारिक व्याकरण",
-     "topics": [
-      "रचना के आधार पर वाक्य भेद",
-      "वाच्य",
-      "पद परिचय",
-      "अलंकार (उपमा, रूपक, उत्प्रेक्षा, अतिशयोक्ति, मानवीकरण)"
-     ]
+      "id": "c10-eng",
+      "name": "English Language & Literature (184)",
+      "chapters": [
+        {
+          "id": "c10-eng-01",
+          "name": "Reading Skills",
+          "topics": [
+            "Discursive unseen passage",
+            "Case-based factual unseen passage with visual input"
+          ]
+        },
+        {
+          "id": "c10-eng-02",
+          "name": "Writing Skills",
+          "topics": [
+            "Formal letter based on a given situation",
+            "Analytical paragraph based on a map, chart, graph or cues"
+          ]
+        },
+        {
+          "id": "c10-eng-03",
+          "name": "Grammar",
+          "topics": [
+            "Determiners",
+            "Tenses",
+            "Modals",
+            "Subject–verb concord",
+            "Reported speech: commands and requests",
+            "Reported speech: statements",
+            "Reported speech: questions"
+          ]
+        },
+        {
+          "id": "c10-eng-04",
+          "name": "First Flight: A Letter to God",
+          "topics": [
+            "Lencho and his faith",
+            "The post office and the letter",
+            "Irony, faith and human kindness",
+            "Vocabulary, tone and literary devices"
+          ]
+        },
+        {
+          "id": "c10-eng-05",
+          "name": "First Flight: Nelson Mandela – Long Walk to Freedom",
+          "topics": [
+            "Apartheid and racial oppression",
+            "Mandela's ideas of freedom and courage",
+            "The inauguration and the rainbow nation",
+            "Tone, imagery and key ideas"
+          ]
+        },
+        {
+          "id": "c10-eng-06",
+          "name": "First Flight: Stories About Flying",
+          "topics": [
+            "His First Flight: fear and courage",
+            "The Black Aeroplane: mystery and uncertainty",
+            "Contrast, suspense and symbolism"
+          ]
+        },
+        {
+          "id": "c10-eng-07",
+          "name": "First Flight: From the Diary of Anne Frank",
+          "topics": [
+            "Anne's diary and need for a friend",
+            "School life and relationships",
+            "Self-reflection, humour and narrative voice"
+          ]
+        },
+        {
+          "id": "c10-eng-08",
+          "name": "First Flight: Glimpses of India",
+          "topics": [
+            "A Baker from Goa: tradition and cultural memory",
+            "Coorg: landscape, people and culture",
+            "Tea from Assam: tea plantations and history"
+          ]
+        },
+        {
+          "id": "c10-eng-09",
+          "name": "First Flight: Mijbil the Otter",
+          "topics": [
+            "Mijbil and his relationship with the narrator",
+            "Otter behaviour and travel to England",
+            "Humour, observation and narrative style"
+          ]
+        },
+        {
+          "id": "c10-eng-10",
+          "name": "First Flight: Madam Rides the Bus",
+          "topics": [
+            "Valli's curiosity and planning",
+            "The bus journey and changing perspective",
+            "Maturity, empathy and narrative technique"
+          ]
+        },
+        {
+          "id": "c10-eng-11",
+          "name": "First Flight: The Sermon at Benares",
+          "topics": [
+            "Kisa Gotami and her grief",
+            "Buddha's teaching on death and suffering",
+            "Universal message and narrative structure"
+          ]
+        },
+        {
+          "id": "c10-eng-12",
+          "name": "First Flight: The Proposal",
+          "topics": [
+            "Lomov and Natalya",
+            "Arguments over land and the dog",
+            "Farce, characterisation and satire"
+          ]
+        },
+        {
+          "id": "c10-eng-13",
+          "name": "First Flight: Dust of Snow",
+          "topics": [
+            "Nature and change of mood",
+            "Symbolism and imagery",
+            "Form and poetic devices"
+          ]
+        },
+        {
+          "id": "c10-eng-14",
+          "name": "First Flight: Fire and Ice",
+          "topics": [
+            "Fire and ice as symbols",
+            "Desire, hatred and destruction",
+            "Contrast and poetic devices"
+          ]
+        },
+        {
+          "id": "c10-eng-15",
+          "name": "First Flight: A Tiger in the Zoo",
+          "topics": [
+            "Tiger in captivity",
+            "Freedom versus confinement",
+            "Imagery, contrast and poetic devices"
+          ]
+        },
+        {
+          "id": "c10-eng-16",
+          "name": "First Flight: How to Tell Wild Animals",
+          "topics": [
+            "Humorous descriptions of animals",
+            "Irony and wordplay",
+            "Rhyme and poetic devices"
+          ]
+        },
+        {
+          "id": "c10-eng-17",
+          "name": "First Flight: The Ball Poem",
+          "topics": [
+            "Loss and growing up",
+            "Learning responsibility and acceptance",
+            "Symbolism and imagery"
+          ]
+        },
+        {
+          "id": "c10-eng-18",
+          "name": "First Flight: Amanda!",
+          "topics": [
+            "Amanda's imagination and escape",
+            "Restrictions and parental expectations",
+            "Repetition, imagery and contrast"
+          ]
+        },
+        {
+          "id": "c10-eng-19",
+          "name": "First Flight: The Trees",
+          "topics": [
+            "Trees as a symbol of freedom",
+            "Movement from confinement to the outside",
+            "Personification and imagery"
+          ]
+        },
+        {
+          "id": "c10-eng-20",
+          "name": "First Flight: Fog",
+          "topics": [
+            "Fog as a cat metaphor",
+            "Movement and observation",
+            "Imagery and brevity"
+          ]
+        },
+        {
+          "id": "c10-eng-21",
+          "name": "First Flight: The Tale of Custard the Dragon",
+          "topics": [
+            "Belinda and her pets",
+            "Custard's courage",
+            "Humour, irony and rhyme"
+          ]
+        },
+        {
+          "id": "c10-eng-22",
+          "name": "First Flight: For Anne Gregory",
+          "topics": [
+            "Outer beauty and inner worth",
+            "Human versus divine love",
+            "Dialogue, irony and poetic devices"
+          ]
+        },
+        {
+          "id": "c10-eng-23",
+          "name": "Footprints Without Feet: A Triumph of Surgery",
+          "topics": [
+            "Tricki's condition",
+            "Dr Herriot's treatment",
+            "Humour, irony and message"
+          ]
+        },
+        {
+          "id": "c10-eng-24",
+          "name": "Footprints Without Feet: The Thief's Story",
+          "topics": [
+            "Hari Singh and Anil",
+            "Trust, education and transformation",
+            "Characterisation and narrative perspective"
+          ]
+        },
+        {
+          "id": "c10-eng-25",
+          "name": "Footprints Without Feet: The Midnight Visitor",
+          "topics": [
+            "Ausable and Fowler",
+            "The balcony and the fake story",
+            "Suspense, wit and characterisation"
+          ]
+        },
+        {
+          "id": "c10-eng-26",
+          "name": "Footprints Without Feet: A Question of Trust",
+          "topics": [
+            "Horace Danby and burglary",
+            "The woman posing as the owner",
+            "Irony, deception and characterisation"
+          ]
+        },
+        {
+          "id": "c10-eng-27",
+          "name": "Footprints Without Feet: Footprints Without Feet",
+          "topics": [
+            "Griffin's invisibility",
+            "Misuse of science",
+            "Suspense, conflict and characterisation"
+          ]
+        },
+        {
+          "id": "c10-eng-28",
+          "name": "Footprints Without Feet: The Making of a Scientist",
+          "topics": [
+            "Richard Ebright's childhood",
+            "Scientific curiosity and achievement",
+            "Role of family, discipline and experimentation"
+          ]
+        },
+        {
+          "id": "c10-eng-29",
+          "name": "Footprints Without Feet: The Necklace",
+          "topics": [
+            "Mathilde's desire and social ambition",
+            "The lost necklace and consequences",
+            "Irony, twist ending and theme"
+          ]
+        },
+        {
+          "id": "c10-eng-30",
+          "name": "Footprints Without Feet: Bholi",
+          "topics": [
+            "Bholi's childhood and education",
+            "Self-confidence and transformation",
+            "Education, dignity and characterisation"
+          ]
+        },
+        {
+          "id": "c10-eng-31",
+          "name": "Footprints Without Feet: The Book that Saved the Earth",
+          "topics": [
+            "Think-Tank and the Martians",
+            "Misinterpretation of nursery rhymes",
+            "Satire, humour and drama"
+          ]
+        },
+        {
+          "id": "c10-eng-32",
+          "name": "Words and Expressions-II: Units 1–4",
+          "topics": [
+            "Workbook activities and language practice from Units 1–4"
+          ]
+        },
+        {
+          "id": "c10-eng-33",
+          "name": "Words and Expressions-II: Units 7–11",
+          "topics": [
+            "Workbook activities and language practice from Units 7–11"
+          ]
+        }
+      ]
     },
     {
-     "id": "c10-hin-03",
-     "name": "क्षितिज भाग 2 – गद्य खंड",
-     "topics": [
-      "सभी निर्धारित गद्य पाठ"
-     ]
+      "id": "c10-math",
+      "name": "Mathematics Standard (041)",
+      "chapters": [
+        {
+          "id": "c10-math-01",
+          "name": "Real Numbers",
+          "topics": [
+            "Fundamental Theorem of Arithmetic: statement and applications",
+            "Prime factorisation",
+            "Irrationality: proof for √2",
+            "Irrationality: proof for √3",
+            "Irrationality: proof for √5"
+          ]
+        },
+        {
+          "id": "c10-math-02",
+          "name": "Polynomials",
+          "topics": [
+            "Geometrical meaning of zeroes",
+            "Zeroes of a polynomial",
+            "Relationship between zeroes and coefficients of a quadratic polynomial"
+          ]
+        },
+        {
+          "id": "c10-math-03",
+          "name": "Pair of Linear Equations in Two Variables",
+          "topics": [
+            "Graphical method of solution",
+            "Consistency and inconsistency",
+            "Algebraic conditions for number of solutions",
+            "Substitution method",
+            "Elimination method",
+            "Simple situational problems"
+          ]
+        },
+        {
+          "id": "c10-math-04",
+          "name": "Quadratic Equations",
+          "topics": [
+            "Standard form of a quadratic equation",
+            "Solutions by factorisation",
+            "Solutions by quadratic formula",
+            "Discriminant and nature of roots",
+            "Simple situational problems"
+          ]
+        },
+        {
+          "id": "c10-math-05",
+          "name": "Arithmetic Progressions",
+          "topics": [
+            "Motivation and recognition of an arithmetic progression",
+            "nth term of an AP",
+            "Sum of first n terms of an AP",
+            "Applications in daily-life problems"
+          ]
+        },
+        {
+          "id": "c10-math-06",
+          "name": "Coordinate Geometry",
+          "topics": [
+            "Review of coordinate geometry",
+            "Distance formula",
+            "Section formula for internal division"
+          ]
+        },
+        {
+          "id": "c10-math-07",
+          "name": "Triangles",
+          "topics": [
+            "Similar figures",
+            "Basic Proportionality Theorem",
+            "Converse of Basic Proportionality Theorem",
+            "AA similarity criterion",
+            "SSS similarity criterion",
+            "SAS similarity criterion"
+          ]
+        },
+        {
+          "id": "c10-math-08",
+          "name": "Circles",
+          "topics": [
+            "Tangent to a circle at the point of contact",
+            "Theorem: tangent is perpendicular to radius",
+            "Theorem: tangents from an external point are equal",
+            "Applications of tangent theorems"
+          ]
+        },
+        {
+          "id": "c10-math-09",
+          "name": "Introduction to Trigonometry",
+          "topics": [
+            "Trigonometric ratios of an acute angle in a right-angled triangle",
+            "Proof that trigonometric ratios are well-defined",
+            "Trigonometric ratios at 0° and 90°",
+            "Values of ratios at 30°, 45° and 60°",
+            "Relationships between trigonometric ratios"
+          ]
+        },
+        {
+          "id": "c10-math-10",
+          "name": "Trigonometric Identities",
+          "topics": [
+            "Identity sin²A + cos²A = 1",
+            "Proof and applications of the identity",
+            "Simple trigonometric identities"
+          ]
+        },
+        {
+          "id": "c10-math-11",
+          "name": "Some Applications of Trigonometry",
+          "topics": [
+            "Angle of elevation",
+            "Angle of depression",
+            "Simple heights-and-distances problems using 30°, 45° and 60°",
+            "Problems involving no more than two right triangles"
+          ]
+        },
+        {
+          "id": "c10-math-12",
+          "name": "Areas Related to Circles",
+          "topics": [
+            "Area of a sector",
+            "Area of a segment",
+            "Perimeter/circumference in related problems",
+            "Segment problems restricted to central angles 60°, 90° and 120°"
+          ]
+        },
+        {
+          "id": "c10-math-13",
+          "name": "Surface Areas and Volumes",
+          "topics": [
+            "Surface area of combinations of two solids",
+            "Volume of combinations of two solids",
+            "Combinations involving cube, cuboid, sphere, hemisphere, right circular cylinder and cone"
+          ]
+        },
+        {
+          "id": "c10-math-14",
+          "name": "Statistics",
+          "topics": [
+            "Mean of grouped data: direct method",
+            "Mean of grouped data: assumed mean method",
+            "Mean of grouped data: step-deviation method",
+            "Mode of grouped data",
+            "Median of grouped data"
+          ]
+        },
+        {
+          "id": "c10-math-15",
+          "name": "Probability",
+          "topics": [
+            "Classical/theoretical probability",
+            "Probability of simple events",
+            "Equally likely outcomes and basic probability problems"
+          ]
+        }
+      ]
     },
     {
-     "id": "c10-hin-04",
-     "name": "क्षितिज भाग 2 – काव्य खंड",
-     "topics": [
-      "सभी निर्धारित काव्य पाठ"
-     ]
+      "id": "c10-sci",
+      "name": "Science (086)",
+      "chapters": [
+        {
+          "id": "c10-sci-01",
+          "name": "Chemical Reactions and Equations",
+          "topics": [
+            "Chemical reactions and observations",
+            "Chemical equations",
+            "Balanced chemical equations",
+            "Combination reactions",
+            "Decomposition reactions",
+            "Displacement reactions",
+            "Double displacement reactions",
+            "Precipitation reactions",
+            "Endothermic reactions",
+            "Exothermic reactions",
+            "Oxidation",
+            "Reduction"
+          ]
+        },
+        {
+          "id": "c10-sci-02",
+          "name": "Acids, Bases and Salts (formative only)",
+          "topics": [
+            "Acids and bases: H⁺ and OH⁻ ions",
+            "Indicators",
+            "Chemical properties of acids and bases",
+            "Neutralisation",
+            "pH scale and everyday importance",
+            "Sodium hydroxide: preparation and uses",
+            "Bleaching powder: preparation and uses",
+            "Baking soda: preparation and uses",
+            "Washing soda: preparation and uses",
+            "Plaster of Paris: preparation and uses"
+          ]
+        },
+        {
+          "id": "c10-sci-03",
+          "name": "Metals and Non-metals (formative only)",
+          "topics": [
+            "Physical and chemical properties of metals and non-metals",
+            "Reactivity series",
+            "Formation of ionic compounds",
+            "Properties of ionic compounds",
+            "Basic metallurgical processes",
+            "Corrosion",
+            "Prevention of corrosion"
+          ]
+        },
+        {
+          "id": "c10-sci-04",
+          "name": "Carbon and its Compounds (formative only)",
+          "topics": [
+            "Covalent bonds: formation and properties",
+            "Versatile nature of carbon",
+            "Saturated hydrocarbons",
+            "Unsaturated hydrocarbons",
+            "Homologous series",
+            "Nomenclature of alkanes, alkenes and alkynes",
+            "Functional groups: halogens, alcohols, ketones and aldehydes",
+            "Combustion reactions",
+            "Oxidation reactions",
+            "Addition reactions",
+            "Substitution reactions",
+            "Ethanol: properties and uses",
+            "Ethanoic acid: properties and uses",
+            "Soaps and detergents"
+          ]
+        },
+        {
+          "id": "c10-sci-05",
+          "name": "Life Processes",
+          "topics": [
+            "Nutrition in plants",
+            "Nutrition in animals",
+            "Respiration",
+            "Transport in plants",
+            "Transport in animals",
+            "Excretion in plants",
+            "Excretion in animals"
+          ]
+        },
+        {
+          "id": "c10-sci-06",
+          "name": "Control and Coordination",
+          "topics": [
+            "Tropic movements in plants",
+            "Plant hormones",
+            "Nervous system",
+            "Voluntary action",
+            "Involuntary action",
+            "Reflex action",
+            "Animal hormones and chemical coordination"
+          ]
+        },
+        {
+          "id": "c10-sci-07",
+          "name": "How do Organisms Reproduce?",
+          "topics": [
+            "Asexual reproduction",
+            "Sexual reproduction in plants",
+            "Sexual reproduction in animals",
+            "Human reproductive system",
+            "Reproductive health",
+            "Need and methods of family planning",
+            "Safe sex and HIV/AIDS",
+            "Child bearing and women's health"
+          ]
+        },
+        {
+          "id": "c10-sci-08",
+          "name": "Heredity",
+          "topics": [
+            "Heredity and inheritance of traits",
+            "Mendel's contribution",
+            "Laws of inheritance",
+            "Sex determination"
+          ]
+        },
+        {
+          "id": "c10-sci-09",
+          "name": "Evolution (formative only)",
+          "topics": [
+            "Acquired and inherited traits (formative only)",
+            "Speciation (formative only)",
+            "Evolution and classification (formative only)",
+            "Tracing evolutionary relationships (formative only)",
+            "Fossils (formative only)",
+            "Evolution by stages (formative only)",
+            "Human evolution (formative only)"
+          ]
+        },
+        {
+          "id": "c10-sci-10",
+          "name": "Light – Reflection and Refraction",
+          "topics": [
+            "Functioning of the human eye",
+            "Defects of vision",
+            "Correction of vision defects",
+            "Refraction through a prism",
+            "Dispersion of light",
+            "Scattering of light",
+            "Applications of scattering and dispersion in daily life (excluding colour of the sun at sunrise and sunset)"
+          ]
+        },
+        {
+          "id": "c10-sci-11",
+          "name": "The Human Eye and the Colourful World",
+          "topics": [
+            "Functioning of the human eye",
+            "Defects of vision",
+            "Correction of vision defects",
+            "Refraction through a prism",
+            "Dispersion of light",
+            "Scattering of light",
+            "Applications of scattering and dispersion in daily life",
+            "Colour of the sun at sunrise and sunset excluded from year-end assessment"
+          ]
+        },
+        {
+          "id": "c10-sci-12",
+          "name": "Electricity",
+          "topics": [
+            "Electric current",
+            "Potential difference",
+            "Ohm's law",
+            "Resistance",
+            "Resistivity",
+            "Factors affecting resistance",
+            "Series combination of resistors",
+            "Parallel combination of resistors",
+            "Applications of series and parallel combinations",
+            "Heating effect of electric current",
+            "Applications of heating effect",
+            "Electric power",
+            "Relations among P, V, I and R"
+          ]
+        },
+        {
+          "id": "c10-sci-13",
+          "name": "Magnetic Effects of Electric Current",
+          "topics": [
+            "Magnetic field",
+            "Magnetic field lines",
+            "Field due to a current-carrying conductor",
+            "Field due to a current-carrying coil",
+            "Field due to a solenoid",
+            "Force on a current-carrying conductor",
+            "Fleming's Left Hand Rule",
+            "Direct current",
+            "Alternating current and its frequency",
+            "Advantage of AC over DC",
+            "Domestic electric circuits",
+            "Electric motor (formative only)",
+            "Electromagnetic induction (formative only)",
+            "Electric generator (formative only)"
+          ]
+        },
+        {
+          "id": "c10-sci-14",
+          "name": "Our Environment",
+          "topics": [
+            "Ecosystem",
+            "Environmental problems",
+            "Ozone depletion",
+            "Waste production and its solutions",
+            "Biodegradable substances",
+            "Non-biodegradable substances"
+          ]
+        }
+      ]
     },
     {
-     "id": "c10-hin-05",
-     "name": "कृतिका भाग 2",
-     "topics": [
-      "सभी निर्धारित पाठ"
-     ]
+      "id": "c10-sst",
+      "name": "Social Science (087)",
+      "chapters": [
+        {
+          "id": "c10-sst-01",
+          "name": "History: The Rise of Nationalism in Europe",
+          "topics": [
+            "French Revolution and the idea of the nation",
+            "Europe after 1815: aristocracy and the new middle class",
+            "Liberal nationalism",
+            "Conservatism after 1815",
+            "The Age of Revolutions: 1830–1848",
+            "Romanticism and the idea of the nation",
+            "Economic hardship and popular revolt",
+            "The making of Germany",
+            "The making of Italy",
+            "The strange case of Britain",
+            "Visualising the nation",
+            "Nationalism and imperialism"
+          ]
+        },
+        {
+          "id": "c10-sst-02",
+          "name": "History: Nationalism in India",
+          "topics": [
+            "The First World War, Khilafat and Non-Cooperation",
+            "The idea of Satyagraha",
+            "The Rowlatt Act",
+            "Non-Cooperation in towns",
+            "Non-Cooperation in the countryside",
+            "Non-Cooperation in plantations",
+            "Civil Disobedience and the Salt March",
+            "Different social groups and Civil Disobedience",
+            "The limits of Civil Disobedience",
+            "The sense of collective belonging",
+            "Prescribed map work"
+          ]
+        },
+        {
+          "id": "c10-sst-03",
+          "name": "History: The Making of a Global World",
+          "topics": [
+            "The pre-modern world",
+            "Nineteenth century: 1815–1914",
+            "The inter-war economy",
+            "Rebuilding the world economy after the Second World War",
+            "Interdisciplinary project with Lifelines of National Economy and Globalisation"
+          ]
+        },
+        {
+          "id": "c10-sst-04",
+          "name": "History: The Age of Industrialisation (Periodic Assessment only)",
+          "topics": [
+            "Before the Industrial Revolution",
+            "Proto-industrialisation",
+            "Hand labour and steam power",
+            "Life of industrial workers",
+            "Industrialisation in the colonies",
+            "Indian textiles and Manchester comes to India",
+            "Factories come up",
+            "Early entrepreneurs and sources of labour",
+            "Peculiarities of industrial growth",
+            "Market for goods"
+          ]
+        },
+        {
+          "id": "c10-sst-05",
+          "name": "History: Print Culture and the Modern World",
+          "topics": [
+            "The first printed books",
+            "Print comes to Europe and Gutenberg",
+            "The print revolution and its impact",
+            "The reading mania",
+            "The nineteenth century: children, women and workers",
+            "Further innovations",
+            "India and the world of print",
+            "Manuscripts and religious reform",
+            "New publications and print communities",
+            "Print and censorship"
+          ]
+        },
+        {
+          "id": "c10-sst-06",
+          "name": "Geography: Resources and Development",
+          "topics": [
+            "Resources: meaning and classification",
+            "Resource development and planning",
+            "Land resources and land-use pattern",
+            "Land degradation and conservation",
+            "Soil as a resource",
+            "Classification of soils",
+            "Soil erosion",
+            "Soil conservation",
+            "Prescribed map work: major soil types"
+          ]
+        },
+        {
+          "id": "c10-sst-07",
+          "name": "Geography: Forest and Wildlife Resources",
+          "topics": [
+            "Flora and fauna in India",
+            "Species categories",
+            "Types and distribution of forests",
+            "Conservation of forest and wildlife",
+            "National parks, wildlife sanctuaries and biosphere reserves",
+            "Community and conservation"
+          ]
+        },
+        {
+          "id": "c10-sst-08",
+          "name": "Geography: Water Resources",
+          "topics": [
+            "Water scarcity",
+            "Need for water conservation",
+            "Multipurpose river projects",
+            "Integrated water resources management",
+            "Rainwater harvesting",
+            "Prescribed map work: dams"
+          ]
+        },
+        {
+          "id": "c10-sst-09",
+          "name": "Geography: Agriculture",
+          "topics": [
+            "Types of farming",
+            "Cropping pattern",
+            "Major food crops",
+            "Major non-food crops",
+            "Technological reforms",
+            "Institutional reforms",
+            "Contribution of agriculture to the economy",
+            "Prescribed map work: major crop areas and producer states"
+          ]
+        },
+        {
+          "id": "c10-sst-10",
+          "name": "Geography: Minerals and Energy Resources",
+          "topics": [
+            "Minerals: ferrous, non-ferrous and non-metallic",
+            "Mineral conservation",
+            "Conventional sources of energy",
+            "Non-conventional sources of energy",
+            "Energy conservation",
+            "Prescribed map work: mines, oil fields and power plants"
+          ]
+        },
+        {
+          "id": "c10-sst-11",
+          "name": "Geography: Manufacturing Industries",
+          "topics": [
+            "Importance of manufacturing",
+            "Classification of industries",
+            "Agro-based industries",
+            "Cotton textile industry",
+            "Jute industry",
+            "Sugar industry",
+            "Mineral-based industries",
+            "Iron and steel industry",
+            "Aluminium industry",
+            "Chemical and fertiliser industries",
+            "Cement industry",
+            "Automobile industry",
+            "Information technology and electronics industry",
+            "Industrial pollution",
+            "Control of environmental degradation",
+            "Prescribed map work: industries"
+          ]
+        },
+        {
+          "id": "c10-sst-12",
+          "name": "Geography: Lifelines of National Economy",
+          "topics": [
+            "Transport: roadways",
+            "Transport: railways",
+            "Transport: pipelines",
+            "Transport: waterways",
+            "Transport: airways",
+            "Communication",
+            "International trade",
+            "Tourism as a trade",
+            "Prescribed map work: major sea ports",
+            "Prescribed map work: international airports"
+          ]
+        },
+        {
+          "id": "c10-sst-13",
+          "name": "Political Science: Power-sharing",
+          "topics": [
+            "Belgium and Sri Lanka",
+            "Need for power sharing",
+            "Forms of power sharing",
+            "Power sharing among organs of government",
+            "Power sharing among governments",
+            "Power sharing among social groups",
+            "Power sharing among political parties, pressure groups and movements"
+          ]
+        },
+        {
+          "id": "c10-sst-14",
+          "name": "Political Science: Federalism",
+          "topics": [
+            "What is federalism?",
+            "Features of federalism",
+            "Kinds of federations",
+            "What makes India a federal country?",
+            "Union, State and Concurrent Lists",
+            "Linguistic states",
+            "Language policy",
+            "Centre-State relations",
+            "Decentralisation in India",
+            "Panchayats and municipalities"
+          ]
+        },
+        {
+          "id": "c10-sst-15",
+          "name": "Political Science: Gender, Religion and Caste",
+          "topics": [
+            "Gender division",
+            "Public/private division and women's political representation",
+            "Religion and politics",
+            "Communalism",
+            "Caste inequalities",
+            "Caste and politics"
+          ]
+        },
+        {
+          "id": "c10-sst-16",
+          "name": "Political Science: Political Parties",
+          "topics": [
+            "Why do we need political parties?",
+            "Functions of political parties",
+            "How many parties should we have?",
+            "National and state parties",
+            "Challenges to political parties",
+            "Reforms to strengthen political parties"
+          ]
+        },
+        {
+          "id": "c10-sst-17",
+          "name": "Political Science: Outcomes of Democracy",
+          "topics": [
+            "How do we assess democracy's outcomes?",
+            "Accountable government",
+            "Responsive government",
+            "Legitimate government",
+            "Economic growth and development",
+            "Reduction of inequality and poverty",
+            "Accommodation of social diversity",
+            "Dignity and freedom of citizens"
+          ]
+        },
+        {
+          "id": "c10-sst-18",
+          "name": "Economics: Development",
+          "topics": [
+            "Different people and different development goals",
+            "Income and other goals",
+            "National development",
+            "Comparing countries or states",
+            "Per capita income",
+            "Public facilities",
+            "Human development indicators",
+            "Sustainability of development"
+          ]
+        },
+        {
+          "id": "c10-sst-19",
+          "name": "Economics: Sectors of the Indian Economy",
+          "topics": [
+            "Sectors of economic activity",
+            "Primary, secondary and tertiary sectors",
+            "Organised and unorganised sectors",
+            "Public and private sectors",
+            "Comparing sectors: employment and GDP",
+            "Disguised unemployment",
+            "How to create more employment"
+          ]
+        },
+        {
+          "id": "c10-sst-20",
+          "name": "Economics: Money and Credit",
+          "topics": [
+            "Money as a medium of exchange",
+            "Modern forms of money",
+            "Loan activities of banks",
+            "Terms of credit",
+            "Formal sources of credit",
+            "Informal sources of credit",
+            "Self-Help Groups"
+          ]
+        },
+        {
+          "id": "c10-sst-21",
+          "name": "Economics: Globalisation and the Indian Economy",
+          "topics": [
+            "What is globalisation?",
+            "Factors that enabled globalisation",
+            "Production across countries",
+            "Role of multinational corporations",
+            "World Trade Organisation",
+            "Impact of globalisation in India",
+            "The struggle for a fair globalisation",
+            "G20 and India's role",
+            "Interdisciplinary project linkage"
+          ]
+        },
+        {
+          "id": "c10-sst-22",
+          "name": "Economics: Consumer Rights (Project Work)",
+          "topics": [
+            "Consumer awareness and need for protection",
+            "Consumer rights",
+            "Consumer responsibilities",
+            "Consumer protection mechanisms",
+            "Project work: Consumer Rights OR Social Issues OR Sustainable Development"
+          ]
+        }
+      ]
     },
     {
-     "id": "c10-hin-06",
-     "name": "रचनात्मक लेखन",
-     "topics": [
-      "अनुच्छेद लेखन",
-      "पत्र लेखन",
-      "स्ववृत्त लेखन / ई-मेल लेखन",
-      "विज्ञापन लेखन / संदेश लेखन"
-     ]
+      "id": "c10-it",
+      "name": "Information Technology (402)",
+      "chapters": [
+        {
+          "id": "c10-it-01",
+          "name": "Part A: Communication Skills-II",
+          "topics": [
+            "Methods of communication",
+            "Verbal communication",
+            "Non-verbal communication",
+            "Visual communication",
+            "Communication cycle",
+            "Importance of feedback",
+            "Barriers to communication",
+            "Effective communication"
+          ]
+        },
+        {
+          "id": "c10-it-02",
+          "name": "Part A: Self-Management Skills-II",
+          "topics": [
+            "Stress and stress management",
+            "Self-motivation",
+            "Self-regulation",
+            "Time management",
+            "Goal setting",
+            "Working independently"
+          ]
+        },
+        {
+          "id": "c10-it-03",
+          "name": "Part A: ICT Skills-II",
+          "topics": [
+            "Introduction to ICT",
+            "ICT in everyday life",
+            "ICT tools and applications",
+            "Safe and responsible use of ICT",
+            "Digital documentation and productivity tools"
+          ]
+        },
+        {
+          "id": "c10-it-04",
+          "name": "Part A: Entrepreneurial Skills-II",
+          "topics": [
+            "Entrepreneurship and entrepreneur",
+            "Types of entrepreneurship",
+            "Entrepreneurial competencies",
+            "Business ideas and opportunities",
+            "Problem-solving and innovation",
+            "Financial literacy and risk awareness"
+          ]
+        },
+        {
+          "id": "c10-it-05",
+          "name": "Part A: Green Skills-II",
+          "topics": [
+            "Sustainable development",
+            "Sustainable practices",
+            "Environmental conservation",
+            "Green economy",
+            "Green jobs"
+          ]
+        },
+        {
+          "id": "c10-it-06",
+          "name": "Part B: Digital Documentation (Advanced) – Chapter 1: Introduction",
+          "topics": [
+            "Styles and categories in Writer",
+            "Page, paragraph, character, frame, list and table styles",
+            "Styles and Formatting",
+            "Fill Format",
+            "Creating a new style from selection",
+            "Creating a new style by drag and drop",
+            "Updating a style",
+            "Loading styles from a template or document",
+            "Applying styles"
+          ]
+        },
+        {
+          "id": "c10-it-07",
+          "name": "Part B: Digital Documentation (Advanced) – Chapter 2: Working with Images",
+          "topics": [
+            "Inserting images",
+            "Drag and drop, copy and paste",
+            "Linking images",
+            "Modifying images",
+            "Resizing, cropping and deleting images",
+            "Creating drawing objects",
+            "Changing drawing-object properties",
+            "Resizing and grouping objects",
+            "Arrangement",
+            "Anchoring",
+            "Alignment",
+            "Text wrapping"
+          ]
+        },
+        {
+          "id": "c10-it-08",
+          "name": "Part B: Digital Documentation (Advanced) – Chapter 3: Advanced Features of Writer",
+          "topics": [
+            "Table of Contents and heading hierarchy",
+            "Creating a Table of Contents",
+            "Customising a Table of Contents",
+            "Updating and deleting a Table of Contents",
+            "Using templates",
+            "Creating templates",
+            "Using built-in, saved and online templates",
+            "Importing, editing, moving and exporting templates",
+            "Applying templates",
+            "Track Changes",
+            "Preparing a document for review",
+            "Recording changes",
+            "Accepting and rejecting changes",
+            "Adding and deleting comments",
+            "Comparing documents"
+          ]
+        },
+        {
+          "id": "c10-it-09",
+          "name": "Part B: Electronic Spreadsheet (Advanced) – Chapter 4: Analyse Data Using Scenarios and Goal Seek",
+          "topics": [
+            "Consolidating data",
+            "Groups and subtotals",
+            "What-if scenarios",
+            "What-if analysis tools",
+            "Goal Seek",
+            "Solver"
+          ]
+        },
+        {
+          "id": "c10-it-10",
+          "name": "Part B: Electronic Spreadsheet (Advanced) – Chapter 5: Using Macros in Spreadsheet",
+          "topics": [
+            "Recording a macro",
+            "Running a macro",
+            "Creating and organising a simple macro",
+            "Passing arguments to a macro",
+            "Passing arguments as values",
+            "Writing macros as functions",
+            "Accessing cells directly",
+            "Sorting columns using a macro"
+          ]
+        },
+        {
+          "id": "c10-it-11",
+          "name": "Part B: Electronic Spreadsheet (Advanced) – Chapter 6: Linking Spreadsheet Data",
+          "topics": [
+            "Setting up multiple sheets",
+            "References to other sheets",
+            "References to another document",
+            "Hyperlinks to sheets",
+            "Relative and absolute hyperlinks",
+            "Creating, editing and removing hyperlinks",
+            "Linking to external data",
+            "Linking to registered data sources"
+          ]
+        },
+        {
+          "id": "c10-it-12",
+          "name": "Part B: Electronic Spreadsheet (Advanced) – Chapter 7: Share and Review a Spreadsheet",
+          "topics": [
+            "Sharing a spreadsheet",
+            "Opening and saving a shared spreadsheet",
+            "Recording changes",
+            "Adding, editing and formatting comments",
+            "Reviewing changes",
+            "Accepting and rejecting changes",
+            "Merging sheets",
+            "Comparing sheets"
+          ]
+        },
+        {
+          "id": "c10-it-13",
+          "name": "Part B: Database Management System – Chapter 8: Introduction to DBMS",
+          "topics": [
+            "Data and information",
+            "Databases and DBMS",
+            "Advantages of databases",
+            "Fields, records and tables",
+            "Hierarchical data model",
+            "Network data model",
+            "Relational data model",
+            "RDBMS terminology",
+            "Primary and foreign keys",
+            "Objects of an RDBMS"
+          ]
+        },
+        {
+          "id": "c10-it-14",
+          "name": "Part B: Database Management System – Chapter 9: Starting with LibreOffice Base",
+          "topics": [
+            "LibreOffice Base interface",
+            "Creating a database",
+            "Data types",
+            "Creating tables with the Table Wizard",
+            "Creating tables in Design View",
+            "Primary key",
+            "Entering data",
+            "Editing and deleting data",
+            "Sorting data"
+          ]
+        },
+        {
+          "id": "c10-it-15",
+          "name": "Part B: Database Management System – Chapter 10: Working with Multiple Tables",
+          "topics": [
+            "Editing tables",
+            "Deleting tables",
+            "Relationships between tables",
+            "One-to-one relationships",
+            "One-to-many relationships",
+            "Many-to-many relationships",
+            "Referential integrity"
+          ]
+        },
+        {
+          "id": "c10-it-16",
+          "name": "Part B: Database Management System – Chapter 11: Queries in Base",
+          "topics": [
+            "Queries and their purpose",
+            "Query Wizard",
+            "Query Design View",
+            "Editing queries",
+            "Criteria in queries",
+            "Wildcards and conditions",
+            "Numerical data and calculations"
+          ]
+        },
+        {
+          "id": "c10-it-17",
+          "name": "Part B: Database Management System – Chapter 12: Forms and Reports",
+          "topics": [
+            "Forms and their purpose",
+            "Creating forms with the Form Wizard",
+            "Modifying forms",
+            "Controls in forms",
+            "Reports and their purpose",
+            "Creating reports with the Report Wizard",
+            "Report titles and headings",
+            "Date and time in reports"
+          ]
+        },
+        {
+          "id": "c10-it-18",
+          "name": "Part B: Maintain Healthy, Safe and Secure Working Environment – Chapter 13: Health, Safety and Security at Workplace",
+          "topics": [
+            "Workplace health and safety policies",
+            "Workplace hazards",
+            "Physical hazards",
+            "Electrical hazards",
+            "Fire hazards",
+            "Health hazards",
+            "Computer-related hazards",
+            "Hazard identification and control"
+          ]
+        },
+        {
+          "id": "c10-it-19",
+          "name": "Part B: Maintain Healthy, Safe and Secure Working Environment – Chapter 14: Workplace Quality Measures",
+          "topics": [
+            "Air quality",
+            "Water quality",
+            "Workplace ergonomics",
+            "Computer-related health problems",
+            "Musculoskeletal problems",
+            "Safety requirements and preventive measures"
+          ]
+        },
+        {
+          "id": "c10-it-20",
+          "name": "Part B: Maintain Healthy, Safe and Secure Working Environment – Chapter 15: Prevent Accidents and Emergencies",
+          "topics": [
+            "Types of workplace accidents",
+            "Handling and preventing accidents",
+            "Emergency situations",
+            "Evacuation procedures",
+            "Fire safety",
+            "First aid",
+            "Electrical rescue",
+            "Emergency preparedness"
+          ]
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "c10-eng",
-   "name": "English Language & Literature (184)",
-   "chapters": [
-    {
-     "id": "c10-eng-01",
-     "name": "Reading Skills",
-     "topics": [
-      "Discursive passage",
-      "Case-based factual passage"
-     ]
-    },
-    {
-     "id": "c10-eng-02",
-     "name": "Writing Skills",
-     "topics": [
-      "Formal letter",
-      "Analytical paragraph"
-     ]
-    },
-    {
-     "id": "c10-eng-03",
-     "name": "Grammar",
-     "topics": [
-      "Determiners",
-      "Tenses",
-      "Modals",
-      "Subject-verb concord",
-      "Reported speech"
-     ]
-    },
-    {
-     "id": "c10-eng-04",
-     "name": "First Flight – Prose",
-     "topics": [
-      "A Letter to God",
-      "Nelson Mandela: Long Walk to Freedom",
-      "Stories About Flying",
-      "From the Diary of Anne Frank",
-      "Glimpses of India",
-      "Mijbil the Otter",
-      "Madam Rides the Bus",
-      "The Sermon at Benares",
-      "The Proposal (Play)"
-     ]
-    },
-    {
-     "id": "c10-eng-05",
-     "name": "First Flight – Poems",
-     "topics": [
-      "Dust of Snow",
-      "Fire and Ice",
-      "A Tiger in the Zoo",
-      "How to Tell Wild Animals",
-      "The Ball Poem",
-      "Amanda!",
-      "The Trees",
-      "Fog",
-      "The Tale of Custard the Dragon",
-      "For Anne Gregory"
-     ]
-    },
-    {
-     "id": "c10-eng-06",
-     "name": "Footprints Without Feet",
-     "topics": [
-      "A Triumph of Surgery",
-      "The Thief's Story",
-      "The Midnight Visitor",
-      "A Question of Trust",
-      "Footprints Without Feet",
-      "The Making of a Scientist",
-      "The Necklace",
-      "Bholi",
-      "The Book that Saved the Earth"
-     ]
-    },
-    {
-     "id": "c10-eng-07",
-     "name": "Words and Expressions II (workbook)",
-     "topics": [
-      "Units 1 to 4",
-      "Units 7 to 11"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "c10-math",
-   "name": "Mathematics Standard (041)",
-   "chapters": [
-    {
-     "id": "c10-math-01",
-     "name": "Real Numbers",
-     "topics": [
-      "Fundamental Theorem of Arithmetic",
-      "Proofs of irrationality (√2, √3, √5)"
-     ]
-    },
-    {
-     "id": "c10-math-02",
-     "name": "Polynomials",
-     "topics": [
-      "Zeros of a polynomial",
-      "Zeros and coefficients of quadratic polynomials"
-     ]
-    },
-    {
-     "id": "c10-math-03",
-     "name": "Pair of Linear Equations in Two Variables",
-     "topics": [
-      "Graphical method, consistency",
-      "Algebraic conditions for number of solutions",
-      "Substitution and elimination",
-      "Situational problems"
-     ]
-    },
-    {
-     "id": "c10-math-04",
-     "name": "Quadratic Equations",
-     "topics": [
-      "Standard form",
-      "Factorisation and quadratic formula",
-      "Discriminant and nature of roots",
-      "Situational problems"
-     ]
-    },
-    {
-     "id": "c10-math-05",
-     "name": "Arithmetic Progressions",
-     "topics": [
-      "Motivation",
-      "nth term",
-      "Sum of first n terms",
-      "Daily-life applications"
-     ]
-    },
-    {
-     "id": "c10-math-06",
-     "name": "Coordinate Geometry",
-     "topics": [
-      "Distance formula",
-      "Section formula (internal division)"
-     ]
-    },
-    {
-     "id": "c10-math-07",
-     "name": "Triangles",
-     "topics": [
-      "Similar triangles",
-      "Basic Proportionality Theorem and converse",
-      "Similarity criteria (AA, SSS, SAS)"
-     ]
-    },
-    {
-     "id": "c10-math-08",
-     "name": "Circles",
-     "topics": [
-      "Tangent is perpendicular to radius",
-      "Tangents from an external point are equal"
-     ]
-    },
-    {
-     "id": "c10-math-09",
-     "name": "Introduction to Trigonometry",
-     "topics": [
-      "Ratios of an acute angle",
-      "Ratios of 0°, 30°, 45°, 60°, 90°",
-      "Relationships between ratios"
-     ]
-    },
-    {
-     "id": "c10-math-10",
-     "name": "Trigonometric Identities",
-     "topics": [
-      "Proof of sin²A + cos²A = 1",
-      "Simple identities and applications"
-     ]
-    },
-    {
-     "id": "c10-math-11",
-     "name": "Heights and Distances",
-     "topics": [
-      "Angles of elevation and depression (30°, 45°, 60°)"
-     ]
-    },
-    {
-     "id": "c10-math-12",
-     "name": "Areas Related to Circles",
-     "topics": [
-      "Area of sectors",
-      "Area of segments (60°, 90°, 120°)"
-     ]
-    },
-    {
-     "id": "c10-math-13",
-     "name": "Surface Areas and Volumes",
-     "topics": [
-      "Combinations of two solids"
-     ]
-    },
-    {
-     "id": "c10-math-14",
-     "name": "Statistics",
-     "topics": [
-      "Mean (direct, assumed mean, step deviation)",
-      "Median",
-      "Mode"
-     ]
-    },
-    {
-     "id": "c10-math-15",
-     "name": "Probability",
-     "topics": [
-      "Classical definition",
-      "Simple problems"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "c10-sci",
-   "name": "Science (086)",
-   "chapters": [
-    {
-     "id": "c10-sci-01",
-     "name": "Chemical Reactions and Equations",
-     "topics": [
-      "Chemical equations, balancing",
-      "Combination, decomposition, displacement, double displacement",
-      "Precipitation, endothermic and exothermic",
-      "Oxidation and reduction"
-     ]
-    },
-    {
-     "id": "c10-sci-02",
-     "name": "Periodic Classification of Elements (not in year-end exam)",
-     "topics": [
-      "Döbereiner, Newlands",
-      "Mendeleev's table",
-      "Modern periodic table and properties"
-     ]
-    },
-    {
-     "id": "c10-sci-03",
-     "name": "Acids, Bases and Salts",
-     "topics": [
-      "Definitions, indicators",
-      "Chemical properties, neutralisation",
-      "pH scale and its importance",
-      "NaOH, bleaching powder, baking soda, washing soda, plaster of Paris"
-     ]
-    },
-    {
-     "id": "c10-sci-04",
-     "name": "Metals and Non-metals",
-     "topics": [
-      "Properties of metals and non-metals",
-      "Reactivity series",
-      "Ionic compounds",
-      "Metallurgy",
-      "Corrosion and prevention"
-     ]
-    },
-    {
-     "id": "c10-sci-05",
-     "name": "Carbon and its Compounds",
-     "topics": [
-      "Covalent bonds, versatility of carbon",
-      "Hydrocarbons, homologous series, nomenclature",
-      "Combustion, oxidation, addition, substitution",
-      "Ethanol and ethanoic acid",
-      "Soaps and detergents"
-     ]
-    },
-    {
-     "id": "c10-sci-06",
-     "name": "Life Processes",
-     "topics": [
-      "Nutrition",
-      "Respiration",
-      "Transport",
-      "Excretion"
-     ]
-    },
-    {
-     "id": "c10-sci-07",
-     "name": "Control and Coordination",
-     "topics": [
-      "Tropic movements, plant hormones",
-      "Nervous system, reflex action",
-      "Animal hormones"
-     ]
-    },
-    {
-     "id": "c10-sci-08",
-     "name": "Reproduction",
-     "topics": [
-      "Asexual reproduction",
-      "Sexual reproduction in plants",
-      "Reproduction in humans",
-      "Reproductive health, HIV/AIDS"
-     ]
-    },
-    {
-     "id": "c10-sci-09",
-     "name": "Heredity and Evolution (not in year-end exam)",
-     "topics": [
-      "Mendel's laws",
-      "Sex determination",
-      "Evolution: traits, speciation, fossils, human evolution"
-     ]
-    },
-    {
-     "id": "c10-sci-10",
-     "name": "Light: Reflection",
-     "topics": [
-      "Spherical mirrors, image formation",
-      "Mirror formula and magnification"
-     ]
-    },
-    {
-     "id": "c10-sci-11",
-     "name": "Light: Refraction",
-     "topics": [
-      "Laws of refraction, refractive index",
-      "Lens formula, magnification, power"
-     ]
-    },
-    {
-     "id": "c10-sci-12",
-     "name": "Human Eye and Colourful World",
-     "topics": [
-      "Functioning of eye, defects, correction",
-      "Prism, dispersion, scattering"
-     ]
-    },
-    {
-     "id": "c10-sci-13",
-     "name": "Electricity",
-     "topics": [
-      "Current and potential difference, Ohm's law",
-      "Resistance and resistivity",
-      "Series and parallel resistors",
-      "Heating effect and electric power"
-     ]
-    },
-    {
-     "id": "c10-sci-14",
-     "name": "Magnetic Effects of Electric Current",
-     "topics": [
-      "Magnetic field and field lines",
-      "Conductor, coil and solenoid",
-      "Force on conductor, Fleming's left-hand rule",
-      "DC and AC, domestic circuits",
-      "Motor, electromagnetic induction, generator (not in year-end exam)"
-     ]
-    },
-    {
-     "id": "c10-sci-15",
-     "name": "Our Environment",
-     "topics": [
-      "Ecosystem",
-      "Ozone depletion",
-      "Waste, biodegradable and non-biodegradable"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "c10-sst",
-   "name": "Social Science (087)",
-   "chapters": [
-    {
-     "id": "c10-sst-01",
-     "name": "History: Rise of Nationalism in Europe",
-     "topics": [
-      "Whole chapter"
-     ]
-    },
-    {
-     "id": "c10-sst-02",
-     "name": "History: Nationalism in India",
-     "topics": [
-      "Whole chapter",
-      "Map work"
-     ]
-    },
-    {
-     "id": "c10-sst-03",
-     "name": "History: Making of a Global World (board: 1 to 1.3)",
-     "topics": [
-      "Pre-modern world",
-      "Conquest, disease and trade",
-      "Rest of chapter (project)"
-     ]
-    },
-    {
-     "id": "c10-sst-04",
-     "name": "History: Age of Industrialisation (periodic assessment only)",
-     "topics": [
-      "Whole chapter"
-     ]
-    },
-    {
-     "id": "c10-sst-05",
-     "name": "History: Print Culture and the Modern World",
-     "topics": [
-      "Whole chapter"
-     ]
-    },
-    {
-     "id": "c10-sst-06",
-     "name": "Geography: Resources and Development",
-     "topics": [
-      "Whole chapter",
-      "Map work: soil types"
-     ]
-    },
-    {
-     "id": "c10-sst-07",
-     "name": "Geography: Forest and Wildlife Resources",
-     "topics": [
-      "Whole chapter"
-     ]
-    },
-    {
-     "id": "c10-sst-08",
-     "name": "Geography: Water Resources",
-     "topics": [
-      "Whole chapter",
-      "Map work: dams"
-     ]
-    },
-    {
-     "id": "c10-sst-09",
-     "name": "Geography: Agriculture",
-     "topics": [
-      "Whole chapter",
-      "Map work: crops"
-     ]
-    },
-    {
-     "id": "c10-sst-10",
-     "name": "Geography: Minerals and Energy Resources",
-     "topics": [
-      "Whole chapter",
-      "Map work: mines, oil fields, power plants"
-     ]
-    },
-    {
-     "id": "c10-sst-11",
-     "name": "Geography: Manufacturing Industries",
-     "topics": [
-      "Whole chapter",
-      "Map work: industries"
-     ]
-    },
-    {
-     "id": "c10-sst-12",
-     "name": "Geography: Lifelines of National Economy (map only)",
-     "topics": [
-      "Map work: ports, airports"
-     ]
-    },
-    {
-     "id": "c10-sst-13",
-     "name": "Political Science: Power-sharing",
-     "topics": [
-      "Whole chapter"
-     ]
-    },
-    {
-     "id": "c10-sst-14",
-     "name": "Political Science: Federalism",
-     "topics": [
-      "Whole chapter"
-     ]
-    },
-    {
-     "id": "c10-sst-15",
-     "name": "Political Science: Gender, Religion and Caste",
-     "topics": [
-      "Whole chapter"
-     ]
-    },
-    {
-     "id": "c10-sst-16",
-     "name": "Political Science: Political Parties",
-     "topics": [
-      "Whole chapter"
-     ]
-    },
-    {
-     "id": "c10-sst-17",
-     "name": "Political Science: Outcomes of Democracy",
-     "topics": [
-      "Whole chapter"
-     ]
-    },
-    {
-     "id": "c10-sst-18",
-     "name": "Economics: Development",
-     "topics": [
-      "Whole chapter"
-     ]
-    },
-    {
-     "id": "c10-sst-19",
-     "name": "Economics: Sectors of the Indian Economy",
-     "topics": [
-      "Whole chapter"
-     ]
-    },
-    {
-     "id": "c10-sst-20",
-     "name": "Economics: Money and Credit",
-     "topics": [
-      "Whole chapter"
-     ]
-    },
-    {
-     "id": "c10-sst-21",
-     "name": "Economics: Globalisation and the Indian Economy (board: first two)",
-     "topics": [
-      "What is globalisation?",
-      "Factors that enabled globalisation"
-     ]
-    },
-    {
-     "id": "c10-sst-22",
-     "name": "Project work (Consumer Rights / Social Issues / Sustainable Development)",
-     "topics": [
-      "Project"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "c10-it",
-   "name": "Information Technology (402)",
-   "chapters": [
-    {
-     "id": "c10-it-01",
-     "name": "Part A: Employability Skills",
-     "topics": [
-      "Communication Skills-II",
-      "Self-Management Skills-II",
-      "ICT Skills",
-      "Entrepreneurial Skills-II",
-      "Green Skills-II"
-     ]
-    },
-    {
-     "id": "c10-it-02",
-     "name": "1. Introduction (Writer styles)",
-     "topics": [
-      "Style categories",
-      "Fill Format, new style, update style",
-      "Load styles, apply styles"
-     ]
-    },
-    {
-     "id": "c10-it-03",
-     "name": "2. Working with Images",
-     "topics": [
-      "Insert, link and modify images",
-      "Drawing objects, resize and group",
-      "Position: arrange, anchor, align, wrap"
-     ]
-    },
-    {
-     "id": "c10-it-04",
-     "name": "3. Advanced Features of Writer",
-     "topics": [
-      "Table of Contents: create, update, delete",
-      "Templates: create, use, edit, export",
-      "Track changes, comments, compare documents"
-     ]
-    },
-    {
-     "id": "c10-it-05",
-     "name": "4. Scenarios and Goal Seek",
-     "topics": [
-      "Consolidate data, groups, subtotals",
-      "What-if scenarios and tools",
-      "Goal Seek and Solver"
-     ]
-    },
-    {
-     "id": "c10-it-06",
-     "name": "5. Macros in Spreadsheet",
-     "topics": [
-      "Record and run a macro",
-      "Create and organise simple macros",
-      "Macro as a function, arguments, sort with macro"
-     ]
-    },
-    {
-     "id": "c10-it-07",
-     "name": "6. Linking Spreadsheet Data",
-     "topics": [
-      "Multiple sheets and references",
-      "Hyperlinks",
-      "External and registered data sources"
-     ]
-    },
-    {
-     "id": "c10-it-08",
-     "name": "7. Share and Review a Spreadsheet",
-     "topics": [
-      "Sharing, open and save shared file",
-      "Record changes, comments",
-      "Review, merge and compare"
-     ]
-    },
-    {
-     "id": "c10-it-09",
-     "name": "8. Introduction to DBMS",
-     "topics": [
-      "Data and information, databases",
-      "Data models",
-      "Keys and RDBMS objects"
-     ]
-    },
-    {
-     "id": "c10-it-10",
-     "name": "9. Starting with LibreOffice Base",
-     "topics": [
-      "Interface, data types",
-      "Create tables (wizard, design view), primary key",
-      "Data entry, edit, delete, sort"
-     ]
-    },
-    {
-     "id": "c10-it-11",
-     "name": "10. Working with Multiple Tables",
-     "topics": [
-      "Edit and delete tables",
-      "Relationships (1:1, 1:many, many:many)",
-      "Referential integrity"
-     ]
-    },
-    {
-     "id": "c10-it-12",
-     "name": "11. Queries in Base",
-     "topics": [
-      "Wizard and design view",
-      "Edit queries, criteria",
-      "Numerical data and calculations"
-     ]
-    },
-    {
-     "id": "c10-it-13",
-     "name": "12. Forms and Reports",
-     "topics": [
-      "Forms with wizard, modify, controls",
-      "Reports with wizard",
-      "Titles, headings, date and time"
-     ]
-    },
-    {
-     "id": "c10-it-14",
-     "name": "13. Health, Safety and Security at Workplace",
-     "topics": [
-      "Policies and procedures",
-      "Hazards (physical, electrical, fire, health)",
-      "Hazards with computers, hazard control"
-     ]
-    },
-    {
-     "id": "c10-it-15",
-     "name": "14. Workplace Quality Measures",
-     "topics": [
-      "Air and water quality",
-      "Ergonomics, computer health tips",
-      "Musculoskeletal problems, safety requirements"
-     ]
-    },
-    {
-     "id": "c10-it-16",
-     "name": "15. Prevent Accidents and Emergencies",
-     "topics": [
-      "Types of accidents and handling",
-      "Emergencies, evacuation",
-      "Fire safety, first aid, electrical rescue"
-     ]
-    }
-   ]
-  }
- ]
+  ]
 }
