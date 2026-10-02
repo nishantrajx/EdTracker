@@ -1,0 +1,72 @@
+{
+ "subject": "c10-it",
+ "weightage": [
+  {
+   "label": "Part A: Employability Skills (Ch 1)",
+   "ids": [
+    "c10-it-01"
+   ],
+   "marks": "10"
+  },
+  {
+   "label": "Part B Unit 1: Digital Documentation, Writer (Ch 2 to 4)",
+   "ids": [
+    "c10-it-02",
+    "c10-it-03",
+    "c10-it-04"
+   ],
+   "marks": "8"
+  },
+  {
+   "label": "Part B Unit 2: Spreadsheet, Calc (Ch 5 to 8)",
+   "ids": [
+    "c10-it-05",
+    "c10-it-06",
+    "c10-it-07",
+    "c10-it-08"
+   ],
+   "marks": "10"
+  },
+  {
+   "label": "Part B Unit 3: Database, Base (Ch 9 to 13)",
+   "ids": [
+    "c10-it-09",
+    "c10-it-10",
+    "c10-it-11",
+    "c10-it-12",
+    "c10-it-13"
+   ],
+   "marks": "12"
+  },
+  {
+   "label": "Part B Unit 4: Healthy, Safe and Secure Working Environment (Ch 14 to 16)",
+   "ids": [
+    "c10-it-14",
+    "c10-it-15",
+    "c10-it-16"
+   ],
+   "marks": "10"
+  }
+ ],
+ "note": "Marks are official (Part A 10 + Part B 40 = 50). The other 50 of the 100 marks are practical: Part C practical exam and viva 30 (Writer 5, Calc 5, Base 10, viva 10) and Part D project work 10 and portfolio or practical file 10. The portfolio needs printouts of at least 5 problems each from Writer, Calc and Base.",
+ "mistakes": [
+  "Half the marks are practical, so practise on LibreOffice itself, not only from the book.",
+  "Keep the portfolio complete: at least 5 problems each in Writer, Calc and Base, with printouts.",
+  "Base: plan the tables, primary keys and relationships before you build queries, forms and reports.",
+  "Do not skip the workplace health, safety and security unit. It is 10 marks of theory.",
+  "Save your practice files in clearly named folders, so you can find them for the project and the portfolio."
+ ],
+ "order": [
+  "Database with Base (Part B Unit 3, 12 marks) first: the largest unit and the most practical hours.",
+  "Then Spreadsheet with Calc (10 marks) and the workplace safety unit (10 marks).",
+  "Then Employability Skills (Part A, 10 marks, five short units).",
+  "Then Digital Documentation with Writer (8 marks).",
+  "Work on the project (10) and portfolio (10) all through the year."
+ ],
+ "resources": [
+  {
+   "label": "CBSE Department of Skill Education: curriculum and material",
+   "url": "https://cbseacademic.nic.in/"
+  }
+ ]
+}

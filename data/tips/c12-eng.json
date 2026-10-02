@@ -1,0 +1,42 @@
+{
+ "subject": "c12-eng",
+ "weightage": [
+  {
+   "id": "c12-eng-01",
+   "marks": "22"
+  },
+  {
+   "id": "c12-eng-02",
+   "marks": "18"
+  },
+  {
+   "label": "Literature: Flamingo Prose, Flamingo Poetry, Vistas (Ch 3 to 5)",
+   "ids": [
+    "c12-eng-03",
+    "c12-eng-04",
+    "c12-eng-05"
+   ],
+   "marks": "40"
+  }
+ ],
+ "note": "Marks are official (theory total 80; internal assessment 20 = listening and speaking 5+5, project work 10). Reading is 22 marks (12 + 10: an unseen passage and a case-based factual passage). Creative writing is 18 marks: notice 4, invitation and reply 4, letter 5, article or report 5. Literature carries 40 marks.",
+ "mistakes": [
+  "Every writing question gives 1 mark for spelling and grammar, so proofread each answer.",
+  "Notice and invitation and reply have a limit of 50 words. Letters and articles or reports have a limit of about 120 to 150 words. Follow the limit and the format.",
+  "Short-answer reading questions are answered in 40 to 50 words. Answer only what is asked, using the passage for evidence.",
+  "For the case-based passage, read the data, charts or other visual input carefully before answering.",
+  "In literature answers, refer to the text of the lesson or poem instead of writing a general answer."
+ ],
+ "order": [
+  "Literature first (Ch 3 to 5, 40 marks): the largest block. Read each lesson and poem and write short notes.",
+  "Practise one unseen passage and one case-based passage each week (22 marks).",
+  "Practise each writing format in turn: notice, invitation and reply, letter, article or report (18 marks).",
+  "Keep listening, speaking and project work (20 internal marks) on schedule with your school."
+ ],
+ "resources": [
+  {
+   "label": "NCERT textbooks (official site)",
+   "url": "https://ncert.nic.in/textbook.php"
+  }
+ ]
+}

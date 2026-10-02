@@ -1,0 +1,47 @@
+{
+ "subject": "c10-hin",
+ "weightage": [
+  {
+   "id": "c10-hin-01",
+   "marks": "14"
+  },
+  {
+   "id": "c10-hin-02",
+   "marks": "16"
+  },
+  {
+   "label": "Textbooks: Kshitij Prose 11, Kshitij Poetry 11, Kritika 8 (Ch 3 to 5)",
+   "ids": [
+    "c10-hin-03",
+    "c10-hin-04",
+    "c10-hin-05"
+   ],
+   "marks": "30"
+  },
+  {
+   "id": "c10-hin-06",
+   "marks": "20"
+  }
+ ],
+ "note": "Marks are official (theory total 80, internal assessment 20 = 5 each for periodic, multiple assessment, portfolio, and listening and speaking). Section A: unseen passage 7 (about 250 words) and unseen poem 7 (about 120 words). Section B: grammar 16 (sentence types, voice, parts of speech, figures of speech: attempt 4 of 5 in each). Section D: paragraph 6, letter 5, resume or e-mail 5, advertisement or message 4. No questions will be asked from these lessons. Kshitij Poetry: Dev (Savaiya, Kavitt), Chhaya Mat Chhoona, Kanyadaan. Kshitij Prose: Stri-Shiksha ke Virodhi Kutarkon ka Khandan, Manaviya Karuna ki Divya Chamak. Kritika: Ehi Thaiyan Jhulni Herani Ho Rama, George Pancham ki Naak.",
+ "mistakes": [
+  "Do not spend board-exam study time on the lessons listed as excluded in the note above.",
+  "Grammar: in each of the four topics you answer 4 out of 5 questions. Read all five and pick the ones you are surest of.",
+  "Writing tasks have word limits: paragraph about 120 words, letter about 100, resume or e-mail about 80, advertisement or message about 40. Keep to them.",
+  "Unseen passage and poem: answer from the passage itself.",
+  "Kritika answers have a limit of 50 to 60 words, and Kshitij short answers 25 to 30 words. Keep them to the point.",
+  "Learn the five figures of speech in the syllabus: upama, roopak, utpreksha, atishyokti and maanveekaran."
+ ],
+ "order": [
+  "Textbooks first (Ch 3 to 5, 30 marks): read each lesson and poem that is included, and write short notes.",
+  "Then creative writing (20 marks): practise the paragraph, letter, resume or e-mail, and advertisement or message in turn.",
+  "Then grammar (16 marks) and unseen passages (14 marks): practise a little each week.",
+  "Keep periodic assessment, portfolio and listening and speaking (20 internal marks) on schedule with your school."
+ ],
+ "resources": [
+  {
+   "label": "NCERT textbooks (official site)",
+   "url": "https://ncert.nic.in/textbook.php"
+  }
+ ]
+}

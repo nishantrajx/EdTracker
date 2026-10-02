@@ -1,0 +1,71 @@
+{
+ "subject": "c12-phy",
+ "weightage": [
+  {
+   "label": "Electrostatics + Current Electricity (Ch 1 to 3)",
+   "ids": [
+    "c12-phy-01",
+    "c12-phy-02",
+    "c12-phy-03"
+   ],
+   "marks": "16"
+  },
+  {
+   "label": "Magnetism + Induction and AC (Ch 4 to 7)",
+   "ids": [
+    "c12-phy-04",
+    "c12-phy-05",
+    "c12-phy-06",
+    "c12-phy-07"
+   ],
+   "marks": "17"
+  },
+  {
+   "label": "EM Waves + Optics (Ch 8 to 10)",
+   "ids": [
+    "c12-phy-08",
+    "c12-phy-09",
+    "c12-phy-10"
+   ],
+   "marks": "18"
+  },
+  {
+   "label": "Dual Nature + Atoms and Nuclei (Ch 11 to 13)",
+   "ids": [
+    "c12-phy-11",
+    "c12-phy-12",
+    "c12-phy-13"
+   ],
+   "marks": "12"
+  },
+  {
+   "label": "Electronic Devices (Ch 14)",
+   "ids": [
+    "c12-phy-14"
+   ],
+   "marks": "7"
+  }
+ ],
+ "note": "Marks are official and given per group of units (total 70). Question mix: remembering and understanding 27 marks (38%), applying 22 (32%), analysing, evaluating and creating 21 (30%). Practical is 30 marks.",
+ "mistakes": [
+  "Numericals: write the formula, substitute with units, and state the unit in the answer. Unit and sign slips lose easy marks.",
+  "Ray optics: apply the sign convention consistently, measuring all distances from the pole or optical centre.",
+  "Alternating current: do not mix peak and rms values.",
+  "Draw neat, labelled diagrams, including arrows on rays, field lines and circuit symbols.",
+  "Learn each derivation as a short chain of steps, so you can rewrite it without memorising it word for word."
+ ],
+ "order": [
+  "Chapters 1 to 3 (16 marks) first: electric field and circuits are the base for later chapters.",
+  "Chapters 4 to 7 (17 marks) next: AC builds on electromagnetic induction.",
+  "Chapters 8 to 10 (18 marks, the largest group): EM waves and optics.",
+  "Chapters 11 to 13 (12 marks): modern physics.",
+  "Chapter 14 (7 marks) last, as it is the shortest.",
+  "Do practical and record file work alongside the theory."
+ ],
+ "resources": [
+  {
+   "label": "NCERT textbooks (official site)",
+   "url": "https://ncert.nic.in/textbook.php"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "subject": "c10-sst",
+ "weightage": [
+  {
+   "label": "History (Ch 1, 2, 3 and 5)",
+   "ids": [
+    "c10-sst-01",
+    "c10-sst-02",
+    "c10-sst-03",
+    "c10-sst-05"
+   ],
+   "marks": "18 + 2 map"
+  },
+  {
+   "label": "Geography (Ch 6 to 12)",
+   "ids": [
+    "c10-sst-06",
+    "c10-sst-07",
+    "c10-sst-08",
+    "c10-sst-09",
+    "c10-sst-10",
+    "c10-sst-11",
+    "c10-sst-12"
+   ],
+   "marks": "17 + 3 map"
+  },
+  {
+   "label": "Political Science (Ch 13 to 17)",
+   "ids": [
+    "c10-sst-13",
+    "c10-sst-14",
+    "c10-sst-15",
+    "c10-sst-16",
+    "c10-sst-17"
+   ],
+   "marks": "20"
+  },
+  {
+   "label": "Economics (Ch 18 to 21)",
+   "ids": [
+    "c10-sst-18",
+    "c10-sst-19",
+    "c10-sst-20",
+    "c10-sst-21"
+   ],
+   "marks": "20"
+  }
+ ],
+ "note": "Marks are official (theory total 80, four subjects at 20 each; map pointing is 5 marks in all, 2 in History and 3 in Geography). Board exam rules in the course structure: Making of a Global World only subtopics 1 to 1.3; Age of Industrialisation is assessed in periodic assessment only; Lifelines of National Economy is map pointing only; Globalisation and the Indian Economy covers the first two subtopics. Question types: MCQ 20 x 1, 2-mark answers 4 x 2, 3-mark answers 5 x 3, case studies 3 x 4, 5-mark answers 4 x 5, plus map pointing 5. Competency mix: remembering and understanding 24 marks, applying 11, analysing, evaluating and creating 40, map skill 5.",
+ "mistakes": [
+  "Practise map pointing for History and Geography regularly. It is 5 marks, and marking and labelling take practice.",
+  "Case-study questions: read the source carefully and answer from it, not from memory alone.",
+  "Five-mark answers: organise the answer in clear points with an introduction, key points with examples or dates, and a short conclusion.",
+  "Learn key terms and definitions exactly, as many MCQs test them.",
+  "Do not spend board-exam time on parts that are periodic-assessment-only or project-only. Check the course structure notes above."
+ ],
+ "order": [
+  "All four subjects carry 20 marks each, so give them balanced time.",
+  "Start with History and Geography, so you can practise map pointing from the beginning.",
+  "Then Political Science and Economics, which are short enough to revise more than once.",
+  "Read Age of Industrialisation (Ch 4) and the project work (Ch 22) for school assessments, not for the board paper."
+ ],
+ "resources": [
+  {
+   "label": "NCERT textbooks (official site)",
+   "url": "https://ncert.nic.in/textbook.php"
+  }
+ ]
+}

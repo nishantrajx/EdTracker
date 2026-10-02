@@ -1,0 +1,66 @@
+{
+ "subject": "c12-pe",
+ "weightage": [
+  {
+   "id": "c12-pe-01",
+   "marks": "5 + 4*"
+  },
+  {
+   "id": "c12-pe-02",
+   "marks": "7"
+  },
+  {
+   "id": "c12-pe-03",
+   "marks": "6 + 1*"
+  },
+  {
+   "id": "c12-pe-04",
+   "marks": "4 + 4*"
+  },
+  {
+   "id": "c12-pe-05",
+   "marks": "7"
+  },
+  {
+   "id": "c12-pe-06",
+   "marks": "8"
+  },
+  {
+   "id": "c12-pe-07",
+   "marks": "4 + 4*"
+  },
+  {
+   "id": "c12-pe-08",
+   "marks": "10"
+  },
+  {
+   "id": "c12-pe-09",
+   "marks": "7"
+  },
+  {
+   "id": "c12-pe-10",
+   "marks": "9"
+  }
+ ],
+ "note": "Unit marks as printed in the CBSE 2026-27 syllabus (* = concept-based questions). The printed figures do not add up to the stated theory total of 70, so use them as a guide only. Practical is 30 marks.",
+ "mistakes": [
+  "Fixtures: check the count first. A knock-out needs n - 1 matches and a single league needs n(n - 1)/2.",
+  "Byes are needed only when the number of teams is not a power of 2. Byes = next power of 2 minus the number of teams.",
+  "For each asana, write the procedure, the benefits and the contraindications separately. Do not skip the contraindications.",
+  "Harvard Step Test: use the exercise time in seconds and the pulse count taken 1 to 1.5 minutes after exercise.",
+  "Keep the record file complete and neat: the record file and viva together carry 10 of the 30 practical marks."
+ ],
+ "order": [
+  "Start with Unit 8, Biomechanics (10 marks): Newton's laws, levers, friction, projectile.",
+  "Then Unit 1 (5 + 4*) and Unit 10 (9).",
+  "Then Units 4, 6 and 7, which are about 8 marks each.",
+  "Then Units 2, 3, 5 and 9, which are about 7 marks each.",
+  "Do practical and record file work alongside the theory."
+ ],
+ "resources": [
+  {
+   "label": "CBSE Physical Education Class XII textbook (PDF)",
+   "url": "https://cbseacademic.nic.in/web_material/Manuals/PhysicalEducation12_2022.pdf"
+  }
+ ]
+}

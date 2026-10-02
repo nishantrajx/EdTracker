@@ -1,0 +1,46 @@
+{
+ "subject": "c10-eng",
+ "weightage": [
+  {
+   "id": "c10-eng-01",
+   "marks": "20"
+  },
+  {
+   "label": "Writing Skills and Grammar (Ch 2 and 3): grammar 10 + writing 10",
+   "ids": [
+    "c10-eng-02",
+    "c10-eng-03"
+   ],
+   "marks": "20"
+  },
+  {
+   "label": "Language through Literature: First Flight and Footprints Without Feet (Ch 4 to 6)",
+   "ids": [
+    "c10-eng-04",
+    "c10-eng-05",
+    "c10-eng-06"
+   ],
+   "marks": "40"
+  }
+ ],
+ "note": "Marks are official (theory total 80; internal assessment 20). Reading 20 = a discursive passage (10) and a case-based factual passage (10). Writing and Grammar 20 = grammar 10 (answer 10 of 12 gap-filling, editing or transformation questions) and writing 10 (formal letter 5, analytical paragraph 5). Literature 40 = extracts 5 + 5, First Flight short answers 12, Footprints short answers 6, First Flight long answers 6, Footprints long answer 6.",
+ "mistakes": [
+  "Grammar: you attempt 10 out of 12 questions, so skip the two you are least sure of.",
+  "Reading short answers: keep them to 30 to 40 words, and answer from the passage.",
+  "Formal letter and analytical paragraph: stay within 100 to 120 words and follow the format. For the paragraph, use the data in the map, chart or cue given.",
+  "Literature short answers are 40 to 50 words, and long answers are about 100 to 120 words. Keep to the limit.",
+  "For extract questions, read the whole extract before answering, and answer from the lines given."
+ ],
+ "order": [
+  "Literature first (Ch 4 to 6, 40 marks): read each prose piece, poem and story from both books and write short notes.",
+  "Then Reading (20 marks): practise one discursive and one case-based passage each week.",
+  "Then Writing and Grammar (20 marks): practise the formal letter and the analytical paragraph, and revise the grammar topics in the syllabus.",
+  "Keep internal assessment (20 marks) on schedule with your school."
+ ],
+ "resources": [
+  {
+   "label": "NCERT textbooks (official site)",
+   "url": "https://ncert.nic.in/textbook.php"
+  }
+ ]
+}

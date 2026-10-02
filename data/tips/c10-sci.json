@@ -1,0 +1,70 @@
+{
+ "subject": "c10-sci",
+ "weightage": [
+  {
+   "label": "Chemical Substances: Nature and Behaviour (Ch 1, 3, 4, 5)",
+   "ids": [
+    "c10-sci-01",
+    "c10-sci-03",
+    "c10-sci-04",
+    "c10-sci-05"
+   ],
+   "marks": "25"
+  },
+  {
+   "label": "World of Living (Ch 6, 7, 8)",
+   "ids": [
+    "c10-sci-06",
+    "c10-sci-07",
+    "c10-sci-08"
+   ],
+   "marks": "25"
+  },
+  {
+   "label": "Natural Phenomena: Light and Eye (Ch 10 to 12)",
+   "ids": [
+    "c10-sci-10",
+    "c10-sci-11",
+    "c10-sci-12"
+   ],
+   "marks": "12"
+  },
+  {
+   "label": "Effects of Current (Ch 13, 14)",
+   "ids": [
+    "c10-sci-13",
+    "c10-sci-14"
+   ],
+   "marks": "13"
+  },
+  {
+   "label": "Natural Resources: Our Environment (Ch 15)",
+   "ids": [
+    "c10-sci-15"
+   ],
+   "marks": "5"
+  }
+ ],
+ "note": "Marks are official and given per unit (theory total 80, internal assessment 20). Periodic Classification (Ch 2) and Heredity and Evolution (Ch 9) are marked as not in the year-end exam. Question mix: knowledge and understanding 50%, application 30%, formulate, analyse, evaluate and create 20%. About 33% internal choice is given.",
+ "mistakes": [
+  "Chemical equations: balance them, and add state symbols or conditions when the question asks.",
+  "Ray diagrams: draw rays with arrows, label the points, and apply the sign convention in numericals.",
+  "Electricity numericals: write the formula, substitute with units, and check whether the resistors are in series or parallel.",
+  "Biology diagrams: draw neat, labelled diagrams and label every part the question asks for.",
+  "Assertion-reasoning questions: read both statements carefully and test each one separately.",
+  "Case-based questions: read the whole passage before you answer."
+ ],
+ "order": [
+  "Chemical Substances (25 marks) and World of Living (25 marks) first: together they are 50 of 80 marks.",
+  "Then Effects of Current (13 marks): Electricity and Magnetic Effects.",
+  "Then Light and the Human Eye (12 marks).",
+  "Our Environment (5 marks) is a short unit to revise before the exam.",
+  "Read Chapters 2 and 9 for school tests, but they are not in the year-end exam."
+ ],
+ "resources": [
+  {
+   "label": "NCERT textbooks (official site)",
+   "url": "https://ncert.nic.in/textbook.php"
+  }
+ ]
+}

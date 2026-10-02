@@ -1,0 +1,85 @@
+{
+ "subject": "c10-math",
+ "weightage": [
+  {
+   "label": "Number Systems (Ch 1)",
+   "ids": [
+    "c10-math-01"
+   ],
+   "marks": "6"
+  },
+  {
+   "label": "Algebra (Ch 2 to 5)",
+   "ids": [
+    "c10-math-02",
+    "c10-math-03",
+    "c10-math-04",
+    "c10-math-05"
+   ],
+   "marks": "20"
+  },
+  {
+   "label": "Coordinate Geometry (Ch 6)",
+   "ids": [
+    "c10-math-06"
+   ],
+   "marks": "6"
+  },
+  {
+   "label": "Geometry: Triangles and Circles (Ch 7 to 8)",
+   "ids": [
+    "c10-math-07",
+    "c10-math-08"
+   ],
+   "marks": "15"
+  },
+  {
+   "label": "Trigonometry (Ch 9 to 11)",
+   "ids": [
+    "c10-math-09",
+    "c10-math-10",
+    "c10-math-11"
+   ],
+   "marks": "12"
+  },
+  {
+   "label": "Mensuration (Ch 12 to 13)",
+   "ids": [
+    "c10-math-12",
+    "c10-math-13"
+   ],
+   "marks": "10"
+  },
+  {
+   "label": "Statistics and Probability (Ch 14 to 15)",
+   "ids": [
+    "c10-math-14",
+    "c10-math-15"
+   ],
+   "marks": "11"
+  }
+ ],
+ "note": "Marks are official and given per unit (theory total 80, internal assessment 20: pen-paper test and multiple assessment 5+5, portfolio 5, lab practical 5). Question mix: remembering and understanding 43 marks (54%), applying 19 (24%), analysing, evaluating and creating 18 (22%).",
+ "mistakes": [
+  "Algebra is 20 of 80 marks. Practise quadratic equations and arithmetic progressions regularly and check your roots by substituting them back.",
+  "Show every step of your working so that you can earn method marks even if the final answer is wrong.",
+  "Coordinate geometry: be careful when substituting values into the distance and section formulas, especially signs.",
+  "Heights and distances: draw a clear figure and mark the angle of elevation or depression correctly before you calculate.",
+  "Mensuration: check whether the question asks for curved surface area, total surface area or volume, and give the correct unit.",
+  "Statistics: write the class intervals and the table clearly before applying the formula for mean, median or mode."
+ ],
+ "order": [
+  "Algebra first (Ch 2 to 5, 20 marks): the largest unit, and Chapters 3 and 4 build on each other.",
+  "Geometry next (Ch 7 and 8, 15 marks).",
+  "Then Trigonometry (Ch 9 to 11, 12 marks).",
+  "Then Statistics and Probability (Ch 14 and 15, 11 marks) and Mensuration (Ch 12 and 13, 10 marks).",
+  "Finish with Number Systems and Coordinate Geometry (6 marks each), which are shorter.",
+  "Keep portfolio and lab activities (10 internal marks) on schedule with your school."
+ ],
+ "resources": [
+  {
+   "label": "NCERT textbooks (official site)",
+   "url": "https://ncert.nic.in/textbook.php"
+  }
+ ]
+}
