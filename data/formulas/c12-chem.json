@@ -1,717 +1,265 @@
 {
- "subject": "c12-chem",
- "chapters": [
-  {
-   "id": "c12-chem-01",
-   "formulas": [
+  "subject": "c12-chem",
+  "chapters": [
     {
-     "label": "Mass percentage",
-     "tex": "\\dfrac{\\text{mass of component}}{\\text{total mass of solution}}\\times100"
+      "id": "c12-chem-01",
+      "formulas": [
+        {
+          "label": "Molarity",
+          "tex": "M=\\frac{\\text{moles of solute}}{\\text{volume of solution in L}}",
+          "unit": "mol L^{-1}"
+        },
+        {
+          "label": "Molality",
+          "tex": "m=\\frac{\\text{moles of solute}}{\\text{mass of solvent in kg}}",
+          "unit": "mol kg^{-1}"
+        },
+        {
+          "label": "Mole fraction",
+          "tex": "x_i=\\frac{n_i}{\\sum_j n_j}",
+          "unit": "dimensionless"
+        },
+        {
+          "label": "Raoult's law",
+          "tex": "p_i=x_i p_i^0",
+          "unit": "pressure"
+        },
+        {
+          "label": "Relative lowering of vapour pressure",
+          "tex": "\\frac{p^0-p}{p^0}=x_{\\rm solute}",
+          "unit": "dimensionless"
+        },
+        {
+          "label": "Elevation in boiling point",
+          "tex": "\\Delta T_b=K_bm",
+          "unit": "K"
+        },
+        {
+          "label": "Depression in freezing point",
+          "tex": "\\Delta T_f=K_fm",
+          "unit": "K"
+        },
+        {
+          "label": "Osmotic pressure",
+          "tex": "\\pi=CRT=\\frac{nRT}{V}",
+          "unit": "Pa"
+        },
+        {
+          "label": "van't Hoff factor",
+          "tex": "i=\\frac{\\text{observed colligative property}}{\\text{calculated colligative property}}",
+          "unit": "dimensionless"
+        },
+        {
+          "label": "Modified colligative relations",
+          "tex": "\\Delta T_b=iK_bm,\\quad\\Delta T_f=iK_fm,\\quad\\pi=iCRT",
+          "unit": "varies"
+        }
+      ]
     },
     {
-     "label": "Parts per million",
-     "tex": "\\text{ppm}=\\dfrac{\\text{parts of component}}{\\text{total parts of solution}}\\times10^6"
+      "id": "c12-chem-02",
+      "formulas": [
+        {
+          "label": "Cell EMF",
+          "tex": "E_{\\rm cell}=E_{\\rm cathode}-E_{\\rm anode}",
+          "unit": "V"
+        },
+        {
+          "label": "Nernst equation at 298 K",
+          "tex": "E=E^\\circ-\\frac{0.0591}{n}\\log Q",
+          "unit": "V"
+        },
+        {
+          "label": "Gibbs energy and cell potential",
+          "tex": "\\Delta G=-nFE_{\\rm cell}",
+          "unit": "J mol^{-1}"
+        },
+        {
+          "label": "Standard Gibbs energy",
+          "tex": "\\Delta G^\\circ=-nFE^\\circ_{\\rm cell}",
+          "unit": "J mol^{-1}"
+        },
+        {
+          "label": "Conductance",
+          "tex": "G=\\frac1R",
+          "unit": "S"
+        },
+        {
+          "label": "Conductivity",
+          "tex": "\\kappa=G\\frac{l}{A}",
+          "unit": "S m^{-1}"
+        },
+        {
+          "label": "Molar conductivity",
+          "tex": "\\Lambda_m=\\frac{\\kappa\\times1000}{C}",
+          "unit": "S cm^2 mol^{-1}"
+        },
+        {
+          "label": "Faraday law of electrolysis",
+          "tex": "m=\\frac{MIt}{nF}",
+          "unit": "g"
+        },
+        {
+          "label": "Kohlrausch's law",
+          "tex": "\\Lambda_m^\\circ=\\nu_+\\lambda_+^\\circ+\\nu_-\\lambda_-^\\circ",
+          "unit": "S cm² mol⁻¹"
+        }
+      ]
     },
     {
-     "label": "Mole fraction",
-     "tex": "x_A=\\dfrac{n_A}{n_A+n_B},\\quad x_A+x_B=1"
+      "id": "c12-chem-03",
+      "formulas": [
+        {
+          "label": "Rate law",
+          "tex": "r=k[A]^m[B]^n",
+          "unit": "concentration time^{-1}"
+        },
+        {
+          "label": "Zero-order integrated law",
+          "tex": "[A]_t=[A]_0-kt",
+          "unit": "mol L^{-1}"
+        },
+        {
+          "label": "Zero-order half-life",
+          "tex": "t_{1/2}=\\frac{[A]_0}{2k}",
+          "unit": "time"
+        },
+        {
+          "label": "First-order integrated law",
+          "tex": "k=\\frac{2.303}{t}\\log\\frac{[A]_0}{[A]_t}",
+          "unit": "time^{-1}"
+        },
+        {
+          "label": "First-order half-life",
+          "tex": "t_{1/2}=\\frac{0.693}{k}",
+          "unit": "time"
+        },
+        {
+          "label": "Arrhenius equation",
+          "tex": "k=Ae^{-E_a/(RT)}",
+          "unit": "—"
+        },
+        {
+          "label": "Two-temperature Arrhenius form",
+          "tex": "\\log\\frac{k_2}{k_1}=\\frac{E_a}{2.303R}\\left(\\frac1{T_1}-\\frac1{T_2}\\right)",
+          "unit": "—"
+        }
+      ]
     },
     {
-     "label": "Molarity",
-     "tex": "M=\\dfrac{\\text{moles of solute}}{\\text{volume of solution in litres}}",
-     "unit": "mol L⁻¹"
+      "id": "c12-chem-04",
+      "formulas": [
+        {
+          "label": "Magnetic moment of transition ion",
+          "tex": "\\mu=\\sqrt{n(n+2)}\\ \\mathrm{BM}",
+          "unit": "BM"
+        }
+      ]
     },
     {
-     "label": "Molality",
-     "tex": "m=\\dfrac{\\text{moles of solute}}{\\text{mass of solvent in kg}}",
-     "unit": "mol kg⁻¹"
+      "id": "c12-chem-05",
+      "formulas": [
+        {
+          "label": "Magnetic moment of coordination compound",
+          "tex": "\\mu=\\sqrt{n(n+2)}\\,\\mathrm{BM}",
+          "unit": "BM"
+        }
+      ]
     },
     {
-     "label": "Henry's law",
-     "tex": "p=K_H\\,x\\quad(\\text{higher }K_H\\Rightarrow\\text{lower solubility})"
+      "id": "c12-chem-06",
+      "formulas": [
+        {
+          "label": "Wurtz reaction",
+          "tex": "2R-X+2Na\\xrightarrow{\\text{dry ether}}R-R+2NaX",
+          "unit": ""
+        },
+        {
+          "label": "Finkelstein reaction",
+          "tex": "R-Cl/R-Br+NaI\\xrightarrow{\\text{acetone}}R-I+NaCl/NaBr",
+          "unit": ""
+        },
+        {
+          "label": "Swarts reaction",
+          "tex": "R-Cl/R-Br\\xrightarrow{\\text{metal fluoride}}R-F",
+          "unit": ""
+        }
+      ]
     },
     {
-     "label": "Raoult's law (volatile liquids)",
-     "tex": "p_A=p_A^\\circ x_A,\\quad p_{total}=p_A^\\circ x_A+p_B^\\circ x_B"
+      "id": "c12-chem-07",
+      "formulas": [
+        {
+          "label": "Williamson ether synthesis",
+          "tex": "R-X+R'O^-Na^+\\rightarrow R-O-R'+NaX",
+          "unit": ""
+        },
+        {
+          "label": "Dehydration of alcohol",
+          "tex": "R-CH_2CH_2OH\\xrightarrow{\\mathrm{conc.\\ H_2SO_4},\\ \\Delta}R-CH=CH_2+H_2O",
+          "unit": ""
+        }
+      ]
     },
     {
-     "label": "Dalton's law (vapour phase)",
-     "tex": "p_A=y_A\\,p_{total}"
+      "id": "c12-chem-08",
+      "formulas": [
+        {
+          "label": "Aldehyde oxidation",
+          "tex": "R-CHO+[O]\\rightarrow R-COOH",
+          "unit": ""
+        },
+        {
+          "label": "Aldehyde reduction",
+          "tex": "R-CHO+2[H]\\rightarrow R-CH_2OH",
+          "unit": ""
+        },
+        {
+          "label": "Ketone reduction",
+          "tex": "R-CO-R'+2[H]\\rightarrow R-CH(OH)-R'",
+          "unit": ""
+        },
+        {
+          "label": "Esterification",
+          "tex": "R-COOH+R'OH\\rightleftharpoons R-COOR'+H_2O",
+          "unit": ""
+        },
+        {
+          "label": "Decarboxylation",
+          "tex": "R-COONa+NaOH\\xrightarrow{\\Delta,\\ \\mathrm{CaO}}R-H+Na_2CO_3",
+          "unit": ""
+        }
+      ]
     },
     {
-     "label": "Non-volatile solute: relative lowering of vapour pressure",
-     "tex": "\\dfrac{p^\\circ-p}{p^\\circ}=x_2=\\dfrac{n_2}{n_1+n_2}"
+      "id": "c12-chem-09",
+      "formulas": [
+        {
+          "label": "Carbylamine reaction",
+          "tex": "R-NH_2+CHCl_3+3KOH\\rightarrow R-NC+3KCl+3H_2O",
+          "unit": ""
+        },
+        {
+          "label": "Diazotisation",
+          "tex": "Ar-NH_2+NaNO_2+2HCl\\xrightarrow{273-278\\,K}Ar-N_2^+Cl^-+NaCl+2H_2O",
+          "unit": ""
+        },
+        {
+          "label": "Azo coupling",
+          "tex": "Ar-N_2^+Cl^-+Ar'OH\\rightarrow Ar-N=N-Ar'+HCl",
+          "unit": ""
+        }
+      ]
     },
     {
-     "label": "Molar mass from lowering of vapour pressure",
-     "tex": "M_2=\\dfrac{w_2M_1\\,p^\\circ}{w_1\\,(p^\\circ-p)}"
-    },
-    {
-     "label": "Ideal solution",
-     "tex": "\\Delta_{mix}H=0,\\quad \\Delta_{mix}V=0"
-    },
-    {
-     "label": "Non-ideal: positive deviation",
-     "tex": "p>\\text{Raoult's value};\\ \\Delta_{mix}H>0,\\ \\Delta_{mix}V>0"
-    },
-    {
-     "label": "Non-ideal: negative deviation",
-     "tex": "p<\\text{Raoult's value};\\ \\Delta_{mix}H<0,\\ \\Delta_{mix}V<0"
-    },
-    {
-     "label": "Elevation of boiling point",
-     "tex": "\\Delta T_b=K_bm,\\quad M_2=\\dfrac{1000\\,K_bw_2}{\\Delta T_b\\,w_1}",
-     "unit": "K; w in g"
-    },
-    {
-     "label": "Depression of freezing point",
-     "tex": "\\Delta T_f=K_fm,\\quad M_2=\\dfrac{1000\\,K_fw_2}{\\Delta T_f\\,w_1}",
-     "unit": "K"
-    },
-    {
-     "label": "Osmotic pressure",
-     "tex": "\\Pi=CRT=\\dfrac{n_2}{V}RT,\\quad M_2=\\dfrac{w_2RT}{\\Pi V}"
-    },
-    {
-     "label": "Isotonic solutions",
-     "tex": "\\Pi_1=\\Pi_2"
-    },
-    {
-     "label": "Gas constant",
-     "tex": "R=8.314\\ \\text{J K}^{-1}\\text{mol}^{-1}=0.0821\\ \\text{L atm K}^{-1}\\text{mol}^{-1}=0.083\\ \\text{L bar K}^{-1}\\text{mol}^{-1}"
-    },
-    {
-     "label": "van't Hoff factor",
-     "tex": "i=\\dfrac{\\text{normal molar mass}}{\\text{observed molar mass}}=\\dfrac{\\text{observed colligative property}}{\\text{calculated colligative property}}"
-    },
-    {
-     "label": "Colligative properties with i",
-     "tex": "\\Delta T_b=iK_bm,\\ \\ \\Delta T_f=iK_fm,\\ \\ \\Pi=iCRT,\\ \\ \\dfrac{p^\\circ-p}{p^\\circ}=i\\,x_2"
-    },
-    {
-     "label": "Dissociation into n particles (degree α)",
-     "tex": "i=1+(n-1)\\alpha"
-    },
-    {
-     "label": "Association of n molecules (degree α)",
-     "tex": "i=1-\\alpha\\left(1-\\dfrac1n\\right)"
+      "id": "c12-chem-10",
+      "formulas": [
+        {
+          "label": "Peptide linkage",
+          "tex": "\\mathrm{-CO-NH-}",
+          "unit": ""
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "c12-chem-02",
-   "formulas": [
-    {
-     "label": "EMF of a cell",
-     "tex": "E^\\circ_{cell}=E^\\circ_{cathode}-E^\\circ_{anode}\\ \\ (\\text{reduction potentials})",
-     "unit": "V"
-    },
-    {
-     "label": "Daniell cell",
-     "tex": "\\mathrm{Zn\\,|\\,Zn^{2+}\\,\\|\\,Cu^{2+}\\,|\\,Cu},\\quad E^\\circ_{cell}=1.10\\ \\text{V}"
-    },
-    {
-     "label": "Nernst equation",
-     "tex": "E_{cell}=E^\\circ_{cell}-\\dfrac{RT}{nF}\\ln Q"
-    },
-    {
-     "label": "Nernst equation at 298 K",
-     "tex": "E_{cell}=E^\\circ_{cell}-\\dfrac{0.0591}{n}\\log Q"
-    },
-    {
-     "label": "Electrode potential",
-     "tex": "E_{(M^{n+}/M)}=E^\\circ_{(M^{n+}/M)}-\\dfrac{RT}{nF}\\ln\\dfrac{1}{[M^{n+}]}"
-    },
-    {
-     "label": "At equilibrium (E = 0)",
-     "tex": "E^\\circ_{cell}=\\dfrac{RT}{nF}\\ln K_c=\\dfrac{0.0591}{n}\\log K_c\\ \\ (298\\ \\text{K})"
-    },
-    {
-     "label": "Gibbs energy and EMF",
-     "tex": "\\Delta_rG^\\circ=-nFE^\\circ_{cell},\\quad \\Delta_rG^\\circ=-RT\\ln K",
-     "unit": "J mol⁻¹"
-    },
-    {
-     "label": "Faraday constant",
-     "tex": "F=96500\\ \\text{C mol}^{-1}"
-    },
-    {
-     "label": "Conductance and resistance",
-     "tex": "G=\\dfrac1R,\\quad R=\\rho\\dfrac lA",
-     "unit": "S"
-    },
-    {
-     "label": "Conductivity and cell constant",
-     "tex": "\\kappa=\\dfrac1\\rho=\\dfrac1R\\cdot\\dfrac lA=\\dfrac{G^*}{R}",
-     "unit": "S m⁻¹ or S cm⁻¹"
-    },
-    {
-     "label": "Molar conductivity",
-     "tex": "\\Lambda_m=\\dfrac{\\kappa\\times1000}{M}",
-     "unit": "S cm² mol⁻¹ (κ in S cm⁻¹, M in mol L⁻¹)"
-    },
-    {
-     "label": "Strong electrolyte (Debye–Hückel–Onsager)",
-     "tex": "\\Lambda_m=\\Lambda_m^\\circ-A\\sqrt c"
-    },
-    {
-     "label": "Kohlrausch's law",
-     "tex": "\\Lambda_m^\\circ=\\nu_+\\lambda^\\circ_++\\nu_-\\lambda^\\circ_-"
-    },
-    {
-     "label": "Weak electrolyte: degree of dissociation and K",
-     "tex": "\\alpha=\\dfrac{\\Lambda_m}{\\Lambda_m^\\circ},\\quad K=\\dfrac{c\\alpha^2}{1-\\alpha}"
-    },
-    {
-     "label": "Charge passed",
-     "tex": "Q=It",
-     "unit": "C"
-    },
-    {
-     "label": "Faraday's first law",
-     "tex": "m=ZQ=ZIt=\\dfrac{M\\,I\\,t}{nF}",
-     "unit": "g"
-    },
-    {
-     "label": "Faraday's second law",
-     "tex": "\\dfrac{m_1}{m_2}=\\dfrac{E_1}{E_2}\\ \\ (\\text{equivalent masses})"
-    },
-    {
-     "label": "Lead storage battery (discharge)",
-     "tex": "\\mathrm{Pb + PbO_2 + 2H_2SO_4}\\rightarrow \\mathrm{2PbSO_4 + 2H_2O}"
-    },
-    {
-     "label": "H₂–O₂ fuel cell (overall)",
-     "tex": "\\mathrm{2H_2 + O_2}\\rightarrow \\mathrm{2H_2O}"
-    },
-    {
-     "label": "Corrosion (rusting)",
-     "tex": "\\mathrm{Fe\\rightarrow Fe^{2+}+2e^-}\\ (\\text{anode});\\quad \\mathrm{O_2+4H^++4e^-\\rightarrow 2H_2O}\\ (\\text{cathode})"
-    }
-   ]
-  },
-  {
-   "id": "c12-chem-03",
-   "formulas": [
-    {
-     "label": "Rate of reaction",
-     "tex": "\\text{Rate}=-\\dfrac{\\Delta[R]}{\\Delta t}=\\dfrac{\\Delta[P]}{\\Delta t}"
-    },
-    {
-     "label": "For aA + bB → cC + dD",
-     "tex": "\\text{Rate}=-\\dfrac1a\\dfrac{d[A]}{dt}=-\\dfrac1b\\dfrac{d[B]}{dt}=\\dfrac1c\\dfrac{d[C]}{dt}=\\dfrac1d\\dfrac{d[D]}{dt}"
-    },
-    {
-     "label": "Rate law and order",
-     "tex": "\\text{Rate}=k[A]^x[B]^y,\\quad \\text{order}=x+y"
-    },
-    {
-     "label": "Unit of k for order n",
-     "tex": "(\\text{mol L}^{-1})^{1-n}\\,\\text{s}^{-1}"
-    },
-    {
-     "label": "Zero order: integrated rate law",
-     "tex": "k=\\dfrac{[R]_0-[R]}{t},\\quad t_{1/2}=\\dfrac{[R]_0}{2k}",
-     "unit": "k in mol L⁻¹ s⁻¹"
-    },
-    {
-     "label": "First order: integrated rate law",
-     "tex": "k=\\dfrac{2.303}{t}\\log\\dfrac{[R]_0}{[R]},\\quad [R]=[R]_0e^{-kt}",
-     "unit": "k in s⁻¹"
-    },
-    {
-     "label": "First order: half-life",
-     "tex": "t_{1/2}=\\dfrac{0.693}{k}\\ \\ (\\text{independent of }[R]_0)"
-    },
-    {
-     "label": "Arrhenius equation",
-     "tex": "k=Ae^{-E_a/RT}"
-    },
-    {
-     "label": "Arrhenius equation (log form)",
-     "tex": "\\log k=\\log A-\\dfrac{E_a}{2.303\\,RT}"
-    },
-    {
-     "label": "Two temperatures",
-     "tex": "\\log\\dfrac{k_2}{k_1}=\\dfrac{E_a}{2.303\\,R}\\left(\\dfrac1{T_1}-\\dfrac1{T_2}\\right)"
-    },
-    {
-     "label": "Fraction of molecules with energy ≥ Ea",
-     "tex": "e^{-E_a/RT}"
-    },
-    {
-     "label": "Collision theory",
-     "tex": "k=PZ_{AB}e^{-E_a/RT}"
-    },
-    {
-     "label": "Temperature coefficient (rule of thumb)",
-     "tex": "\\text{Rate roughly doubles for every }10\\ \\text{K rise}"
-    }
-   ]
-  },
-  {
-   "id": "c12-chem-04",
-   "formulas": [
-    {
-     "label": "General electronic configuration of d-block",
-     "tex": "(n-1)d^{1-10}\\,ns^{1-2}\\quad(\\text{exceptions: Cr }3d^54s^1,\\ \\text{Cu }3d^{10}4s^1)"
-    },
-    {
-     "label": "Lanthanoids and actinoids",
-     "tex": "\\text{Ln: }[\\mathrm{Xe}]4f^{1-14}5d^{0-1}6s^2;\\quad \\text{An: }[\\mathrm{Rn}]5f^{1-14}6d^{0-1}7s^2"
-    },
-    {
-     "label": "Spin-only magnetic moment",
-     "tex": "\\mu=\\sqrt{n(n+2)}\\ \\text{BM}\\quad(n=\\text{unpaired electrons})",
-     "unit": "BM"
-    },
-    {
-     "label": "Chromite fusion (K₂Cr₂O₇ preparation)",
-     "tex": "\\mathrm{4FeCr_2O_4 + 8Na_2CO_3 + 7O_2}\\rightarrow \\mathrm{8Na_2CrO_4 + 2Fe_2O_3 + 8CO_2}"
-    },
-    {
-     "label": "Chromate to dichromate (acid)",
-     "tex": "\\mathrm{2CrO_4^{2-} + 2H^+}\\rightarrow \\mathrm{Cr_2O_7^{2-} + H_2O}"
-    },
-    {
-     "label": "Dichromate as an oxidant (acidic)",
-     "tex": "\\mathrm{Cr_2O_7^{2-} + 14H^+ + 6e^-}\\rightarrow \\mathrm{2Cr^{3+} + 7H_2O}"
-    },
-    {
-     "label": "Dichromate with Fe²⁺",
-     "tex": "\\mathrm{Cr_2O_7^{2-} + 6Fe^{2+} + 14H^+}\\rightarrow \\mathrm{2Cr^{3+} + 6Fe^{3+} + 7H_2O}"
-    },
-    {
-     "label": "Manganate formation (KMnO₄ preparation)",
-     "tex": "\\mathrm{2MnO_2 + 4KOH + O_2}\\rightarrow \\mathrm{2K_2MnO_4 + 2H_2O}"
-    },
-    {
-     "label": "Disproportionation to permanganate",
-     "tex": "\\mathrm{3MnO_4^{2-} + 4H^+}\\rightarrow \\mathrm{2MnO_4^- + MnO_2 + 2H_2O}"
-    },
-    {
-     "label": "Permanganate (acidic medium)",
-     "tex": "\\mathrm{MnO_4^- + 8H^+ + 5e^-}\\rightarrow \\mathrm{Mn^{2+} + 4H_2O}"
-    },
-    {
-     "label": "Permanganate with Fe²⁺",
-     "tex": "\\mathrm{MnO_4^- + 5Fe^{2+} + 8H^+}\\rightarrow \\mathrm{Mn^{2+} + 5Fe^{3+} + 4H_2O}"
-    },
-    {
-     "label": "Permanganate with oxalate",
-     "tex": "\\mathrm{2MnO_4^- + 5C_2O_4^{2-} + 16H^+}\\rightarrow \\mathrm{2Mn^{2+} + 10CO_2 + 8H_2O}"
-    },
-    {
-     "label": "Permanganate with iodide",
-     "tex": "\\mathrm{2MnO_4^- + 10I^- + 16H^+}\\rightarrow \\mathrm{2Mn^{2+} + 5I_2 + 8H_2O}"
-    },
-    {
-     "label": "Common oxidation states",
-     "tex": "\\text{Lanthanoids: mostly }+3;\\quad \\text{Actinoids: }+3\\text{ and higher}"
-    },
-    {
-     "label": "Lanthanoid contraction",
-     "tex": "\\text{Atomic and ionic radii decrease steadily from La to Lu}"
-    }
-   ]
-  },
-  {
-   "id": "c12-chem-05",
-   "formulas": [
-    {
-     "label": "Oxidation state of the central metal",
-     "tex": "\\text{charge on complex}=\\text{O.S. of metal}+\\sum\\text{charges of ligands}"
-    },
-    {
-     "label": "Coordination number",
-     "tex": "\\text{Number of donor atoms bonded directly to the metal}"
-    },
-    {
-     "label": "Naming rules",
-     "tex": "\\text{Ligands in alphabetical order, then metal with oxidation state in Roman numerals; anionic complex ends in ‘-ate’}"
-    },
-    {
-     "label": "Example: naming",
-     "tex": "\\mathrm{[Co(NH_3)_6]Cl_3}:\\ \\text{hexaamminecobalt(III) chloride}"
-    },
-    {
-     "label": "Example: naming (anionic complex)",
-     "tex": "\\mathrm{K_4[Fe(CN)_6]}:\\ \\text{potassium hexacyanidoferrate(II)}"
-    },
-    {
-     "label": "VBT: four-coordinate complexes",
-     "tex": "sp^3\\ \\text{tetrahedral};\\quad dsp^2\\ \\text{square planar}"
-    },
-    {
-     "label": "VBT: six-coordinate complexes",
-     "tex": "d^2sp^3\\ \\text{inner orbital (low spin)};\\quad sp^3d^2\\ \\text{outer orbital (high spin)}"
-    },
-    {
-     "label": "CFT: octahedral splitting",
-     "tex": "\\text{Energy of }t_{2g}=-0.4\\Delta_o,\\quad \\text{Energy of }e_g=+0.6\\Delta_o"
-    },
-    {
-     "label": "CFT: tetrahedral splitting",
-     "tex": "\\Delta_t=\\dfrac49\\Delta_o"
-    },
-    {
-     "label": "High spin or low spin",
-     "tex": "\\Delta_o<P:\\ \\text{high spin};\\quad \\Delta_o>P:\\ \\text{low spin}"
-    },
-    {
-     "label": "Crystal field stabilisation energy (octahedral)",
-     "tex": "\\text{CFSE}=\\left(-0.4\\,n_{t_{2g}}+0.6\\,n_{e_g}\\right)\\Delta_o"
-    },
-    {
-     "label": "Spectrochemical series (weak to strong field)",
-     "tex": "\\mathrm{I^-<Br^-<SCN^-<Cl^-<S^{2-}<F^-<OH^-<C_2O_4^{2-}<H_2O<NCS^-<edta^{4-}<NH_3<en<CN^-<CO}"
-    },
-    {
-     "label": "Stability constant",
-     "tex": "M+nL\\rightleftharpoons ML_n,\\quad \\beta_n=\\dfrac{[ML_n]}{[M][L]^n}"
-    }
-   ]
-  },
-  {
-   "id": "c12-chem-06",
-   "formulas": [
-    {
-     "label": "Alcohol to chloroalkane (thionyl chloride)",
-     "tex": "\\mathrm{ROH + SOCl_2}\\rightarrow \\mathrm{RCl + SO_2 + HCl}"
-    },
-    {
-     "label": "Alcohol to haloalkane (HX)",
-     "tex": "\\mathrm{ROH + HX}\\xrightarrow{\\mathrm{ZnCl_2}}\\mathrm{RX + H_2O}"
-    },
-    {
-     "label": "Alcohol with PCl₃",
-     "tex": "\\mathrm{3ROH + PCl_3}\\rightarrow \\mathrm{3RCl + H_3PO_3}"
-    },
-    {
-     "label": "Finkelstein reaction",
-     "tex": "\\mathrm{RCl + NaI}\\xrightarrow{\\text{dry acetone}}\\mathrm{RI + NaCl}"
-    },
-    {
-     "label": "Swarts reaction",
-     "tex": "\\mathrm{RCl + AgF}\\rightarrow \\mathrm{RF + AgCl}"
-    },
-    {
-     "label": "Free radical chlorination",
-     "tex": "\\mathrm{CH_4 + Cl_2}\\xrightarrow{\\text{light}}\\mathrm{CH_3Cl + HCl}"
-    },
-    {
-     "label": "Chlorobenzene from benzene",
-     "tex": "\\mathrm{C_6H_6 + Cl_2}\\xrightarrow{\\mathrm{FeCl_3}}\\mathrm{C_6H_5Cl + HCl}"
-    },
-    {
-     "label": "Sandmeyer reaction",
-     "tex": "\\mathrm{ArN_2^+Cl^-}\\xrightarrow{\\mathrm{CuCl}}\\mathrm{ArCl + N_2}"
-    },
-    {
-     "label": "Nucleophilic substitution (general: RX + Nu⁻ → RNu + X⁻)",
-     "tex": "\\mathrm{RX + OH^-}\\rightarrow \\mathrm{ROH + X^-}"
-    },
-    {
-     "label": "SN1 and SN2 rates",
-     "tex": "\\text{S}_\\text{N}1:\\ \\text{rate}=k[RX]\\ (\\text{racemisation});\\quad \\text{S}_\\text{N}2:\\ \\text{rate}=k[RX][Nu^-]\\ (\\text{inversion})"
-    },
-    {
-     "label": "Order of reactivity",
-     "tex": "\\text{S}_\\text{N}1:\\ 3^\\circ>2^\\circ>1^\\circ;\\quad \\text{S}_\\text{N}2:\\ \\mathrm{CH_3X}>1^\\circ>2^\\circ>3^\\circ;\\quad \\text{leaving group: }\\mathrm{I>Br>Cl>F}"
-    },
-    {
-     "label": "Elimination (Saytzeff: more substituted alkene is major)",
-     "tex": "\\mathrm{RCH_2CH_2X}\\xrightarrow{\\text{alc. KOH}}\\mathrm{RCH{=}CH_2 + HX}"
-    },
-    {
-     "label": "Grignard reagent",
-     "tex": "\\mathrm{RX + Mg}\\xrightarrow{\\text{dry ether}}\\mathrm{RMgX}"
-    },
-    {
-     "label": "Wurtz reaction",
-     "tex": "\\mathrm{2RX + 2Na}\\xrightarrow{\\text{dry ether}}\\mathrm{R{-}R + 2NaX}"
-    },
-    {
-     "label": "Chlorobenzene to phenol (needs high T and P)",
-     "tex": "\\mathrm{C_6H_5Cl + NaOH}\\xrightarrow{623\\ \\text{K, 300 atm}}\\mathrm{C_6H_5OH + NaCl}"
-    },
-    {
-     "label": "Chloroform on exposure to air (phosgene is poisonous)",
-     "tex": "\\mathrm{2CHCl_3 + O_2}\\xrightarrow{\\text{light}}\\mathrm{2COCl_2 + 2HCl}"
-    }
-   ]
-  },
-  {
-   "id": "c12-chem-07",
-   "formulas": [
-    {
-     "label": "Aldehyde to primary alcohol",
-     "tex": "\\mathrm{RCHO + H_2}\\xrightarrow{\\text{Ni}}\\mathrm{RCH_2OH}"
-    },
-    {
-     "label": "Carboxylic acid to primary alcohol",
-     "tex": "\\mathrm{RCOOH + 4[H]}\\xrightarrow{\\mathrm{LiAlH_4}}\\mathrm{RCH_2OH + H_2O}"
-    },
-    {
-     "label": "Grignard + methanal; then H₃O⁺ gives a primary alcohol",
-     "tex": "\\mathrm{RMgX + HCHO}\\rightarrow \\mathrm{RCH_2OMgX}"
-    },
-    {
-     "label": "Phenol from diazonium salt",
-     "tex": "\\mathrm{C_6H_5N_2^+Cl^- + H_2O}\\xrightarrow{\\text{warm}}\\mathrm{C_6H_5OH + N_2 + HCl}"
-    },
-    {
-     "label": "Phenol from cumene",
-     "tex": "\\mathrm{C_6H_5CH(CH_3)_2}\\xrightarrow{\\mathrm{O_2;\\ H_3O^+}}\\mathrm{C_6H_5OH + CH_3COCH_3}"
-    },
-    {
-     "label": "Alcohol with sodium",
-     "tex": "\\mathrm{2ROH + 2Na}\\rightarrow \\mathrm{2RONa + H_2}"
-    },
-    {
-     "label": "Phenol is acidic",
-     "tex": "\\mathrm{C_6H_5OH + NaOH}\\rightarrow \\mathrm{C_6H_5ONa + H_2O}"
-    },
-    {
-     "label": "Esterification",
-     "tex": "\\mathrm{ROH + R'COOH}\\xrightarrow{\\mathrm{H^+}}\\mathrm{R'COOR + H_2O}"
-    },
-    {
-     "label": "Dehydration to alkene",
-     "tex": "\\mathrm{C_2H_5OH}\\xrightarrow{\\mathrm{conc.\\ H_2SO_4,\\ 443\\ K}}\\mathrm{C_2H_4 + H_2O}"
-    },
-    {
-     "label": "Dehydration to ether",
-     "tex": "\\mathrm{2C_2H_5OH}\\xrightarrow{\\mathrm{conc.\\ H_2SO_4,\\ 413\\ K}}\\mathrm{C_2H_5OC_2H_5 + H_2O}"
-    },
-    {
-     "label": "Oxidation of alcohols",
-     "tex": "1^\\circ\\ \\text{alcohol}\\xrightarrow{\\text{PCC}}\\text{aldehyde}\\xrightarrow{\\mathrm{KMnO_4}}\\text{acid};\\quad 2^\\circ\\ \\text{alcohol}\\rightarrow\\text{ketone}"
-    },
-    {
-     "label": "Lucas test",
-     "tex": "\\text{ROH + HCl/ZnCl}_2\\text{: }3^\\circ\\text{ turbid at once;}\\ 2^\\circ\\text{ in about 5 min;}\\ 1^\\circ\\text{ no turbidity at room temperature}"
-    },
-    {
-     "label": "Phenol with bromine water (white precipitate)",
-     "tex": "\\mathrm{C_6H_5OH + 3Br_2}\\xrightarrow{\\text{aq.}}\\mathrm{C_6H_2Br_3OH + 3HBr}"
-    },
-    {
-     "label": "Phenol to picric acid (2,4,6-trinitrophenol)",
-     "tex": "\\mathrm{C_6H_5OH + conc.\\ HNO_3}\\rightarrow \\mathrm{C_6H_2(NO_2)_3OH}"
-    },
-    {
-     "label": "Kolbe's reaction",
-     "tex": "\\mathrm{C_6H_5ONa}\\xrightarrow{\\ \\mathrm{CO_2},\\ 400\\ \\text{K}\\ }\\text{sodium salicylate}\\xrightarrow{\\ \\mathrm{H^+}\\ }\\text{salicylic acid}"
-    },
-    {
-     "label": "Reimer–Tiemann reaction",
-     "tex": "\\text{phenol}+\\mathrm{CHCl_3}+\\text{aq. NaOH}\\ \\xrightarrow{\\ \\mathrm{H^+}\\ }\\ \\text{salicylaldehyde}"
-    },
-    {
-     "label": "Williamson ether synthesis (use a primary alkyl halide)",
-     "tex": "\\mathrm{RX + R'ONa}\\rightarrow \\mathrm{ROR' + NaX}"
-    },
-    {
-     "label": "Cleavage of ethers",
-     "tex": "\\mathrm{ROR + HI}\\rightarrow \\mathrm{RI + ROH}"
-    },
-    {
-     "label": "Methanol from water gas",
-     "tex": "\\mathrm{CO + 2H_2}\\xrightarrow{\\mathrm{ZnO{-}Cr_2O_3},\\ 573\\text{–}673\\ \\text{K}}\\mathrm{CH_3OH}"
-    }
-   ]
-  },
-  {
-   "id": "c12-chem-08",
-   "formulas": [
-    {
-     "label": "Hydration of ethyne",
-     "tex": "\\mathrm{HC{\\equiv}CH + H_2O}\\xrightarrow{\\mathrm{HgSO_4,\\ H_2SO_4}}\\mathrm{CH_3CHO}"
-    },
-    {
-     "label": "Rosenmund reduction",
-     "tex": "\\mathrm{RCOCl + H_2}\\xrightarrow{\\mathrm{Pd{-}BaSO_4}}\\mathrm{RCHO + HCl}"
-    },
-    {
-     "label": "Gattermann–Koch reaction",
-     "tex": "\\mathrm{C_6H_6 + CO + HCl}\\xrightarrow{\\mathrm{AlCl_3/CuCl}}\\mathrm{C_6H_5CHO}"
-    },
-    {
-     "label": "Friedel–Crafts acylation",
-     "tex": "\\mathrm{C_6H_6 + RCOCl}\\xrightarrow{\\mathrm{AlCl_3}}\\mathrm{C_6H_5COR + HCl}"
-    },
-    {
-     "label": "Ketone from acyl chloride",
-     "tex": "\\mathrm{2RCOCl + R'_2Cd}\\rightarrow \\mathrm{2RCOR' + CdCl_2}"
-    },
-    {
-     "label": "Addition of HCN (cyanohydrin)",
-     "tex": "\\mathrm{>C{=}O + HCN}\\rightarrow \\mathrm{>C(OH)CN}"
-    },
-    {
-     "label": "Addition of sodium hydrogensulphite",
-     "tex": "\\mathrm{>C{=}O + NaHSO_3}\\rightarrow \\mathrm{>C(OH)SO_3Na}"
-    },
-    {
-     "label": "Reactivity towards nucleophilic addition",
-     "tex": "\\mathrm{HCHO>CH_3CHO>CH_3COCH_3>C_6H_5COCH_3}"
-    },
-    {
-     "label": "Tollens' test (silver mirror)",
-     "tex": "\\mathrm{RCHO + 2[Ag(NH_3)_2]^+ + 3OH^-}\\rightarrow \\mathrm{RCOO^- + 2Ag\\downarrow + 4NH_3 + 2H_2O}"
-    },
-    {
-     "label": "Fehling's test (red precipitate; aromatic aldehydes do not respond)",
-     "tex": "\\mathrm{RCHO + 2Cu^{2+} + 5OH^-}\\rightarrow \\mathrm{RCOO^- + Cu_2O\\downarrow + 3H_2O}"
-    },
-    {
-     "label": "Iodoform test (methyl ketones; yellow precipitate)",
-     "tex": "\\mathrm{RCOCH_3 + 3I_2 + 4NaOH}\\rightarrow \\mathrm{CHI_3\\downarrow + RCOONa + 3NaI + 3H_2O}"
-    },
-    {
-     "label": "Clemmensen reduction",
-     "tex": "\\mathrm{>C{=}O}\\xrightarrow{\\mathrm{Zn{-}Hg,\\ conc.\\ HCl}}\\mathrm{>CH_2}"
-    },
-    {
-     "label": "Wolff–Kishner reduction",
-     "tex": "\\mathrm{>C{=}NNH_2}\\xrightarrow{\\mathrm{KOH,\\ glycol,\\ \\Delta}}\\mathrm{>CH_2 + N_2}"
-    },
-    {
-     "label": "Aldol condensation (aldehydes with α-H)",
-     "tex": "\\mathrm{2CH_3CHO}\\xrightarrow{\\text{dil. NaOH}}\\mathrm{CH_3CH(OH)CH_2CHO}"
-    },
-    {
-     "label": "Cannizzaro reaction (no α-H)",
-     "tex": "\\mathrm{2HCHO + NaOH}\\xrightarrow{\\text{conc.}}\\mathrm{CH_3OH + HCOONa}"
-    },
-    {
-     "label": "Acid from nitrile",
-     "tex": "\\mathrm{RCN + 2H_2O}\\xrightarrow{\\mathrm{H^+}}\\mathrm{RCOOH + NH_3}"
-    },
-    {
-     "label": "Grignard + CO₂; then H₃O⁺ gives RCOOH",
-     "tex": "\\mathrm{RMgX + CO_2}\\rightarrow \\mathrm{RCOOMgX}"
-    },
-    {
-     "label": "Acid test (effervescence)",
-     "tex": "\\mathrm{RCOOH + NaHCO_3}\\rightarrow \\mathrm{RCOONa + H_2O + CO_2}"
-    },
-    {
-     "label": "Acid chloride",
-     "tex": "\\mathrm{RCOOH + SOCl_2}\\rightarrow \\mathrm{RCOCl + SO_2 + HCl}"
-    },
-    {
-     "label": "Hell–Volhard–Zelinsky reaction",
-     "tex": "\\mathrm{RCH_2COOH + X_2}\\xrightarrow{\\text{red P}}\\mathrm{RCHXCOOH}"
-    },
-    {
-     "label": "Decarboxylation (soda lime)",
-     "tex": "\\mathrm{RCOONa + NaOH}\\xrightarrow{\\mathrm{CaO},\\ \\Delta}\\mathrm{RH + Na_2CO_3}"
-    },
-    {
-     "label": "Acid strength",
-     "tex": "\\mathrm{FCH_2COOH>ClCH_2COOH>HCOOH>C_6H_5COOH>CH_3COOH};\\quad \\text{pK}_a=-\\log K_a"
-    }
-   ]
-  },
-  {
-   "id": "c12-chem-09",
-   "formulas": [
-    {
-     "label": "Basic strength in aqueous solution",
-     "tex": "(\\mathrm{C_2H_5})_2\\mathrm{NH}>(\\mathrm{C_2H_5})_3\\mathrm{N}>\\mathrm{C_2H_5NH_2}>\\mathrm{NH_3};\\quad (\\mathrm{CH_3})_2\\mathrm{NH}>\\mathrm{CH_3NH_2}>(\\mathrm{CH_3})_3\\mathrm{N}>\\mathrm{NH_3}"
-    },
-    {
-     "label": "Aromatic and aliphatic amines",
-     "tex": "\\text{Aliphatic amines}>\\mathrm{NH_3}>\\text{aniline (weakest)}"
-    },
-    {
-     "label": "Reduction of nitro compound",
-     "tex": "\\mathrm{C_6H_5NO_2 + 3H_2}\\xrightarrow{\\text{Ni or Sn/HCl}}\\mathrm{C_6H_5NH_2 + 2H_2O}"
-    },
-    {
-     "label": "Reduction of nitrile",
-     "tex": "\\mathrm{RCN + 4[H]}\\xrightarrow{\\mathrm{LiAlH_4}}\\mathrm{RCH_2NH_2}"
-    },
-    {
-     "label": "Hofmann bromamide (amine has one carbon less)",
-     "tex": "\\mathrm{RCONH_2 + Br_2 + 4NaOH}\\rightarrow \\mathrm{RNH_2 + Na_2CO_3 + 2NaBr + 2H_2O}"
-    },
-    {
-     "label": "Gabriel phthalimide synthesis",
-     "tex": "\\text{phthalimide}\\xrightarrow{\\text{KOH}}\\xrightarrow{\\ RX\\ }N\\text{-alkylphthalimide}\\xrightarrow{\\text{NaOH}}\\mathrm{RNH_2}\\ \\ (\\text{only }1^\\circ\\text{ amines})"
-    },
-    {
-     "label": "Acylation of amines",
-     "tex": "\\mathrm{RNH_2 + R'COCl}\\xrightarrow{\\text{pyridine}}\\mathrm{RNHCOR' + HCl}"
-    },
-    {
-     "label": "Carbylamine test (1° amines; foul smell)",
-     "tex": "\\mathrm{RNH_2 + CHCl_3 + 3KOH}\\rightarrow \\mathrm{RNC + 3KCl + 3H_2O}"
-    },
-    {
-     "label": "Hinsberg's reagent (benzenesulphonyl chloride)",
-     "tex": "1^\\circ\\text{: product soluble in alkali};\\quad 2^\\circ\\text{: insoluble};\\quad 3^\\circ\\text{: no reaction}"
-    },
-    {
-     "label": "Aniline with bromine water: 2,4,6-tribromoaniline",
-     "tex": "\\mathrm{C_6H_5NH_2 + 3Br_2}\\rightarrow \\mathrm{C_2H_2Br_3NH_2 + 3HBr}"
-    },
-    {
-     "label": "Diazotisation",
-     "tex": "\\mathrm{C_6H_5NH_2 + NaNO_2 + 2HCl}\\xrightarrow{273\\text{–}278\\ \\text{K}}\\mathrm{C_6H_5N_2^+Cl^- + NaCl + 2H_2O}"
-    },
-    {
-     "label": "Diazonium salt reactions",
-     "tex": "\\mathrm{ArN_2^+X^-}\\xrightarrow{\\mathrm{CuCl/CuBr/CuCN}}\\mathrm{ArCl/ArBr/ArCN}+\\mathrm{N_2};\\ \\ \\xrightarrow{\\mathrm{KI}}\\mathrm{ArI};\\ \\ \\xrightarrow{\\mathrm{H_3PO_2}}\\mathrm{ArH};\\ \\ \\xrightarrow{\\mathrm{H_2O,\\ warm}}\\mathrm{ArOH}"
-    },
-    {
-     "label": "Coupling reaction",
-     "tex": "\\mathrm{ArN_2^+Cl^-}+\\mathrm{C_6H_5OH}\\ (\\mathrm{pH}\\ 9\\text{–}10)\\rightarrow\\text{p-hydroxyazobenzene (orange dye)}"
-    }
-   ]
-  },
-  {
-   "id": "c12-chem-10",
-   "formulas": [
-    {
-     "label": "Glucose, fructose and sucrose",
-     "tex": "\\text{Glucose and fructose: }\\mathrm{C_6H_{12}O_6}\\ (\\text{aldohexose, ketohexose});\\quad \\text{sucrose: }\\mathrm{C_{12}H_{22}O_{11}}"
-    },
-    {
-     "label": "Hydrolysis of sucrose (glucose + fructose)",
-     "tex": "\\mathrm{C_{12}H_{22}O_{11} + H_2O}\\xrightarrow{\\mathrm{H^+\\ or\\ invertase}}\\mathrm{C_6H_{12}O_6 + C_6H_{12}O_6}"
-    },
-    {
-     "label": "Hydrolysis of other sugars",
-     "tex": "\\text{Maltose}\\rightarrow2\\ \\text{glucose};\\quad\\text{Lactose}\\rightarrow\\text{glucose}+\\text{galactose}"
-    },
-    {
-     "label": "Starch and cellulose",
-     "tex": "(\\mathrm{C_6H_{10}O_5})_n:\\ \\text{starch (}\\alpha\\text{-glucose: amylose + amylopectin)};\\ \\text{cellulose (}\\beta\\text{-glucose)}"
-    },
-    {
-     "label": "Glucose: reactions of the open chain",
-     "tex": "\\mathrm{CHO(CHOH)_4CH_2OH}:\\ \\xrightarrow{\\mathrm{HI}}n\\text{-hexane};\\ \\xrightarrow{\\mathrm{Br_2\\ water}}\\text{gluconic acid};\\ \\xrightarrow{\\mathrm{HNO_3}}\\text{saccharic acid}"
-    },
-    {
-     "label": "Amino acid and zwitterion",
-     "tex": "\\mathrm{H_2N{-}CHR{-}COOH}\\ \\rightleftharpoons\\ \\mathrm{{}^+H_3N{-}CHR{-}COO^-}"
-    },
-    {
-     "label": "Peptide bond",
-     "tex": "\\mathrm{-CO{-}NH-}"
-    },
-    {
-     "label": "DNA and RNA",
-     "tex": "\\text{DNA: 2-deoxyribose; bases A, G, C, T. RNA: ribose; bases A, G, C, U}"
-    },
-    {
-     "label": "Base pairing in DNA",
-     "tex": "\\mathrm{A=T}\\ (2\\text{ H-bonds}),\\quad \\mathrm{G\\equiv C}\\ (3\\text{ H-bonds})"
-    }
-   ]
-  }
- ]
+  ]
 }

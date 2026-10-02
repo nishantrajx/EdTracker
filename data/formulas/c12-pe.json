@@ -1,165 +1,45 @@
 {
- "subject": "c12-pe",
- "chapters": [
-  {
-   "id": "c12-pe-01",
-   "formulas": [
+  "subject": "c12-pe",
+  "chapters": [
     {
-     "label": "Matches in a knock-out tournament",
-     "tex": "N=n-1",
-     "unit": "n = number of teams"
+      "id": "c12-pe-01",
+      "formulas": [
+        {
+          "label": "Knock-out tournament matches",
+          "tex": "\\text{Matches}=N-1",
+          "unit": "matches"
+        },
+        {
+          "label": "Number of byes",
+          "tex": "\\text{Byes}=2^m-N\\quad\\text{where }2^m\\ge N",
+          "unit": "byes"
+        },
+        {
+          "label": "Single league matches",
+          "tex": "\\text{Matches}=\\frac{N(N-1)}{2}",
+          "unit": "matches"
+        },
+        {
+          "label": "Double league matches",
+          "tex": "\\text{Matches}=N(N-1)",
+          "unit": "matches"
+        }
+      ]
     },
     {
-     "label": "Byes in a knock-out tournament",
-     "tex": "\\text{Byes}=2^{k}-n",
-     "unit": "n = teams; 2^k = next power of 2 above n (no byes if n is already a power of 2)"
-    },
-    {
-     "label": "Rounds in a knock-out tournament",
-     "tex": "R=\\lceil \\log_2 n\\rceil",
-     "unit": "rounds"
-    },
-    {
-     "label": "Matches in a league tournament (single)",
-     "tex": "N=\\frac{n(n-1)}{2}",
-     "unit": "n = number of teams; same for cyclic, staircase and tabular methods"
-    },
-    {
-     "label": "Matches in a double league",
-     "tex": "N=n(n-1)",
-     "unit": "matches"
-    },
-    {
-     "label": "Rounds in a league (n even)",
-     "tex": "R=n-1",
-     "unit": "rounds"
-    },
-    {
-     "label": "Rounds in a league (n odd)",
-     "tex": "R=n",
-     "unit": "rounds; one team has a bye in each round"
-    },
-    {
-     "label": "Matches per round in a league",
-     "tex": "\\frac{n}{2}\\ (n\\ \\text{even}),\\qquad \\frac{n-1}{2}\\ (n\\ \\text{odd})",
-     "unit": "matches"
+      "id": "c12-pe-06",
+      "formulas": [
+        {
+          "label": "Body Mass Index",
+          "tex": "\\mathrm{BMI}=\\frac{\\text{body mass (kg)}}{[\\text{height (m)}]^2}",
+          "unit": "kg m^{-2}"
+        },
+        {
+          "label": "Waist-hip ratio",
+          "tex": "\\mathrm{WHR}=\\frac{\\text{waist circumference}}{\\text{hip circumference}}",
+          "unit": "dimensionless"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "c12-pe-05",
-   "formulas": [
-    {
-     "label": "Energy value of nutrients (per gram)",
-     "tex": "\\text{Carbohydrate}=4,\\ \\text{Protein}=4,\\ \\text{Fat}=9",
-     "unit": "kcal/g"
-    },
-    {
-     "label": "Energy from a food",
-     "tex": "E=4C+4P+9F",
-     "unit": "kcal; C, P, F = grams of carbohydrate, protein, fat"
-    }
-   ]
-  },
-  {
-   "id": "c12-pe-06",
-   "formulas": [
-    {
-     "label": "Body Mass Index (BMI)",
-     "tex": "\\text{BMI}=\\frac{\\text{weight}}{\\text{height}^2}",
-     "unit": "kg/m² (weight in kg, height in m)"
-    },
-    {
-     "label": "Harvard Step Test: Physical Fitness Index",
-     "tex": "\\text{PFI}=\\frac{D\\times 100}{5.5\\times P}",
-     "unit": "D = exercise duration in seconds; P = pulse count in 1 to 1.5 min after exercise"
-    },
-    {
-     "label": "Waist-hip ratio (Class XI unit, for revision)",
-     "tex": "\\text{WHR}=\\frac{\\text{waist circumference}}{\\text{hip circumference}}",
-     "unit": "no unit (same unit for both)"
-    }
-   ]
-  },
-  {
-   "id": "c12-pe-07",
-   "formulas": [
-    {
-     "label": "Cardiac output",
-     "tex": "Q=\\text{HR}\\times\\text{SV}",
-     "unit": "L/min; HR = heart rate (beats/min), SV = stroke volume (L/beat)"
-    },
-    {
-     "label": "Minute ventilation",
-     "tex": "\\text{Minute ventilation}=\\text{TV}\\times\\text{RR}",
-     "unit": "L/min; TV = tidal volume (L/breath), RR = breaths/min"
-    }
-   ]
-  },
-  {
-   "id": "c12-pe-08",
-   "formulas": [
-    {
-     "label": "Newton's first law (inertia)",
-     "tex": "\\sum F=0\\ \\Rightarrow\\ \\text{state of motion does not change}",
-     "unit": ""
-    },
-    {
-     "label": "Newton's second law",
-     "tex": "F=ma",
-     "unit": "N; m in kg, a in m/s²"
-    },
-    {
-     "label": "Momentum",
-     "tex": "p=mv",
-     "unit": "kg m/s"
-    },
-    {
-     "label": "Newton's third law",
-     "tex": "F_{AB}=-F_{BA}",
-     "unit": "equal and opposite"
-    },
-    {
-     "label": "Lever: balance condition",
-     "tex": "\\text{Effort}\\times\\text{Effort arm}=\\text{Load}\\times\\text{Load arm}",
-     "unit": ""
-    },
-    {
-     "label": "Mechanical advantage of a lever",
-     "tex": "\\text{MA}=\\frac{\\text{Effort arm}}{\\text{Load arm}}=\\frac{\\text{Load}}{\\text{Effort}}",
-     "unit": "no unit"
-    },
-    {
-     "label": "First-class lever (fulcrum between effort and load)",
-     "tex": "\\text{MA}<1,\\ =1\\ \\text{or}\\ >1",
-     "unit": ""
-    },
-    {
-     "label": "Second-class lever (load between fulcrum and effort)",
-     "tex": "\\text{MA}>1",
-     "unit": ""
-    },
-    {
-     "label": "Third-class lever (effort between fulcrum and load)",
-     "tex": "\\text{MA}<1",
-     "unit": ""
-    },
-    {
-     "label": "Friction (limiting)",
-     "tex": "F=\\mu R",
-     "unit": "N; μ = coefficient of friction, R = normal reaction"
-    },
-    {
-     "label": "Range of a projectile (level ground)",
-     "tex": "R=\\frac{v^2\\sin 2\\theta}{g}",
-     "unit": "m; v = launch speed, θ = launch angle, g = 9.8 m/s²"
-    },
-    {
-     "label": "Angle for maximum range (level ground)",
-     "tex": "\\theta=45^\\circ",
-     "unit": ""
-    }
-   ]
-  }
- ]
+  ]
 }
