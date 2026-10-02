@@ -47,7 +47,7 @@
       ]
     },
     {
-      "id": "c10-sci-05",
+      "id": "c10-sci-06",
       "formulas": [
         {
           "label": "Photosynthesis",
@@ -72,37 +72,15 @@
       ]
     },
     {
-      "id": "c10-sci-06",
-      "formulas": [
-        {
-          "label": "Reflex arc sequence",
-          "tex": "\\text{Receptor}\\rightarrow\\text{sensory neuron}\\rightarrow\\text{relay neuron}\\rightarrow\\text{motor neuron}\\rightarrow\\text{effector}",
-          "unit": ""
-        }
-      ]
-    },
-    {
       "id": "c10-sci-07",
-      "formulas": [
-        {
-          "label": "Fertilisation",
-          "tex": "\\mathrm{Male\\ gamete+Female\\ gamete\\rightarrow Zygote}",
-          "unit": ""
-        },
-        {
-          "label": "Human chromosome number",
-          "tex": "2n=46",
-          "unit": ""
-        },
-        {
-          "label": "Human gamete chromosome number",
-          "tex": "n=23",
-          "unit": ""
-        }
-      ]
+      "formulas": []
     },
     {
       "id": "c10-sci-08",
+      "formulas": []
+    },
+    {
+      "id": "c10-sci-09",
       "formulas": [
         {
           "label": "Mendelian dominant phenotype ratio",
@@ -117,7 +95,7 @@
       ]
     },
     {
-      "id": "c10-sci-10",
+      "id": "c10-sci-11",
       "formulas": [
         {
           "label": "Law of reflection",
@@ -127,7 +105,7 @@
         {
           "label": "Mirror formula",
           "tex": "\\frac1f=\\frac1v+\\frac1u",
-          "unit": "m"
+          "unit": ""
         },
         {
           "label": "Mirror magnification",
@@ -137,7 +115,7 @@
         {
           "label": "Spherical mirror relation",
           "tex": "R=2f",
-          "unit": "m"
+          "unit": ""
         },
         {
           "label": "Refractive index",
@@ -157,7 +135,7 @@
         {
           "label": "Lens formula",
           "tex": "\\frac1f=\\frac1v-\\frac1u",
-          "unit": "m"
+          "unit": ""
         },
         {
           "label": "Lens magnification",
@@ -168,51 +146,15 @@
           "label": "Power of a lens",
           "tex": "P=\\frac1f",
           "unit": "D when f is in metres"
-        },
-        {
-          "label": "Power of combined lenses",
-          "tex": "P=P_1+P_2+\\cdots",
-          "unit": "D"
-        },
-        {
-          "label": "Lens power with focal length in cm",
-          "tex": "P=\\frac{100}{f(\\mathrm{cm})}",
-          "unit": "D"
-        }
-      ]
-    },
-    {
-      "id": "c10-sci-11",
-      "formulas": [
-        {
-          "label": "Power of accommodation",
-          "tex": "\\text{Ability of eye lens to change focal length}",
-          "unit": ""
-        },
-        {
-          "label": "Near point of normal eye",
-          "tex": "d_n=25\\ \\mathrm{cm}",
-          "unit": "cm"
-        },
-        {
-          "label": "Far point of normal eye",
-          "tex": "d_f=\\infty",
-          "unit": ""
-        },
-        {
-          "label": "Lens power",
-          "tex": "P=\\frac1f",
-          "unit": "D when f is in metres"
-        },
-        {
-          "label": "Atmospheric refraction",
-          "tex": "\\text{Apparent position differs from actual position due to refraction}",
-          "unit": ""
         }
       ]
     },
     {
       "id": "c10-sci-12",
+      "formulas": []
+    },
+    {
+      "id": "c10-sci-13",
       "formulas": [
         {
           "label": "Electric current",
@@ -292,7 +234,7 @@
       ]
     },
     {
-      "id": "c10-sci-13",
+      "id": "c10-sci-14",
       "formulas": [
         {
           "label": "Magnetic field around current-carrying conductor",
@@ -301,8 +243,8 @@
         },
         {
           "label": "Force on a current-carrying conductor",
-          "tex": "F\\propto BIl",
-          "unit": ""
+          "tex": "F=BIl",
+          "unit": "N (for conductor perpendicular to magnetic field)"
         },
         {
           "label": "AC frequency in India",
@@ -317,7 +259,7 @@
       ]
     },
     {
-      "id": "c10-sci-14",
+      "id": "c10-sci-15",
       "formulas": [
         {
           "label": "Energy flow in an ecosystem",
@@ -327,16 +269,6 @@
         {
           "label": "Ten percent law",
           "tex": "\\text{Energy transferred to next trophic level}\\approx10\\%",
-          "unit": ""
-        },
-        {
-          "label": "Biodegradable material",
-          "tex": "\\text{Material decomposed by biological agents}",
-          "unit": ""
-        },
-        {
-          "label": "Non-biodegradable material",
-          "tex": "\\text{Material not readily decomposed by biological agents}",
           "unit": ""
         }
       ]

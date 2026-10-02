@@ -59,12 +59,12 @@
       "text": "Sender → Message → Channel → Receiver → Feedback. Keep the communication clear, complete, concise, correct and considerate."
     },
     {
-      "label": "SMART goals",
-      "text": "Specific → Measurable → Achievable → Relevant → Time-bound."
+      "label": "Self-management",
+      "text": "Use the syllabus sequence: self-awareness → self-motivation → self-regulation; also revise stress management, goal setting, time management and working independently."
     },
     {
-      "label": "ICT security",
-      "text": "Remember the three basic security goals: confidentiality, integrity and availability; use strong, unique passwords and safe digital practices."
+      "label": "ICT safety",
+      "text": "Revise operating systems, file and folder management, computer care and maintenance, virus protection, and safe/responsible ICT use."
     },
     {
       "label": "Writer: styles and TOC",
@@ -80,7 +80,7 @@
     },
     {
       "label": "Calc: Goal Seek",
-      "text": "Specify the desired result and target cell; Goal Seek adjusts the chosen input cell to reach that result."
+      "text": "Use What-If Scenarios and Goal Seek; the syllabus also includes Solver for more complex problems."
     },
     {
       "label": "Calc: cell references",
@@ -105,6 +105,34 @@
     {
       "label": "Workplace safety",
       "text": "Identify hazards → assess risk → apply control measures. In an emergency, protect people, raise the alarm/call for help and evacuate or assist safely according to procedure."
+    },
+    {
+      "label": "Communication methods and barriers",
+      "text": "Distinguish verbal, non-verbal and visual communication; revise common barriers and measures to overcome them, and apply the 7 Cs of effective communication."
+    },
+    {
+      "label": "Basic writing skills",
+      "text": "Revise sentence, phrase, kinds and parts of sentences, parts of speech, articles and paragraph construction."
+    },
+    {
+      "label": "Entrepreneurship and green skills",
+      "text": "Revise entrepreneurship and society, qualities/functions and role of an entrepreneur, entrepreneurship myths and career option; for Green Skills, know sustainable development, its importance and related problems."
+    },
+    {
+      "label": "ICT fundamentals",
+      "text": "Revise classes of operating systems, desktop elements, file operations and organisation, directory/file-system structures, file and folder management, computer care and maintenance, and virus protection."
+    },
+    {
+      "label": "Writer templates",
+      "text": "Practise creating, applying, editing, importing, moving and exporting templates, including in-built, saved and online templates."
+    },
+    {
+      "label": "Calc analysis and collaboration",
+      "text": "Practise data consolidation, groups/subtotals, What-If analysis, Goal Seek, Solver, macros, linked data, sharing, comments, reviewing changes, and merging/comparing sheets."
+    },
+    {
+      "label": "Base fundamentals",
+      "text": "Revise data and information, hierarchical/network/relational data models, primary and foreign keys, data types, table operations and sorting, relationships (1:1, 1:N, N:M), and referential integrity."
     }
   ],
   "mistakes": [

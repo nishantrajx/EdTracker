@@ -23,11 +23,6 @@
           "label": "HCF–LCM relationship",
           "tex": "\\operatorname{HCF}(a,b)\\times\\operatorname{LCM}(a,b)=a\\times b",
           "unit": ""
-        },
-        {
-          "label": "Terminating decimal condition",
-          "tex": "\\frac{p}{q}\\text{ terminates iff }q=2^m5^n\\text{ after reduction}",
-          "unit": ""
         }
       ]
     },
@@ -52,11 +47,6 @@
         {
           "label": "Quadratic polynomial from zeroes",
           "tex": "p(x)=a\\left[x^2-(\\alpha+\\beta)x+\\alpha\\beta\\right]",
-          "unit": ""
-        },
-        {
-          "label": "Polynomial division algorithm",
-          "tex": "p(x)=g(x)q(x)+r(x),\\quad \\deg r<\\deg g",
           "unit": ""
         },
         {
@@ -92,11 +82,6 @@
         {
           "label": "Substitution method",
           "tex": "x=\\frac{-b_1y-c_1}{a_1}",
-          "unit": ""
-        },
-        {
-          "label": "Cross-multiplication method",
-          "tex": "\\frac{x}{b_1c_2-b_2c_1}=\\frac{y}{c_1a_2-c_2a_1}=\\frac{1}{a_1b_2-a_2b_1}",
           "unit": ""
         }
       ]
@@ -170,6 +155,11 @@
           "unit": ""
         },
         {
+          "label": "Distance from origin",
+          "tex": "OP=\\sqrt{x^2+y^2}",
+          "unit": ""
+        },
+        {
           "label": "Section formula: internal division",
           "tex": "\\left(\\frac{mx_2+nx_1}{m+n},\\frac{my_2+ny_1}{m+n}\\right)",
           "unit": ""
@@ -227,11 +217,6 @@
         {
           "label": "Tangents from an external point",
           "tex": "PA=PB",
-          "unit": ""
-        },
-        {
-          "label": "Right triangle relation at tangent point",
-          "tex": "OP^2=OT^2+PT^2",
           "unit": ""
         }
       ]
@@ -500,6 +485,11 @@
           "unit": ""
         },
         {
+          "label": "Class mark",
+          "tex": "x_i=\\frac{\\text{upper class limit}+\\text{lower class limit}}{2}",
+          "unit": ""
+        },
+        {
           "label": "Deviation from assumed mean",
           "tex": "d_i=x_i-a",
           "unit": ""
@@ -537,6 +527,21 @@
         {
           "label": "Complementary event",
           "tex": "P(\\overline{E})=1-P(E)",
+          "unit": ""
+        },
+        {
+          "label": "Sure event",
+          "tex": "P(S)=1",
+          "unit": ""
+        },
+        {
+          "label": "Impossible event",
+          "tex": "P(\\varnothing)=0",
+          "unit": ""
+        },
+        {
+          "label": "Sum of elementary-event probabilities",
+          "tex": "\\sum P(E_i)=1",
           "unit": ""
         }
       ]

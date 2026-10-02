@@ -252,7 +252,10 @@
             "स्ववृत्त लेखन",
             "ई-मेल लेखन",
             "विज्ञापन लेखन",
-            "संदेश लेखन"
+            "संवाद लेखन",
+            "लघुकथा लेखन",
+            "संदेश लेखन",
+            "सूचना लेखन"
           ]
         }
       ]
@@ -601,8 +604,8 @@
           "name": "Quadratic Equations",
           "topics": [
             "Standard form of a quadratic equation",
-            "Solutions by factorisation",
-            "Solutions by quadratic formula",
+            "Solutions by factorisation (only real roots)",
+            "Solutions by quadratic formula (only real roots)",
             "Discriminant and nature of roots",
             "Simple situational problems"
           ]
@@ -630,12 +633,12 @@
           "id": "c10-math-07",
           "name": "Triangles",
           "topics": [
-            "Similar figures",
-            "Basic Proportionality Theorem",
-            "Converse of Basic Proportionality Theorem",
-            "AA similarity criterion",
-            "SSS similarity criterion",
-            "SAS similarity criterion"
+            "Similar triangles: definitions, examples and counterexamples",
+            "Basic Proportionality Theorem (prove)",
+            "Converse of Basic Proportionality Theorem (state without proof)",
+            "AA similarity criterion (state without proof)",
+            "SSS similarity criterion (state without proof)",
+            "SAS similarity criterion (state without proof)"
           ]
         },
         {
@@ -643,8 +646,8 @@
           "name": "Circles",
           "topics": [
             "Tangent to a circle at the point of contact",
-            "Theorem: tangent is perpendicular to radius",
-            "Theorem: tangents from an external point are equal",
+            "Theorem: tangent is perpendicular to radius (prove)",
+            "Theorem: tangents from an external point are equal (prove)",
             "Applications of tangent theorems"
           ]
         },
@@ -654,7 +657,7 @@
           "topics": [
             "Trigonometric ratios of an acute angle in a right-angled triangle",
             "Proof that trigonometric ratios are well-defined",
-            "Trigonometric ratios at 0° and 90°",
+            "Whichever trigonometric ratios are defined at 0° and 90°",
             "Values of ratios at 30°, 45° and 60°",
             "Relationships between trigonometric ratios"
           ]
@@ -665,7 +668,7 @@
           "topics": [
             "Identity sin²A + cos²A = 1",
             "Proof and applications of the identity",
-            "Simple trigonometric identities"
+            "Only simple trigonometric identities"
           ]
         },
         {
@@ -705,7 +708,8 @@
             "Mean of grouped data: assumed mean method",
             "Mean of grouped data: step-deviation method",
             "Mode of grouped data",
-            "Median of grouped data"
+            "Median of grouped data",
+            "Bimodal situation to be avoided"
           ]
         },
         {
@@ -743,6 +747,17 @@
         },
         {
           "id": "c10-sci-02",
+          "name": "Periodic Classification of Elements (formative only)",
+          "topics": [
+            "Döbereiner’s Triads",
+            "Newlands’ Law of Octaves",
+            "Mendeléev’s Periodic Table",
+            "Modern Periodic Table",
+            "Metallic and non-metallic properties"
+          ]
+        },
+        {
+          "id": "c10-sci-03",
           "name": "Acids, Bases and Salts (formative only)",
           "topics": [
             "Acids and bases: H⁺ and OH⁻ ions",
@@ -758,7 +773,7 @@
           ]
         },
         {
-          "id": "c10-sci-03",
+          "id": "c10-sci-04",
           "name": "Metals and Non-metals (formative only)",
           "topics": [
             "Physical and chemical properties of metals and non-metals",
@@ -771,7 +786,7 @@
           ]
         },
         {
-          "id": "c10-sci-04",
+          "id": "c10-sci-05",
           "name": "Carbon and its Compounds (formative only)",
           "topics": [
             "Covalent bonds: formation and properties",
@@ -791,7 +806,7 @@
           ]
         },
         {
-          "id": "c10-sci-05",
+          "id": "c10-sci-06",
           "name": "Life Processes",
           "topics": [
             "Nutrition in plants",
@@ -804,7 +819,7 @@
           ]
         },
         {
-          "id": "c10-sci-06",
+          "id": "c10-sci-07",
           "name": "Control and Coordination",
           "topics": [
             "Tropic movements in plants",
@@ -817,7 +832,7 @@
           ]
         },
         {
-          "id": "c10-sci-07",
+          "id": "c10-sci-08",
           "name": "How do Organisms Reproduce?",
           "topics": [
             "Asexual reproduction",
@@ -831,8 +846,8 @@
           ]
         },
         {
-          "id": "c10-sci-08",
-          "name": "Heredity",
+          "id": "c10-sci-09",
+          "name": "Heredity (not assessed in year-end examination)",
           "topics": [
             "Heredity and inheritance of traits",
             "Mendel's contribution",
@@ -841,7 +856,7 @@
           ]
         },
         {
-          "id": "c10-sci-09",
+          "id": "c10-sci-10",
           "name": "Evolution (formative only)",
           "topics": [
             "Acquired and inherited traits (formative only)",
@@ -854,7 +869,7 @@
           ]
         },
         {
-          "id": "c10-sci-10",
+          "id": "c10-sci-11",
           "name": "Light – Reflection and Refraction",
           "topics": [
             "Reflection of light by curved surfaces",
@@ -863,21 +878,21 @@
             "Principal axis",
             "Principal focus",
             "Focal length",
-            "Mirror formula",
-            "Magnification",
+            "Mirror formula (derivation not required)",
+            "Mirror magnification",
             "Refraction of light",
             "Laws of refraction",
             "Refractive index",
             "Refraction of light by spherical lenses",
             "Images formed by spherical lenses",
-            "Lens formula",
-            "Magnification",
+            "Lens formula (derivation not required)",
+            "Lens magnification",
             "Power of a lens",
             "Applications of spherical mirrors and lenses"
           ]
         },
         {
-          "id": "c10-sci-11",
+          "id": "c10-sci-12",
           "name": "The Human Eye and the Colourful World",
           "topics": [
             "Functioning of a lens in the human eye",
@@ -886,11 +901,11 @@
             "Refraction of light through a prism",
             "Dispersion of light",
             "Scattering of light",
-            "Applications of scattering and dispersion in daily life (excluding colour of the sun at sunrise and sunset)"
+            "Applications in daily life (excluding colour of the sun at sunrise and sunset)"
           ]
         },
         {
-          "id": "c10-sci-12",
+          "id": "c10-sci-13",
           "name": "Electricity",
           "topics": [
             "Electric current",
@@ -909,7 +924,7 @@
           ]
         },
         {
-          "id": "c10-sci-13",
+          "id": "c10-sci-14",
           "name": "Magnetic Effects of Electric Current",
           "topics": [
             "Magnetic field",
@@ -929,7 +944,7 @@
           ]
         },
         {
-          "id": "c10-sci-14",
+          "id": "c10-sci-15",
           "name": "Our Environment",
           "topics": [
             "Ecosystem",
@@ -978,18 +993,21 @@
             "Different social groups and Civil Disobedience",
             "The limits of Civil Disobedience",
             "The sense of collective belonging",
-            "Prescribed map work"
+            "Prescribed map work: Congress sessions — 1920 Calcutta, 1920 Nagpur, 1927 Madras",
+            "Prescribed map work: Satyagraha movements — Kheda, Champaran, Ahmedabad mill workers",
+            "Prescribed map work: Jallianwala Bagh",
+            "Prescribed map work: Dandi March"
           ]
         },
         {
           "id": "c10-sst-03",
           "name": "History: The Making of a Global World",
           "topics": [
-            "The pre-modern world",
-            "Nineteenth century: 1815–1914",
-            "The inter-war economy",
-            "Rebuilding the world economy after the Second World War",
-            "Interdisciplinary project with Lifelines of National Economy and Globalisation"
+            "Board Examination: The pre-modern world (Subtopics 1 to 1.3)",
+            "Interdisciplinary project / Multiple Assessment: Nineteenth century, 1815–1914 (Subtopics 2 to 4.4)",
+            "Interdisciplinary project / Multiple Assessment: The inter-war economy (Subtopics 2 to 4.4)",
+            "Interdisciplinary project / Multiple Assessment: Rebuilding the world economy after the Second World War (Subtopics 2 to 4.4)",
+            "Interdisciplinary project with Lifelines of National Economy and Globalisation (Subtopics 2 to 4.4)"
           ]
         },
         {
@@ -1036,7 +1054,7 @@
             "Classification of soils",
             "Soil erosion",
             "Soil conservation",
-            "Prescribed map work: major soil types"
+            "Prescribed map work: Major soil types"
           ]
         },
         {
@@ -1060,7 +1078,7 @@
             "Multipurpose river projects",
             "Integrated water resources management",
             "Rainwater harvesting",
-            "Prescribed map work: dams"
+            "Prescribed map work: Water resources — Salal, Sardar Sarovar, Bhakra Nangal, Hirakund, Tehri, Nagarjun Sagar, Rana Pratap Sagar, Tungabhadra"
           ]
         },
         {
@@ -1074,7 +1092,8 @@
             "Technological reforms",
             "Institutional reforms",
             "Contribution of agriculture to the economy",
-            "Prescribed map work: major crop areas and producer states"
+            "Prescribed map work: Major areas of Rice and Wheat",
+            "Prescribed map work: Largest/Major producer states of Sugarcane, Tea, Coffee, Rubber, Cotton and Jute"
           ]
         },
         {
@@ -1086,7 +1105,10 @@
             "Conventional sources of energy",
             "Non-conventional sources of energy",
             "Energy conservation",
-            "Prescribed map work: mines, oil fields and power plants"
+            "Prescribed map work: Iron Ore Mines — Mayurbhanj, Durg, Bailadila, Bellary, Kudremukh",
+            "Prescribed map work: Coal Mines — Raniganj, Bokaro, Talcher, Neyveli",
+            "Prescribed map work: Oil Fields — Digboi, Naharkatia, Mumbai High, Bassien, Kalol, Ankaleshwar",
+            "Prescribed map work: Power Plants — Thermal: Namrup, Singrauli, Ramagundam; Nuclear: Narora, Kakrapara, Tarapur, Kalpakkam"
           ]
         },
         {
@@ -1108,7 +1130,9 @@
             "Information technology and electronics industry",
             "Industrial pollution",
             "Control of environmental degradation",
-            "Prescribed map work: industries"
+            "Prescribed map work: Cotton textile industries — Mumbai, Indore, Surat, Kanpur, Coimbatore",
+            "Prescribed map work: Iron and steel plants — Durgapur, Bokaro, Jamshedpur, Bhilai, Vijayanagar, Salem",
+            "Prescribed map work: Software technology parks — Noida, Gandhinagar, Mumbai, Pune, Hyderabad, Bengaluru, Chennai, Thiruvananthapuram"
           ]
         },
         {
@@ -1123,8 +1147,9 @@
             "Communication",
             "International trade",
             "Tourism as a trade",
-            "Prescribed map work: major sea ports",
-            "Prescribed map work: international airports"
+            "Only map pointing is evaluated in the Board Examination",
+            "Prescribed map work: Major sea ports — Kandla, Tuticorin, Mumbai, Chennai, Marmagao, Visakhapatnam, New Mangalore, Paradip, Kochi, Haldia",
+            "Prescribed map work: International airports — Amritsar, Delhi, Mumbai, Chennai, Kolkata, Hyderabad"
           ]
         },
         {
@@ -1238,14 +1263,15 @@
           "id": "c10-sst-21",
           "name": "Economics: Globalisation and the Indian Economy",
           "topics": [
-            "What is globalisation?",
-            "Factors that enabled globalisation",
-            "Production across countries",
-            "Role of multinational corporations",
-            "World Trade Organisation",
-            "Impact of globalisation in India",
-            "The struggle for a fair globalisation",
-            "G20 and India's role",
+            "Board Examination: What is globalisation?",
+            "Board Examination: Factors that have enabled globalisation",
+            "Interdisciplinary project / Multiple Assessment: Production across countries",
+            "Interdisciplinary project / Multiple Assessment: Chinese toys in India",
+            "Interdisciplinary project / Multiple Assessment: Role of multinational corporations",
+            "Interdisciplinary project / Multiple Assessment: World Trade Organisation",
+            "Interdisciplinary project / Multiple Assessment: Impact of globalisation in India",
+            "Interdisciplinary project / Multiple Assessment: The struggle for a fair globalisation",
+            "G20 and India’s role",
             "Interdisciplinary project linkage"
           ]
         },
@@ -1270,60 +1296,69 @@
           "id": "c10-it-01",
           "name": "Part A: Communication Skills-II",
           "topics": [
-            "Methods of communication",
-            "Verbal communication",
-            "Non-verbal communication",
-            "Visual communication",
-            "Communication cycle",
-            "Importance of feedback",
-            "Barriers to communication",
-            "Effective communication"
+            "Methods of communication: verbal, non-verbal and visual",
+            "Communication cycle and importance of feedback",
+            "Meaning and importance of feedback",
+            "Descriptive feedback",
+            "Specific and non-specific feedback",
+            "Barriers to effective communication: types and factors",
+            "Measures to overcome barriers in effective communication",
+            "Principles of effective communication",
+            "7 Cs of effective communication",
+            "Basic writing skills: sentence, phrase, kinds of sentences, parts of sentence, parts of speech, articles, construction of a paragraph"
           ]
         },
         {
           "id": "c10-it-02",
           "name": "Part A: Self-Management Skills-II",
           "topics": [
-            "Stress and stress management",
+            "Stress management: meaning, importance and techniques",
+            "Stress management techniques: physical exercise, yoga and meditation",
+            "Enjoying vacations and holidays with family and friends",
+            "Taking nature walks",
+            "Ability to work independently",
+            "Self-awareness",
             "Self-motivation",
             "Self-regulation",
-            "Time management",
             "Goal setting",
-            "Working independently"
+            "Planning and executing an activity independently"
           ]
         },
         {
           "id": "c10-it-03",
           "name": "Part A: ICT Skills-II",
           "topics": [
-            "Introduction to ICT",
-            "ICT in everyday life",
-            "ICT tools and applications",
-            "Safe and responsible use of ICT",
-            "Digital documentation and productivity tools"
+            "Classes of operating systems",
+            "Menu, icons and task bar on the desktop",
+            "File concept, file operations and file organization",
+            "Directory structures and file-system structures",
+            "Creating and managing files and folders",
+            "Care and maintenance of computers",
+            "Cleaning computer components",
+            "Preparing a maintenance schedule",
+            "Protecting computers against viruses",
+            "Scanning and cleaning viruses",
+            "Removing spam files, temporary files and folders"
           ]
         },
         {
           "id": "c10-it-04",
           "name": "Part A: Entrepreneurial Skills-II",
           "topics": [
-            "Entrepreneurship and entrepreneur",
-            "Types of entrepreneurship",
-            "Entrepreneurial competencies",
-            "Business ideas and opportunities",
-            "Problem-solving and innovation",
-            "Financial literacy and risk awareness"
+            "Entrepreneurship and society",
+            "Qualities and functions of an entrepreneur",
+            "Role and importance of an entrepreneur",
+            "Myths about entrepreneurship",
+            "Entrepreneurship as a career option"
           ]
         },
         {
           "id": "c10-it-05",
           "name": "Part A: Green Skills-II",
           "topics": [
-            "Sustainable development",
-            "Sustainable practices",
-            "Environmental conservation",
-            "Green economy",
-            "Green jobs"
+            "Definition of sustainable development",
+            "Importance of sustainable development",
+            "Problems related to sustainable development"
           ]
         },
         {
@@ -1454,28 +1489,34 @@
           "id": "c10-it-14",
           "name": "Part B: Database Management System – Chapter 9: Starting with LibreOffice Base",
           "topics": [
-            "LibreOffice Base interface",
-            "Creating a database",
+            "Introduction to LibreOffice Base",
+            "LibreOffice Base user interface",
+            "Opening a database",
             "Data types",
-            "Creating tables with the Table Wizard",
-            "Creating tables in Design View",
-            "Primary key",
+            "Creating a table using a wizard",
+            "Creating a table in Design View",
+            "Setting a primary key",
+            "Saving a table",
             "Entering data",
-            "Editing and deleting data",
-            "Sorting data"
+            "Navigating through a table",
+            "Editing data",
+            "Deleting records from a table",
+            "Sorting data in a table"
           ]
         },
         {
           "id": "c10-it-15",
           "name": "Part B: Database Management System – Chapter 10: Working with Multiple Tables",
           "topics": [
-            "Editing tables",
-            "Deleting tables",
+            "Editing and deleting tables",
             "Relationships between tables",
             "One-to-one relationships",
             "One-to-many relationships",
             "Many-to-many relationships",
-            "Referential integrity"
+            "Referential integrity",
+            "Advantages of relating tables in a database",
+            "Creating relationships between tables",
+            "Field properties"
           ]
         },
         {
@@ -1495,54 +1536,80 @@
           "id": "c10-it-17",
           "name": "Part B: Database Management System – Chapter 12: Forms and Reports",
           "topics": [
-            "Forms and their purpose",
-            "Creating forms with the Form Wizard",
+            "Forms and reports",
+            "Creating forms using the Form Wizard",
+            "Entering and removing data from forms",
             "Modifying forms",
-            "Controls in forms",
-            "Reports and their purpose",
-            "Creating reports with the Report Wizard",
-            "Report titles and headings",
-            "Date and time in reports"
+            "Searching records using a form",
+            "Form Controls Toolbar",
+            "Form controls",
+            "Reports in Base",
+            "Creating reports using the Report Wizard",
+            "Report examples",
+            "Inserting other controls in reports",
+            "Inserting titles and headings",
+            "Inserting date and time"
           ]
         },
         {
           "id": "c10-it-18",
           "name": "Part B: Maintain Healthy, Safe and Secure Working Environment – Chapter 13: Health, Safety and Security at Workplace",
           "topics": [
-            "Workplace health and safety policies",
-            "Workplace hazards",
+            "Introduction to health, safety and security at workplace",
+            "Policies and procedures for health, safety and security",
+            "Reasons for health, safety and security programs or policies",
+            "Workplace safety hazards",
             "Physical hazards",
+            "Falling, slipping and tripping",
             "Electrical hazards",
             "Fire hazards",
             "Health hazards",
-            "Computer-related hazards",
-            "Hazard identification and control"
+            "Potential sources of hazards in an organisation",
+            "Hazards using computers",
+            "Handling office equipment",
+            "Handling objects",
+            "Stress at work",
+            "Working environment",
+            "Hazard control",
+            "Safety guidelines checklist"
           ]
         },
         {
           "id": "c10-it-19",
           "name": "Part B: Maintain Healthy, Safe and Secure Working Environment – Chapter 14: Workplace Quality Measures",
           "topics": [
-            "Air quality",
-            "Water quality",
-            "Workplace ergonomics",
-            "Computer-related health problems",
-            "Musculoskeletal problems",
-            "Safety requirements and preventive measures"
+            "Introduction to workplace quality measures",
+            "Air and water quality monitoring process",
+            "Guidelines for clean air and clean water",
+            "Importance of cleanliness at workplace",
+            "Office ergonomics",
+            "Computer health and safety tips",
+            "Musculoskeletal problems: occupational overuse syndrome, strain in legs and feet, eye strain",
+            "Risks of visual problems: headaches, obesity, stress disorders, injuries from laptop use, sleeping problems",
+            "Health and safety requirements for computer workplace",
+            "Cautions while working on the computer"
           ]
         },
         {
           "id": "c10-it-20",
           "name": "Part B: Maintain Healthy, Safe and Secure Working Environment – Chapter 15: Prevent Accidents and Emergencies",
           "topics": [
-            "Types of workplace accidents",
-            "Handling and preventing accidents",
-            "Emergency situations",
-            "Evacuation procedures",
-            "Fire safety",
+            "Accidents and emergencies: identification and response",
+            "Types of accidents: trip and fall, slip and fall, injuries caused by escalators/elevators, falling goods, moving objects",
+            "Handling accidents: attend to the injured person, inform supervisor, assist supervisor",
+            "Types of emergencies: first aid, electrical safety, evacuation",
+            "General evacuation procedures",
+            "Fire hazards in the workplace",
+            "Fire prevention",
+            "Identify hazards and sources of hazards",
+            "Identify problems at workplace",
+            "Company policies and procedures for preventing further injury",
+            "Emergency services and senior-staff instructions",
             "First aid",
-            "Electrical rescue",
-            "Emergency preparedness"
+            "Electrical safety",
+            "Identification of material and ignition sources",
+            "First aid for electrical emergencies",
+            "Electrical rescue techniques"
           ]
         }
       ]

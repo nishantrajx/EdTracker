@@ -80,8 +80,150 @@ function login(){let em,pw,er;app.replaceChildren(el('form',{class:'card login',
  el('button',{class:'pri',type:'submit'},'Sign in')))}
 function setup(){let nm,cl;app.replaceChildren(el('div',{class:'card login'},el('h1',{},'Welcome'),nm=el('input',{placeholder:'Your name'}),cl=el('select',{},el('option',{value:10},'Class 10'),el('option',{value:12},'Class 12')),
  el('button',{class:'pri',onclick:()=>{if(!nm.value.trim())return;S.profile={name:nm.value.trim(),cls:+cl.value,t:Date.now()};save();start()}},'Start')))}
-async function start(){if(!S.profile)return setup();
- try{DATA=await(await fetch('data/syllabus/class'+S.profile.cls+'.json')).json();DEF=await(await fetch('data/exams/default-dates.json')).json();FORM={};TIPS={};await Promise.all(DATA.subjects.map(async s=>{try{const r=await fetch('data/formulas/'+s.id+'.json');if(r.ok){const j=await r.json();FORM[s.id]={};j.chapters.forEach(c=>FORM[s.id][c.id]=c.formulas)}}catch(e){}try{const r=await fetch('data/tips/'+s.id+'.json');if(r.ok)TIPS[s.id]=await r.json()}catch(e){}}))}catch(e){app.textContent='Could not load data.';return}render()}
+
+async function loadJSON(path){
+ const r=await fetch(path,{cache:'no-store'});
+ if(!r.ok)throw new Error('Missing data file: '+path);
+ try{return await r.json()}
+ catch(e){throw new Error('Invalid JSON: '+path)}
+}
+
+function validateSyllabus(d,cls){
+ if(+cls!==10&&+cls!==12)throw new Error('Unsupported class');
+ if(!d||!Array.isArray(d.subjects)||!d.subjects.length)
+  throw new Error('Invalid syllabus data');
+
+ const si=new Set;
+
+ for(const s of d.subjects){
+  if(!s||typeof s.id!=='string'||!s.id||si.has(s.id))
+   throw new Error('Invalid or duplicate subject ID');
+
+  si.add(s.id);
+
+  if(!Array.isArray(s.chapters))
+   throw new Error('Invalid chapters for '+s.id);
+
+  const ci=new Set;
+
+  for(const c of s.chapters){
+   if(!c||typeof c.id!=='string'||!c.id||ci.has(c.id))
+    throw new Error('Invalid or duplicate chapter ID in '+s.id);
+
+   ci.add(c.id);
+
+   if(!Array.isArray(c.topics)||c.topics.some(x=>typeof x!=='string'||!x.trim()))
+    throw new Error('Invalid topics in '+c.id);
+  }
+ }
+}
+
+function validateLinkedData(subjects,form,tips){
+ const ids=new Map(
+  subjects.map(s=>[s.id,new Set(s.chapters.map(c=>c.id))])
+ );
+
+ for(const sid of Object.keys(form)){
+  if(!ids.has(sid))
+   throw new Error('Formula subject not in syllabus: '+sid);
+
+  for(const cid of Object.keys(form[sid])){
+   if(!ids.get(sid).has(cid))
+    throw new Error('Formula chapter not in syllabus: '+cid);
+
+   if(!Array.isArray(form[sid][cid]))
+    throw new Error('Invalid formula list: '+cid);
+  }
+ }
+
+ for(const sid of Object.keys(tips)){
+  if(!ids.has(sid))
+   throw new Error('Tips subject not in syllabus: '+sid);
+
+  for(const w of tips[sid].weightage||[]){
+   for(const cid of w.ids||[w.id]){
+    if(!ids.get(sid).has(cid))
+     throw new Error('Tips chapter not in syllabus: '+cid);
+   }
+  }
+ }
+}
+
+async function start(){
+ if(!S.profile)return setup();
+
+ try{
+  DATA=await loadJSON('data/syllabus/class'+S.profile.cls+'.json');
+  validateSyllabus(DATA,S.profile.cls);
+
+  DEF=await loadJSON('data/exams/default-dates.json');
+
+  if(!DEF||typeof DEF!=='object'||Array.isArray(DEF))
+   throw new Error('Invalid exam-date data');
+
+  FORM={};
+  TIPS={};
+
+  await Promise.all(DATA.subjects.map(async s=>{
+   const fp='data/formulas/'+s.id+'.json';
+   const tp='data/tips/'+s.id+'.json';
+
+   /*
+    Formula files are optional because not every subject has
+    an audited formula dataset. If the file exists, however,
+    it must be valid and correctly linked.
+   */
+   try{
+    const j=await loadJSON(fp);
+
+    if(!j||!Array.isArray(j.chapters))
+     throw new Error('Invalid formula data: '+fp);
+
+    FORM[s.id]={};
+
+    for(const c of j.chapters){
+     if(!c||typeof c.id!=='string'||!Array.isArray(c.formulas))
+      throw new Error('Invalid formula chapter: '+s.id);
+
+     FORM[s.id][c.id]=c.formulas;
+    }
+   }catch(e){
+    if(!e.message.startsWith('Missing data file:'))
+     throw e;
+   }
+
+   /*
+    Every syllabus subject must have its corresponding tips
+    dataset so that missing tips cannot be silently hidden.
+   */
+   TIPS[s.id]=await loadJSON(tp);
+  }));
+
+  validateLinkedData(DATA.subjects,FORM,TIPS);
+
+ }catch(e){
+  console.error(e);
+
+  app.replaceChildren(
+   el(
+    'div',
+    {class:'card'},
+    el('b',{},'Could not load study data'),
+    el(
+     'p',
+     {class:'muted'},
+     e.message||'The study data could not be loaded.'
+    ),
+    el('button',{onclick:()=>start()},'Retry')
+   )
+  );
+
+  return;
+ }
+
+ render();
+}
+
 auth.onAuthStateChanged(async u=>{if(!u){uid=null;DATA=null;return login()}
  uid=u.uid;try{S=JSON.parse(localStorage.getItem('st_'+uid))||{}}catch(e){S={}}
  if(!S.profile)await sync();await start();sync()});

@@ -104,6 +104,22 @@
     {
       "label": "Probability",
       "text": "For equally likely outcomes, P(E) = favourable outcomes / total outcomes; 0 ≤ P(E) ≤ 1 and P(not E) = 1 − P(E)."
+    },
+    {
+      "label": "Real numbers",
+      "text": "For the Fundamental Theorem of Arithmetic, use prime factorisation systematically; for irrationality questions, know the proof structure for √2, √3 and √5."
+    },
+    {
+      "label": "Polynomials",
+      "text": "For a quadratic polynomial, connect its zeroes with its coefficients and verify the required relationship algebraically."
+    },
+    {
+      "label": "Triangles",
+      "text": "For similarity, distinguish and apply AA, SSS and SAS criteria; know the Basic Proportionality Theorem and its converse, including which results require proof."
+    },
+    {
+      "label": "Circles",
+      "text": "For tangent problems, use the two prescribed theorems: the tangent at the point of contact is perpendicular to the radius, and tangents from an external point are equal."
     }
   ],
   "mistakes": [
