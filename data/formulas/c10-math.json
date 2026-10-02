@@ -18,6 +18,16 @@
           "label": "Prime factorisation: LCM",
           "tex": "\\operatorname{LCM}(a,b)=\\prod p_i^{\\max(\\alpha_i,\\beta_i)}",
           "unit": ""
+        },
+        {
+          "label": "HCF–LCM relationship",
+          "tex": "\\operatorname{HCF}(a,b)\\times\\operatorname{LCM}(a,b)=a\\times b",
+          "unit": ""
+        },
+        {
+          "label": "Terminating decimal condition",
+          "tex": "\\frac{p}{q}\\text{ terminates iff }q=2^m5^n\\text{ after reduction}",
+          "unit": ""
         }
       ]
     },
@@ -42,6 +52,11 @@
         {
           "label": "Quadratic polynomial from zeroes",
           "tex": "p(x)=a\\left[x^2-(\\alpha+\\beta)x+\\alpha\\beta\\right]",
+          "unit": ""
+        },
+        {
+          "label": "Polynomial division algorithm",
+          "tex": "p(x)=g(x)q(x)+r(x),\\quad \\deg r<\\deg g",
           "unit": ""
         },
         {
