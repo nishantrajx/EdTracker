@@ -1,0 +1,698 @@
+{
+ "subject": "c12-math",
+ "chapters": [
+  {
+   "id": "c12-math-01",
+   "formulas": [
+    {
+     "label": "Reflexive relation",
+     "tex": "(a,a)\\in R\\ \\text{ for all } a\\in A"
+    },
+    {
+     "label": "Symmetric relation",
+     "tex": "(a,b)\\in R\\Rightarrow(b,a)\\in R"
+    },
+    {
+     "label": "Transitive relation",
+     "tex": "(a,b)\\in R,\\ (b,c)\\in R\\Rightarrow(a,c)\\in R"
+    },
+    {
+     "label": "Equivalence relation",
+     "tex": "\\text{Reflexive, symmetric and transitive}"
+    },
+    {
+     "label": "One-one (injective) function",
+     "tex": "f(x_1)=f(x_2)\\Rightarrow x_1=x_2"
+    },
+    {
+     "label": "Onto (surjective) function",
+     "tex": "\\text{Range of } f=\\text{Codomain of } f"
+    },
+    {
+     "label": "Bijective function",
+     "tex": "\\text{One-one and onto}"
+    }
+   ]
+  },
+  {
+   "id": "c12-math-02",
+   "formulas": [
+    {
+     "label": "Principal value branch: sin⁻¹x",
+     "tex": "x\\in[-1,1],\\quad y\\in\\left[-\\dfrac\\pi2,\\dfrac\\pi2\\right]"
+    },
+    {
+     "label": "Principal value branch: cos⁻¹x",
+     "tex": "x\\in[-1,1],\\quad y\\in[0,\\pi]"
+    },
+    {
+     "label": "Principal value branch: tan⁻¹x",
+     "tex": "x\\in\\mathbb R,\\quad y\\in\\left(-\\dfrac\\pi2,\\dfrac\\pi2\\right)"
+    },
+    {
+     "label": "Principal value branch: cot⁻¹x",
+     "tex": "x\\in\\mathbb R,\\quad y\\in(0,\\pi)"
+    },
+    {
+     "label": "Principal value branch: cosec⁻¹x",
+     "tex": "x\\in\\mathbb R-(-1,1),\\quad y\\in\\left[-\\dfrac\\pi2,\\dfrac\\pi2\\right]-\\{0\\}"
+    },
+    {
+     "label": "Principal value branch: sec⁻¹x",
+     "tex": "x\\in\\mathbb R-(-1,1),\\quad y\\in[0,\\pi]-\\left\\{\\dfrac\\pi2\\right\\}"
+    },
+    {
+     "label": "Negative arguments",
+     "tex": "\\sin^{-1}(-x)=-\\sin^{-1}x,\\quad \\tan^{-1}(-x)=-\\tan^{-1}x,\\quad \\cos^{-1}(-x)=\\pi-\\cos^{-1}x"
+    },
+    {
+     "label": "Complementary pairs",
+     "tex": "\\sin^{-1}x+\\cos^{-1}x=\\dfrac\\pi2\\ (|x|\\le1),\\quad \\tan^{-1}x+\\cot^{-1}x=\\dfrac\\pi2\\ (x\\in\\mathbb R)"
+    },
+    {
+     "label": "Reciprocal arguments (|x| ≥ 1)",
+     "tex": "\\sin^{-1}\\dfrac1x=\\operatorname{cosec}^{-1}x,\\quad \\cos^{-1}\\dfrac1x=\\sec^{-1}x"
+    },
+    {
+     "label": "Composition with the function",
+     "tex": "\\sin(\\sin^{-1}x)=x\\ (|x|\\le1),\\quad \\sin^{-1}(\\sin x)=x\\ \\left(x\\in\\left[-\\tfrac\\pi2,\\tfrac\\pi2\\right]\\right)"
+    }
+   ]
+  },
+  {
+   "id": "c12-math-03",
+   "formulas": [
+    {
+     "label": "Order of a matrix",
+     "tex": "A=[a_{ij}]_{m\\times n}:\\ m\\text{ rows},\\ n\\text{ columns}"
+    },
+    {
+     "label": "Product: order and entries",
+     "tex": "A_{m\\times n}B_{n\\times p}=C_{m\\times p},\\quad c_{ij}=\\sum_{k=1}^{n}a_{ik}b_{kj}"
+    },
+    {
+     "label": "Multiplication is not commutative",
+     "tex": "AB\\neq BA\\ \\text{(in general)}"
+    },
+    {
+     "label": "Identity matrix",
+     "tex": "AI=IA=A"
+    },
+    {
+     "label": "Transpose properties",
+     "tex": "(A')'=A,\\ (kA)'=kA',\\ (A+B)'=A'+B',\\ (AB)'=B'A'"
+    },
+    {
+     "label": "Symmetric matrix",
+     "tex": "A'=A"
+    },
+    {
+     "label": "Skew-symmetric matrix (diagonal entries are 0)",
+     "tex": "A'=-A"
+    },
+    {
+     "label": "Any square matrix as symmetric + skew-symmetric",
+     "tex": "A=\\dfrac12(A+A')+\\dfrac12(A-A')"
+    },
+    {
+     "label": "Inverse of a matrix",
+     "tex": "AB=BA=I\\Rightarrow B=A^{-1}"
+    },
+    {
+     "label": "Inverse of a product",
+     "tex": "(AB)^{-1}=B^{-1}A^{-1}"
+    },
+    {
+     "label": "Inverse and transpose",
+     "tex": "(A')^{-1}=(A^{-1})'"
+    }
+   ]
+  },
+  {
+   "id": "c12-math-04",
+   "formulas": [
+    {
+     "label": "Determinant of order 2",
+     "tex": "\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc"
+    },
+    {
+     "label": "Determinant of order 3 (first row)",
+     "tex": "\\begin{vmatrix}a_1&b_1&c_1\\\\a_2&b_2&c_2\\\\a_3&b_3&c_3\\end{vmatrix}=a_1(b_2c_3-b_3c_2)-b_1(a_2c_3-a_3c_2)+c_1(a_2b_3-a_3b_2)"
+    },
+    {
+     "label": "Minor and cofactor",
+     "tex": "C_{ij}=(-1)^{i+j}M_{ij}"
+    },
+    {
+     "label": "Expansion along row i",
+     "tex": "|A|=\\sum_{j}a_{ij}C_{ij}"
+    },
+    {
+     "label": "Area of triangle with vertices (x₁,y₁), (x₂,y₂), (x₃,y₃)",
+     "tex": "\\Delta=\\dfrac12\\left|\\begin{vmatrix}x_1&y_1&1\\\\x_2&y_2&1\\\\x_3&y_3&1\\end{vmatrix}\\right|"
+    },
+    {
+     "label": "Collinear points",
+     "tex": "\\Delta=0"
+    },
+    {
+     "label": "Properties of determinants (order n)",
+     "tex": "|kA|=k^n|A|,\\quad |AB|=|A||B|,\\quad |A'|=|A|"
+    },
+    {
+     "label": "Adjoint",
+     "tex": "A(\\operatorname{adj}A)=(\\operatorname{adj}A)A=|A|\\,I"
+    },
+    {
+     "label": "Inverse (needs |A| ≠ 0)",
+     "tex": "A^{-1}=\\dfrac{1}{|A|}\\operatorname{adj}A"
+    },
+    {
+     "label": "Singular and non-singular",
+     "tex": "|A|=0\\ \\text{singular};\\quad |A|\\neq0\\ \\text{non-singular}"
+    },
+    {
+     "label": "|adj A|",
+     "tex": "|\\operatorname{adj}A|=|A|^{n-1}"
+    },
+    {
+     "label": "System AX = B with |A| ≠ 0",
+     "tex": "X=A^{-1}B\\quad\\text{(unique solution)}"
+    },
+    {
+     "label": "Consistency when |A| = 0",
+     "tex": "(\\operatorname{adj}A)B\\neq O\\Rightarrow\\text{inconsistent};\\quad (\\operatorname{adj}A)B=O\\Rightarrow\\text{consistent, infinitely many solutions}"
+    }
+   ]
+  },
+  {
+   "id": "c12-math-05",
+   "formulas": [
+    {
+     "label": "Continuity at x = c",
+     "tex": "\\lim_{x\\to c^-}f(x)=\\lim_{x\\to c^+}f(x)=f(c)"
+    },
+    {
+     "label": "Derivative from first principles",
+     "tex": "f'(c)=\\lim_{h\\to0}\\dfrac{f(c+h)-f(c)}{h}"
+    },
+    {
+     "label": "Differentiable implies continuous",
+     "tex": "f\\ \\text{differentiable at }c\\Rightarrow f\\ \\text{continuous at }c"
+    },
+    {
+     "label": "Product rule",
+     "tex": "(uv)'=u'v+uv'"
+    },
+    {
+     "label": "Quotient rule",
+     "tex": "\\left(\\dfrac uv\\right)'=\\dfrac{u'v-uv'}{v^2}"
+    },
+    {
+     "label": "Chain rule",
+     "tex": "\\dfrac{dy}{dx}=\\dfrac{dy}{du}\\cdot\\dfrac{du}{dx}"
+    },
+    {
+     "label": "Derivatives: powers and exponentials",
+     "tex": "\\dfrac{d}{dx}x^n=nx^{n-1},\\quad \\dfrac{d}{dx}e^x=e^x,\\quad \\dfrac{d}{dx}a^x=a^x\\ln a"
+    },
+    {
+     "label": "Derivatives: logarithms",
+     "tex": "\\dfrac{d}{dx}\\ln x=\\dfrac1x,\\quad \\dfrac{d}{dx}\\log_a x=\\dfrac{1}{x\\ln a}"
+    },
+    {
+     "label": "Derivatives: sin, cos, tan",
+     "tex": "\\dfrac{d}{dx}\\sin x=\\cos x,\\ \\dfrac{d}{dx}\\cos x=-\\sin x,\\ \\dfrac{d}{dx}\\tan x=\\sec^2x"
+    },
+    {
+     "label": "Derivatives: cot, sec, cosec",
+     "tex": "\\dfrac{d}{dx}\\cot x=-\\operatorname{cosec}^2x,\\ \\dfrac{d}{dx}\\sec x=\\sec x\\tan x,\\ \\dfrac{d}{dx}\\operatorname{cosec}x=-\\operatorname{cosec}x\\cot x"
+    },
+    {
+     "label": "Derivatives of inverse trigonometric functions",
+     "tex": "\\dfrac{d}{dx}\\sin^{-1}x=\\dfrac{1}{\\sqrt{1-x^2}},\\ \\dfrac{d}{dx}\\cos^{-1}x=-\\dfrac{1}{\\sqrt{1-x^2}},\\ \\dfrac{d}{dx}\\tan^{-1}x=\\dfrac{1}{1+x^2}"
+    },
+    {
+     "label": "Logarithmic differentiation, y = f(x)^g(x)",
+     "tex": "\\dfrac{dy}{dx}=y\\left[g'(x)\\ln f(x)+g(x)\\dfrac{f'(x)}{f(x)}\\right]"
+    },
+    {
+     "label": "Parametric form x = f(t), y = g(t)",
+     "tex": "\\dfrac{dy}{dx}=\\dfrac{dy/dt}{dx/dt},\\quad \\dfrac{dx}{dt}\\neq0"
+    },
+    {
+     "label": "Second order derivative",
+     "tex": "\\dfrac{d^2y}{dx^2}=\\dfrac{d}{dx}\\left(\\dfrac{dy}{dx}\\right)"
+    },
+    {
+     "label": "Second derivative, parametric form",
+     "tex": "\\dfrac{d^2y}{dx^2}=\\dfrac{\\dfrac{d}{dt}\\left(\\dfrac{dy}{dx}\\right)}{dx/dt}"
+    }
+   ]
+  },
+  {
+   "id": "c12-math-06",
+   "formulas": [
+    {
+     "label": "Rate of change",
+     "tex": "\\dfrac{dy}{dt}=\\dfrac{dy}{dx}\\cdot\\dfrac{dx}{dt}"
+    },
+    {
+     "label": "Increasing and decreasing function",
+     "tex": "f'(x)>0\\Rightarrow\\text{increasing};\\quad f'(x)<0\\Rightarrow\\text{decreasing}"
+    },
+    {
+     "label": "Critical point",
+     "tex": "f'(c)=0"
+    },
+    {
+     "label": "First derivative test",
+     "tex": "f'\\ \\text{changes }+\\to-\\text{ at }c:\\ \\text{local max};\\quad -\\to+:\\ \\text{local min}"
+    },
+    {
+     "label": "Second derivative test",
+     "tex": "f'(c)=0,\\ f''(c)<0\\Rightarrow\\text{local max};\\quad f''(c)>0\\Rightarrow\\text{local min}"
+    },
+    {
+     "label": "If f″(c) = 0",
+     "tex": "\\text{Test fails: use the first derivative test}"
+    },
+    {
+     "label": "Absolute extrema on [a, b]",
+     "tex": "\\text{Compare }f\\text{ at critical points and at the end points } a,\\ b"
+    },
+    {
+     "label": "Circle: area and its rate",
+     "tex": "A=\\pi r^2,\\quad \\dfrac{dA}{dt}=2\\pi r\\dfrac{dr}{dt}"
+    },
+    {
+     "label": "Sphere: volume and its rate",
+     "tex": "V=\\dfrac43\\pi r^3,\\quad \\dfrac{dV}{dt}=4\\pi r^2\\dfrac{dr}{dt}"
+    }
+   ]
+  },
+  {
+   "id": "c12-math-07",
+   "formulas": [
+    {
+     "label": "Power rule",
+     "tex": "\\int x^n\\,dx=\\dfrac{x^{n+1}}{n+1}+C,\\ n\\neq-1"
+    },
+    {
+     "label": "Reciprocal and exponentials",
+     "tex": "\\int\\dfrac1x\\,dx=\\ln|x|+C,\\quad \\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\dfrac{a^x}{\\ln a}+C"
+    },
+    {
+     "label": "Basic trigonometric integrals",
+     "tex": "\\int\\sin x\\,dx=-\\cos x+C,\\quad \\int\\cos x\\,dx=\\sin x+C"
+    },
+    {
+     "label": "Squares of sec and cosec",
+     "tex": "\\int\\sec^2x\\,dx=\\tan x+C,\\quad \\int\\operatorname{cosec}^2x\\,dx=-\\cot x+C"
+    },
+    {
+     "label": "Products",
+     "tex": "\\int\\sec x\\tan x\\,dx=\\sec x+C,\\quad \\int\\operatorname{cosec}x\\cot x\\,dx=-\\operatorname{cosec}x+C"
+    },
+    {
+     "label": "Integrals of tan and cot",
+     "tex": "\\int\\tan x\\,dx=\\ln|\\sec x|+C,\\quad \\int\\cot x\\,dx=\\ln|\\sin x|+C"
+    },
+    {
+     "label": "Integrals of sec and cosec",
+     "tex": "\\int\\sec x\\,dx=\\ln|\\sec x+\\tan x|+C,\\quad \\int\\operatorname{cosec}x\\,dx=\\ln|\\operatorname{cosec}x-\\cot x|+C"
+    },
+    {
+     "label": "Inverse trigonometric results",
+     "tex": "\\int\\dfrac{dx}{\\sqrt{1-x^2}}=\\sin^{-1}x+C,\\quad \\int\\dfrac{dx}{1+x^2}=\\tan^{-1}x+C"
+    },
+    {
+     "label": "∫ dx/(x² + a²)",
+     "tex": "\\dfrac1a\\tan^{-1}\\dfrac xa+C"
+    },
+    {
+     "label": "∫ dx/(x² − a²)",
+     "tex": "\\dfrac{1}{2a}\\ln\\left|\\dfrac{x-a}{x+a}\\right|+C"
+    },
+    {
+     "label": "∫ dx/(a² − x²)",
+     "tex": "\\dfrac{1}{2a}\\ln\\left|\\dfrac{a+x}{a-x}\\right|+C"
+    },
+    {
+     "label": "∫ dx/√(a² − x²)",
+     "tex": "\\sin^{-1}\\dfrac xa+C"
+    },
+    {
+     "label": "∫ dx/√(x² − a²)",
+     "tex": "\\ln\\left|x+\\sqrt{x^2-a^2}\\right|+C"
+    },
+    {
+     "label": "∫ dx/√(x² + a²)",
+     "tex": "\\ln\\left|x+\\sqrt{x^2+a^2}\\right|+C"
+    },
+    {
+     "label": "∫ √(a² − x²) dx",
+     "tex": "\\dfrac x2\\sqrt{a^2-x^2}+\\dfrac{a^2}{2}\\sin^{-1}\\dfrac xa+C"
+    },
+    {
+     "label": "∫ √(x² − a²) dx",
+     "tex": "\\dfrac x2\\sqrt{x^2-a^2}-\\dfrac{a^2}{2}\\ln\\left|x+\\sqrt{x^2-a^2}\\right|+C"
+    },
+    {
+     "label": "∫ √(x² + a²) dx",
+     "tex": "\\dfrac x2\\sqrt{x^2+a^2}+\\dfrac{a^2}{2}\\ln\\left|x+\\sqrt{x^2+a^2}\\right|+C"
+    },
+    {
+     "label": "Quadratic in the denominator",
+     "tex": "\\text{For }ax^2+bx+c:\\ \\text{complete the square, then use the standard forms above}"
+    },
+    {
+     "label": "Substitution",
+     "tex": "\\int f(g(x))\\,g'(x)\\,dx=\\int f(t)\\,dt,\\quad t=g(x)"
+    },
+    {
+     "label": "Integration by parts",
+     "tex": "\\int u\\,v\\,dx=u\\int v\\,dx-\\int\\left(u'\\int v\\,dx\\right)dx"
+    },
+    {
+     "label": "Choosing u (ILATE)",
+     "tex": "\\text{Inverse trig, Log, Algebraic, Trig, Exponential}"
+    },
+    {
+     "label": "Special by-parts form",
+     "tex": "\\int e^x\\left[f(x)+f'(x)\\right]dx=e^xf(x)+C"
+    },
+    {
+     "label": "Partial fractions: distinct linear factors",
+     "tex": "\\dfrac{px+q}{(x-a)(x-b)}=\\dfrac{A}{x-a}+\\dfrac{B}{x-b}"
+    },
+    {
+     "label": "Partial fractions: repeated factor",
+     "tex": "\\dfrac{px+q}{(x-a)^2}=\\dfrac{A}{x-a}+\\dfrac{B}{(x-a)^2}"
+    },
+    {
+     "label": "Partial fractions: quadratic factor",
+     "tex": "\\dfrac{px^2+qx+r}{(x-a)(x^2+bx+c)}=\\dfrac{A}{x-a}+\\dfrac{Bx+C}{x^2+bx+c}"
+    },
+    {
+     "label": "Fundamental Theorem of Calculus",
+     "tex": "\\int_a^b f(x)\\,dx=F(b)-F(a),\\quad F'(x)=f(x)"
+    },
+    {
+     "label": "Definite integral: reversing limits and splitting",
+     "tex": "\\int_a^b f\\,dx=-\\int_b^a f\\,dx,\\quad \\int_a^b f\\,dx=\\int_a^c f\\,dx+\\int_c^b f\\,dx"
+    },
+    {
+     "label": "Definite integral: change of variable",
+     "tex": "\\int_a^b f(x)\\,dx=\\int_a^b f(a+b-x)\\,dx,\\quad \\int_0^a f(x)\\,dx=\\int_0^a f(a-x)\\,dx"
+    },
+    {
+     "label": "Even and odd functions",
+     "tex": "\\int_{-a}^{a}f(x)\\,dx=\\begin{cases}2\\int_0^a f(x)\\,dx & f\\text{ even}\\\\ 0 & f\\text{ odd}\\end{cases}"
+    },
+    {
+     "label": "Limits 0 to 2a",
+     "tex": "\\int_0^{2a}f(x)\\,dx=\\begin{cases}2\\int_0^a f(x)\\,dx & f(2a-x)=f(x)\\\\ 0 & f(2a-x)=-f(x)\\end{cases}"
+    }
+   ]
+  },
+  {
+   "id": "c12-math-08",
+   "formulas": [
+    {
+     "label": "Area under a curve (about the x-axis)",
+     "tex": "A=\\int_a^b y\\,dx=\\int_a^b f(x)\\,dx"
+    },
+    {
+     "label": "Area about the y-axis",
+     "tex": "A=\\int_c^d x\\,dy"
+    },
+    {
+     "label": "Area between two curves (f ≥ g)",
+     "tex": "A=\\int_a^b\\left[f(x)-g(x)\\right]dx"
+    },
+    {
+     "label": "Area of a circle x² + y² = a²",
+     "tex": "A=\\pi a^2\\quad\\left(\\text{first quadrant: }\\dfrac{\\pi a^2}{4}\\right)"
+    },
+    {
+     "label": "Area of an ellipse x²/a² + y²/b² = 1",
+     "tex": "A=\\pi ab\\quad\\left(\\text{first quadrant: }\\dfrac{\\pi ab}{4}\\right)"
+    },
+    {
+     "label": "Parabola y² = 4ax and its latus rectum x = a",
+     "tex": "A=\\dfrac{8a^2}{3}"
+    }
+   ]
+  },
+  {
+   "id": "c12-math-09",
+   "formulas": [
+    {
+     "label": "Order and degree",
+     "tex": "\\text{Order = highest order derivative; degree = its power (when polynomial in derivatives)}"
+    },
+    {
+     "label": "General solution",
+     "tex": "\\text{Number of arbitrary constants}=\\text{order}"
+    },
+    {
+     "label": "Variable separable",
+     "tex": "\\dfrac{dy}{dx}=f(x)g(y)\\Rightarrow\\int\\dfrac{dy}{g(y)}=\\int f(x)\\,dx+C"
+    },
+    {
+     "label": "Homogeneous function of degree n",
+     "tex": "f(\\lambda x,\\lambda y)=\\lambda^nf(x,y)"
+    },
+    {
+     "label": "Homogeneous equation dy/dx = F(y/x)",
+     "tex": "y=vx,\\quad \\dfrac{dy}{dx}=v+x\\dfrac{dv}{dx}"
+    },
+    {
+     "label": "Homogeneous equation dx/dy = G(x/y)",
+     "tex": "x=vy,\\quad \\dfrac{dx}{dy}=v+y\\dfrac{dv}{dy}"
+    },
+    {
+     "label": "Linear equation dy/dx + Py = Q",
+     "tex": "\\text{I.F.}=e^{\\int P\\,dx},\\quad y\\cdot\\text{I.F.}=\\int Q\\cdot\\text{I.F.}\\,dx+C"
+    },
+    {
+     "label": "Linear equation dx/dy + P₁x = Q₁",
+     "tex": "\\text{I.F.}=e^{\\int P_1\\,dy},\\quad x\\cdot\\text{I.F.}=\\int Q_1\\cdot\\text{I.F.}\\,dy+C"
+    }
+   ]
+  },
+  {
+   "id": "c12-math-10",
+   "formulas": [
+    {
+     "label": "Position vector of P(x, y, z)",
+     "tex": "\\vec{OP}=x\\hat i+y\\hat j+z\\hat k"
+    },
+    {
+     "label": "Magnitude",
+     "tex": "|\\vec r|=\\sqrt{x^2+y^2+z^2}"
+    },
+    {
+     "label": "Vector joining A(x₁, y₁, z₁) to B(x₂, y₂, z₂)",
+     "tex": "\\vec{AB}=(x_2-x_1)\\hat i+(y_2-y_1)\\hat j+(z_2-z_1)\\hat k"
+    },
+    {
+     "label": "Unit vector",
+     "tex": "\\hat a=\\dfrac{\\vec a}{|\\vec a|}"
+    },
+    {
+     "label": "Direction cosines of r = xî + yĵ + zk̂",
+     "tex": "l=\\dfrac{x}{|\\vec r|},\\ m=\\dfrac{y}{|\\vec r|},\\ n=\\dfrac{z}{|\\vec r|},\\quad l^2+m^2+n^2=1"
+    },
+    {
+     "label": "Triangle law",
+     "tex": "\\vec{AB}+\\vec{BC}=\\vec{AC}"
+    },
+    {
+     "label": "Scalar multiplication and collinear vectors",
+     "tex": "|\\lambda\\vec a|=|\\lambda||\\vec a|;\\quad \\vec a\\parallel\\vec b\\Leftrightarrow\\vec a=\\lambda\\vec b"
+    },
+    {
+     "label": "Section formula, internal (ratio m : n)",
+     "tex": "\\vec r=\\dfrac{m\\vec b+n\\vec a}{m+n}"
+    },
+    {
+     "label": "Section formula, external",
+     "tex": "\\vec r=\\dfrac{m\\vec b-n\\vec a}{m-n}"
+    },
+    {
+     "label": "Mid-point",
+     "tex": "\\vec r=\\dfrac{\\vec a+\\vec b}{2}"
+    },
+    {
+     "label": "Dot product",
+     "tex": "\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\theta=a_1b_1+a_2b_2+a_3b_3"
+    },
+    {
+     "label": "Angle between vectors",
+     "tex": "\\cos\\theta=\\dfrac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}"
+    },
+    {
+     "label": "Perpendicular vectors, and a·a",
+     "tex": "\\vec a\\perp\\vec b\\Leftrightarrow\\vec a\\cdot\\vec b=0;\\quad \\vec a\\cdot\\vec a=|\\vec a|^2"
+    },
+    {
+     "label": "Unit vectors",
+     "tex": "\\hat i\\cdot\\hat i=\\hat j\\cdot\\hat j=\\hat k\\cdot\\hat k=1;\\quad \\hat i\\cdot\\hat j=\\hat j\\cdot\\hat k=\\hat k\\cdot\\hat i=0"
+    },
+    {
+     "label": "Projection of a on b",
+     "tex": "\\dfrac{\\vec a\\cdot\\vec b}{|\\vec b|}"
+    },
+    {
+     "label": "Cross product",
+     "tex": "\\vec a\\times\\vec b=|\\vec a||\\vec b|\\sin\\theta\\,\\hat n,\\quad |\\vec a\\times\\vec b|=|\\vec a||\\vec b|\\sin\\theta"
+    },
+    {
+     "label": "Cross product in components",
+     "tex": "\\vec a\\times\\vec b=\\begin{vmatrix}\\hat i&\\hat j&\\hat k\\\\a_1&a_2&a_3\\\\b_1&b_2&b_3\\end{vmatrix}"
+    },
+    {
+     "label": "Cross product: properties",
+     "tex": "\\vec a\\times\\vec b=-\\vec b\\times\\vec a;\\quad \\vec a\\parallel\\vec b\\Leftrightarrow\\vec a\\times\\vec b=\\vec 0"
+    },
+    {
+     "label": "Unit vectors cross product",
+     "tex": "\\hat i\\times\\hat j=\\hat k,\\ \\hat j\\times\\hat k=\\hat i,\\ \\hat k\\times\\hat i=\\hat j"
+    },
+    {
+     "label": "Area of a triangle with sides a, b",
+     "tex": "\\dfrac12|\\vec a\\times\\vec b|"
+    },
+    {
+     "label": "Area of a parallelogram with sides a, b",
+     "tex": "|\\vec a\\times\\vec b|"
+    },
+    {
+     "label": "Area of a parallelogram with diagonals d₁, d₂",
+     "tex": "\\dfrac12|\\vec d_1\\times\\vec d_2|"
+    }
+   ]
+  },
+  {
+   "id": "c12-math-11",
+   "formulas": [
+    {
+     "label": "Direction cosines of a line",
+     "tex": "l=\\cos\\alpha,\\ m=\\cos\\beta,\\ n=\\cos\\gamma,\\quad l^2+m^2+n^2=1"
+    },
+    {
+     "label": "Direction ratios a, b, c",
+     "tex": "l=\\dfrac{a}{\\sqrt{a^2+b^2+c^2}},\\ m=\\dfrac{b}{\\sqrt{a^2+b^2+c^2}},\\ n=\\dfrac{c}{\\sqrt{a^2+b^2+c^2}}"
+    },
+    {
+     "label": "Direction ratios of the line through two points",
+     "tex": "x_2-x_1,\\ \\ y_2-y_1,\\ \\ z_2-z_1"
+    },
+    {
+     "label": "Distance between two points",
+     "tex": "d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}"
+    },
+    {
+     "label": "Line through a point with direction b (vector form)",
+     "tex": "\\vec r=\\vec a+\\lambda\\vec b"
+    },
+    {
+     "label": "Line with direction ratios a, b, c (Cartesian form)",
+     "tex": "\\dfrac{x-x_1}{a}=\\dfrac{y-y_1}{b}=\\dfrac{z-z_1}{c}"
+    },
+    {
+     "label": "Line through two points",
+     "tex": "\\dfrac{x-x_1}{x_2-x_1}=\\dfrac{y-y_1}{y_2-y_1}=\\dfrac{z-z_1}{z_2-z_1}"
+    },
+    {
+     "label": "Angle between two lines (vector form)",
+     "tex": "\\cos\\theta=\\dfrac{|\\vec b_1\\cdot\\vec b_2|}{|\\vec b_1||\\vec b_2|}"
+    },
+    {
+     "label": "Angle between two lines (Cartesian form)",
+     "tex": "\\cos\\theta=\\dfrac{|a_1a_2+b_1b_2+c_1c_2|}{\\sqrt{a_1^2+b_1^2+c_1^2}\\,\\sqrt{a_2^2+b_2^2+c_2^2}}"
+    },
+    {
+     "label": "Perpendicular and parallel lines",
+     "tex": "a_1a_2+b_1b_2+c_1c_2=0;\\quad \\dfrac{a_1}{a_2}=\\dfrac{b_1}{b_2}=\\dfrac{c_1}{c_2}"
+    },
+    {
+     "label": "Skew lines",
+     "tex": "\\text{Lines that are neither parallel nor intersecting}"
+    },
+    {
+     "label": "Shortest distance between skew lines (vector form)",
+     "tex": "d=\\dfrac{\\left|(\\vec b_1\\times\\vec b_2)\\cdot(\\vec a_2-\\vec a_1)\\right|}{|\\vec b_1\\times\\vec b_2|}"
+    },
+    {
+     "label": "Distance between parallel lines",
+     "tex": "d=\\dfrac{|\\vec b\\times(\\vec a_2-\\vec a_1)|}{|\\vec b|}"
+    },
+    {
+     "label": "Shortest distance between skew lines (Cartesian form)",
+     "tex": "d=\\dfrac{\\left|\\begin{vmatrix}x_2-x_1&y_2-y_1&z_2-z_1\\\\a_1&b_1&c_1\\\\a_2&b_2&c_2\\end{vmatrix}\\right|}{\\sqrt{(b_1c_2-b_2c_1)^2+(c_1a_2-c_2a_1)^2+(a_1b_2-a_2b_1)^2}}"
+    }
+   ]
+  },
+  {
+   "id": "c12-math-12",
+   "formulas": [
+    {
+     "label": "Linear programming problem",
+     "tex": "\\text{Optimise }Z=ax+by\\ \\text{subject to linear constraints},\\ x\\ge0,\\ y\\ge0"
+    },
+    {
+     "label": "Corner point theorem (bounded region)",
+     "tex": "\\text{Max and min of }Z\\text{ occur at corner points of the feasible region}"
+    },
+    {
+     "label": "Unbounded region: maximum",
+     "tex": "\\text{Exists only if }ax+by>M\\text{ has no point in common with the feasible region}"
+    },
+    {
+     "label": "Unbounded region: minimum",
+     "tex": "\\text{Exists only if }ax+by<m\\text{ has no point in common with the feasible region}"
+    }
+   ]
+  },
+  {
+   "id": "c12-math-13",
+   "formulas": [
+    {
+     "label": "Conditional probability",
+     "tex": "P(E\\mid F)=\\dfrac{P(E\\cap F)}{P(F)},\\quad P(F)\\neq0"
+    },
+    {
+     "label": "Multiplication theorem",
+     "tex": "P(E\\cap F)=P(E)\\,P(F\\mid E)=P(F)\\,P(E\\mid F)"
+    },
+    {
+     "label": "Independent events",
+     "tex": "P(E\\cap F)=P(E)\\,P(F)"
+    },
+    {
+     "label": "Independent events: conditional",
+     "tex": "P(E\\mid F)=P(E),\\quad P(F\\mid E)=P(F)"
+    },
+    {
+     "label": "Complement rule (conditional)",
+     "tex": "P(E'\\mid F)=1-P(E\\mid F)"
+    },
+    {
+     "label": "Addition rule",
+     "tex": "P(E\\cup F)=P(E)+P(F)-P(E\\cap F)"
+    },
+    {
+     "label": "Total probability (E₁ … Eₙ a partition of the sample space)",
+     "tex": "P(A)=\\sum_{i=1}^{n}P(E_i)\\,P(A\\mid E_i)"
+    },
+    {
+     "label": "Bayes' theorem",
+     "tex": "P(E_i\\mid A)=\\dfrac{P(E_i)\\,P(A\\mid E_i)}{\\sum_{j=1}^{n}P(E_j)\\,P(A\\mid E_j)}"
+    }
+   ]
+  }
+ ]
+}
