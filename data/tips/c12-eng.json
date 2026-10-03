@@ -19,24 +19,32 @@
       "marks": "40"
     }
   ],
-  "note": "Official CBSE theory paper: 80 marks. Reading Skills = 22, Creative Writing Skills = 18, Literature Text Book and Supplementary Reading Text = 40. Internal assessment is separate: Listening 5, Speaking 5 and Project Work 10.",
+  "note": "Official CBSE theory paper: 80 marks. Reading Skills = 22, Creative Writing Skills = 18, Literature Text Book and Supplementary Reading Text = 40. Internal assessment is separate (Listening 5, Speaking 5 and Project Work 10) and is excluded from this private-candidate theory scope.",
   "mistakes": [
     "Reading: answering from general knowledge instead of the passage; support answers with evidence from the given text.",
-    "Reading: confusing inference with a sentence copied from the passage; state the inference clearly and connect it to the textual evidence.",
-    "Creative writing: losing marks through incorrect format, missing required parts, weak organisation, or ignoring the requested word range.",
+    "Reading: confusing inference with a sentence copied from the passage; state the inference clearly and connect it to textual evidence.",
+    "Reading: overlooking the case-based visual/statistical input; use the information actually supplied in the passage and accompanying input.",
+    "Creative writing: losing marks through incorrect format, missing required parts, weak organisation, unsuitable tone, or ignoring the prescribed word range.",
     "Creative writing: using memorised content that does not address the specific verbal/visual input.",
-    "Literature: retelling the whole chapter instead of answering the exact analytical or inferential question.",
-    "Literature: writing character/theme claims without linking them to a relevant incident, image, line, or event from the text.",
-    "Poetry: identifying a poetic device without explaining its effect or connection to meaning.",
-    "Long answers: spending too much space on introduction and not developing the analytical or evaluative response."
+    "Literature extracts: identifying an option or detail without explaining the relevant textual meaning when the question requires interpretation or inference.",
+    "Literature short answers: retelling the whole chapter instead of answering the exact inferential question in 40–50 words.",
+    "Literature: making character/theme claims without linking them to a relevant incident, image, event or textual reference.",
+    "Poetry: identifying a poetic feature without explaining its effect or connection to meaning when the question requires appreciation or analysis.",
+    "Vistas long answers: giving a chapter summary instead of demonstrating global comprehension and analytical/evaluative understanding.",
+    "Long answers: spending too much space on introduction and not developing the analytical or evaluative response within 120–150 words.",
+    "Internal assessment: spending this theory-tip section on Listening, Speaking or Project Work; those components are outside the private-candidate written-paper scope."
   ],
   "order": [
-    "Finish the two reading-skill formats first: unseen passage and case-based factual passage; practise extracting evidence and making concise inferences.",
-    "Build a reliable writing-format checklist for notice, invitation/reply, letter, article and report; practise within the prescribed word ranges.",
-    "Read Flamingo prose and poetry actively: theme, central idea, important incidents/images, characterisation and likely inferential links.",
-    "Read Vistas for global comprehension; track each chapter's central conflict, turning points and themes rather than memorising summaries.",
-    "Practise mixed literature questions only after the texts are understood; prioritise analytical and inferential answers.",
-    "Finish with timed full-section practice and review errors by category: comprehension, format, expression, evidence and interpretation."
+    "Finish Reading Skills first: practise both unseen-passage types and train specifically for comprehension, interpretation, analysis, inference, evaluation and vocabulary through inference.",
+    "Build separate format checklists for notice, formal/informal invitation and reply, job application with bio-data/resume, letter to the editor, article and report.",
+    "Practise all writing tasks within their prescribed word limits: up to 50 words for notice/invitation-reply and 120–150 words for letters, articles and reports.",
+    "Read all prescribed Flamingo prose and poetry actively, tracking central ideas, important incidents/images, themes and the textual evidence needed for inferential and analytical responses.",
+    "Read all prescribed Vistas texts for global comprehension, then practise incident/theme-based analytical and evaluative answers.",
+    "Practise extract questions separately for Flamingo poetry, Flamingo prose and Vistas prose because the assessed competencies differ slightly by source.",
+    "Practise 40–50-word literature short answers with direct, evidence-linked inference rather than chapter summaries.",
+    "Practise 120–150-word literature answers with analytical/evaluative development and relevant incidents, events, themes or extracts as reference points.",
+    "Finish with timed mixed-section papers using the current 22 + 18 + 40 theory structure, then review mistakes by comprehension, format, expression, evidence and interpretation.",
+    "Keep Listening, Speaking and Project Work separate from written-theory preparation."
   ],
   "resources": [
     {
@@ -51,5 +59,119 @@
       "label": "CBSE Class XII 2026-27 SQP & Marking Scheme",
       "url": "https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html"
     }
-  ]
+  ],
+  "session": "2026-27",
+  "scope": "CBSE Class XII English Core (301) 2026-27 written/theory Board-exam preparation; internal assessment (Listening, Speaking and Project Work) excluded for the private-candidate scope.",
+  "reference": [
+    {
+      "label": "Section A — Reading Skills",
+      "text": "Practise both prescribed unseen-passage types: one unseen passage that may be factual, descriptive or literary, and one unseen case-based factual passage using verbal/visual inputs such as statistical data or charts. The combined word limit for the two passages is 700–750 words. Focus on comprehension, interpretation, analysis, inference, evaluation and vocabulary through inference."
+    },
+    {
+      "label": "Section B — Notice Writing",
+      "text": "Practise the prescribed notice-writing format and keep the response within the stated limit of up to 50 words. Make every required piece of information explicit and do not add irrelevant material."
+    },
+    {
+      "label": "Section B — Formal/Informal Invitation and Reply",
+      "text": "Practise both formal and informal invitation/reply formats. Keep each response within 50 words and make sure the response type matches the prompt."
+    },
+    {
+      "label": "Section B — Application for a Job with Bio-data/Resume",
+      "text": "Practise the prescribed job-application format using the given verbal/visual input. Keep the letter within 120–150 words and include the requested bio-data or resume component without adding unrelated information."
+    },
+    {
+      "label": "Section B — Letter to the Editor",
+      "text": "Practise letters to the editor based on verbal/visual input and public-interest issues. The prescribed purpose is to give suggestions or opinion. Keep the response within 120–150 words and maintain the required formal structure."
+    },
+    {
+      "label": "Section B — Article Writing",
+      "text": "Practise article writing in 120–150 words. Questions are based on verbal input and may be descriptive or analytical. Organise the response around the given subject rather than inserting memorised material."
+    },
+    {
+      "label": "Section B — Report Writing",
+      "text": "Practise report writing in 120–150 words. Questions are based on verbal input and may be descriptive or analytical. Keep the report focused on the information supplied by the question."
+    },
+    {
+      "label": "Section C — Literature question types",
+      "text": "Prepare for poetry extracts from Flamingo, prose extracts from Vistas and Flamingo, 40–50-word short answers, and 120–150-word long answers. Literature questions assess comprehension, interpretation, analysis, inference, evaluation, appreciation, critical thinking and extrapolation beyond/across the text. For long answers, use incidents, events, themes, passages or extracts from the prescribed texts as relevant reference points."
+    },
+    {
+      "label": "Flamingo — The Last Lesson",
+      "text": "Revise the complete text for extract-based comprehension and interpretation, short inferential responses, and analytical/evaluative long-answer questions. Be able to connect relevant incidents and themes directly to the question."
+    },
+    {
+      "label": "Flamingo — Lost Spring",
+      "text": "Revise the complete text for extract-based comprehension and interpretation, short inferential responses, and analytical/evaluative long-answer questions. Use relevant incidents and themes as evidence rather than retelling the whole text."
+    },
+    {
+      "label": "Flamingo — Deep Water",
+      "text": "Revise the complete text for extract-based comprehension and interpretation, short inferential responses, and analytical/evaluative long-answer questions. Build answers from relevant incidents and the text's development rather than memorised summaries."
+    },
+    {
+      "label": "Flamingo — The Rattrap",
+      "text": "Revise the complete text for extract-based comprehension and interpretation, short inferential responses, and analytical/evaluative long-answer questions. Support interpretations with relevant incidents, themes and events from the text."
+    },
+    {
+      "label": "Flamingo — Indigo",
+      "text": "Revise the complete text for extract-based comprehension and interpretation, short inferential responses, and analytical/evaluative long-answer questions. Practise connecting the question to relevant incidents and themes."
+    },
+    {
+      "label": "Flamingo — Poets and Pancakes",
+      "text": "Revise the complete text for prose extract questions, inferential short answers and analytical/evaluative long answers. Keep responses tied to relevant incidents, observations and themes from the prescribed text."
+    },
+    {
+      "label": "Flamingo — The Interview",
+      "text": "Revise the complete text for prose extract questions, inferential short answers and analytical/evaluative long answers. Distinguish direct textual evidence from inference when answering."
+    },
+    {
+      "label": "Flamingo — Going Places",
+      "text": "Revise the complete text for prose extract questions, inferential short answers and analytical/evaluative long answers. Answer the exact question using relevant incidents, events and themes."
+    },
+    {
+      "label": "Flamingo Poetry — My Mother at Sixty-Six",
+      "text": "Prepare for a poetry extract with comprehension, interpretation, analysis, inference and appreciation. Revise the poem's central ideas, important images and relevant poetic features, and explain their connection to meaning when asked."
+    },
+    {
+      "label": "Flamingo Poetry — Keeping Quiet",
+      "text": "Prepare for a poetry extract with comprehension, interpretation, analysis, inference and appreciation. Revise central ideas, important images and relevant poetic features, and connect them to the question."
+    },
+    {
+      "label": "Flamingo Poetry — A Thing of Beauty",
+      "text": "Prepare for a poetry extract with comprehension, interpretation, analysis, inference and appreciation. Revise central ideas, important images and relevant poetic features, explaining their effect where required."
+    },
+    {
+      "label": "Flamingo Poetry — A Roadside Stand",
+      "text": "Prepare for a poetry extract with comprehension, interpretation, analysis, inference and appreciation. Revise central ideas, important images and relevant poetic features, and support answers with textual reference."
+    },
+    {
+      "label": "Flamingo Poetry — Aunt Jennifer's Tigers",
+      "text": "Prepare for a poetry extract with comprehension, interpretation, analysis, inference and appreciation. Revise central ideas, important images and relevant poetic features, and explain their connection to meaning."
+    },
+    {
+      "label": "Vistas — The Third Level",
+      "text": "Prepare for prose extracts, 40–50-word inferential questions and 120–150-word analytical/evaluative questions. For long answers, use relevant incidents, events and themes and show global comprehension of the text."
+    },
+    {
+      "label": "Vistas — The Tiger King",
+      "text": "Prepare for prose extracts, 40–50-word inferential questions and 120–150-word analytical/evaluative questions. Build answers from relevant incidents, events and themes rather than a memorised chapter summary."
+    },
+    {
+      "label": "Vistas — Journey to the End of the Earth",
+      "text": "Prepare for prose extracts, 40–50-word inferential questions and 120–150-word analytical/evaluative questions. Demonstrate global comprehension and use relevant textual incidents, events and themes."
+    },
+    {
+      "label": "Vistas — The Enemy",
+      "text": "Prepare for prose extracts, 40–50-word inferential questions and 120–150-word analytical/evaluative questions. Support interpretations with relevant incidents, events and themes from the text."
+    },
+    {
+      "label": "Vistas — On the Face of It",
+      "text": "Prepare for prose extracts, 40–50-word inferential questions and 120–150-word analytical/evaluative questions. Keep responses tied to the prescribed text and use relevant incidents and themes."
+    },
+    {
+      "label": "Vistas — Memories of Childhood",
+      "text": "Prepare both prescribed parts—The Cutting of My Long Hair and We Too are Human Beings—for prose-based questions. Practise inferential short answers and analytical/evaluative long answers using relevant incidents, events and themes."
+    }
+  ],
+  "audit_status": "CERTIFIED_FOR_CURRENT_THEORY_SCOPE",
+  "certification_note": "Tips were audited against the CBSE 2026-27 English Core (301) theory structure and prescribed literature/writing scope. Internal assessment is excluded for the private-candidate scope. The tips are study guidance, not official CBSE advice."
 }

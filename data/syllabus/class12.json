@@ -72,30 +72,34 @@
           "id": "c12-phy-01",
           "name": "Electric Charges and Fields",
           "topics": [
-            "Charge, conservation, Coulomb's law and superposition principle",
-            "Electric field and field lines",
-            "Electric dipole and torque in uniform electric field",
-            "Electric flux, Gauss's theorem and applications"
+            "Electric charges, conservation of charge, Coulomb's law — force between two-point charges; forces between multiple charges; superposition principle and continuous charge distribution",
+            "Electric field, electric field due to a point charge, electric field lines",
+            "Electric dipole, electric field due to a dipole, torque on a dipole in uniform electric field",
+            "Electric flux, statement of Gauss's theorem and applications to find field due to infinitely long straight wire, uniformly charged infinite plane sheet, and uniformly charged thin spherical shell (field inside and outside)"
           ]
         },
         {
           "id": "c12-phy-02",
           "name": "Electrostatic Potential and Capacitance",
           "topics": [
-            "Electric potential, potential difference and equipotential surfaces",
-            "Potential energy of charges and electric dipole",
-            "Conductors, dielectrics and polarisation",
-            "Capacitors, combinations and energy stored"
+            "Electric potential, potential difference, electric potential due to a point charge, a dipole and system of charges; equipotential surfaces",
+            "Electrical potential energy of a system of two-point charges and of electric dipole in an electrostatic field",
+            "Conductors and insulators, free charges and bound charges inside a conductor; dielectrics and electric polarization",
+            "Capacitors and capacitance; combination of capacitors in series and in parallel",
+            "Capacitance of a parallel plate capacitor with and without dielectric medium between the plates",
+            "Energy stored in a capacitor (no derivation, formulae only)"
           ]
         },
         {
           "id": "c12-phy-03",
           "name": "Current Electricity",
           "topics": [
-            "Drift velocity, mobility, Ohm's law and V-I characteristics",
-            "Resistivity, conductivity and temperature dependence",
+            "Electric current, flow of electric charges in a metallic conductor, drift velocity, mobility and their relation with electric current",
+            "Ohm's law, V-I characteristics (linear and non-linear)",
             "Electrical energy and power",
-            "EMF, internal resistance and cells in series and parallel",
+            "Electrical resistivity and conductivity; temperature dependence of resistance",
+            "Internal resistance of a cell, potential difference and emf of a cell",
+            "Combination of cells in series and in parallel",
             "Kirchhoff's rules and Wheatstone bridge"
           ]
         },
@@ -103,39 +107,48 @@
           "id": "c12-phy-04",
           "name": "Moving Charges and Magnetism",
           "topics": [
-            "Oersted effect and Biot-Savart law for a circular loop",
-            "Ampere's law and solenoid",
-            "Force on moving charge in electric and magnetic fields",
-            "Force on current-carrying conductor and parallel currents",
-            "Torque on current loop, magnetic dipole and galvanometer"
+            "Concept of magnetic field and Oersted's experiment",
+            "Biot-Savart law and its application to current carrying circular loop",
+            "Ampere's law and its application to infinitely long straight wire; straight solenoid (only qualitative treatment)",
+            "Force on a moving charge in uniform magnetic and electric fields",
+            "Force on a current-carrying conductor in a uniform magnetic field",
+            "Force between two parallel current-carrying conductors; definition of ampere",
+            "Torque experienced by a current loop in uniform magnetic field",
+            "Current loop as a magnetic dipole and its magnetic dipole moment",
+            "Moving coil galvanometer — current sensitivity and conversion to ammeter and voltmeter"
           ]
         },
         {
           "id": "c12-phy-05",
           "name": "Magnetism and Matter",
           "topics": [
-            "Bar magnet and magnetic field of a dipole",
-            "Torque on magnetic dipole and magnetic field lines",
-            "Diamagnetism, paramagnetism and ferromagnetism",
-            "Magnetisation"
+            "Bar magnet; bar magnet as an equivalent solenoid (qualitative treatment only)",
+            "Magnetic field intensity due to a magnetic dipole (bar magnet) along its axis and perpendicular to its axis (qualitative treatment only)",
+            "Torque on a magnetic dipole (bar magnet) in a uniform magnetic field (qualitative treatment only)",
+            "Magnetic field lines",
+            "Magnetic properties of materials — para-, dia- and ferro-magnetic substances with examples",
+            "Magnetization of materials",
+            "Effect of temperature on magnetic properties"
           ]
         },
         {
           "id": "c12-phy-06",
           "name": "Electromagnetic Induction",
           "topics": [
-            "Faraday's laws and induced EMF",
+            "Electromagnetic induction",
+            "Faraday's laws, induced EMF and current",
             "Lenz's law",
-            "Self-induction and mutual induction"
+            "Self and mutual induction"
           ]
         },
         {
           "id": "c12-phy-07",
           "name": "Alternating Current",
           "topics": [
-            "Peak and RMS values",
-            "Reactance, impedance, LCR phasors and resonance",
-            "Power, power factor and wattless current",
+            "Alternating currents; peak and RMS value of alternating current/voltage",
+            "Reactance and impedance",
+            "LCR series circuit (phasors only) and resonance",
+            "Power in AC circuits, power factor and wattless current",
             "AC generator and transformer"
           ]
         },
@@ -143,49 +156,52 @@
           "id": "c12-phy-08",
           "name": "Electromagnetic Waves",
           "topics": [
-            "Displacement current",
-            "Electromagnetic waves and characteristics",
-            "Electromagnetic spectrum and uses"
+            "Basic idea of displacement current",
+            "Electromagnetic waves, their characteristics and their transverse nature (qualitative idea only)",
+            "Electromagnetic spectrum — radio waves, microwaves, infrared, visible, ultraviolet, X-rays and gamma rays — including elementary facts about their uses"
           ]
         },
         {
           "id": "c12-phy-09",
           "name": "Ray Optics and Optical Instruments",
           "topics": [
-            "Reflection, spherical mirrors and mirror formula",
-            "Refraction, total internal reflection and optical fibres",
-            "Refraction at spherical surfaces, lenses and lens maker's formula",
-            "Power and combination of lenses, prism",
-            "Microscopes and telescopes"
+            "Reflection of light and spherical mirrors; mirror formula",
+            "Refraction of light, total internal reflection and optical fibres",
+            "Refraction at spherical surfaces; lenses; thin lens formula; lens maker's formula; magnification; power of a lens; combination of thin lenses in contact",
+            "Refraction of light through a prism",
+            "Optical instruments: microscopes and astronomical telescopes (reflecting and refracting) and their magnifying powers"
           ]
         },
         {
           "id": "c12-phy-10",
           "name": "Wave Optics",
           "topics": [
-            "Huygens principle and reflection/refraction by wavefronts",
-            "Interference, Young's double-slit experiment and fringe width",
-            "Coherent sources",
-            "Single-slit diffraction"
+            "Wave front and Huygen's principle; reflection and refraction of plane wave at a plane surface using wave fronts",
+            "Proof of laws of reflection and refraction using Huygen's principle",
+            "Interference and Young's double slit experiment; expression for fringe width (no derivation, final expression only)",
+            "Coherent sources and sustained interference of light",
+            "Diffraction due to a single slit; width of central maxima (qualitative treatment only)"
           ]
         },
         {
           "id": "c12-phy-11",
           "name": "Dual Nature of Radiation and Matter",
           "topics": [
-            "Photoelectric effect, Hertz and Lenard observations",
-            "Einstein's photoelectric equation",
+            "Dual nature of radiation",
+            "Photoelectric effect; Hertz and Lenard's observations",
+            "Einstein's photoelectric equation — particle nature of light",
             "Experimental study of photoelectric effect",
-            "Matter waves and de Broglie relation"
+            "Matter waves — wave nature of particles; de-Broglie relation"
           ]
         },
         {
           "id": "c12-phy-12",
           "name": "Atoms",
           "topics": [
-            "Alpha-particle scattering and Rutherford model",
-            "Bohr model: radius, velocity and energy of nth orbit",
-            "Hydrogen line spectra"
+            "Alpha-particle scattering experiment and Rutherford's model of atom",
+            "Bohr model of hydrogen atom",
+            "Expression for radius of nth possible orbit, velocity and energy of electron in nth orbit",
+            "Hydrogen line spectra (qualitative treatment only)"
           ]
         },
         {
@@ -195,18 +211,18 @@
             "Composition and size of nucleus",
             "Nuclear force",
             "Mass-energy relation and mass defect",
-            "Binding energy per nucleon curve",
-            "Nuclear fission and fusion"
+            "Binding energy per nucleon and its variation with mass number",
+            "Nuclear fission and nuclear fusion"
           ]
         },
         {
           "id": "c12-phy-14",
           "name": "Semiconductor Electronics: Materials, Devices and Simple Circuits",
           "topics": [
-            "Energy bands",
-            "Intrinsic and extrinsic semiconductors, p-n junction",
-            "Diode I-V characteristics",
-            "Diode as a rectifier"
+            "Energy bands in conductors, semiconductors and insulators (qualitative ideas only)",
+            "Intrinsic and extrinsic semiconductors — p and n type; p-n junction",
+            "Semiconductor diode — I-V characteristics in forward and reverse bias",
+            "Application of junction diode — diode as a rectifier"
           ]
         }
       ]
@@ -404,11 +420,11 @@
           "id": "c12-math-07",
           "name": "Integrals",
           "topics": [
-            "Integration as the inverse process of differentiation",
-            "Integration by substitution, partial fractions and by parts",
-            "Standard integral forms",
-            "Fundamental Theorem of Calculus",
-            "Basic properties and evaluation of definite integrals"
+            "Integration as inverse process of differentiation",
+            "Integration of a variety of functions by substitution, by partial fractions and by parts",
+            "Evaluation of simple integrals of the following types and problems based on them: ∫ dx/(x² ± a²); ∫ dx/√(x² ± a²); ∫ dx/√(a² − x²); ∫ dx/(ax² + bx + c); ∫ dx/√(ax² + bx + c); ∫ (px + q)/(ax² + bx + c) dx; ∫ (px + q)/√(ax² + bx + c) dx; ∫ √(a² ± x²) dx; ∫ √(x² − a²) dx; ∫ √(ax² + bx + c) dx",
+            "Fundamental Theorem of Calculus (without proof)",
+            "Basic properties of definite integrals and evaluation of definite integrals"
           ]
         },
         {
@@ -485,44 +501,44 @@
           "id": "c12-pe-01",
           "name": "Unit 1: Management of Sporting Events",
           "topics": [
-            "Functions of sports event management: planning, organising, staffing, directing and controlling",
-            "Various committees and their responsibilities before, during and after events",
-            "Fixtures and procedures: knock-out (bye and seeding), league (staircase, cyclic, tabular) and combination tournaments",
-            "Intramural and extramural tournaments — meaning, objectives and significance",
-            "Community sports programmes: Sports Day, Health Run, Run for Fun, Run for Specific Cause and Run for Unity"
+            "Functions of Sports Events Management (Planning, Organising, Staffing, Directing & Controlling)",
+            "Various Committees & their Responsibilities (pre; during & post)",
+            "Fixtures and their Procedures — Knock-Out (Bye & Seeding), League (Staircase, Cyclic, Tabular method) and Combination tournaments",
+            "Intramural & Extramural tournaments — Meaning, Objectives & Significance",
+            "Community sports program — Sports Day, Health Run, Run for Fun, Run for Specific Cause & Run for Unity"
           ]
         },
         {
           "id": "c12-pe-02",
           "name": "Unit 2: Children and Women in Sports",
           "topics": [
-            "WHO exercise guidelines for different age groups",
-            "Common postural deformities: knock knees, flat foot, round shoulders, lordosis, kyphosis, scoliosis and bow legs, with corrective measures",
-            "Women's participation in sports — physical, psychological and social benefits",
-            "Special considerations: menarche and menstrual dysfunction",
-            "Female athlete triad: osteoporosis, amenorrhea and eating disorders"
+            "Exercise guidelines of WHO for different age groups",
+            "Common postural deformities — knock knees, flat foot, round shoulders, Lordosis, Kyphosis, Scoliosis, and bow legs — and their respective corrective measures",
+            "Women's participation in Sports — Physical, Psychological, and social benefits",
+            "Special consideration — menarche and menstrual dysfunction",
+            "Female athlete triad — osteoporosis, amenorrhea, eating disorders"
           ]
         },
         {
           "id": "c12-pe-03",
           "name": "Unit 3: Yoga as Preventive measure for Lifestyle Disease",
           "topics": [
-            "Obesity — procedure, benefits and contraindications of prescribed asanas/pranayama",
-            "Diabetes — procedure, benefits and contraindications of prescribed asanas/pranayama",
-            "Asthma — procedure, benefits and contraindications of prescribed asanas/pranayama",
-            "Hypertension — procedure, benefits and contraindications of prescribed asanas/pranayama",
-            "Back pain and arthritis — procedure, benefits and contraindications of prescribed asanas/pranayama"
+            "Obesity: Procedure, Benefits & Contraindications for Tadasana, Katichakrasana, Pavanmuktasana, Matsayasana, Halasana, Pachimottanasana, Ardha-Matsyendrasana, Dhanurasana, Ushtrasana, Suryabedhan pranayama",
+            "Diabetes: Procedure, Benefits & Contraindications for Katichakrasana, Pavanmuktasana, Bhujangasana, Shalabhasana, Dhanurasana, Suptavajrasana, Paschimottanasana, Ardha-Mastendrasana, Mandukasana, Gomukasana, Yogmudra, Ushtrasana, Kapalabhati",
+            "Asthma: Procedure, Benefits & Contraindications for Tadasana, Urdhwahastottanasana, UttanMandukasana, Bhujangasana, Dhanurasana, Ushtrasana, Vakrasana, Kapalbhati, Gomukhasana, Matsyaasana, Anuloma-Viloma",
+            "Hypertension: Procedure, Benefits & Contraindications for Tadasana, Katichakrasana, Uttanpadasana, Ardha Halasana, Sarala Matyasana, Gomukhasana, UttanMandukasana, Vakrasana, Bhujangasana, Makarasana, Shavasana, Nadi-shodhana pranayam, Sitli pranayam",
+            "Back Pain and Arthritis: Procedure, Benefits & Contraindications of Tadasan, Urdhwahastottanasana, Ardh-Chakrasana, Ushtrasana, Vakrasana, Sarala Maysyendrsana, Bhujangasana, Gomukhasana, Bhadrasana, Makarasana, Nadi-Shodhana pranayama"
           ]
         },
         {
           "id": "c12-pe-04",
           "name": "Unit 4: Physical Education & Sports for (CWSN)",
           "topics": [
-            "Organisations promoting disability sports: Special Olympics, Paralympics and Deaflympics",
-            "Concept of classification and divisioning in sports",
-            "Concept of inclusion in sports, its need and implementation",
-            "Advantages of physical activities for children with special needs",
-            "Strategies to make physical activities accessible for children with special needs"
+            "Organizations promoting Disability Sports — Special Olympics, Paralympics, Deaflympics",
+            "Concept of Classification and Divisioning in Sports",
+            "Concept of Inclusion in sports, its need, and implementation",
+            "Advantages of Physical Activities for children with special needs",
+            "Strategies to make Physical Activities assessable for children with special needs"
           ]
         },
         {
@@ -530,21 +546,21 @@
           "name": "Unit 5: Sports & Nutrition",
           "topics": [
             "Concept of balanced diet and nutrition",
-            "Macro and micro nutrients — food sources and functions",
-            "Nutritive and non-nutritive components of diet",
-            "Eating for weight control — healthy weight, pitfalls of dieting, food intolerance and food myths",
-            "Importance of diet in sports — pre-, during- and post-competition requirements"
+            "Macro and Micro Nutrients — food sources & functions",
+            "Nutritive & Non-Nutritive Components of Diet",
+            "Eating for Weight control — A Healthy Weight, the Pitfalls of Dieting, Food Intolerance, and Food Myths",
+            "Importance of Diet in Sports — Pre, During and Post competition requirements"
           ]
         },
         {
           "id": "c12-pe-06",
           "name": "Unit 6: Test and Measurement in Sports",
           "topics": [
-            "SAI Khelo India Fitness Test in school",
-            "Measurement of cardiovascular fitness — Harvard Step Test",
+            "SAI Khelo India Fitness Test in school — BMI, Flamingo Balance Test, Plate Tapping Test; for age group 9–18 years/classes 4–12: BMI, 50 m Speed test, 600 m Run/Walk, Sit & Reach flexibility test, Strength Test (Partial Abdominal Curl Up, Push-Ups for boys, Modified Push-Ups for girls)",
+            "Measurement of Cardio-Vascular Fitness — Harvard Step Test: Duration of the Exercise in Seconds × 100 / (5.5 × Pulse count of 1–1.5 min after Exercise)",
             "Computing Basal Metabolic Rate (BMR)",
-            "Rikli & Jones Senior Citizen Fitness Test",
-            "Johnson–Methney Test of Motor Educability"
+            "Rikli & Jones — Senior Citizen Fitness Test: Chair Stand Test for lower body strength; Arm Curl Test for upper body strength; Chair Sit & Reach Test for lower body flexibility; Back Scratch Test for upper body flexibility; Eight Foot Up & Go Test for agility; Six-Minute Walk Test for Aerobic Endurance",
+            "Johnsen–Methney Test of Motor Educability — Front Roll, Roll, Jumping Half-Turn, Jumping Full-Turn"
           ]
         },
         {
@@ -552,43 +568,43 @@
           "name": "Unit 7: Physiology & Injuries in Sport",
           "topics": [
             "Physiological factors determining components of physical fitness",
-            "Effect of exercise on the muscular system",
-            "Effect of exercise on the cardiovascular and respiratory systems",
-            "Physiological changes due to ageing",
-            "Sports injuries — classification, causes, prevention, first aid and management"
+            "Effect of exercise on the Muscular System",
+            "Effect of exercise on the Cardio-Respiratory System",
+            "Physiological changes due to aging",
+            "Sports injuries: Classification — Soft Tissue Injuries (Abrasion, Contusion, Laceration, Incision, Sprain & Strain); Bone & Joint Injuries (Dislocation); Fractures (Green Stick, Comminuted, Transverse, Oblique & Impacted); causes, prevention, aims & objectives of first aid, and management of injuries"
           ]
         },
         {
           "id": "c12-pe-08",
           "name": "Unit 8: Biomechanics and Sports",
           "topics": [
-            "Newton's Laws of Motion and their application in sports",
-            "Types of levers and their application in sports",
-            "Equilibrium — dynamic and static; centre of gravity and its application in sports",
-            "Friction and sports",
-            "Projectile in sports"
+            "Newton's Law of Motion & its application in sports",
+            "Types of Levers and their application in Sports",
+            "Equilibrium — Dynamic & Static and Centre of Gravity and its application in sports",
+            "Friction & Sports",
+            "Projectile in Sports"
           ]
         },
         {
           "id": "c12-pe-09",
           "name": "Unit 9: Psychology and Sports",
           "topics": [
-            "Personality — definition and types: Jung classification and Big Five theory",
-            "Motivation — types and techniques",
-            "Exercise adherence — reasons, benefits and strategies for enhancing it",
-            "Aggression in sports — meaning, concept and types",
-            "Psychological attributes in sports — self-esteem, mental imagery, self-talk and goal setting"
+            "Personality — its definition & types (Jung Classification & Big Five Theory)",
+            "Motivation, its type & techniques",
+            "Exercise Adherence — Reasons, Benefits & Strategies for Enhancing it",
+            "Meaning, Concept & Types of Aggressions in Sports",
+            "Psychological Attributes in Sports — Self-Esteem, Mental Imagery, Self-Talk, Goal Setting"
           ]
         },
         {
           "id": "c12-pe-10",
           "name": "Unit 10: Training in Sports",
           "topics": [
-            "Talent identification and talent development in sports",
-            "Sports training cycle — micro, meso and macro cycles",
-            "Types and methods to develop strength, endurance and speed",
-            "Types and methods to develop flexibility and coordinative ability",
-            "Circuit training — introduction and importance"
+            "Concept of Talent Identification and Talent Development in Sports",
+            "Introduction to Sports Training Cycle — Micro, Meso, Macro Cycle",
+            "Types & Methods to Develop — Strength, Endurance, and Speed",
+            "Types & Methods to Develop — Flexibility and Coordinative Ability",
+            "Circuit Training — Introduction & its importance"
           ]
         }
       ]

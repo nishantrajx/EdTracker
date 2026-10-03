@@ -10,9 +10,39 @@
           "unit": "matches"
         },
         {
+          "label": "Number of teams in upper half (odd N)",
+          "tex": "\\text{Upper half}=\\frac{N+1}{2}",
+          "unit": "teams"
+        },
+        {
+          "label": "Number of teams in lower half (odd N)",
+          "tex": "\\text{Lower half}=\\frac{N-1}{2}",
+          "unit": "teams"
+        },
+        {
           "label": "Number of byes",
           "tex": "\\text{Byes}=2^m-N\\quad\\text{where }2^m\\ge N",
           "unit": "byes"
+        },
+        {
+          "label": "Byes in upper half (odd number of byes)",
+          "tex": "\\text{Upper-half byes}=\\frac{B-1}{2}",
+          "unit": "byes; B = total number of byes"
+        },
+        {
+          "label": "Byes in lower half (odd number of byes)",
+          "tex": "\\text{Lower-half byes}=\\frac{B+1}{2}",
+          "unit": "byes; B = total number of byes"
+        },
+        {
+          "label": "Teams in each half (even N)",
+          "tex": "\\text{Teams in each half}=\\frac{N}{2}",
+          "unit": "teams"
+        },
+        {
+          "label": "Number of rounds in a knock-out tournament",
+          "tex": "\\text{Rounds}=m\\quad\\text{where }2^m\\text{ is the next power of 2 at or above }N",
+          "unit": "rounds"
         },
         {
           "label": "Single league matches",
@@ -35,11 +65,24 @@
           "unit": "kg m^{-2}"
         },
         {
-          "label": "Waist-hip ratio",
-          "tex": "\\mathrm{WHR}=\\frac{\\text{waist circumference}}{\\text{hip circumference}}",
+          "label": "Harvard Step Test fitness index",
+          "tex": "\\mathrm{Fitness\\ Index}=\\frac{\\text{duration of exercise in seconds}\\times100}{5.5\\times\\text{pulse count at 1-1.5 min after exercise}}",
           "unit": "dimensionless"
+        },
+        {
+          "label": "BMR — male",
+          "tex": "\\mathrm{BMR}=(10\\times\\text{weight in kg})+(6.25\\times\\text{height in cm})-(5\\times\\text{age})+5",
+          "unit": "kcal/day"
+        },
+        {
+          "label": "BMR — female",
+          "tex": "\\mathrm{BMR}=(10\\times\\text{body weight in kg})+(6.25\\times\\text{height in cm})-(5\\times\\text{age})-161",
+          "unit": "kcal/day"
         }
       ]
     }
-  ]
+  ],
+  "session": "2026-27",
+  "scope": "written/theory Board examination; practical and internal assessment excluded",
+  "audit_status": "RECONCILED_FOR_CURRENT_THEORY_SCOPE"
 }

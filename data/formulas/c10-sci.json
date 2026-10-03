@@ -7,42 +7,50 @@
         {
           "label": "General balanced chemical equation",
           "tex": "\\text{Reactants}\\rightarrow\\text{Products}",
-          "unit": ""
+          "unit": "",
+          "type": "reaction_structure"
         },
         {
           "label": "Combination reaction pattern",
           "tex": "A+B\\rightarrow AB",
-          "unit": ""
+          "unit": "",
+          "type": "reaction_pattern"
         },
         {
           "label": "Decomposition reaction pattern",
           "tex": "AB\\rightarrow A+B",
-          "unit": ""
+          "unit": "",
+          "type": "reaction_pattern"
         },
         {
           "label": "Displacement reaction pattern",
           "tex": "A+BC\\rightarrow AC+B",
-          "unit": ""
+          "unit": "",
+          "type": "reaction_pattern"
         },
         {
           "label": "Double displacement reaction pattern",
           "tex": "AB+CD\\rightarrow AD+CB",
-          "unit": ""
+          "unit": "",
+          "type": "reaction_pattern"
         },
         {
           "label": "Oxidation",
           "tex": "\\text{Addition of oxygen or removal of hydrogen}",
-          "unit": ""
+          "unit": "",
+          "type": "definition"
         },
         {
           "label": "Reduction",
           "tex": "\\text{Removal of oxygen or addition of hydrogen}",
-          "unit": ""
+          "unit": "",
+          "type": "definition"
         },
         {
           "label": "Redox reaction",
           "tex": "\\text{Oxidation and reduction occur simultaneously}",
-          "unit": ""
+          "unit": "",
+          "type": "definition"
         }
       ]
     },
@@ -52,22 +60,26 @@
         {
           "label": "Photosynthesis",
           "tex": "\\mathrm{6CO_2+6H_2O\\xrightarrow{light,\\ chlorophyll}C_6H_{12}O_6+6O_2}",
-          "unit": ""
+          "unit": "",
+          "type": "biological_equation"
         },
         {
           "label": "Aerobic respiration",
           "tex": "\\mathrm{C_6H_{12}O_6+6O_2\\rightarrow6CO_2+6H_2O+Energy}",
-          "unit": ""
+          "unit": "",
+          "type": "biological_equation"
         },
         {
           "label": "Anaerobic respiration in yeast",
           "tex": "\\mathrm{C_6H_{12}O_6\\rightarrow2C_2H_5OH+2CO_2+Energy}",
-          "unit": ""
+          "unit": "",
+          "type": "biological_equation"
         },
         {
           "label": "Anaerobic respiration in muscles",
           "tex": "\\mathrm{C_6H_{12}O_6\\rightarrow2C_3H_6O_3+Energy}",
-          "unit": ""
+          "unit": "",
+          "type": "biological_equation"
         }
       ]
     },
@@ -85,12 +97,14 @@
         {
           "label": "Mendelian dominant phenotype ratio",
           "tex": "3:1",
-          "unit": ""
+          "unit": "",
+          "type": "ratio"
         },
         {
           "label": "Mendelian monohybrid genotypic ratio",
           "tex": "1:2:1",
-          "unit": ""
+          "unit": "",
+          "type": "ratio"
         }
       ]
     },
@@ -100,52 +114,62 @@
         {
           "label": "Law of reflection",
           "tex": "\\angle i=\\angle r",
-          "unit": ""
+          "unit": "",
+          "type": "law"
         },
         {
           "label": "Mirror formula",
           "tex": "\\frac1f=\\frac1v+\\frac1u",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Mirror magnification",
           "tex": "m=\\frac{h_i}{h_o}=-\\frac{v}{u}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Spherical mirror relation",
           "tex": "R=2f",
-          "unit": ""
+          "unit": "",
+          "type": "relation"
         },
         {
           "label": "Refractive index",
           "tex": "n=\\frac{c}{v}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Snell's law",
           "tex": "n_1\\sin i=n_2\\sin r",
-          "unit": ""
+          "unit": "",
+          "type": "law"
         },
         {
           "label": "Relative refractive index",
           "tex": "n_{21}=\\frac{n_2}{n_1}=\\frac{v_1}{v_2}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Lens formula",
           "tex": "\\frac1f=\\frac1v-\\frac1u",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Lens magnification",
           "tex": "m=\\frac{h_i}{h_o}=\\frac{v}{u}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Power of a lens",
           "tex": "P=\\frac1f",
-          "unit": "D when f is in metres"
+          "unit": "D when f is in metres",
+          "type": "formula"
         }
       ]
     },
@@ -159,77 +183,92 @@
         {
           "label": "Electric current",
           "tex": "I=\\frac{Q}{t}",
-          "unit": "A"
+          "unit": "A",
+          "type": "formula"
         },
         {
           "label": "Potential difference",
           "tex": "V=\\frac{W}{Q}",
-          "unit": "V"
+          "unit": "V",
+          "type": "formula"
         },
         {
           "label": "Ohm's law",
           "tex": "V=IR",
-          "unit": "V"
+          "unit": "V",
+          "type": "formula"
         },
         {
           "label": "Resistance",
           "tex": "R=\\frac{V}{I}",
-          "unit": "\\Omega"
+          "unit": "\\Omega",
+          "type": "formula"
         },
         {
           "label": "Resistance of a uniform conductor",
           "tex": "R=\\rho\\frac{l}{A}",
-          "unit": "\\Omega"
+          "unit": "\\Omega",
+          "type": "formula"
         },
         {
           "label": "Resistivity",
           "tex": "\\rho=\\frac{RA}{l}",
-          "unit": "\\Omega\\,m"
+          "unit": "\\Omega\\,m",
+          "type": "formula"
         },
         {
           "label": "Series resistance",
           "tex": "R_s=R_1+R_2+\\cdots+R_n",
-          "unit": "\\Omega"
+          "unit": "\\Omega",
+          "type": "formula"
         },
         {
           "label": "Parallel resistance",
           "tex": "\\frac1{R_p}=\\frac1{R_1}+\\frac1{R_2}+\\cdots+\\frac1{R_n}",
-          "unit": "\\Omega"
+          "unit": "\\Omega",
+          "type": "formula"
         },
         {
           "label": "Two resistors in parallel",
           "tex": "R_p=\\frac{R_1R_2}{R_1+R_2}",
-          "unit": "\\Omega"
+          "unit": "\\Omega",
+          "type": "formula"
         },
         {
           "label": "Electrical work",
           "tex": "W=VIt",
-          "unit": "J"
+          "unit": "J",
+          "type": "formula"
         },
         {
           "label": "Electrical power",
           "tex": "P=VI",
-          "unit": "W"
+          "unit": "W",
+          "type": "formula"
         },
         {
           "label": "Power using Ohm's law",
           "tex": "P=I^2R=\\frac{V^2}{R}",
-          "unit": "W"
+          "unit": "W",
+          "type": "formula"
         },
         {
           "label": "Electrical energy",
           "tex": "E=Pt=VIt",
-          "unit": "J"
+          "unit": "J",
+          "type": "formula"
         },
         {
           "label": "Commercial unit of electrical energy",
           "tex": "1\\ \\mathrm{kWh}=3.6\\times10^6\\ \\mathrm{J}",
-          "unit": "J"
+          "unit": "J",
+          "type": "formula"
         },
         {
           "label": "Heating effect of current",
           "tex": "H=I^2Rt",
-          "unit": "J"
+          "unit": "J",
+          "type": "formula"
         }
       ]
     },
@@ -239,22 +278,29 @@
         {
           "label": "Magnetic field around current-carrying conductor",
           "tex": "B\\propto I",
-          "unit": ""
+          "unit": "",
+          "type": "qualitative_relationship",
+          "note": "Qualitative relationship only; no advanced magnetic-field formula added."
         },
         {
           "label": "Force on a current-carrying conductor",
           "tex": "F=BIl",
-          "unit": "N (for conductor perpendicular to magnetic field)"
+          "unit": "N (for conductor perpendicular to magnetic field)",
+          "type": "formula",
+          "note": "For a conductor perpendicular to the magnetic field."
         },
         {
           "label": "AC frequency in India",
           "tex": "f=50\\ \\mathrm{Hz}",
-          "unit": "Hz"
+          "unit": "Hz",
+          "type": "constant",
+          "note": "Indian mains frequency; factual constant, not a universal formula."
         },
         {
           "label": "AC time period",
           "tex": "T=\\frac1f",
-          "unit": "s"
+          "unit": "s",
+          "type": "formula"
         }
       ]
     },
@@ -264,14 +310,29 @@
         {
           "label": "Energy flow in an ecosystem",
           "tex": "\\text{Sun}\\rightarrow\\text{producers}\\rightarrow\\text{consumers}",
-          "unit": ""
+          "unit": "",
+          "type": "conceptual_relationship"
         },
         {
           "label": "Ten percent law",
           "tex": "\\text{Energy transferred to next trophic level}\\approx10\\%",
-          "unit": ""
+          "unit": "",
+          "type": "ecological_law"
         }
       ]
     }
-  ]
+  ],
+  "_audit": {
+    "session": "2026-27",
+    "source_of_truth": "CBSE Class 10 Science 2026-27 syllabus",
+    "purpose": "Corrected Science formula/equation dataset while preserving the existing EdTracker chapter organization.",
+    "changes": [
+      "Preserved the existing chapter structure and supported content.",
+      "Classified reaction patterns, definitions, biological equations, ratios, laws, constants, and conceptual relationships separately from mathematical formulas.",
+      "Clarified the magnetic-field entry as a qualitative relationship rather than adding an unsupported advanced formula.",
+      "Kept formative-only and genuinely non-formula chapters without invented formulas.",
+      "Did not add unsupported advanced Physics formulas."
+    ],
+    "note": "This is a formula/equation-oriented dataset. Empty chapters are intentional where the syllabus content is primarily conceptual."
+  }
 }

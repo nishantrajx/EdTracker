@@ -78,5 +78,49 @@
       "label": "CBSE Class XII 2026-27 SQP & Marking Scheme",
       "url": "https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html"
     }
-  ]
+  ],
+  "reference": [
+    {
+      "label": "Solutions",
+      "text": "Revise types of solutions; concentration expressions; solubility; vapour pressure; ideal and non-ideal solutions; colligative properties and molar-mass determination; abnormal molecular masses."
+    },
+    {
+      "label": "Electrochemistry",
+      "text": "Revise electrochemical and galvanic cells; Nernst equation; conductance of electrolytic solutions; electrolytic cells and electrolysis; batteries; fuel cells; corrosion."
+    },
+    {
+      "label": "Chemical Kinetics",
+      "text": "Revise rate of reaction; factors affecting rate; integrated rate equations; temperature dependence of reaction rate; collision theory of chemical reactions."
+    },
+    {
+      "label": "d- and f-Block Elements",
+      "text": "Revise periodic position and electronic configuration; general properties of transition elements; important transition-metal compounds; lanthanoids; actinoids; applications of d- and f-block elements."
+    },
+    {
+      "label": "Coordination Compounds",
+      "text": "Revise Werner’s theory; important coordination terminology; nomenclature; isomerism; bonding in coordination compounds; bonding in metal carbonyls; importance and applications."
+    },
+    {
+      "label": "Haloalkanes and Haloarenes",
+      "text": "Revise classification, nomenclature, C–X bond, preparation, physical properties, chemical reactions and polyhalogen compounds of haloalkanes/haloarenes."
+    },
+    {
+      "label": "Alcohols, Phenols and Ethers",
+      "text": "Revise classification, nomenclature, functional-group structures, alcohols, phenols, commercially important alcohols and ethers."
+    },
+    {
+      "label": "Aldehydes, Ketones and Carboxylic Acids",
+      "text": "Revise carbonyl-group nomenclature and structure; preparation, physical properties, chemical reactions and uses of aldehydes/ketones; carboxyl-group nomenclature and structure; preparation, physical properties, chemical reactions and uses of carboxylic acids."
+    },
+    {
+      "label": "Amines",
+      "text": "Revise structure, classification, nomenclature and preparation of amines; physical and chemical properties; preparation and reactions of diazonium salts; importance of diazonium salts in synthesis of aromatic compounds."
+    },
+    {
+      "label": "Biomolecules",
+      "text": "Revise carbohydrates, proteins, enzymes, vitamins, nucleic acids and hormones."
+    }
+  ],
+  "audit_status": "CERTIFIED_FOR_CURRENT_THEORY_SCOPE",
+  "certification_note": "Audited against the CBSE Class XII Chemistry 2026-27 theory course structure. Theory paper scope only; practical work is excluded. Weightage is preserved from the source file. Quick-reference coverage follows the ten prescribed theory units and does not add separately listed formative-only topics to the summative preparation reference."
 }

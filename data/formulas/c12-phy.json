@@ -6,22 +6,22 @@
       "formulas": [
         {
           "label": "Coulomb's law",
-          "tex": "F=\\frac{1}{4\\pi\\varepsilon_0}\\frac{|q_1q_2|}{r^2}",
+          "tex": "\\vec F=\\frac{1}{4\\pi\\varepsilon_0}\\frac{q_1q_2}{r^2}\\hat r",
           "unit": "N"
         },
         {
           "label": "Electric field due to point charge",
-          "tex": "E=\\frac{1}{4\\pi\\varepsilon_0}\\frac{q}{r^2}",
+          "tex": "\\vec E=\\frac{1}{4\\pi\\varepsilon_0}\\frac{q}{r^2}\\hat r",
           "unit": "N C^{-1}"
         },
         {
           "label": "Electric dipole moment",
-          "tex": "\\vec p=q\\,\\vec{2a}",
+          "tex": "\\vec p=q\\,(2\\vec a)",
           "unit": "C m"
         },
         {
           "label": "Torque on electric dipole",
-          "tex": "\\tau=pE\\sin\\theta",
+          "tex": "\\vec\\tau=\\vec p\\times\\vec E",
           "unit": "N m"
         },
         {
@@ -45,18 +45,18 @@
           "unit": "N C^{-1}"
         },
         {
-          "label": "Electric field of spherical shell",
+          "label": "Electric field of uniformly charged spherical shell",
           "tex": "E=\\begin{cases}0,&r<R\\\\\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{Q}{r^2},&r\\ge R\\end{cases}",
           "unit": "N C^{-1}"
         },
         {
-          "label": "Dipole field on axial line",
-          "tex": "E_{\\mathrm{axial}}=\\frac{1}{4\\pi\\varepsilon_0}\\frac{2p}{r^3}\\quad(r\\gg a)",
+          "label": "Dipole field on axial line (short dipole)",
+          "tex": "E_{\\rm axial}=\\frac{1}{4\\pi\\varepsilon_0}\\frac{2p}{r^3}\\quad(r\\gg a)",
           "unit": "N C^{-1}"
         },
         {
-          "label": "Dipole field on equatorial line",
-          "tex": "E_{\\mathrm{equatorial}}=\\frac{1}{4\\pi\\varepsilon_0}\\frac{p}{r^3}\\quad(r\\gg a)",
+          "label": "Dipole field on equatorial line (short dipole)",
+          "tex": "E_{\\rm equatorial}=\\frac{1}{4\\pi\\varepsilon_0}\\frac{p}{r^3}\\quad(r\\gg a)",
           "unit": "N C^{-1}"
         }
       ]
@@ -66,12 +66,37 @@
       "formulas": [
         {
           "label": "Electric potential",
+          "tex": "V=\\frac{W}{q}",
+          "unit": "V"
+        },
+        {
+          "label": "Potential due to point charge",
           "tex": "V=\\frac{1}{4\\pi\\varepsilon_0}\\frac{q}{r}",
           "unit": "V"
         },
         {
+          "label": "Potential due to electric dipole",
+          "tex": "V=\\frac{1}{4\\pi\\varepsilon_0}\\frac{p\\cos\\theta}{r^2}\\quad(r\\gg a)",
+          "unit": "V"
+        },
+        {
+          "label": "Potential due to a system of charges",
+          "tex": "V=\\frac{1}{4\\pi\\varepsilon_0}\\sum_i\\frac{q_i}{r_i}",
+          "unit": "V"
+        },
+        {
+          "label": "Electric field-potential relation",
+          "tex": "E=-\\frac{dV}{dr}",
+          "unit": "N C^{-1}"
+        },
+        {
           "label": "Potential energy of two charges",
-          "tex": "U=\\frac{1}{4\\pi\\varepsilon_0}\\frac{q_1q_2}{r}",
+          "tex": "U=\\frac{1}{4\\pi\\varepsilon_0}\\frac{q_1q_2}{r_{12}}",
+          "unit": "J"
+        },
+        {
+          "label": "Potential energy of charge in external potential",
+          "tex": "U=qV",
           "unit": "J"
         },
         {
@@ -90,7 +115,7 @@
           "unit": "F"
         },
         {
-          "label": "With dielectric",
+          "label": "Parallel-plate capacitor with dielectric",
           "tex": "C=\\frac{K\\varepsilon_0A}{d}=KC_0",
           "unit": "F"
         },
@@ -120,9 +145,24 @@
           "unit": "A"
         },
         {
+          "label": "Current density",
+          "tex": "j=\\frac{I}{A}",
+          "unit": "A m^{-2}"
+        },
+        {
           "label": "Drift current relation",
           "tex": "I=neAv_d",
           "unit": "A"
+        },
+        {
+          "label": "Drift velocity",
+          "tex": "v_d=\\frac{eE\\tau}{m}",
+          "unit": "m s^{-1}"
+        },
+        {
+          "label": "Mobility",
+          "tex": "\\mu=\\frac{v_d}{E}=\\frac{e\\tau}{m}",
+          "unit": "m^2 V^{-1}s^{-1}"
         },
         {
           "label": "Ohm's law",
@@ -133,6 +173,26 @@
           "label": "Resistance of a conductor",
           "tex": "R=\\rho\\frac{L}{A}",
           "unit": "\\Omega"
+        },
+        {
+          "label": "Current density and electric field",
+          "tex": "\\vec j=\\sigma\\vec E=\\frac{\\vec E}{\\rho}",
+          "unit": "A m^{-2}"
+        },
+        {
+          "label": "Conductivity",
+          "tex": "\\sigma=ne\\mu=\\frac{ne^2\\tau}{m}",
+          "unit": "S m^{-1}"
+        },
+        {
+          "label": "Resistivity-conductivity relation",
+          "tex": "\\rho=\\frac1\\sigma",
+          "unit": "\\Omega m"
+        },
+        {
+          "label": "Temperature dependence of resistivity",
+          "tex": "\\rho_T=\\rho_0[1+\\alpha(T-T_0)]",
+          "unit": "\\Omega m"
         },
         {
           "label": "Electrical power",
@@ -150,9 +210,19 @@
           "unit": "V"
         },
         {
-          "label": "Cells in series",
+          "label": "External load voltage",
+          "tex": "V=IR=\\frac{\\mathcal E R}{R+r}",
+          "unit": "V"
+        },
+        {
+          "label": "Cells in series (identical cells)",
           "tex": "\\mathcal E_{\\rm eq}=n\\mathcal E,\\quad r_{\\rm eq}=nr",
-          "unit": "V,\\Omega"
+          "unit": "V, \\Omega"
+        },
+        {
+          "label": "Identical cells in parallel",
+          "tex": "\\mathcal E_{\\rm eq}=\\mathcal E,\\quad r_{\\rm eq}=\\frac{r}{n}",
+          "unit": "V, \\Omega"
         },
         {
           "label": "Kirchhoff junction rule",
@@ -160,29 +230,14 @@
           "unit": "A"
         },
         {
+          "label": "Kirchhoff loop rule",
+          "tex": "\\sum \\Delta V=0",
+          "unit": "V"
+        },
+        {
           "label": "Wheatstone bridge balance",
           "tex": "\\frac{P}{Q}=\\frac{R}{S}",
           "unit": "dimensionless"
-        },
-        {
-          "label": "Mobility",
-          "tex": "\\mu=\\frac{v_d}{E}",
-          "unit": "m² V⁻¹ s⁻¹"
-        },
-        {
-          "label": "Conductivity relation",
-          "tex": "\\sigma=ne\\mu",
-          "unit": "S m⁻¹"
-        },
-        {
-          "label": "Resistivity-conductivity relation",
-          "tex": "\\rho=\\frac1\\sigma",
-          "unit": "Ω m"
-        },
-        {
-          "label": "Identical cells in parallel",
-          "tex": "\\mathcal E_{\\mathrm{eq}}=\\mathcal E,\\quad r_{\\mathrm{eq}}=\\frac{r}{n}",
-          "unit": "V, Ω"
         }
       ]
     },
@@ -200,13 +255,33 @@
           "unit": "N"
         },
         {
+          "label": "Radius of charged-particle circular path",
+          "tex": "r=\\frac{mv}{qB}",
+          "unit": "m"
+        },
+        {
           "label": "Biot-Savart law",
           "tex": "d\\vec B=\\frac{\\mu_0}{4\\pi}\\frac{I\\,d\\vec l\\times\\hat r}{r^2}",
           "unit": "T"
         },
         {
-          "label": "Field at centre of circular loop",
+          "label": "Field at centre of circular coil",
           "tex": "B=\\frac{\\mu_0NI}{2R}",
+          "unit": "T"
+        },
+        {
+          "label": "Ampere's circuital law",
+          "tex": "\\oint\\vec B\\cdot d\\vec l=\\mu_0 I_{\\rm enclosed}",
+          "unit": "T m"
+        },
+        {
+          "label": "Field of long straight current-carrying wire",
+          "tex": "B=\\frac{\\mu_0I}{2\\pi R}",
+          "unit": "T"
+        },
+        {
+          "label": "Field inside long solenoid",
+          "tex": "B=\\mu_0nI",
           "unit": "T"
         },
         {
@@ -221,28 +296,28 @@
         },
         {
           "label": "Torque on current loop",
-          "tex": "\\tau=NIAB\\sin\\theta",
+          "tex": "\\vec\\tau=\\vec m\\times\\vec B",
           "unit": "N m"
         },
         {
           "label": "Magnetic dipole moment of current loop",
-          "tex": "m=NIA",
+          "tex": "\\vec m=NI\\vec A",
           "unit": "A m^2"
         },
         {
           "label": "Current sensitivity of galvanometer",
           "tex": "S_i=\\frac{\\theta}{I}=\\frac{NBA}{k}",
-          "unit": "rad A⁻¹"
+          "unit": "rad A^{-1}"
         },
         {
           "label": "Galvanometer to ammeter",
           "tex": "S=\\frac{I_gG}{I-I_g}",
-          "unit": "Ω"
+          "unit": "\\Omega"
         },
         {
           "label": "Galvanometer to voltmeter",
           "tex": "R=\\frac{V}{I_g}-G",
-          "unit": "Ω"
+          "unit": "\\Omega"
         }
       ]
     },
@@ -250,34 +325,9 @@
       "id": "c12-phy-05",
       "formulas": [
         {
-          "label": "Magnetic dipole torque",
-          "tex": "\\tau=mB\\sin\\theta",
-          "unit": "N m"
-        },
-        {
-          "label": "Magnetic potential energy",
-          "tex": "U=-\\vec m\\cdot\\vec B=-mB\\cos\\theta",
-          "unit": "J"
-        },
-        {
-          "label": "Magnetic dipole field on axial line",
-          "tex": "B_{\\mathrm{axial}}=\\frac{\\mu_0}{4\\pi}\\frac{2m}{r^3}\\quad(r\\gg a)",
-          "unit": "T"
-        },
-        {
-          "label": "Magnetic dipole field on equatorial line",
-          "tex": "B_{\\mathrm{equatorial}}=\\frac{\\mu_0}{4\\pi}\\frac{m}{r^3}\\quad(r\\gg a)",
-          "unit": "T"
-        },
-        {
           "label": "Magnetisation",
-          "tex": "M=\\frac{\\text{magnetic moment}}{\\text{volume}}",
-          "unit": "A m⁻¹"
-        },
-        {
-          "label": "Magnetic susceptibility",
-          "tex": "\\chi_m=\\frac{M}{H}",
-          "unit": "dimensionless"
+          "tex": "\\vec M=\\frac{\\text{magnetic moment}}{\\text{volume}}",
+          "unit": "A m^{-1}"
         }
       ]
     },
@@ -285,40 +335,60 @@
       "id": "c12-phy-06",
       "formulas": [
         {
-          "label": "Faraday's law",
-          "tex": "\\mathcal E=-\\frac{d\\Phi_B}{dt}",
-          "unit": "V"
-        },
-        {
           "label": "Magnetic flux",
-          "tex": "\\Phi_B=BA\\cos\\theta",
+          "tex": "\\Phi_B=\\vec B\\cdot\\vec A=BA\\cos\\theta",
           "unit": "Wb"
         },
         {
-          "label": "Self-inductance",
+          "label": "Faraday's law",
+          "tex": "\\mathcal E=-N\\frac{d\\Phi_B}{dt}",
+          "unit": "V"
+        },
+        {
+          "label": "Motional emf",
+          "tex": "\\mathcal E=Blv",
+          "unit": "V"
+        },
+        {
+          "label": "Inductance",
+          "tex": "L=\\frac{N\\Phi_B}{I}",
+          "unit": "H"
+        },
+        {
+          "label": "Mutual induction",
+          "tex": "\\mathcal E_1=-M_{12}\\frac{dI_2}{dt}",
+          "unit": "V"
+        },
+        {
+          "label": "Self-induced emf",
           "tex": "\\mathcal E=-L\\frac{dI}{dt}",
           "unit": "V"
         },
         {
-          "label": "Energy in inductor",
-          "tex": "U=\\frac12LI^2",
-          "unit": "J"
+          "label": "Self-inductance of long solenoid",
+          "tex": "L=\\mu_r\\mu_0n^2Al",
+          "unit": "H"
         },
         {
-          "label": "Mutual induction",
-          "tex": "\\mathcal E_2=-M\\frac{dI_1}{dt}",
+          "label": "AC generator emf",
+          "tex": "\\mathcal E=NBA\\omega\\sin(\\omega t)",
           "unit": "V"
-        },
-        {
-          "label": "Coefficient of coupling",
-          "tex": "k=\\frac{M}{\\sqrt{L_1L_2}}",
-          "unit": "dimensionless"
         }
       ]
     },
     {
       "id": "c12-phy-07",
       "formulas": [
+        {
+          "label": "AC voltage",
+          "tex": "v=v_m\\sin\\omega t",
+          "unit": "V"
+        },
+        {
+          "label": "AC current through resistor",
+          "tex": "i=i_m\\sin\\omega t,\\quad i_m=\\frac{v_m}{R}",
+          "unit": "A"
+        },
         {
           "label": "RMS current",
           "tex": "I_{\\rm rms}=\\frac{I_0}{\\sqrt2}",
@@ -345,6 +415,26 @@
           "unit": "\\Omega"
         },
         {
+          "label": "LCR current amplitude",
+          "tex": "I_0=\\frac{V_0}{Z}",
+          "unit": "A"
+        },
+        {
+          "label": "LCR phase angle",
+          "tex": "\\tan\\phi=\\frac{X_C-X_L}{R}",
+          "unit": "dimensionless"
+        },
+        {
+          "label": "LCR current",
+          "tex": "i=I_0\\sin(\\omega t+\\phi)",
+          "unit": "A"
+        },
+        {
+          "label": "Resonance condition",
+          "tex": "X_L=X_C",
+          "unit": "dimensionless"
+        },
+        {
           "label": "Resonant angular frequency",
           "tex": "\\omega_0=\\frac1{\\sqrt{LC}}",
           "unit": "rad s^{-1}"
@@ -360,17 +450,7 @@
           "unit": "dimensionless"
         },
         {
-          "label": "Phase angle in LCR circuit",
-          "tex": "\\tan\\phi=\\frac{X_L-X_C}{R}",
-          "unit": "dimensionless"
-        },
-        {
-          "label": "AC voltage/current",
-          "tex": "V=V_0\\sin\\omega t,\\quad I=I_0\\sin(\\omega t-\\phi)",
-          "unit": "V, A"
-        },
-        {
-          "label": "Transformer turns ratio",
+          "label": "Transformer voltage ratio",
           "tex": "\\frac{V_s}{V_p}=\\frac{N_s}{N_p}",
           "unit": "dimensionless"
         },
@@ -383,18 +463,7 @@
     },
     {
       "id": "c12-phy-08",
-      "formulas": [
-        {
-          "label": "Speed of electromagnetic waves",
-          "tex": "c=\\frac1{\\sqrt{\\mu_0\\varepsilon_0}}",
-          "unit": "m s^{-1}"
-        },
-        {
-          "label": "Wave relation",
-          "tex": "c=\\nu\\lambda",
-          "unit": "m s^{-1}"
-        }
-      ]
+      "formulas": []
     },
     {
       "id": "c12-phy-09",
@@ -451,18 +520,18 @@
         },
         {
           "label": "Prism relation",
-          "tex": "A= r_1+r_2",
+          "tex": "A=r_1+r_2",
           "unit": "rad"
         },
         {
           "label": "Minimum deviation",
-          "tex": "\\delta_m=i+e-A\\quad\\text{and for minimum deviation }i=e",
+          "tex": "\\delta_m=i+e-A\\quad\\text{and at minimum deviation }i=e",
           "unit": "rad"
         },
         {
-          "label": "Lens combination in contact",
-          "tex": "\\frac1F=\\frac1{f_1}+\\frac1{f_2}+\\cdots",
-          "unit": "m⁻¹"
+          "label": "Prism refractive-index relation at minimum deviation",
+          "tex": "\\mu=\\frac{\\sin\\left(\\frac{A+\\delta_m}{2}\\right)}{\\sin\\left(\\frac A2\\right)}",
+          "unit": "dimensionless"
         }
       ]
     },
@@ -490,11 +559,6 @@
           "unit": "m"
         },
         {
-          "label": "Single-slit diffraction minima",
-          "tex": "a\\sin\\theta=n\\lambda,\\quad n=1,2,3,\\ldots",
-          "unit": "m"
-        },
-        {
           "label": "Fringe position",
           "tex": "y_n=\\frac{n\\lambda D}{d}",
           "unit": "m"
@@ -505,13 +569,33 @@
       "id": "c12-phy-11",
       "formulas": [
         {
+          "label": "Photon energy",
+          "tex": "E=h\\nu=\\frac{hc}{\\lambda}",
+          "unit": "J"
+        },
+        {
+          "label": "Photon momentum",
+          "tex": "p=\\frac{h}{\\lambda}=\\frac{h\\nu}{c}",
+          "unit": "kg m s^{-1}"
+        },
+        {
           "label": "Einstein photoelectric equation",
-          "tex": "h\\nu=\\phi+K_{\\max}=\\phi+eV_0",
+          "tex": "K_{\\max}=h\\nu-\\phi=eV_0",
           "unit": "J"
         },
         {
           "label": "Work function",
           "tex": "\\phi=h\\nu_0",
+          "unit": "J"
+        },
+        {
+          "label": "Threshold frequency",
+          "tex": "\\nu_0=\\frac{\\phi}{h}",
+          "unit": "Hz"
+        },
+        {
+          "label": "Stopping-potential relation",
+          "tex": "eV_0=\\frac12mv_{\\max}^2",
           "unit": "J"
         },
         {
@@ -535,30 +619,25 @@
           "unit": "m"
         },
         {
-          "label": "Hydrogen energy",
-          "tex": "E_n=-\\frac{13.6Z^2}{n^2}\\ \\mathrm{eV}",
-          "unit": "eV"
-        },
-        {
-          "label": "Rydberg relation",
-          "tex": "\\frac1\\lambda=RZ^2\\left(\\frac1{n_1^2}-\\frac1{n_2^2}\\right)",
-          "unit": "m^{-1}"
-        },
-        {
           "label": "Bohr orbit velocity",
-          "tex": "v_n=\\frac{1}{4\\pi\\varepsilon_0}\\frac{Ze^2}{\\hbar n}",
-          "unit": "m s⁻¹"
+          "tex": "\\displaystyle v_n=\\frac{Z e^2}{4\\pi\\varepsilon_0\\hbar n}",
+          "unit": "m s^{-1}"
         },
         {
-          "label": "Transition energy",
-          "tex": "\\Delta E=E_{n_2}-E_{n_1}=h\\nu=\\frac{hc}{\\lambda}",
-          "unit": "J"
+          "label": "Bohr energy of hydrogen-like atom",
+          "tex": "E_n=-\\frac{13.6Z^2}{n^2}\\,\\mathrm{eV}",
+          "unit": "eV"
         }
       ]
     },
     {
       "id": "c12-phy-13",
       "formulas": [
+        {
+          "label": "Nuclear radius",
+          "tex": "R=R_0A^{1/3}",
+          "unit": "m"
+        },
         {
           "label": "Mass-energy relation",
           "tex": "E=mc^2",
@@ -571,15 +650,23 @@
         },
         {
           "label": "Binding energy",
-          "tex": "B=\\Delta mc^2",
+          "tex": "E_b=\\Delta mc^2",
           "unit": "J"
         },
         {
-          "label": "Binding energy in MeV",
-          "tex": "B(\\mathrm{MeV})=\\Delta m(\\mathrm u)\\times931.5",
+          "label": "Binding energy per nucleon",
+          "tex": "E_{bn}=\\frac{E_b}{A}",
+          "unit": "J or MeV"
+        },
+        {
+          "label": "Mass defect to binding energy",
+          "tex": "E_b(\\mathrm{MeV})=\\Delta m(\\mathrm u)\\times931.5",
           "unit": "MeV"
         }
       ]
     }
-  ]
+  ],
+  "session": "2026-27",
+  "scope": "written/theory Board examination; practical and internal assessment excluded",
+  "audit_status": "CERTIFIED_FOR_CURRENT_THEORY_SCOPE"
 }

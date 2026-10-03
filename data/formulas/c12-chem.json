@@ -1,9 +1,26 @@
 {
   "subject": "c12-chem",
+  "session": "2026-27",
+  "scope": "Class XII CBSE written/theory Board-exam preparation; practical/internal-assessment content excluded.",
   "chapters": [
     {
       "id": "c12-chem-01",
       "formulas": [
+        {
+          "label": "Mass percentage",
+          "tex": "\\text{Mass percentage}=\\frac{\\text{mass of solute}}{\\text{mass of solution}}\\times100",
+          "unit": "%"
+        },
+        {
+          "label": "Volume percentage",
+          "tex": "\\text{Volume percentage}=\\frac{\\text{volume of solute}}{\\text{volume of solution}}\\times100",
+          "unit": "%"
+        },
+        {
+          "label": "Parts per million",
+          "tex": "\\mathrm{ppm}=\\frac{\\text{parts of component}}{10^6\\text{ parts of solution}}",
+          "unit": "dimensionless"
+        },
         {
           "label": "Molarity",
           "tex": "M=\\frac{\\text{moles of solute}}{\\text{volume of solution in L}}",
@@ -25,9 +42,19 @@
           "unit": "pressure"
         },
         {
+          "label": "Total vapour pressure",
+          "tex": "p=x_1p_1^0+x_2p_2^0",
+          "unit": "pressure"
+        },
+        {
           "label": "Relative lowering of vapour pressure",
           "tex": "\\frac{p^0-p}{p^0}=x_{\\rm solute}",
           "unit": "dimensionless"
+        },
+        {
+          "label": "Henry's law",
+          "tex": "p=K_Hx",
+          "unit": "pressure"
         },
         {
           "label": "Elevation in boiling point",
@@ -53,6 +80,16 @@
           "label": "Modified colligative relations",
           "tex": "\\Delta T_b=iK_bm,\\quad\\Delta T_f=iK_fm,\\quad\\pi=iCRT",
           "unit": "varies"
+        },
+        {
+          "label": "van't Hoff factor for association",
+          "tex": "i=1-\\alpha\\left(1-\\frac1n\\right)",
+          "unit": "dimensionless"
+        },
+        {
+          "label": "van't Hoff factor for dissociation",
+          "tex": "i=1+\\alpha(n-1)",
+          "unit": "dimensionless"
         }
       ]
     },
@@ -62,6 +99,11 @@
         {
           "label": "Cell EMF",
           "tex": "E_{\\rm cell}=E_{\\rm cathode}-E_{\\rm anode}",
+          "unit": "V"
+        },
+        {
+          "label": "General Nernst equation",
+          "tex": "E=E^\\circ-\\frac{RT}{nF}\\ln Q",
           "unit": "V"
         },
         {
@@ -78,6 +120,21 @@
           "label": "Standard Gibbs energy",
           "tex": "\\Delta G^\\circ=-nFE^\\circ_{\\rm cell}",
           "unit": "J mol^{-1}"
+        },
+        {
+          "label": "Standard potential and equilibrium constant",
+          "tex": "\\Delta G^\\circ=-RT\\ln K=-nFE^\\circ_{\\rm cell}",
+          "unit": "J mol^{-1}"
+        },
+        {
+          "label": "Equilibrium constant at 298 K",
+          "tex": "\\log K=\\frac{nE^\\circ_{\\rm cell}}{0.0591}",
+          "unit": "dimensionless"
+        },
+        {
+          "label": "Resistance",
+          "tex": "R=\\rho\\frac{l}{A}",
+          "unit": "\\\\Omega"
         },
         {
           "label": "Conductance",
@@ -110,14 +167,34 @@
       "id": "c12-chem-03",
       "formulas": [
         {
+          "label": "Average rate",
+          "tex": "\\text{Average rate}=-\\frac{\\Delta[R]}{\\Delta t}=\\frac{\\Delta[P]}{\\Delta t}",
+          "unit": "concentration time^{-1}"
+        },
+        {
+          "label": "Instantaneous rate",
+          "tex": "r=-\\frac{d[R]}{dt}=\\frac{d[P]}{dt}",
+          "unit": "concentration time^{-1}"
+        },
+        {
           "label": "Rate law",
           "tex": "r=k[A]^m[B]^n",
           "unit": "concentration time^{-1}"
         },
         {
+          "label": "Order of reaction",
+          "tex": "\\text{Order}=m+n",
+          "unit": "dimensionless"
+        },
+        {
           "label": "Zero-order integrated law",
           "tex": "[A]_t=[A]_0-kt",
           "unit": "mol L^{-1}"
+        },
+        {
+          "label": "Zero-order rate constant",
+          "tex": "k=\\frac{[A]_0-[A]_t}{t}",
+          "unit": "mol L^{-1} time^{-1}"
         },
         {
           "label": "Zero-order half-life",
@@ -130,6 +207,11 @@
           "unit": "time^{-1}"
         },
         {
+          "label": "First-order concentration form",
+          "tex": "[A]_t=[A]_0e^{-kt}",
+          "unit": "mol L^{-1}"
+        },
+        {
           "label": "First-order half-life",
           "tex": "t_{1/2}=\\frac{0.693}{k}",
           "unit": "time"
@@ -137,6 +219,11 @@
         {
           "label": "Arrhenius equation",
           "tex": "k=Ae^{-E_a/(RT)}",
+          "unit": "—"
+        },
+        {
+          "label": "Arrhenius logarithmic form",
+          "tex": "\\log k=\\log A-\\frac{E_a}{2.303RT}",
           "unit": "—"
         },
         {
@@ -151,7 +238,7 @@
       "formulas": [
         {
           "label": "Magnetic moment of transition ion",
-          "tex": "\\mu=\\sqrt{n(n+2)}\\ \\mathrm{BM}",
+          "tex": "\\mu=\\sqrt{n(n+2)}\\,\\mathrm{BM}",
           "unit": "BM"
         }
       ]
@@ -170,18 +257,118 @@
       "id": "c12-chem-06",
       "formulas": [
         {
+          "label": "Preparation from alcohols",
+          "tex": "R-OH+HX\\rightarrow R-X+H_2O",
+          "unit": ""
+        },
+        {
+          "label": "Thionyl chloride preparation",
+          "tex": "R-OH+SOCl_2\\rightarrow R-Cl+SO_2+HCl",
+          "unit": ""
+        },
+        {
+          "label": "Finkelstein reaction",
+          "tex": "R-Cl/R-Br+NaI\\xrightarrow{\\text{dry acetone}}R-I+NaCl/NaBr",
+          "unit": ""
+        },
+        {
+          "label": "Swarts reaction",
+          "tex": "R-Cl/R-Br\\xrightarrow{AgF/Hg_2F_2/CoF_2/SbF_3}R-F",
+          "unit": ""
+        },
+        {
+          "label": "Nucleophilic substitution with hydroxide",
+          "tex": "R-X+OH^-\\rightarrow R-OH+X^-",
+          "unit": ""
+        },
+        {
+          "label": "Nucleophilic substitution with alkoxide",
+          "tex": "R-X+R'O^-\\rightarrow R-OR'+X^-",
+          "unit": ""
+        },
+        {
+          "label": "Nucleophilic substitution with ammonia",
+          "tex": "R-X+NH_3\\rightarrow R-NH_2+HX",
+          "unit": ""
+        },
+        {
+          "label": "Cyanide formation",
+          "tex": "R-X+KCN\\rightarrow R-CN+KX",
+          "unit": ""
+        },
+        {
+          "label": "Isocyanide formation",
+          "tex": "R-X+AgCN\\rightarrow R-NC+AgX",
+          "unit": ""
+        },
+        {
+          "label": "Alkyl nitrite formation",
+          "tex": "R-X+KNO_2\\rightarrow R-ONO+KX",
+          "unit": ""
+        },
+        {
+          "label": "Nitroalkane formation",
+          "tex": "R-X+AgNO_2\\rightarrow R-NO_2+AgX",
+          "unit": ""
+        },
+        {
+          "label": "Grignard reagent formation",
+          "tex": "R-X+Mg\\xrightarrow{\\text{dry ether}}R-MgX",
+          "unit": ""
+        },
+        {
+          "label": "Grignard reagent hydrolysis",
+          "tex": "R-MgX+H_2O\\rightarrow R-H+Mg(OH)X",
+          "unit": ""
+        },
+        {
           "label": "Wurtz reaction",
           "tex": "2R-X+2Na\\xrightarrow{\\text{dry ether}}R-R+2NaX",
           "unit": ""
         },
         {
-          "label": "Finkelstein reaction",
-          "tex": "R-Cl/R-Br+NaI\\xrightarrow{\\text{acetone}}R-I+NaCl/NaBr",
+          "label": "Wurtz-Fittig reaction",
+          "tex": "R-X+Ar-X+2Na\\xrightarrow{\\text{dry ether}}R-Ar+2NaX",
           "unit": ""
         },
         {
-          "label": "Swarts reaction",
-          "tex": "R-Cl/R-Br\\xrightarrow{\\text{metal fluoride}}R-F",
+          "label": "Fittig reaction",
+          "tex": "2Ar-X+2Na\\xrightarrow{\\text{dry ether}}Ar-Ar+2NaX",
+          "unit": ""
+        },
+        {
+          "label": "Dehydrohalogenation",
+          "tex": "R-CH_2-CH_2-X\\xrightarrow{\\text{alc. KOH},\\Delta}R-CH=CH_2+KX+H_2O",
+          "unit": ""
+        },
+        {
+          "label": "Aryl chloride preparation",
+          "tex": "Ar-H+Cl_2\\xrightarrow{Fe/FeCl_3}Ar-Cl+HCl",
+          "unit": ""
+        },
+        {
+          "label": "Aryl bromide preparation",
+          "tex": "Ar-H+Br_2\\xrightarrow{Fe/FeBr_3}Ar-Br+HBr",
+          "unit": ""
+        },
+        {
+          "label": "Sandmeyer reaction (chloride)",
+          "tex": "Ar-N_2^+Cl^-\\xrightarrow{CuCl}Ar-Cl+N_2",
+          "unit": ""
+        },
+        {
+          "label": "Sandmeyer reaction (bromide)",
+          "tex": "Ar-N_2^+Cl^-\\xrightarrow{CuBr}Ar-Br+N_2",
+          "unit": ""
+        },
+        {
+          "label": "Sandmeyer reaction (cyanide)",
+          "tex": "Ar-N_2^+Cl^-\\xrightarrow{CuCN}Ar-CN+N_2",
+          "unit": ""
+        },
+        {
+          "label": "Iododeamination",
+          "tex": "Ar-N_2^+Cl^-+KI\\rightarrow Ar-I+N_2+KCl",
           "unit": ""
         }
       ]
@@ -190,13 +377,83 @@
       "id": "c12-chem-07",
       "formulas": [
         {
+          "label": "Alcohol from alkene",
+          "tex": "RCH=CH_2+H_2O\\xrightarrow{H^+}RCH(OH)CH_3",
+          "unit": ""
+        },
+        {
+          "label": "Alcohol from haloalkane",
+          "tex": "R-X+OH^-\\rightarrow R-OH+X^-",
+          "unit": ""
+        },
+        {
+          "label": "Alcohol oxidation (primary)",
+          "tex": "R-CH_2OH+[O]\\rightarrow R-CHO\\rightarrow R-COOH",
+          "unit": ""
+        },
+        {
+          "label": "Alcohol with sodium",
+          "tex": "2ROH+2Na\\rightarrow2RONa+H_2",
+          "unit": ""
+        },
+        {
+          "label": "Alcohol with HX",
+          "tex": "ROH+HX\\rightarrow RX+H_2O",
+          "unit": ""
+        },
+        {
+          "label": "Dehydration of alcohol",
+          "tex": "R-CH_2CH_2OH\\xrightarrow{\\mathrm{conc.\\ H_2SO_4},\\Delta}R-CH=CH_2+H_2O",
+          "unit": ""
+        },
+        {
           "label": "Williamson ether synthesis",
           "tex": "R-X+R'O^-Na^+\\rightarrow R-O-R'+NaX",
           "unit": ""
         },
         {
-          "label": "Dehydration of alcohol",
-          "tex": "R-CH_2CH_2OH\\xrightarrow{\\mathrm{conc.\\ H_2SO_4},\\ \\Delta}R-CH=CH_2+H_2O",
+          "label": "Ether cleavage",
+          "tex": "R-O-R'+HI\\rightarrow R-I+R'OH",
+          "unit": ""
+        },
+        {
+          "label": "Phenol from chlorobenzene",
+          "tex": "C_6H_5Cl+NaOH\\xrightarrow{623K,\\ 300atm}C_6H_5ONa+NaCl+H_2O\\xrightarrow{H^+}C_6H_5OH",
+          "unit": ""
+        },
+        {
+          "label": "Phenol from benzene diazonium salt",
+          "tex": "C_6H_5N_2^+Cl^-+H_2O\\xrightarrow{\\Delta}C_6H_5OH+N_2+HCl",
+          "unit": ""
+        },
+        {
+          "label": "Phenol with sodium hydroxide",
+          "tex": "C_6H_5OH+NaOH\\rightarrow C_6H_5ONa+H_2O",
+          "unit": ""
+        },
+        {
+          "label": "Phenol with sodium",
+          "tex": "2C_6H_5OH+2Na\\rightarrow2C_6H_5ONa+H_2",
+          "unit": ""
+        },
+        {
+          "label": "Kolbe reaction",
+          "tex": "C_6H_5ONa+CO_2\\xrightarrow{\\text{pressure}}o-HOC_6H_4COONa\\xrightarrow{H^+}o-HOC_6H_4COOH",
+          "unit": ""
+        },
+        {
+          "label": "Reimer-Tiemann reaction",
+          "tex": "C_6H_5OH+CHCl_3+3NaOH\\rightarrow o-HOC_6H_4CHO+3NaCl+2H_2O",
+          "unit": ""
+        },
+        {
+          "label": "Phenol with zinc dust",
+          "tex": "C_6H_5OH+Zn\\xrightarrow{\\Delta}C_6H_6+ZnO",
+          "unit": ""
+        },
+        {
+          "label": "Phenol oxidation",
+          "tex": "C_6H_5OH+[O]\\rightarrow p\\text{-benzoquinone}+H_2O",
           "unit": ""
         }
       ]
@@ -205,8 +462,23 @@
       "id": "c12-chem-08",
       "formulas": [
         {
+          "label": "Alcohol oxidation to aldehyde",
+          "tex": "R-CH_2OH+[O]\\rightarrow R-CHO+H_2O",
+          "unit": ""
+        },
+        {
           "label": "Aldehyde oxidation",
           "tex": "R-CHO+[O]\\rightarrow R-COOH",
+          "unit": ""
+        },
+        {
+          "label": "Tollens' test",
+          "tex": "R-CHO+2[Ag(NH_3)_2]^++3OH^-\\rightarrow R-COO^-+2Ag+4NH_3+2H_2O",
+          "unit": ""
+        },
+        {
+          "label": "Fehling's test",
+          "tex": "R-CHO+2Cu^{2+}+5OH^-\\rightarrow R-COO^-+Cu_2O+3H_2O",
           "unit": ""
         },
         {
@@ -220,13 +492,53 @@
           "unit": ""
         },
         {
+          "label": "Nucleophilic addition of HCN",
+          "tex": "R-CHO+HCN\\rightleftharpoons R-CH(OH)-CN",
+          "unit": ""
+        },
+        {
+          "label": "Aldol reaction",
+          "tex": "2CH_3CHO\\xrightarrow{dil.\\ NaOH}CH_3CH(OH)CH_2CHO",
+          "unit": ""
+        },
+        {
+          "label": "Aldol condensation",
+          "tex": "CH_3CH(OH)CH_2CHO\\xrightarrow{\\Delta}CH_3CH=CHCHO+H_2O",
+          "unit": ""
+        },
+        {
+          "label": "Cannizzaro reaction",
+          "tex": "2R-CHO\\xrightarrow{\\mathrm{conc.\\ NaOH}}R-CH_2OH+R-COONa",
+          "unit": ""
+        },
+        {
+          "label": "Haloform reaction",
+          "tex": "RCOCH_3+3NaOX\\rightarrow RCOONa+CHX_3+2NaOH",
+          "unit": ""
+        },
+        {
           "label": "Esterification",
           "tex": "R-COOH+R'OH\\rightleftharpoons R-COOR'+H_2O",
           "unit": ""
         },
         {
+          "label": "Carboxylic acid with sodium bicarbonate",
+          "tex": "R-COOH+NaHCO_3\\rightarrow R-COONa+CO_2+H_2O",
+          "unit": ""
+        },
+        {
+          "label": "Carboxylic acid reduction",
+          "tex": "R-COOH\\xrightarrow{LiAlH_4}R-CH_2OH",
+          "unit": ""
+        },
+        {
           "label": "Decarboxylation",
-          "tex": "R-COONa+NaOH\\xrightarrow{\\Delta,\\ \\mathrm{CaO}}R-H+Na_2CO_3",
+          "tex": "R-COONa+NaOH\\xrightarrow{\\Delta,\\ CaO}R-H+Na_2CO_3",
+          "unit": ""
+        },
+        {
+          "label": "HVZ reaction",
+          "tex": "R-CH_2COOH\\xrightarrow{Br_2/red\\ P}R-CHBrCOOH+HBr",
           "unit": ""
         }
       ]
@@ -235,8 +547,38 @@
       "id": "c12-chem-09",
       "formulas": [
         {
+          "label": "Nitrobenzene reduction to aniline",
+          "tex": "C_6H_5NO_2+6[H]\\rightarrow C_6H_5NH_2+2H_2O",
+          "unit": ""
+        },
+        {
+          "label": "Ammonolysis of haloalkane",
+          "tex": "R-X+2NH_3\\rightarrow R-NH_2+NH_4X",
+          "unit": ""
+        },
+        {
+          "label": "Gabriel phthalimide synthesis",
+          "tex": "C_6H_4(CO)_2NK+R-X\\rightarrow C_6H_4(CO)_2NR\\xrightarrow{hydrolysis}R-NH_2",
+          "unit": ""
+        },
+        {
+          "label": "Hofmann bromamide reaction",
+          "tex": "RCONH_2+Br_2+4NaOH\\rightarrow RNH_2+2NaBr+Na_2CO_3+2H_2O",
+          "unit": ""
+        },
+        {
           "label": "Carbylamine reaction",
           "tex": "R-NH_2+CHCl_3+3KOH\\rightarrow R-NC+3KCl+3H_2O",
+          "unit": ""
+        },
+        {
+          "label": "Acetylation of amine",
+          "tex": "R-NH_2+(CH_3CO)_2O\\rightarrow R-NHCOCH_3+CH_3COOH",
+          "unit": ""
+        },
+        {
+          "label": "Hinsberg reaction (primary amine)",
+          "tex": "R-NH_2+C_6H_5SO_2Cl\\rightarrow C_6H_5SO_2NHR+HCl",
           "unit": ""
         },
         {
@@ -245,7 +587,37 @@
           "unit": ""
         },
         {
-          "label": "Azo coupling",
+          "label": "Sandmeyer reaction from diazonium salt",
+          "tex": "Ar-N_2^+Cl^-\\xrightarrow{CuCl/CuBr/CuCN}Ar-Cl/Ar-Br/Ar-CN+N_2",
+          "unit": ""
+        },
+        {
+          "label": "Gattermann reaction",
+          "tex": "Ar-N_2^+Cl^-\\xrightarrow{Cu/HCl\\ or\\ Cu/HBr}Ar-Cl/Ar-Br+N_2",
+          "unit": ""
+        },
+        {
+          "label": "Diazonium iodide replacement",
+          "tex": "Ar-N_2^+Cl^-+KI\\rightarrow Ar-I+N_2+KCl",
+          "unit": ""
+        },
+        {
+          "label": "Balz-Schiemann reaction",
+          "tex": "Ar-N_2^+Cl^-+HBF_4\\rightarrow Ar-N_2^+BF_4^-\\xrightarrow{\\Delta}Ar-F+BF_3+N_2",
+          "unit": ""
+        },
+        {
+          "label": "Diazonium hydrolysis",
+          "tex": "Ar-N_2^+Cl^-+H_2O\\xrightarrow{\\Delta}Ar-OH+N_2+HCl",
+          "unit": ""
+        },
+        {
+          "label": "Diazonium reduction",
+          "tex": "Ar-N_2^+Cl^-+H_3PO_2+H_2O\\rightarrow Ar-H+N_2+H_3PO_3+HCl",
+          "unit": ""
+        },
+        {
+          "label": "Azo coupling with phenol",
           "tex": "Ar-N_2^+Cl^-+Ar'OH\\rightarrow Ar-N=N-Ar'+HCl",
           "unit": ""
         }
@@ -255,8 +627,33 @@
       "id": "c12-chem-10",
       "formulas": [
         {
+          "label": "Zwitterion form of amino acid",
+          "tex": "^{+}H_3N-CHR-COO^-",
+          "unit": ""
+        },
+        {
           "label": "Peptide linkage",
           "tex": "\\mathrm{-CO-NH-}",
+          "unit": ""
+        },
+        {
+          "label": "Peptide formation",
+          "tex": "H_2N-CHR-COOH+H_2N-CHR'-COOH\\rightarrow H_2N-CHR-CONH-CHR'-COOH+H_2O",
+          "unit": ""
+        },
+        {
+          "label": "Sucrose hydrolysis",
+          "tex": "C_{12}H_{22}O_{11}+H_2O\\rightarrow C_6H_{12}O_6+C_6H_{12}O_6",
+          "unit": ""
+        },
+        {
+          "label": "Glucose oxidation by bromine water",
+          "tex": "C_6H_{12}O_6+Br_2+H_2O\\rightarrow C_6H_{12}O_7+2HBr",
+          "unit": ""
+        },
+        {
+          "label": "Glucose reduction",
+          "tex": "C_6H_{12}O_6+H_2\\xrightarrow{Ni}C_6H_{14}O_6",
           "unit": ""
         }
       ]

@@ -9,6 +9,16 @@
         {
           "id": "c10-hin-01",
           "name": "अपठित बोध",
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
+            "अपठित गद्यांश",
+            "अपठित काव्यांश"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
           "topics": [
             "अपठित गद्यांश",
             "अपठित काव्यांश"
@@ -17,7 +27,12 @@
         {
           "id": "c10-hin-02",
           "name": "व्यावहारिक व्याकरण",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "रचना के आधार पर वाक्य भेद",
             "वाच्य",
             "पद परिचय",
@@ -26,236 +41,514 @@
             "अलंकार: उत्प्रेक्षा",
             "अलंकार: अतिशयोक्ति",
             "अलंकार: मानवीकरण"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "रचना के आधार पर वाक्य भेद",
+            "वाच्य",
+            "पद परिचय",
+            "अलंकार"
           ]
         },
         {
           "id": "c10-hin-03",
           "name": "क्षितिज: नेताजी का चश्मा – स्वयं प्रकाश",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "पाठ-बोध और केंद्रीय विचार",
             "पात्र, घटनाएँ और व्यंग्य",
             "भाषा-शैली और अभिव्यक्ति"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Kshitij/Kritika literature text",
+            "पाठ-बोध और व्याख्या",
+            "केंद्रीय विचार/भाव",
+            "भाषा एवं साहित्यिक अभिव्यक्ति"
           ]
         },
         {
           "id": "c10-hin-04",
           "name": "क्षितिज: बालगोबिन भगत – रामवृक्ष बेनीपुरी",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "पाठ-बोध और केंद्रीय विचार",
             "बालगोबिन भगत का चरित्र और जीवन-दृष्टि",
             "लोक-संस्कृति, संगीत और भाषा-शैली"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Kshitij/Kritika literature text",
+            "पाठ-बोध और व्याख्या",
+            "केंद्रीय विचार/भाव",
+            "भाषा एवं साहित्यिक अभिव्यक्ति"
           ]
         },
         {
           "id": "c10-hin-05",
           "name": "क्षितिज: लखनवी अंदाज़ – यशपाल",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "पाठ-बोध और केंद्रीय विचार",
             "व्यंग्य और सामाजिक व्यवहार",
             "भाषा-शैली और अभिव्यक्ति"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Kshitij/Kritika literature text",
+            "पाठ-बोध और व्याख्या",
+            "केंद्रीय विचार/भाव",
+            "भाषा एवं साहित्यिक अभिव्यक्ति"
           ]
         },
         {
           "id": "c10-hin-06",
           "name": "क्षितिज: मानवीय करुणा की दिव्य चमक – सर्वेश्वर दयाल सक्सेना (परीक्षा में प्रश्न नहीं)",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "excluded_from_board",
+            "topics_status": "not_board_question_scope"
+          },
+          "study_concepts": [
             "पाठ-बोध और केंद्रीय विचार",
             "मानवीय करुणा और व्यक्तित्व",
             "भाषा-शैली"
-          ]
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": []
         },
         {
           "id": "c10-hin-07",
           "name": "क्षितिज: एक कहानी यह भी – मन्नू भंडारी",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "पाठ-बोध और केंद्रीय विचार",
             "लेखिका का जीवन और संघर्ष",
             "नारी-चेतना, सामाजिक संदर्भ और भाषा-शैली"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Kshitij/Kritika literature text",
+            "पाठ-बोध और व्याख्या",
+            "केंद्रीय विचार/भाव",
+            "भाषा एवं साहित्यिक अभिव्यक्ति"
           ]
         },
         {
           "id": "c10-hin-08",
           "name": "क्षितिज: स्त्री-शिक्षा के विरोधी कुतर्कों का खंडन – महावीर प्रसाद द्विवेदी (परीक्षा में प्रश्न नहीं)",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "excluded_from_board",
+            "topics_status": "not_board_question_scope"
+          },
+          "study_concepts": [
             "पाठ-बोध और केंद्रीय विचार",
             "स्त्री-शिक्षा के पक्ष में तर्क",
             "भाषा-शैली और तर्क-विन्यास"
-          ]
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": []
         },
         {
           "id": "c10-hin-09",
           "name": "क्षितिज: नौबतखाने में इबादत – यतींद्र मिश्र",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "पाठ-बोध और केंद्रीय विचार",
             "बिस्मिल्ला खाँ का व्यक्तित्व और संगीत-साधना",
             "सांस्कृतिक संदर्भ और भाषा-शैली"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Kshitij/Kritika literature text",
+            "पाठ-बोध और व्याख्या",
+            "केंद्रीय विचार/भाव",
+            "भाषा एवं साहित्यिक अभिव्यक्ति"
           ]
         },
         {
           "id": "c10-hin-10",
           "name": "क्षितिज: संस्कृति – भदंत आनंद कौसल्यायन",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "पाठ-बोध और केंद्रीय विचार",
             "संस्कृति की अवधारणा",
             "सभ्यता, संस्कृति और मानवीय मूल्य"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Kshitij/Kritika literature text",
+            "पाठ-बोध और व्याख्या",
+            "केंद्रीय विचार/भाव",
+            "भाषा एवं साहित्यिक अभिव्यक्ति"
           ]
         },
         {
           "id": "c10-hin-11",
           "name": "क्षितिज: पद – सूरदास",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "श्रीकृष्ण-भक्ति और वात्सल्य",
             "पदों का भाव-सौंदर्य",
             "भाषा, अलंकार और काव्य-शिल्प"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Kshitij/Kritika literature text",
+            "पाठ-बोध और व्याख्या",
+            "केंद्रीय विचार/भाव",
+            "भाषा एवं साहित्यिक अभिव्यक्ति"
           ]
         },
         {
           "id": "c10-hin-12",
           "name": "क्षितिज: राम-लक्ष्मण-परशुराम संवाद – तुलसीदास",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "संवाद और प्रसंग",
             "राम, लक्ष्मण और परशुराम के चरित्र",
             "वीर रस, भाषा और काव्य-शिल्प"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Kshitij/Kritika literature text",
+            "पाठ-बोध और व्याख्या",
+            "केंद्रीय विचार/भाव",
+            "भाषा एवं साहित्यिक अभिव्यक्ति"
           ]
         },
         {
           "id": "c10-hin-13",
           "name": "क्षितिज: सवैया, कवित्त – देव (परीक्षा में प्रश्न नहीं)",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "excluded_from_board",
+            "topics_status": "not_board_question_scope"
+          },
+          "study_concepts": [
             "श्रृंगारिक भाव और काव्य-सौंदर्य",
             "भाषा, अलंकार और काव्य-शिल्प"
-          ]
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": []
         },
         {
           "id": "c10-hin-14",
           "name": "क्षितिज: आत्मकथ्य – जयशंकर प्रसाद",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "कवि-व्यक्तित्व और आत्मकथ्य",
             "जीवन, सृजन और संवेदना",
             "भाषा और काव्य-शिल्प"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Kshitij/Kritika literature text",
+            "पाठ-बोध और व्याख्या",
+            "केंद्रीय विचार/भाव",
+            "भाषा एवं साहित्यिक अभिव्यक्ति"
           ]
         },
         {
           "id": "c10-hin-15",
           "name": "क्षितिज: उत्साह – सूर्यकांत त्रिपाठी 'निराला'",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "प्रकृति और नवजीवन की भावना",
             "उत्साह और सृजनात्मक ऊर्जा",
             "भाषा, बिंब और काव्य-शिल्प"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Kshitij/Kritika literature text",
+            "पाठ-बोध और व्याख्या",
+            "केंद्रीय विचार/भाव",
+            "भाषा एवं साहित्यिक अभिव्यक्ति"
           ]
         },
         {
           "id": "c10-hin-16",
           "name": "क्षितिज: अट नहीं रही है – सूर्यकांत त्रिपाठी 'निराला'",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "वसंत और प्रकृति का चित्रण",
             "उल्लास और सौंदर्य-बोध",
             "भाषा, बिंब और काव्य-शिल्प"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Kshitij/Kritika literature text",
+            "पाठ-बोध और व्याख्या",
+            "केंद्रीय विचार/भाव",
+            "भाषा एवं साहित्यिक अभिव्यक्ति"
           ]
         },
         {
           "id": "c10-hin-17",
           "name": "क्षितिज: यह दंतुरित मुस्कान – नागार्जुन",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "बाल-सुलभ मुस्कान और वात्सल्य",
             "कवि की संवेदना",
             "भाषा और काव्य-शिल्प"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Kshitij/Kritika literature text",
+            "पाठ-बोध और व्याख्या",
+            "केंद्रीय विचार/भाव",
+            "भाषा एवं साहित्यिक अभिव्यक्ति"
           ]
         },
         {
           "id": "c10-hin-18",
           "name": "क्षितिज: फसल – नागार्जुन",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "फसल और श्रम का संबंध",
             "प्रकृति, किसान और सामूहिक श्रम",
             "भाषा और काव्य-शिल्प"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Kshitij/Kritika literature text",
+            "पाठ-बोध और व्याख्या",
+            "केंद्रीय विचार/भाव",
+            "भाषा एवं साहित्यिक अभिव्यक्ति"
           ]
         },
         {
           "id": "c10-hin-19",
           "name": "क्षितिज: छाया मत छूना – गिरिजाकुमार माथुर (परीक्षा में प्रश्न नहीं)",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "excluded_from_board",
+            "topics_status": "not_board_question_scope"
+          },
+          "study_concepts": [
             "मोह और यथार्थ",
             "जीवन-दृष्टि",
             "भाषा और काव्य-शिल्प"
-          ]
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": []
         },
         {
           "id": "c10-hin-20",
           "name": "क्षितिज: कन्यादान – ऋतुराज (परीक्षा में प्रश्न नहीं)",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "excluded_from_board",
+            "topics_status": "not_board_question_scope"
+          },
+          "study_concepts": [
             "माँ-बेटी का संबंध",
             "स्त्री-जीवन और सामाजिक यथार्थ",
             "भाषा और काव्य-शिल्प"
-          ]
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": []
         },
         {
           "id": "c10-hin-21",
           "name": "क्षितिज: संगतकार – मंगलेश डबराल",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "संगतकार की भूमिका",
             "कला, सहयोग और अनदेखा श्रम",
             "भाषा और काव्य-शिल्प"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Kshitij/Kritika literature text",
+            "पाठ-बोध और व्याख्या",
+            "केंद्रीय विचार/भाव",
+            "भाषा एवं साहित्यिक अभिव्यक्ति"
           ]
         },
         {
           "id": "c10-hin-22",
           "name": "कृतिका: माता का आँचल – शिवपूजन सहाय",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "बाल्यजीवन और ग्रामीण परिवेश",
             "माता-पिता और बाल-मन",
             "भाषा-शैली और संस्मरणात्मकता"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Kshitij/Kritika literature text",
+            "पाठ-बोध और व्याख्या",
+            "केंद्रीय विचार/भाव",
+            "भाषा एवं साहित्यिक अभिव्यक्ति"
           ]
         },
         {
           "id": "c10-hin-23",
           "name": "कृतिका: जॉर्ज पंचम की नाक – कमलेश्वर (परीक्षा में प्रश्न नहीं)",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "excluded_from_board",
+            "topics_status": "not_board_question_scope"
+          },
+          "study_concepts": [
             "व्यंग्य और राजनीतिक-सामाजिक संदर्भ",
             "प्रतीक और विडंबना",
             "भाषा-शैली"
-          ]
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": []
         },
         {
           "id": "c10-hin-24",
           "name": "कृतिका: साना-साना हाथ जोड़ि – मधु कांकरिया",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "यात्रा-वृत्तांत और सिक्किम का प्राकृतिक परिवेश",
             "स्थानीय जीवन और संस्कृति",
             "प्रकृति, संवेदना और भाषा-शैली"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Kshitij/Kritika literature text",
+            "पाठ-बोध और व्याख्या",
+            "केंद्रीय विचार/भाव",
+            "भाषा एवं साहित्यिक अभिव्यक्ति"
           ]
         },
         {
           "id": "c10-hin-25",
           "name": "कृतिका: एही ठैयाँ झुलनी हेरानी हो रामा! – शिवप्रसाद मिश्र 'रुद्र' (परीक्षा में प्रश्न नहीं)",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "excluded_from_board",
+            "topics_status": "not_board_question_scope"
+          },
+          "study_concepts": [
             "पाठ-बोध और सामाजिक-सांस्कृतिक संदर्भ",
             "लोक-संस्कृति और मानवीय संवेदना",
             "भाषा-शैली"
-          ]
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": []
         },
         {
           "id": "c10-hin-26",
           "name": "कृतिका: मैं क्यों लिखता हूँ? – अज्ञेय",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "लेखन की प्रेरणा",
             "रचनाकार और सामाजिक अनुभव",
             "सृजन-प्रक्रिया और भाषा-शैली"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Kshitij/Kritika literature text",
+            "पाठ-बोध और व्याख्या",
+            "केंद्रीय विचार/भाव",
+            "भाषा एवं साहित्यिक अभिव्यक्ति"
           ]
         },
         {
           "id": "c10-hin-27",
           "name": "रचनात्मक लेखन",
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
+            "अनुच्छेद लेखन",
+            "पत्र लेखन",
+            "स्ववृत्त लेखन",
+            "ई-मेल लेखन",
+            "विज्ञापन लेखन",
+            "संदेश लेखन"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
           "topics": [
             "अनुच्छेद लेखन",
             "पत्र लेखन",
             "स्ववृत्त लेखन",
             "ई-मेल लेखन",
             "विज्ञापन लेखन",
-            "संवाद लेखन",
-            "लघुकथा लेखन",
-            "संदेश लेखन",
-            "सूचना लेखन"
+            "संदेश लेखन"
           ]
         }
       ]
@@ -267,6 +560,16 @@
         {
           "id": "c10-eng-01",
           "name": "Reading Skills",
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
+            "Discursive unseen passage",
+            "Case-based factual unseen passage with visual input"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
           "topics": [
             "Discursive unseen passage",
             "Case-based factual unseen passage with visual input"
@@ -275,14 +578,39 @@
         {
           "id": "c10-eng-02",
           "name": "Writing Skills",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Formal letter based on a given situation",
             "Analytical paragraph based on a map, chart, graph or cues"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Formal letter",
+            "Analytical paragraph based on visual/verbal input"
           ]
         },
         {
           "id": "c10-eng-03",
           "name": "Grammar",
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
+            "Determiners",
+            "Tenses",
+            "Modals",
+            "Subject–verb concord",
+            "Reported speech: commands and requests",
+            "Reported speech: statements",
+            "Reported speech: questions"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
           "topics": [
             "Determiners",
             "Tenses",
@@ -296,269 +624,623 @@
         {
           "id": "c10-eng-04",
           "name": "First Flight: A Letter to God",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Lencho and his faith",
             "The post office and the letter",
             "Irony, faith and human kindness",
             "Vocabulary, tone and literary devices"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed First Flight literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer/poet message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-05",
           "name": "First Flight: Nelson Mandela – Long Walk to Freedom",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Apartheid and racial oppression",
             "Mandela's ideas of freedom and courage",
             "The inauguration and the rainbow nation",
             "Tone, imagery and key ideas"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed First Flight literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer/poet message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-06",
           "name": "First Flight: Stories About Flying",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "His First Flight: fear and courage",
             "The Black Aeroplane: mystery and uncertainty",
             "Contrast, suspense and symbolism"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed First Flight literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer/poet message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-07",
           "name": "First Flight: From the Diary of Anne Frank",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Anne's diary and need for a friend",
             "School life and relationships",
             "Self-reflection, humour and narrative voice"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed First Flight literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer/poet message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-08",
           "name": "First Flight: Glimpses of India",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "A Baker from Goa: tradition and cultural memory",
             "Coorg: landscape, people and culture",
             "Tea from Assam: tea plantations and history"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed First Flight literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer/poet message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-09",
           "name": "First Flight: Mijbil the Otter",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Mijbil and his relationship with the narrator",
             "Otter behaviour and travel to England",
             "Humour, observation and narrative style"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed First Flight literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer/poet message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-10",
           "name": "First Flight: Madam Rides the Bus",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Valli's curiosity and planning",
             "The bus journey and changing perspective",
             "Maturity, empathy and narrative technique"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed First Flight literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer/poet message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-11",
           "name": "First Flight: The Sermon at Benares",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Kisa Gotami and her grief",
             "Buddha's teaching on death and suffering",
             "Universal message and narrative structure"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed First Flight literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer/poet message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-12",
           "name": "First Flight: The Proposal",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Lomov and Natalya",
             "Arguments over land and the dog",
             "Farce, characterisation and satire"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed First Flight literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer/poet message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-13",
           "name": "First Flight: Dust of Snow",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Nature and change of mood",
             "Symbolism and imagery",
             "Form and poetic devices"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed First Flight literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer/poet message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-14",
           "name": "First Flight: Fire and Ice",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Fire and ice as symbols",
             "Desire, hatred and destruction",
             "Contrast and poetic devices"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed First Flight literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer/poet message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-15",
           "name": "First Flight: A Tiger in the Zoo",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Tiger in captivity",
             "Freedom versus confinement",
             "Imagery, contrast and poetic devices"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed First Flight literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer/poet message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-16",
           "name": "First Flight: How to Tell Wild Animals",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Humorous descriptions of animals",
             "Irony and wordplay",
             "Rhyme and poetic devices"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed First Flight literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer/poet message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-17",
           "name": "First Flight: The Ball Poem",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Loss and growing up",
             "Learning responsibility and acceptance",
             "Symbolism and imagery"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed First Flight literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer/poet message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-18",
           "name": "First Flight: Amanda!",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Amanda's imagination and escape",
             "Restrictions and parental expectations",
             "Repetition, imagery and contrast"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed First Flight literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer/poet message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-19",
           "name": "First Flight: The Trees",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Trees as a symbol of freedom",
             "Movement from confinement to the outside",
             "Personification and imagery"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed First Flight literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer/poet message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-20",
           "name": "First Flight: Fog",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Fog as a cat metaphor",
             "Movement and observation",
             "Imagery and brevity"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed First Flight literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer/poet message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-21",
           "name": "First Flight: The Tale of Custard the Dragon",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Belinda and her pets",
             "Custard's courage",
             "Humour, irony and rhyme"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed First Flight literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer/poet message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-22",
           "name": "First Flight: For Anne Gregory",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Outer beauty and inner worth",
             "Human versus divine love",
             "Dialogue, irony and poetic devices"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed First Flight literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer/poet message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-23",
           "name": "Footprints Without Feet: A Triumph of Surgery",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Tricki's condition",
             "Dr Herriot's treatment",
             "Humour, irony and message"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Footprints Without Feet literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-24",
           "name": "Footprints Without Feet: The Thief's Story",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Hari Singh and Anil",
             "Trust, education and transformation",
             "Characterisation and narrative perspective"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Footprints Without Feet literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-25",
           "name": "Footprints Without Feet: The Midnight Visitor",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Ausable and Fowler",
             "The balcony and the fake story",
             "Suspense, wit and characterisation"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Footprints Without Feet literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-26",
           "name": "Footprints Without Feet: A Question of Trust",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Horace Danby and burglary",
             "The woman posing as the owner",
             "Irony, deception and characterisation"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Footprints Without Feet literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-27",
           "name": "Footprints Without Feet: Footprints Without Feet",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Griffin's invisibility",
             "Misuse of science",
             "Suspense, conflict and characterisation"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Footprints Without Feet literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-28",
           "name": "Footprints Without Feet: The Making of a Scientist",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Richard Ebright's childhood",
             "Scientific curiosity and achievement",
             "Role of family, discipline and experimentation"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Footprints Without Feet literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-29",
           "name": "Footprints Without Feet: The Necklace",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Mathilde's desire and social ambition",
             "The lost necklace and consequences",
             "Irony, twist ending and theme"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Footprints Without Feet literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-30",
           "name": "Footprints Without Feet: Bholi",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Bholi's childhood and education",
             "Self-confidence and transformation",
             "Education, dignity and characterisation"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Footprints Without Feet literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-31",
           "name": "Footprints Without Feet: The Book that Saved the Earth",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Think-Tank and the Martians",
             "Misinterpretation of nursery rhymes",
             "Satire, humour and drama"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Footprints Without Feet literature text",
+            "Reading comprehension and interpretation",
+            "Central idea/theme and writer message",
+            "Literary appreciation"
           ]
         },
         {
           "id": "c10-eng-32",
           "name": "Words and Expressions-II: Units 1–4",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Workbook activities and language practice from Units 1–4"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Words and Expressions-II workbook units"
           ]
         },
         {
           "id": "c10-eng-33",
           "name": "Words and Expressions-II: Units 7–11",
-          "topics": [
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          },
+          "study_concepts": [
             "Workbook activities and language practice from Units 7–11"
+          ],
+          "topics_source": "CBSE 2026-27 assessment/syllabus scope; chapter-specific concepts retained separately as study_concepts",
+          "topics": [
+            "Prescribed Words and Expressions-II workbook units"
           ]
         }
       ]
@@ -576,7 +1258,12 @@
             "Irrationality: proof for √2",
             "Irrationality: proof for √3",
             "Irrationality: proof for √5"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-math-02",
@@ -585,7 +1272,12 @@
             "Geometrical meaning of zeroes",
             "Zeroes of a polynomial",
             "Relationship between zeroes and coefficients of a quadratic polynomial"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-math-03",
@@ -597,7 +1289,12 @@
             "Substitution method",
             "Elimination method",
             "Simple situational problems"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-math-04",
@@ -608,7 +1305,12 @@
             "Solutions by quadratic formula (only real roots)",
             "Discriminant and nature of roots",
             "Simple situational problems"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-math-05",
@@ -618,7 +1320,12 @@
             "nth term of an AP",
             "Sum of first n terms of an AP",
             "Applications in daily-life problems"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-math-06",
@@ -627,7 +1334,12 @@
             "Review of coordinate geometry",
             "Distance formula",
             "Section formula for internal division"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-math-07",
@@ -639,7 +1351,12 @@
             "AA similarity criterion (state without proof)",
             "SSS similarity criterion (state without proof)",
             "SAS similarity criterion (state without proof)"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-math-08",
@@ -649,7 +1366,12 @@
             "Theorem: tangent is perpendicular to radius (prove)",
             "Theorem: tangents from an external point are equal (prove)",
             "Applications of tangent theorems"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-math-09",
@@ -660,7 +1382,12 @@
             "Whichever trigonometric ratios are defined at 0° and 90°",
             "Values of ratios at 30°, 45° and 60°",
             "Relationships between trigonometric ratios"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-math-10",
@@ -669,7 +1396,12 @@
             "Identity sin²A + cos²A = 1",
             "Proof and applications of the identity",
             "Only simple trigonometric identities"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-math-11",
@@ -679,7 +1411,12 @@
             "Angle of depression",
             "Simple heights-and-distances problems using 30°, 45° and 60°",
             "Problems involving no more than two right triangles"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-math-12",
@@ -689,7 +1426,12 @@
             "Area of a segment",
             "Perimeter/circumference in related problems",
             "Segment problems restricted to central angles 60°, 90° and 120°"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-math-13",
@@ -698,7 +1440,12 @@
             "Surface area of combinations of two solids",
             "Volume of combinations of two solids",
             "Combinations involving cube, cuboid, sphere, hemisphere, right circular cylinder and cone"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-math-14",
@@ -710,7 +1457,12 @@
             "Mode of grouped data",
             "Median of grouped data",
             "Bimodal situation to be avoided"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-math-15",
@@ -719,7 +1471,12 @@
             "Classical/theoretical probability",
             "Probability of simple events",
             "Equally likely outcomes and basic probability problems"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         }
       ]
     },
@@ -743,7 +1500,12 @@
             "Exothermic reactions",
             "Oxidation",
             "Reduction"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sci-02",
@@ -754,11 +1516,16 @@
             "Mendeléev’s Periodic Table",
             "Modern Periodic Table",
             "Metallic and non-metallic properties"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sci-03",
-          "name": "Acids, Bases and Salts (formative only)",
+          "name": "Acids, Bases and Salts",
           "topics": [
             "Acids and bases: H⁺ and OH⁻ ions",
             "Indicators",
@@ -770,11 +1537,16 @@
             "Baking soda: preparation and uses",
             "Washing soda: preparation and uses",
             "Plaster of Paris: preparation and uses"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sci-04",
-          "name": "Metals and Non-metals (formative only)",
+          "name": "Metals and Non-metals",
           "topics": [
             "Physical and chemical properties of metals and non-metals",
             "Reactivity series",
@@ -783,11 +1555,16 @@
             "Basic metallurgical processes",
             "Corrosion",
             "Prevention of corrosion"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sci-05",
-          "name": "Carbon and its Compounds (formative only)",
+          "name": "Carbon and its Compounds",
           "topics": [
             "Covalent bonds: formation and properties",
             "Versatile nature of carbon",
@@ -803,7 +1580,12 @@
             "Ethanol: properties and uses",
             "Ethanoic acid: properties and uses",
             "Soaps and detergents"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sci-06",
@@ -816,7 +1598,12 @@
             "Transport in animals",
             "Excretion in plants",
             "Excretion in animals"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sci-07",
@@ -829,7 +1616,12 @@
             "Involuntary action",
             "Reflex action",
             "Animal hormones and chemical coordination"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sci-08",
@@ -843,17 +1635,27 @@
             "Need and methods of family planning",
             "Safe sex and HIV/AIDS",
             "Child bearing and women's health"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sci-09",
-          "name": "Heredity (not assessed in year-end examination)",
+          "name": "Heredity",
           "topics": [
             "Heredity and inheritance of traits",
             "Mendel's contribution",
             "Laws of inheritance",
             "Sex determination"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sci-10",
@@ -866,7 +1668,12 @@
             "Fossils (formative only)",
             "Evolution by stages (formative only)",
             "Human evolution (formative only)"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sci-11",
@@ -889,7 +1696,12 @@
             "Lens magnification",
             "Power of a lens",
             "Applications of spherical mirrors and lenses"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sci-12",
@@ -902,7 +1714,12 @@
             "Dispersion of light",
             "Scattering of light",
             "Applications in daily life (excluding colour of the sun at sunrise and sunset)"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sci-13",
@@ -921,7 +1738,12 @@
             "Applications of heating effect",
             "Electric power",
             "Relations among P, V, I and R"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sci-14",
@@ -941,7 +1763,12 @@
             "Electric motor (formative only)",
             "Electromagnetic induction (formative only)",
             "Electric generator (formative only)"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sci-15",
@@ -953,7 +1780,12 @@
             "Waste production and its solutions",
             "Biodegradable substances",
             "Non-biodegradable substances"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         }
       ]
     },
@@ -977,7 +1809,12 @@
             "The strange case of Britain",
             "Visualising the nation",
             "Nationalism and imperialism"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sst-02",
@@ -997,7 +1834,12 @@
             "Prescribed map work: Satyagraha movements — Kheda, Champaran, Ahmedabad mill workers",
             "Prescribed map work: Jallianwala Bagh",
             "Prescribed map work: Dandi March"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sst-03",
@@ -1008,7 +1850,12 @@
             "Interdisciplinary project / Multiple Assessment: The inter-war economy (Subtopics 2 to 4.4)",
             "Interdisciplinary project / Multiple Assessment: Rebuilding the world economy after the Second World War (Subtopics 2 to 4.4)",
             "Interdisciplinary project with Lifelines of National Economy and Globalisation (Subtopics 2 to 4.4)"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sst-04",
@@ -1024,7 +1871,12 @@
             "Early entrepreneurs and sources of labour",
             "Peculiarities of industrial growth",
             "Market for goods"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "periodic_assessment_only"
+          }
         },
         {
           "id": "c10-sst-05",
@@ -1040,7 +1892,12 @@
             "Manuscripts and religious reform",
             "New publications and print communities",
             "Print and censorship"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sst-06",
@@ -1055,7 +1912,12 @@
             "Soil erosion",
             "Soil conservation",
             "Prescribed map work: Major soil types"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sst-07",
@@ -1067,7 +1929,12 @@
             "Conservation of forest and wildlife",
             "National parks, wildlife sanctuaries and biosphere reserves",
             "Community and conservation"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sst-08",
@@ -1079,7 +1946,12 @@
             "Integrated water resources management",
             "Rainwater harvesting",
             "Prescribed map work: Water resources — Salal, Sardar Sarovar, Bhakra Nangal, Hirakund, Tehri, Nagarjun Sagar, Rana Pratap Sagar, Tungabhadra"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sst-09",
@@ -1094,7 +1966,12 @@
             "Contribution of agriculture to the economy",
             "Prescribed map work: Major areas of Rice and Wheat",
             "Prescribed map work: Largest/Major producer states of Sugarcane, Tea, Coffee, Rubber, Cotton and Jute"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sst-10",
@@ -1109,7 +1986,12 @@
             "Prescribed map work: Coal Mines — Raniganj, Bokaro, Talcher, Neyveli",
             "Prescribed map work: Oil Fields — Digboi, Naharkatia, Mumbai High, Bassien, Kalol, Ankaleshwar",
             "Prescribed map work: Power Plants — Thermal: Namrup, Singrauli, Ramagundam; Nuclear: Narora, Kakrapara, Tarapur, Kalpakkam"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sst-11",
@@ -1133,7 +2015,12 @@
             "Prescribed map work: Cotton textile industries — Mumbai, Indore, Surat, Kanpur, Coimbatore",
             "Prescribed map work: Iron and steel plants — Durgapur, Bokaro, Jamshedpur, Bhilai, Vijayanagar, Salem",
             "Prescribed map work: Software technology parks — Noida, Gandhinagar, Mumbai, Pune, Hyderabad, Bengaluru, Chennai, Thiruvananthapuram"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sst-12",
@@ -1150,7 +2037,12 @@
             "Only map pointing is evaluated in the Board Examination",
             "Prescribed map work: Major sea ports — Kandla, Tuticorin, Mumbai, Chennai, Marmagao, Visakhapatnam, New Mangalore, Paradip, Kochi, Haldia",
             "Prescribed map work: International airports — Amritsar, Delhi, Mumbai, Chennai, Kolkata, Hyderabad"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sst-13",
@@ -1163,7 +2055,12 @@
             "Power sharing among governments",
             "Power sharing among social groups",
             "Power sharing among political parties, pressure groups and movements"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sst-14",
@@ -1179,7 +2076,12 @@
             "Centre-State relations",
             "Decentralisation in India",
             "Panchayats and municipalities"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sst-15",
@@ -1191,7 +2093,12 @@
             "Communalism",
             "Caste inequalities",
             "Caste and politics"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sst-16",
@@ -1203,7 +2110,12 @@
             "National and state parties",
             "Challenges to political parties",
             "Reforms to strengthen political parties"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sst-17",
@@ -1217,7 +2129,12 @@
             "Reduction of inequality and poverty",
             "Accommodation of social diversity",
             "Dignity and freedom of citizens"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sst-18",
@@ -1231,7 +2148,12 @@
             "Public facilities",
             "Human development indicators",
             "Sustainability of development"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sst-19",
@@ -1244,7 +2166,12 @@
             "Comparing sectors: employment and GDP",
             "Disguised unemployment",
             "How to create more employment"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sst-20",
@@ -1257,7 +2184,12 @@
             "Formal sources of credit",
             "Informal sources of credit",
             "Self-Help Groups"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sst-21",
@@ -1273,7 +2205,12 @@
             "Interdisciplinary project / Multiple Assessment: The struggle for a fair globalisation",
             "G20 and India’s role",
             "Interdisciplinary project linkage"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-sst-22",
@@ -1284,7 +2221,12 @@
             "Consumer responsibilities",
             "Consumer protection mechanisms",
             "Project work: Consumer Rights OR Social Issues OR Sustainable Development"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "project_or_internal_assessment"
+          }
         }
       ]
     },
@@ -1306,7 +2248,12 @@
             "Principles of effective communication",
             "7 Cs of effective communication",
             "Basic writing skills: sentence, phrase, kinds of sentences, parts of sentence, parts of speech, articles, construction of a paragraph"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-it-02",
@@ -1322,7 +2269,12 @@
             "Self-regulation",
             "Goal setting",
             "Planning and executing an activity independently"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-it-03",
@@ -1339,7 +2291,12 @@
             "Protecting computers against viruses",
             "Scanning and cleaning viruses",
             "Removing spam files, temporary files and folders"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-it-04",
@@ -1350,7 +2307,12 @@
             "Role and importance of an entrepreneur",
             "Myths about entrepreneurship",
             "Entrepreneurship as a career option"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-it-05",
@@ -1359,7 +2321,12 @@
             "Definition of sustainable development",
             "Importance of sustainable development",
             "Problems related to sustainable development"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-it-06",
@@ -1374,7 +2341,12 @@
             "Updating a style",
             "Loading styles from a template or document",
             "Applying styles"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-it-07",
@@ -1392,7 +2364,12 @@
             "Anchoring",
             "Alignment",
             "Text wrapping"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-it-08",
@@ -1413,7 +2390,12 @@
             "Accepting and rejecting changes",
             "Adding and deleting comments",
             "Comparing documents"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-it-09",
@@ -1425,7 +2407,12 @@
             "What-if analysis tools",
             "Goal Seek",
             "Solver"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-it-10",
@@ -1439,7 +2426,12 @@
             "Writing macros as functions",
             "Accessing cells directly",
             "Sorting columns using a macro"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-it-11",
@@ -1453,7 +2445,12 @@
             "Creating, editing and removing hyperlinks",
             "Linking to external data",
             "Linking to registered data sources"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-it-12",
@@ -1467,7 +2464,12 @@
             "Accepting and rejecting changes",
             "Merging sheets",
             "Comparing sheets"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-it-13",
@@ -1483,7 +2485,12 @@
             "RDBMS terminology",
             "Primary and foreign keys",
             "Objects of an RDBMS"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-it-14",
@@ -1502,7 +2509,12 @@
             "Editing data",
             "Deleting records from a table",
             "Sorting data in a table"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-it-15",
@@ -1517,7 +2529,12 @@
             "Advantages of relating tables in a database",
             "Creating relationships between tables",
             "Field properties"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-it-16",
@@ -1530,7 +2547,12 @@
             "Criteria in queries",
             "Wildcards and conditions",
             "Numerical data and calculations"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-it-17",
@@ -1549,7 +2571,12 @@
             "Inserting other controls in reports",
             "Inserting titles and headings",
             "Inserting date and time"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-it-18",
@@ -1572,7 +2599,12 @@
             "Working environment",
             "Hazard control",
             "Safety guidelines checklist"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-it-19",
@@ -1588,7 +2620,12 @@
             "Risks of visual problems: headaches, obesity, stress disorders, injuries from laptop use, sleeping problems",
             "Health and safety requirements for computer workplace",
             "Cautions while working on the computer"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         },
         {
           "id": "c10-it-20",
@@ -1610,9 +2647,20 @@
             "Identification of material and ignition sources",
             "First aid for electrical emergencies",
             "Electrical rescue techniques"
-          ]
+          ],
+          "audit": {
+            "cbse_session": "2026-27",
+            "structure_status": "valid_subdivision",
+            "assessment_status": "board_or_curriculum"
+          }
         }
       ]
     }
-  ]
+  ],
+  "audit_policy": {
+    "source_of_truth": "CBSE official curriculum 2026-27",
+    "subdivision_rule": "EdTracker may subdivide official CBSE units/chapters; subdivisions must remain within the official CBSE scope.",
+    "third_party_rule": "Trusted third-party 2026-27 educational sources may corroborate, but may not expand the CBSE syllabus boundary.",
+    "study_concept_rule": "Derived learning/study concepts are kept separately from official syllabus topics."
+  }
 }

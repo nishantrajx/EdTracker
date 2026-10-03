@@ -7,22 +7,26 @@
         {
           "label": "Fundamental Theorem of Arithmetic",
           "tex": "N=p_1^{a_1}p_2^{a_2}\\cdots p_k^{a_k}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Prime factorisation: HCF",
           "tex": "\\operatorname{HCF}(a,b)=\\prod p_i^{\\min(\\alpha_i,\\beta_i)}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Prime factorisation: LCM",
           "tex": "\\operatorname{LCM}(a,b)=\\prod p_i^{\\max(\\alpha_i,\\beta_i)}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "HCF–LCM relationship",
           "tex": "\\operatorname{HCF}(a,b)\\times\\operatorname{LCM}(a,b)=a\\times b",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         }
       ]
     },
@@ -32,27 +36,32 @@
         {
           "label": "Quadratic polynomial",
           "tex": "p(x)=ax^2+bx+c,\\quad a\\ne0",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Sum of zeroes",
           "tex": "\\alpha+\\beta=-\\frac{b}{a}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Product of zeroes",
           "tex": "\\alpha\\beta=\\frac{c}{a}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Quadratic polynomial from zeroes",
           "tex": "p(x)=a\\left[x^2-(\\alpha+\\beta)x+\\alpha\\beta\\right]",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Zero of a polynomial",
           "tex": "p(\\alpha)=0",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         }
       ]
     },
@@ -62,27 +71,32 @@
         {
           "label": "Standard pair of linear equations",
           "tex": "a_1x+b_1y+c_1=0,\\qquad a_2x+b_2y+c_2=0",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Unique solution condition",
           "tex": "\\frac{a_1}{a_2}\\ne\\frac{b_1}{b_2}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "No solution condition",
           "tex": "\\frac{a_1}{a_2}=\\frac{b_1}{b_2}\\ne\\frac{c_1}{c_2}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Infinitely many solutions condition",
           "tex": "\\frac{a_1}{a_2}=\\frac{b_1}{b_2}=\\frac{c_1}{c_2}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Substitution method",
           "tex": "x=\\frac{-b_1y-c_1}{a_1}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         }
       ]
     },
@@ -92,32 +106,38 @@
         {
           "label": "Standard form",
           "tex": "ax^2+bx+c=0,\\quad a\\ne0",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Quadratic formula",
           "tex": "x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Discriminant",
           "tex": "D=b^2-4ac",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Two distinct real roots",
           "tex": "D>0",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Equal real roots",
           "tex": "D=0",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "No real roots",
           "tex": "D<0",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         }
       ]
     },
@@ -127,22 +147,26 @@
         {
           "label": "nth term of an AP",
           "tex": "a_n=a+(n-1)d",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Common difference",
           "tex": "d=a_{n+1}-a_n",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Sum of first n terms",
           "tex": "S_n=\\frac{n}{2}\\left[2a+(n-1)d\\right]",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Sum using first and last terms",
           "tex": "S_n=\\frac{n}{2}(a+l)",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         }
       ]
     },
@@ -152,22 +176,26 @@
         {
           "label": "Distance between two points",
           "tex": "d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Distance from origin",
           "tex": "OP=\\sqrt{x^2+y^2}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Section formula: internal division",
           "tex": "\\left(\\frac{mx_2+nx_1}{m+n},\\frac{my_2+ny_1}{m+n}\\right)",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Midpoint formula",
           "tex": "\\left(\\frac{x_1+x_2}{2},\\frac{y_1+y_2}{2}\\right)",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         }
       ]
     },
@@ -177,32 +205,38 @@
         {
           "label": "Basic Proportionality Theorem",
           "tex": "\\frac{AD}{DB}=\\frac{AE}{EC}",
-          "unit": ""
+          "unit": "",
+          "type": "theorem"
         },
         {
           "label": "Converse of BPT",
           "tex": "\\frac{AD}{DB}=\\frac{AE}{EC}\\Rightarrow DE\\parallel BC",
-          "unit": ""
+          "unit": "",
+          "type": "theorem"
         },
         {
           "label": "AA similarity",
           "tex": "\\angle A=\\angle D,\\quad\\angle B=\\angle E\\Rightarrow\\triangle ABC\\sim\\triangle DEF",
-          "unit": ""
+          "unit": "",
+          "type": "theorem"
         },
         {
           "label": "SSS similarity",
           "tex": "\\frac{AB}{DE}=\\frac{BC}{EF}=\\frac{CA}{FD}\\Rightarrow\\triangle ABC\\sim\\triangle DEF",
-          "unit": ""
+          "unit": "",
+          "type": "theorem"
         },
         {
           "label": "SAS similarity",
           "tex": "\\frac{AB}{DE}=\\frac{AC}{DF},\\quad\\angle A=\\angle D\\Rightarrow\\triangle ABC\\sim\\triangle DEF",
-          "unit": ""
+          "unit": "",
+          "type": "theorem"
         },
         {
           "label": "Corresponding sides of similar triangles",
           "tex": "\\triangle ABC\\sim\\triangle DEF\\Rightarrow\\frac{AB}{DE}=\\frac{BC}{EF}=\\frac{CA}{FD}",
-          "unit": ""
+          "unit": "",
+          "type": "theorem"
         }
       ]
     },
@@ -212,12 +246,14 @@
         {
           "label": "Tangent–radius theorem",
           "tex": "OT\\perp PT",
-          "unit": ""
+          "unit": "",
+          "type": "theorem"
         },
         {
           "label": "Tangents from an external point",
           "tex": "PA=PB",
-          "unit": ""
+          "unit": "",
+          "type": "theorem"
         }
       ]
     },
@@ -227,62 +263,74 @@
         {
           "label": "Sine of an acute angle",
           "tex": "\\sin\\theta=\\frac{\\text{perpendicular}}{\\text{hypotenuse}}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Cosine of an acute angle",
           "tex": "\\cos\\theta=\\frac{\\text{base}}{\\text{hypotenuse}}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Tangent of an acute angle",
           "tex": "\\tan\\theta=\\frac{\\text{perpendicular}}{\\text{base}}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Cosecant",
           "tex": "\\cosec\\theta=\\frac{1}{\\sin\\theta}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Secant",
           "tex": "\\sec\\theta=\\frac{1}{\\cos\\theta}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Cotangent",
           "tex": "\\cot\\theta=\\frac{1}{\\tan\\theta}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Tangent as sine/cosine",
           "tex": "\\tan\\theta=\\frac{\\sin\\theta}{\\cos\\theta}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Cotangent as cosine/sine",
           "tex": "\\cot\\theta=\\frac{\\cos\\theta}{\\sin\\theta}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Standard-angle sine values",
           "tex": "\\sin0^\\circ=0,\\quad\\sin30^\\circ=\\frac12,\\quad\\sin45^\\circ=\\frac1{\\sqrt2},\\quad\\sin60^\\circ=\\frac{\\sqrt3}{2},\\quad\\sin90^\\circ=1",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Standard-angle cosine values",
           "tex": "\\cos0^\\circ=1,\\quad\\cos30^\\circ=\\frac{\\sqrt3}{2},\\quad\\cos45^\\circ=\\frac1{\\sqrt2},\\quad\\cos60^\\circ=\\frac12,\\quad\\cos90^\\circ=0",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Standard-angle tangent values",
           "tex": "\\tan0^\\circ=0,\\quad\\tan30^\\circ=\\frac1{\\sqrt3},\\quad\\tan45^\\circ=1,\\quad\\tan60^\\circ=\\sqrt3",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Standard-angle reciprocal ratios",
           "tex": "\\cosec30^\\circ=2,\\;\\cosec45^\\circ=\\sqrt2,\\;\\cosec60^\\circ=\\frac2{\\sqrt3};\\quad\\sec0^\\circ=1,\\;\\sec30^\\circ=\\frac2{\\sqrt3},\\;\\sec45^\\circ=\\sqrt2,\\;\\sec60^\\circ=2;\\quad\\cot30^\\circ=\\sqrt3,\\;\\cot45^\\circ=1,\\;\\cot60^\\circ=\\frac1{\\sqrt3}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         }
       ]
     },
@@ -292,27 +340,32 @@
         {
           "label": "Fundamental trigonometric identity",
           "tex": "\\sin^2A+\\cos^2A=1",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Identity: 1 + tan²A = sec²A",
           "tex": "1+\\tan^2A=\\sec^2A",
-          "unit": ""
+          "unit": "",
+          "type": "supporting_result"
         },
         {
           "label": "Identity: 1 + cot²A = cosec²A",
           "tex": "1+\\cot^2A=\\cosec^2A",
-          "unit": ""
+          "unit": "",
+          "type": "supporting_result"
         },
         {
           "label": "Reciprocal relationships",
           "tex": "\\sin A=\\frac1{\\cosec A},\\quad\\cos A=\\frac1{\\sec A},\\quad\\tan A=\\frac1{\\cot A}",
-          "unit": ""
+          "unit": "",
+          "type": "supporting_result"
         },
         {
           "label": "Quotient relationships",
           "tex": "\\tan A=\\frac{\\sin A}{\\cos A},\\quad\\cot A=\\frac{\\cos A}{\\sin A}",
-          "unit": ""
+          "unit": "",
+          "type": "supporting_result"
         }
       ]
     },
@@ -322,27 +375,32 @@
         {
           "label": "Tangent definition in height problems",
           "tex": "\\tan\\theta=\\frac{\\text{height}}{\\text{horizontal distance}}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Angle of elevation",
           "tex": "\\tan\\theta=\\frac{h}{d}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Height from elevation angle",
           "tex": "h=d\\tan\\theta",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Distance from elevation angle",
           "tex": "d=\\frac{h}{\\tan\\theta}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Angle of depression",
           "tex": "\\tan\\theta=\\frac{\\text{vertical difference}}{\\text{horizontal distance}}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         }
       ]
     },
@@ -352,37 +410,44 @@
         {
           "label": "Circumference of a circle",
           "tex": "C=2\\pi r",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Area of a circle",
           "tex": "A=\\pi r^2",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Arc length",
           "tex": "l=\\frac{\\theta}{360^\\circ}\\,2\\pi r",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Area of a sector",
           "tex": "A_{\\text{sector}}=\\frac{\\theta}{360^\\circ}\\,\\pi r^2",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Perimeter of a sector",
           "tex": "P_{\\text{sector}}=2r+\\frac{\\theta}{360^\\circ}\\,2\\pi r",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Area of a segment",
           "tex": "A_{\\text{segment}}=A_{\\text{sector}}-A_{\\text{triangle}}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Area of a sector using arc length",
           "tex": "A_{\\text{sector}}=\\frac12rl",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         }
       ]
     },
@@ -392,77 +457,98 @@
         {
           "label": "Cuboid volume",
           "tex": "V=lbh",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Cuboid total surface area",
           "tex": "TSA=2(lb+bh+hl)",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Cube volume",
           "tex": "V=a^3",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Cube total surface area",
           "tex": "TSA=6a^2",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Cylinder curved surface area",
           "tex": "CSA=2\\pi rh",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Cylinder total surface area",
           "tex": "TSA=2\\pi r(h+r)",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Cylinder volume",
           "tex": "V=\\pi r^2h",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Cone curved surface area",
           "tex": "CSA=\\pi rl",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Cone total surface area",
           "tex": "TSA=\\pi r(l+r)",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Cone volume",
           "tex": "V=\\frac13\\pi r^2h",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
+        },
+        {
+          "label": "Cone slant height",
+          "tex": "l=\\sqrt{r^2+h^2}",
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Sphere surface area",
           "tex": "SA=4\\pi r^2",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Sphere volume",
           "tex": "V=\\frac43\\pi r^3",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Hemisphere curved surface area",
           "tex": "CSA=2\\pi r^2",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Hemisphere total surface area",
           "tex": "TSA=3\\pi r^2",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Hemisphere volume",
           "tex": "V=\\frac23\\pi r^3",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         }
       ]
     },
@@ -472,42 +558,56 @@
         {
           "label": "Mean: direct method",
           "tex": "\\bar{x}=\\frac{\\sum f_ix_i}{\\sum f_i}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Assumed mean method",
           "tex": "\\bar{x}=a+\\frac{\\sum f_id_i}{\\sum f_i}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Step-deviation method",
           "tex": "\\bar{x}=a+h\\frac{\\sum f_iu_i}{\\sum f_i}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Class mark",
           "tex": "x_i=\\frac{\\text{upper class limit}+\\text{lower class limit}}{2}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Deviation from assumed mean",
           "tex": "d_i=x_i-a",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Step deviation",
           "tex": "u_i=\\frac{x_i-a}{h}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
+        },
+        {
+          "label": "Total frequency",
+          "tex": "N=\\sum f_i",
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Grouped-data median",
           "tex": "\\operatorname{Median}=l+\\left(\\frac{\\frac{N}{2}-cf}{f}\\right)h",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Grouped-data mode",
           "tex": "\\operatorname{Mode}=l+\\left(\\frac{f_1-f_0}{2f_1-f_0-f_2}\\right)h",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         }
       ]
     },
@@ -517,34 +617,51 @@
         {
           "label": "Classical probability",
           "tex": "P(E)=\\frac{\\text{number of favourable outcomes}}{\\text{total number of equally likely outcomes}}",
-          "unit": ""
+          "unit": "",
+          "type": "formula"
         },
         {
           "label": "Probability range",
           "tex": "0\\le P(E)\\le1",
-          "unit": ""
+          "unit": "",
+          "type": "supporting_result"
         },
         {
           "label": "Complementary event",
           "tex": "P(\\overline{E})=1-P(E)",
-          "unit": ""
+          "unit": "",
+          "type": "supporting_result"
         },
         {
           "label": "Sure event",
           "tex": "P(S)=1",
-          "unit": ""
+          "unit": "",
+          "type": "supporting_result"
         },
         {
           "label": "Impossible event",
           "tex": "P(\\varnothing)=0",
-          "unit": ""
+          "unit": "",
+          "type": "supporting_result"
         },
         {
           "label": "Sum of elementary-event probabilities",
           "tex": "\\sum P(E_i)=1",
-          "unit": ""
+          "unit": "",
+          "type": "supporting_result"
         }
       ]
     }
-  ]
+  ],
+  "_audit": {
+    "session": "2026-27",
+    "source_of_truth": "CBSE Class 10 Mathematics 2026-27 syllabus",
+    "purpose": "Corrected formula dataset while preserving EdTracker chapter organization",
+    "changes": [
+      "Added cone slant-height formula l = sqrt(r^2 + h^2).",
+      "Added total frequency N = sum f_i for grouped-data statistics.",
+      "Classified theorem/result entries separately from formulas."
+    ],
+    "note": "Existing formula content was preserved; no unsupported coaching-site formulas were added."
+  }
 }
