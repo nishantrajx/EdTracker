@@ -326,7 +326,8 @@
       "Preserved the supplied tip wording.",
       "Promoted section/chapter mistakes into the top-level mistakes array and removed exact duplicates.",
       "Added display-compatible weightage labels while preserving the supplied marks and chapter/section IDs.",
-      "Preserved the supplied study order and resources."
+      "Preserved the supplied study order and resources.",
+      "Added a concise theory-weightage/scope note; no existing content removed."
     ],
     "validation": [
       "10 source sections/units preserved.",
@@ -334,5 +335,6 @@
       "10 unique mistake entries preserved.",
       "The supplied theory weightage is retained."
     ]
-  }
+  },
+  "note": "Official 2026-27 theory chapter-wise marks are retained exactly as supplied in the weightage section. The b* notation is preserved from the supplied course structure; total theory marks are 70. Practical/internal-assessment preparation remains outside this tips scope."
 }

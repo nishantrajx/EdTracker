@@ -184,7 +184,8 @@
       "Promoted section/chapter mistakes into the top-level mistakes array and removed exact duplicates.",
       "Added display-compatible weightage labels while preserving the supplied marks and chapter/section IDs.",
       "Preserved the supplied study order and resources.",
-      "Removed the Listening and speaking assessment tip because the file scope excludes internal assessment."
+      "Removed the Listening and speaking assessment tip because the file scope excludes internal assessment.",
+      "Added a concise theory-weightage/scope note; no existing content removed."
     ],
     "validation": [
       "5 source sections/units preserved.",
@@ -310,5 +311,6 @@
       "label": "Vistas — Memories of Childhood",
       "text": "Prepare both prescribed parts—The Cutting of My Long Hair and We Too are Human Beings—for prose-based questions. Practise inferential short answers and analytical/evaluative long answers using relevant incidents, events and themes."
     }
-  ]
+  ],
+  "note": "Official 2026-27 theory: Reading Skills 22, Creative Writing Skills 18, Literature Text Book and Supplementary Reading Text 40; total 80. Internal assessment (Listening, Speaking and Project Work) is outside this written/theory scope."
 }

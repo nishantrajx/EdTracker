@@ -113,7 +113,8 @@
     },
     {
       "label": "Listening and speaking assessment",
-      "text": "Practise the internal listening-and-speaking component through interactive turn-taking, fluency/coherence, pronunciation, vocabulary and grammar; use regular speaking/listening practice rather than written-only preparation."
+      "text": "Practise the internal listening-and-speaking component through interactive turn-taking, fluency/coherence, pronunciation, vocabulary and grammar; use regular speaking/listening practice rather than written-only preparation.",
+      "assessment_note": "Internal-assessment component; not part of the written/theory marks covered by this scope."
     }
   ],
   "mistakes": [
@@ -167,6 +168,9 @@
       "Literature short/long answer word limits and choice patterns are preserved.",
       "Words and Expressions-II coverage is Units 1–4 and 7–11.",
       "Internal listening/speaking guidance is retained separately from the 80-mark theory paper."
+    ],
+    "changes": [
+      "Added an assessment-scope note to the existing Listening/Speaking tip; tip retained."
     ]
   }
 }

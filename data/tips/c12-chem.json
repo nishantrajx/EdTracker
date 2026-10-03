@@ -322,7 +322,8 @@
       "Preserved the supplied tip wording.",
       "Promoted section/chapter mistakes into the top-level mistakes array and removed exact duplicates.",
       "Added display-compatible weightage labels while preserving the supplied marks and chapter/section IDs.",
-      "Preserved the supplied study order and resources."
+      "Preserved the supplied study order and resources.",
+      "Added a chapter-wise theory-weightage note; no existing content removed."
     ],
     "validation": [
       "10 source sections/units preserved.",
@@ -330,5 +331,6 @@
       "11 unique mistake entries preserved.",
       "The supplied theory weightage is retained."
     ]
-  }
+  },
+  "note": "Official 2026-27 theory chapter-wise marks retained from the supplied course structure: Solutions 7, Electrochemistry 9, Chemical Kinetics 7, d- and f-Block Elements 7, Coordination Compounds 7, Haloalkanes and Haloarenes 6, Alcohols, Phenols and Ethers 6, Aldehydes, Ketones and Carboxylic Acids 8, Amines 6, Biomolecules 7; total 70."
 }
