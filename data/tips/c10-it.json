@@ -52,7 +52,7 @@
       "marks": "10"
     }
   ],
-  "note": "Official 2026-27 theory marks: Part A Employability Skills 10 and Part B subject-specific skills 40 (Writer 8, Calc 10, Base 12, workplace health/safety/security 10). The other 50 marks are practical: practical examination and viva 30, project work 10, portfolio/practical file 10. The portfolio is specified to contain printouts of at least 5 problems each from Writer, Calc and Base.",
+  "note": "Official 2026-27 assessment: Part A Employability Skills = 10 theory marks; Part B subject-specific skills = 40 theory marks (Digital Documentation 8, Electronic Spreadsheet 10, Database Management System 12, Maintain Healthy, Safe and Secure Working Environment 10). The remaining 50 marks are practical/internal assessment: practical examination and viva 30, project work 10, and portfolio/practical file 10. The portfolio is specified to contain printouts of at least 5 problems each from Writer, Calc and Base.",
   "reference": [
     {
       "label": "Communication cycle",
@@ -158,5 +158,31 @@
       "label": "CBSE Department of Skill Education",
       "url": "https://cbseacademic.nic.in/skill-education.html"
     }
-  ]
+  ],
+  "subject_name": "Information Technology",
+  "subject_code": "402",
+  "session": "2026-27",
+  "_audit": {
+    "status": "PASS",
+    "scope": "Class 10 CBSE Information Technology (402), 2026-27",
+    "basis": [
+      "CBSE Class X Information Technology (402) 2026-27 curriculum",
+      "Supplied EdTracker IT syllabus structure"
+    ],
+    "corrections": [
+      "Added subject_name, subject_code, and session metadata.",
+      "Standardized the assessment note to clearly separate 50 theory marks from 50 practical/internal-assessment marks.",
+      "Retained the supplied Part A/Part B mappings and hands-on preparation guidance.",
+      "Retained Unit 4 as Maintain Healthy, Safe and Secure Working Environment, matching the detailed unit/chapter structure used in the supplied syllabus."
+    ],
+    "validation": [
+      "JSON parses successfully.",
+      "Theory weightage totals 50 marks: 10 + 8 + 10 + 12 + 10.",
+      "Practical/internal assessment totals 50 marks.",
+      "All 20 IT chapter IDs are represented exactly once across the weightage blocks.",
+      "Writer, Calc, Base and workplace-safety tips are represented.",
+      "Practical-exam, project and portfolio preparation is explicitly covered.",
+      "Reference tips, mistakes, study order and resources are preserved."
+    ]
+  }
 }

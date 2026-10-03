@@ -90,6 +90,46 @@
           "label": "van't Hoff factor for dissociation",
           "tex": "i=1+\\alpha(n-1)",
           "unit": "dimensionless"
+        },
+        {
+          "label": "Molarity in terms of mass",
+          "tex": "M=\\frac{w_2/M_2}{V(\\mathrm L)}",
+          "unit": "mol L^{-1}"
+        },
+        {
+          "label": "Molality in terms of masses",
+          "tex": "m=\\frac{w_2/M_2}{w_1(\\mathrm{kg})}",
+          "unit": "mol kg^{-1}"
+        },
+        {
+          "label": "Mole fraction of solute",
+          "tex": "x_2=\\frac{n_2}{n_1+n_2}",
+          "unit": "dimensionless"
+        },
+        {
+          "label": "Mole fraction of solvent",
+          "tex": "x_1=\\frac{n_1}{n_1+n_2}",
+          "unit": "dimensionless"
+        },
+        {
+          "label": "Mole-fraction sum",
+          "tex": "x_1+x_2=1",
+          "unit": "dimensionless"
+        },
+        {
+          "label": "Molar mass from elevation of boiling point",
+          "tex": "M_2=\\frac{K_b w_2\\times1000}{\\Delta T_b w_1}",
+          "unit": "g mol^{-1}"
+        },
+        {
+          "label": "Molar mass from depression of freezing point",
+          "tex": "M_2=\\frac{K_f w_2\\times1000}{\\Delta T_f w_1}",
+          "unit": "g mol^{-1}"
+        },
+        {
+          "label": "Molar mass from osmotic pressure",
+          "tex": "M_2=\\frac{w_2RT}{\\pi V}",
+          "unit": "g mol^{-1}"
         }
       ]
     },
@@ -134,7 +174,7 @@
         {
           "label": "Resistance",
           "tex": "R=\\rho\\frac{l}{A}",
-          "unit": "\\\\Omega"
+          "unit": "\\Omega"
         },
         {
           "label": "Conductance",
@@ -160,6 +200,31 @@
           "label": "Kohlrausch's law",
           "tex": "\\Lambda_m^\\circ=\\nu_+\\lambda_+^\\circ+\\nu_-\\lambda_-^\\circ",
           "unit": "S cm² mol⁻¹"
+        },
+        {
+          "label": "Conductivity-resistivity relation",
+          "tex": "\\kappa=\\frac1\\rho",
+          "unit": "S m^{-1}"
+        },
+        {
+          "label": "Molar conductivity in SI concentration form",
+          "tex": "\\Lambda_m=\\frac{\\kappa}{c}",
+          "unit": "S m^2 mol^{-1}"
+        },
+        {
+          "label": "Cell constant",
+          "tex": "\\text{Cell constant}=\\frac{l}{A}",
+          "unit": "m^{-1}"
+        },
+        {
+          "label": "Faraday constant relation",
+          "tex": "F=N_Ae",
+          "unit": "C mol^{-1}"
+        },
+        {
+          "label": "Standard EMF from standard Gibbs energy",
+          "tex": "E^\\circ_{\\rm cell}=-\\frac{\\Delta G^\\circ}{nF}",
+          "unit": "V"
         }
       ]
     },
@@ -230,6 +295,21 @@
           "label": "Two-temperature Arrhenius form",
           "tex": "\\log\\frac{k_2}{k_1}=\\frac{E_a}{2.303R}\\left(\\frac1{T_1}-\\frac1{T_2}\\right)",
           "unit": "—"
+        },
+        {
+          "label": "First-order rate constant (natural-log form)",
+          "tex": "k=\\frac1t\\ln\\frac{[A]_0}{[A]_t}",
+          "unit": "time^{-1}"
+        },
+        {
+          "label": "First-order time-concentration relation",
+          "tex": "\\ln\\frac{[A]_0}{[A]_t}=kt",
+          "unit": "dimensionless"
+        },
+        {
+          "label": "Activation energy from two rate constants",
+          "tex": "E_a=\\frac{2.303R\\,\\log(k_2/k_1)}{(1/T_1)-(1/T_2)}",
+          "unit": "J mol^{-1}"
         }
       ]
     },
@@ -240,6 +320,21 @@
           "label": "Magnetic moment of transition ion",
           "tex": "\\mu=\\sqrt{n(n+2)}\\,\\mathrm{BM}",
           "unit": "BM"
+        },
+        {
+          "label": "General electronic configuration of d-block elements",
+          "tex": "(n-1)d^{1-10}ns^{0-2}",
+          "unit": "},\n{\"label\":\"General electronic configuration of lanthanoids\",\"tex\":\"[Xe]4f^{1-14}5d^{0-1}6s^2\",\"unit\":"
+        },
+        {
+          "label": "General electronic configuration of actinoids",
+          "tex": "[Rn]5f^{1-14}6d^{0-1}7s^2",
+          "unit": "}])\n\nadd_unique(\"c12-chem-05\",[\n{\"label\":\"Coordination number\",\"tex\":\"\\text{CN}=\\text{number of donor atoms directly bonded to central metal ion}\",\"unit\":"
+        },
+        {
+          "label": "General electronic configuration of lanthanoids",
+          "tex": "[Xe]4f^{1-14}5d^{0-1}6s^2",
+          "unit": ""
         }
       ]
     },
@@ -250,6 +345,21 @@
           "label": "Magnetic moment of coordination compound",
           "tex": "\\mu=\\sqrt{n(n+2)}\\,\\mathrm{BM}",
           "unit": "BM"
+        },
+        {
+          "label": "Effective atomic number",
+          "tex": "\\mathrm{EAN}=Z-\\text{oxidation state}+\\text{electrons donated by ligands}",
+          "unit": "dimensionless"
+        },
+        {
+          "label": "Oxidation-state balance in coordination entity",
+          "tex": "\\text{oxidation state of metal}+\\text{sum of ligand charges}=\\text{charge on complex ion}",
+          "unit": ""
+        },
+        {
+          "label": "Coordination number",
+          "tex": "\\text{CN}=\\text{number of donor atoms directly bonded to central metal ion}",
+          "unit": ""
         }
       ]
     },
@@ -370,6 +480,41 @@
           "label": "Iododeamination",
           "tex": "Ar-N_2^+Cl^-+KI\\rightarrow Ar-I+N_2+KCl",
           "unit": ""
+        },
+        {
+          "label": "Finkelstein reaction (iodide form)",
+          "tex": "R-Cl+NaI\\xrightarrow{\\text{dry acetone}}R-I+NaCl",
+          "unit": "},\n{\"label\":\"Dehydrohalogenation (generic)\",\"tex\":\"R-CH_2-CHX-R'\\xrightarrow{\\text{alc. KOH},\\Delta}R-CH=CH-R'+KX+H_2O\",\"unit\":\"\"}])\n\nadd_unique(\"c12-chem-07\",[\n{\"label\":\"Ether formation from alcohols\",\"tex\":\"2ROH\\xrightarrow{\\mathrm{conc.\\ H_2SO_4},\\ 413K}ROR+H_2O\",\"unit\":"
+        },
+        {
+          "label": "Oxidation of secondary alcohol",
+          "tex": "R_2CHOH+[O]\\rightarrow R_2CO+H_2O",
+          "unit": "},\n{\"label\":\"Phenol bromination\",\"tex\":\"C_6H_5OH+3Br_2\\rightarrow2,4,6\\text{-tribromophenol}+3HBr\",\"unit\":\"\"}])\n\nadd_unique(\"c12-chem-08\",[\n{\"label\":\"Ketone formation by oxidation of secondary alcohol\",\"tex\":\"R_2CHOH+[O]\\rightarrow R_2CO+H_2O\",\"unit\":"
+        },
+        {
+          "label": "Aldehyde formation by Rosenmund reduction",
+          "tex": "RCOCl+H_2\\xrightarrow{Pd/BaSO_4}RCHO+HCl",
+          "unit": "},\n{\"label\":\"Ketone formation by Friedel-Crafts acylation\",\"tex\":\"ArH+RCOCl\\xrightarrow{AlCl_3}ArCOR+HCl\",\"unit\":"
+        },
+        {
+          "label": "Aldehyde reduction by Clemmensen",
+          "tex": "RCHO\\xrightarrow{Zn(Hg)/HCl}RCH_3",
+          "unit": "},\n{\"label\":\"Ketone reduction by Clemmensen\",\"tex\":\"RCOR'\\xrightarrow{Zn(Hg)/HCl}RCH_2R'\",\"unit\":"
+        },
+        {
+          "label": "Carbonyl reduction by Wolff-Kishner",
+          "tex": "R_2CO\\xrightarrow{NH_2NH_2/KOH,\\Delta}R_2CH_2",
+          "unit": "},\n{\"label\":\"Acid chloride formation\",\"tex\":\"RCOOH+SOCl_2\\rightarrow RCOCl+SO_2+HCl\",\"unit\":\"\"}])\n\nadd_unique(\"c12-chem-09\",[\n{\"label\":\"Basicity constant for a primary amine\",\"tex\":\"K_b=\\frac{[RNH_3^+][OH^-]}{[RNH_2]}\",\"unit\":\"dimensionless\"},\n{\"label\":\"Hofmann bromamide reaction\",\"tex\":\"RCONH_2+Br_2+4NaOH\\rightarrow RNH_2+2NaBr+Na_2CO_3+2H_2O\",\"unit\":\"\"}])\n\nadd_unique(\"c12-chem-10\",[\n{\"label\":\"General formula of alpha-amino acid\",\"tex\":\"H_2N-CHR-COOH\",\"unit\":"
+        },
+        {
+          "label": "Molecular formula of glucose",
+          "tex": "C_6H_{12}O_6",
+          "unit": "},\n{\"label\":\"Molecular formula of fructose\",\"tex\":\"C_6H_{12}O_6\",\"unit\":"
+        },
+        {
+          "label": "Molecular formula of sucrose",
+          "tex": "C_{12}H_{22}O_{11}",
+          "unit": "},\n{\"label\":\"Molecular formula of maltose\",\"tex\":\"C_{12}H_{22}O_{11}\",\"unit\":"
         }
       ]
     },
@@ -658,5 +803,20 @@
         }
       ]
     }
-  ]
+  ],
+  "subject_name": "Chemistry",
+  "subject_code": "043",
+  "_audit": {
+    "status": "CORRECTED_AND_VALIDATED",
+    "authority": "CBSE Class XII Chemistry (043), 2026-27 official curriculum",
+    "source_file": "c12-chem.json",
+    "corrections": [
+      "Expanded numerical/formula coverage in Solutions, Electrochemistry and Chemical Kinetics.",
+      "Expanded d/f-block and Coordination Compounds with core relations.",
+      "Expanded organic chapters with additional syllabus-relevant reaction equations while retaining the uploaded reaction-bank style.",
+      "Expanded Biomolecules with core molecular/repeating-unit formulas.",
+      "Corrected the malformed Resistance unit TeX in Electrochemistry.",
+      "Kept the four 2026-27 Chemistry formative-only chapters outside this board-theory formula bank: Surface Chemistry, General Principles and Processes of Isolation of Elements, Polymers, and Chemistry in Everyday Life."
+    ]
+  }
 }

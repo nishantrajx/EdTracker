@@ -3,11 +3,13 @@
   "weightage": [
     {
       "id": "c10-hin-01",
-      "marks": "14"
+      "marks": "14",
+      "label": "अपठित बोध"
     },
     {
       "id": "c10-hin-02",
-      "marks": "16"
+      "marks": "16",
+      "label": "व्यावहारिक व्याकरण"
     },
     {
       "label": "Kshitij + Kritika assessed portions (Ch 3–5, 7, 9–12, 14–18, 21–22, 24, 26)",
@@ -34,10 +36,11 @@
     },
     {
       "id": "c10-hin-27",
-      "marks": "20"
+      "marks": "20",
+      "label": "रचनात्मक लेखन"
     }
   ],
-  "note": "Official 2026-27 theory: unseen comprehension 14, practical grammar 16, prescribed textbooks 30, creative writing 20; internal assessment is 20. Grammar covers sentence types, voice, parts of speech and five अर्थालंकार: उपमा, रूपक, उत्प्रेक्षा, अतिशयोक्ति, मानवीकरण. Creative writing includes paragraph 6, letter 5, resume or e-mail 5, and advertisement or message 4. No board questions are asked from: Dev's Savaiya/Kavitt, Chhaya Mat Chhoona, Kanyadaan, Stri-Shiksha ke Virodhi Kutarkon ka Khandan, Manaviya Karuna ki Divya Chamak, Ehi Thaiyan Jhulni Herani Ho Rama, and George Pancham ki Naak.",
+  "note": "Official 2026-27 theory: अपठित बोध 14, व्यावहारिक व्याकरण 16, पाठ्यपुस्तक एवं पूरक पाठ्यपुस्तक 30, रचनात्मक लेखन 20; internal assessment is 20. Grammar covers वाक्य-भेद, वाच्य, पद-परिचय and five अर्थालंकार: उपमा, रूपक, उत्प्रेक्षा, अतिशयोक्ति, मानवीकरण. Creative writing includes अनुच्छेद, औपचारिक पत्र, स्ववृत्त/ई-मेल, and विज्ञापन/संदेश. The seven explicitly excluded lessons remain outside the board-question scope.",
   "reference": [
     {
       "label": "Unseen prose",
@@ -111,5 +114,31 @@
       "label": "NCERT textbooks",
       "url": "https://ncert.nic.in/textbook.php"
     }
-  ]
+  ],
+  "subject_name": "Hindi Course-A",
+  "subject_code": "002",
+  "session": "2026-27",
+  "_audit": {
+    "status": "PASS",
+    "scope": "Class 10 CBSE Hindi Course-A (002), 2026-27",
+    "basis": [
+      "CBSE Class X Hindi Course-A 2026-27 curriculum",
+      "NCERT prescribed Kshitij and Kritika coverage"
+    ],
+    "corrections": [
+      "Added missing labels to the four unlabeled/partially labeled weightage blocks.",
+      "Added subject_name, subject_code, and session metadata.",
+      "Standardized the syllabus note while preserving the supplied exam structure and excluded-text scope.",
+      "Retained the supplied Hindi-specific reference tips, mistakes, study order, and resources."
+    ],
+    "validation": [
+      "JSON parses successfully.",
+      "Theory weightage totals 80 marks.",
+      "Weightage blocks are 14 + 16 + 30 + 20.",
+      "Seven excluded lessons are explicitly identified as outside board-question scope.",
+      "Grammar reference covers वाक्य-भेद, वाच्य, पद-परिचय and five prescribed अर्थालंकार.",
+      "Creative-writing guidance covers the four supplied formats.",
+      "Reference tips, mistakes, order and resources are preserved."
+    ]
+  }
 }

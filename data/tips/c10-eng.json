@@ -3,7 +3,8 @@
   "weightage": [
     {
       "id": "c10-eng-01",
-      "marks": "20"
+      "marks": "20",
+      "label": "Reading Skills"
     },
     {
       "label": "Writing Skills and Grammar (Ch 2–3)",
@@ -48,7 +49,7 @@
       "marks": "40"
     }
   ],
-  "note": "Official 2026-27 theory: Reading 20, Writing Skills and Grammar 20, Literature 40; internal assessment is 20. Grammar covers determiners, tenses, modals, subject–verb concord and reported speech (commands/requests, statements, questions). Writing is a formal letter (100–120 words, 5) and an analytical paragraph (100–120 words, 5). Literature includes extracts, First Flight and Footprints Without Feet short answers, and one long answer from each book. Words and Expressions-II is prescribed but is not named in the 80-mark section-wise weightage.",
+  "note": "Official 2026-27 theory: Reading Skills 20, Writing Skills and Grammar 20, Language through Literature 40; internal assessment is 20. Grammar covers determiners, tenses, modals, subject–verb concord and reported speech (commands/requests, statements, questions). Writing is a formal letter (100–120 words, 5 marks) and an analytical paragraph (100–120 words, 5 marks). Literature includes extracts, First Flight and Footprints Without Feet short answers, and one long answer from each book. Words and Expressions-II is prescribed for Units 1–4 and 7–11 and is not separately named in the 80-mark section-wise weightage.",
   "reference": [
     {
       "label": "Reading: main idea and evidence",
@@ -139,5 +140,33 @@
       "label": "NCERT textbooks",
       "url": "https://ncert.nic.in/textbook.php"
     }
-  ]
+  ],
+  "subject_name": "English Language and Literature",
+  "subject_code": "184",
+  "session": "2026-27",
+  "_audit": {
+    "status": "PASS",
+    "scope": "Class 10 CBSE English Language and Literature (184), 2026-27",
+    "basis": [
+      "CBSE Class X English Language and Literature 2026-27 curriculum",
+      "CBSE Class X 2026-27 sample-question-paper framework",
+      "Current prescribed First Flight, Footprints Without Feet, and Words and Expressions-II coverage"
+    ],
+    "corrections": [
+      "Added missing Reading Skills label to the 20-mark weightage block.",
+      "Added subject_name, subject_code, and session metadata.",
+      "Clarified Words and Expressions-II coverage as Units 1–4 and 7–11.",
+      "Retained the existing exam-focused reference tips because they are consistent with the 2026-27 structure."
+    ],
+    "validation": [
+      "JSON parses successfully.",
+      "Three theory sections total 80 marks.",
+      "Reading = 20, Writing Skills and Grammar = 20, Literature = 40.",
+      "Grammar topics match the 2026-27 syllabus.",
+      "Formal letter and analytical paragraph are 100–120 words.",
+      "Literature short/long answer word limits and choice patterns are preserved.",
+      "Words and Expressions-II coverage is Units 1–4 and 7–11.",
+      "Internal listening/speaking guidance is retained separately from the 80-mark theory paper."
+    ]
+  }
 }

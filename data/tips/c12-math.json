@@ -1,624 +1,378 @@
 {
   "subject": "c12-math",
+  "subject_name": "Mathematics",
+  "subject_code": "041",
   "session": "2026-27",
   "scope": "CBSE Class XII Mathematics (041) 2026–27 written/theory Board-exam preparation; internal assessment excluded.",
   "chapters": [
     {
       "id": "c12-math-01",
-      "formulas": [
-        {
-          "label": "One-one function condition",
-          "tex": "f(x_1)=f(x_2)\\Rightarrow x_1=x_2",
-          "unit": ""
-        },
-        {
-          "label": "Onto function condition",
-          "tex": "\\operatorname{Range}(f)=\\operatorname{Codomain}(f)",
-          "unit": ""
-        }
+      "name": "Relations and Functions",
+      "tips": [
+        "Check domain, codomain and range before deciding whether a function is one-one or onto.",
+        "Use the definition f(x1)=f(x2) => x1=x2 for one-one proofs.",
+        "For composition, verify that the output of the inner function lies in the domain of the outer function.",
+        "Do not assume an inverse exists; the function must be bijective for an inverse function."
+      ],
+      "common_mistakes": [
+        "Skipping domain/range restrictions.",
+        "Using a formula without checking its conditions.",
+        "Sign errors in derivatives, determinants and vector calculations.",
+        "Arithmetic mistakes caused by rushing the final simplification.",
+        "Writing only the final answer in long-form questions instead of showing the required steps."
+      ],
+      "formula_references": [
+        "One-one function condition",
+        "Onto function condition"
       ]
     },
     {
       "id": "c12-math-02",
-      "formulas": [
-        {
-          "label": "Principal inverse relations",
-          "tex": "\\sin(\\sin^{-1}x)=x,\\quad \\cos(\\cos^{-1}x)=x,\\quad \\tan(\\tan^{-1}x)=x",
-          "unit": ""
-        },
-        {
-          "label": "Reciprocal inverse relations",
-          "tex": "\\csc^{-1}x=\\sin^{-1}\\!\\left(\\frac1x\\right),\\quad \\sec^{-1}x=\\cos^{-1}\\!\\left(\\frac1x\\right),\\quad \\cot^{-1}x=\\tan^{-1}\\!\\left(\\frac1x\\right)",
-          "unit": ""
-        },
-        {
-          "label": "Principal-value relation: sin^{-1}",
-          "tex": "\\sin^{-1}(-x)=-\\sin^{-1}x",
-          "unit": ""
-        },
-        {
-          "label": "Principal-value relation: cos^{-1}",
-          "tex": "\\cos^{-1}(-x)=\\pi-\\cos^{-1}x",
-          "unit": ""
-        },
-        {
-          "label": "Principal-value relation: tan^{-1}",
-          "tex": "\\tan^{-1}(-x)=-\\tan^{-1}x",
-          "unit": ""
-        }
+      "name": "Inverse Trigonometric Functions",
+      "tips": [
+        "Write the principal-value range before simplifying an inverse-trigonometric expression.",
+        "Treat sin^-1 x, cos^-1 x and tan^-1 x as inverse functions, not reciprocals.",
+        "Check the sign and quadrant when using inverse-trigonometric identities.",
+        "Do not drop principal-value restrictions when converting between inverse functions."
+      ],
+      "common_mistakes": [
+        "Skipping domain/range restrictions.",
+        "Using a formula without checking its conditions.",
+        "Sign errors in derivatives, determinants and vector calculations.",
+        "Arithmetic mistakes caused by rushing the final simplification.",
+        "Writing only the final answer in long-form questions instead of showing the required steps."
+      ],
+      "formula_references": [
+        "Principal inverse relations",
+        "Reciprocal inverse relations",
+        "Principal-value relation: sin^{-1}",
+        "Principal-value relation: cos^{-1}",
+        "Principal-value relation: tan^{-1}"
       ]
     },
     {
       "id": "c12-math-03",
-      "formulas": [
-        {
-          "label": "Matrix multiplication",
-          "tex": "(AB)_{ij}=\\sum_k a_{ik}b_{kj}",
-          "unit": ""
-        },
-        {
-          "label": "Transpose",
-          "tex": "(A^T)^T=A",
-          "unit": ""
-        },
-        {
-          "label": "Transpose of a product",
-          "tex": "(AB)^T=B^TA^T",
-          "unit": ""
-        },
-        {
-          "label": "Symmetric matrix condition",
-          "tex": "A^T=A",
-          "unit": ""
-        },
-        {
-          "label": "Skew-symmetric matrix condition",
-          "tex": "A^T=-A",
-          "unit": ""
-        },
-        {
-          "label": "Inverse of a product",
-          "tex": "(AB)^{-1}=B^{-1}A^{-1}",
-          "unit": ""
-        },
-        {
-          "label": "Inverse matrix condition",
-          "tex": "AA^{-1}=A^{-1}A=I",
-          "unit": ""
-        },
-        {
-          "label": "Scalar multiplication",
-          "tex": "(kA)_{ij}=ka_{ij}",
-          "unit": ""
-        },
-        {
-          "label": "Matrix addition",
-          "tex": "(A+B)_{ij}=a_{ij}+b_{ij}",
-          "unit": ""
-        }
+      "name": "Matrices",
+      "tips": [
+        "Check matrix orders before addition or multiplication.",
+        "Matrix multiplication is generally not commutative: AB and BA must be treated separately.",
+        "For an inverse, first check that the matrix is square and nonsingular.",
+        "Keep row and column positions consistent when computing products and transposes."
+      ],
+      "common_mistakes": [
+        "Skipping domain/range restrictions.",
+        "Using a formula without checking its conditions.",
+        "Sign errors in derivatives, determinants and vector calculations.",
+        "Arithmetic mistakes caused by rushing the final simplification.",
+        "Writing only the final answer in long-form questions instead of showing the required steps."
+      ],
+      "formula_references": [
+        "Matrix multiplication",
+        "Transpose",
+        "Transpose of a product",
+        "Symmetric matrix condition",
+        "Skew-symmetric matrix condition",
+        "Inverse of a product",
+        "Inverse matrix condition",
+        "Scalar multiplication",
+        "Matrix addition"
       ]
     },
     {
       "id": "c12-math-04",
-      "formulas": [
-        {
-          "label": "2×2 determinant",
-          "tex": "\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc",
-          "unit": ""
-        },
-        {
-          "label": "3×3 determinant",
-          "tex": "\\begin{vmatrix}a&b&c\\\\d&e&f\\\\g&h&i\\end{vmatrix}=a(ei-fh)-b(di-fg)+c(dh-eg)",
-          "unit": ""
-        },
-        {
-          "label": "Cofactor",
-          "tex": "C_{ij}=(-1)^{i+j}M_{ij}",
-          "unit": ""
-        },
-        {
-          "label": "Adjoint-inverse relation",
-          "tex": "A^{-1}=\\frac{\\operatorname{adj}A}{|A|},\\qquad |A|\\ne0",
-          "unit": ""
-        },
-        {
-          "label": "Area of triangle",
-          "tex": "\\Delta=\\frac12\\left|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\right|",
-          "unit": ""
-        },
-        {
-          "label": "Inverse-matrix solution of linear equations",
-          "tex": "AX=B\\Rightarrow X=A^{-1}B\\quad\\text{when }A^{-1}\\text{ exists}",
-          "unit": ""
-        }
+      "name": "Determinants",
+      "tips": [
+        "Use the correct cofactor sign pattern when expanding a determinant.",
+        "Before using A^-1 = adj(A)/|A|, verify that |A| is non-zero.",
+        "For area questions, take the absolute value of the determinant expression.",
+        "When solving AX=B by inverse matrices, verify that the coefficient matrix is invertible."
+      ],
+      "common_mistakes": [
+        "Skipping domain/range restrictions.",
+        "Using a formula without checking its conditions.",
+        "Sign errors in derivatives, determinants and vector calculations.",
+        "Arithmetic mistakes caused by rushing the final simplification.",
+        "Writing only the final answer in long-form questions instead of showing the required steps."
+      ],
+      "formula_references": [
+        "2×2 determinant",
+        "3×3 determinant",
+        "Cofactor",
+        "Adjoint-inverse relation",
+        "Area of triangle",
+        "Inverse-matrix solution of linear equations"
       ]
     },
     {
       "id": "c12-math-05",
-      "formulas": [
-        {
-          "label": "Continuity at a point",
-          "tex": "\\lim_{x\\to a}f(x)=f(a)",
-          "unit": ""
-        },
-        {
-          "label": "Chain rule",
-          "tex": "\\frac{dy}{dx}=\\frac{dy}{du}\\frac{du}{dx}",
-          "unit": ""
-        },
-        {
-          "label": "Implicit differentiation",
-          "tex": "\\frac{dy}{dx}=-\\frac{F_x}{F_y}\\quad(F(x,y)=0,\\ F_y\\ne0)",
-          "unit": ""
-        },
-        {
-          "label": "Inverse-trig derivative: sin",
-          "tex": "\\frac{d}{dx}\\sin^{-1}x=\\frac1{\\sqrt{1-x^2}}",
-          "unit": ""
-        },
-        {
-          "label": "Inverse-trig derivative: cos",
-          "tex": "\\frac{d}{dx}\\cos^{-1}x=-\\frac1{\\sqrt{1-x^2}}",
-          "unit": ""
-        },
-        {
-          "label": "Inverse-trig derivative: tan",
-          "tex": "\\frac{d}{dx}\\tan^{-1}x=\\frac1{1+x^2}",
-          "unit": ""
-        },
-        {
-          "label": "Inverse-trig derivative: cot",
-          "tex": "\\frac{d}{dx}\\cot^{-1}x=-\\frac1{1+x^2}",
-          "unit": ""
-        },
-        {
-          "label": "Inverse-trig derivative: sec",
-          "tex": "\\frac{d}{dx}\\sec^{-1}x=\\frac1{|x|\\sqrt{x^2-1}}",
-          "unit": ""
-        },
-        {
-          "label": "Inverse-trig derivative: csc",
-          "tex": "\\frac{d}{dx}\\csc^{-1}x=-\\frac1{|x|\\sqrt{x^2-1}}",
-          "unit": ""
-        },
-        {
-          "label": "Exponential and logarithmic derivatives",
-          "tex": "\\frac{d}{dx}e^x=e^x,\\quad \\frac{d}{dx}a^x=a^x\\ln a,\\quad \\frac{d}{dx}\\ln x=\\frac1x",
-          "unit": ""
-        },
-        {
-          "label": "Logarithmic differentiation",
-          "tex": "\\frac{d}{dx}\\ln y=\\frac1y\\frac{dy}{dx}",
-          "unit": ""
-        },
-        {
-          "label": "Parametric derivative",
-          "tex": "\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}",
-          "unit": ""
-        },
-        {
-          "label": "Second derivative",
-          "tex": "\\frac{d^2y}{dx^2}=\\frac{d}{dx}\\left(\\frac{dy}{dx}\\right)",
-          "unit": ""
-        },
-        {
-          "label": "Product rule",
-          "tex": "\\frac{d}{dx}(uv)=u\\frac{dv}{dx}+v\\frac{du}{dx}",
-          "unit": ""
-        },
-        {
-          "label": "Quotient rule",
-          "tex": "\\frac{d}{dx}\\left(\\frac uv\\right)=\\frac{v\\frac{du}{dx}-u\\frac{dv}{dx}}{v^2}",
-          "unit": ""
-        },
-        {
-          "label": "Power rule",
-          "tex": "\\frac{d}{dx}x^n=nx^{n-1}",
-          "unit": ""
-        },
-        {
-          "label": "Derivative of sin x",
-          "tex": "\\frac{d}{dx}\\sin x=\\cos x",
-          "unit": ""
-        },
-        {
-          "label": "Derivative of cos x",
-          "tex": "\\frac{d}{dx}\\cos x=-\\sin x",
-          "unit": ""
-        },
-        {
-          "label": "Derivative of tan x",
-          "tex": "\\frac{d}{dx}\\tan x=\\sec^2x",
-          "unit": ""
-        },
-        {
-          "label": "Derivative of cot x",
-          "tex": "\\frac{d}{dx}\\cot x=-\\csc^2x",
-          "unit": ""
-        },
-        {
-          "label": "Derivative of sec x",
-          "tex": "\\frac{d}{dx}\\sec x=\\sec x\\tan x",
-          "unit": ""
-        },
-        {
-          "label": "Derivative of csc x",
-          "tex": "\\frac{d}{dx}\\csc x=-\\csc x\\cot x",
-          "unit": ""
-        }
+      "name": "Continuity and Differentiability",
+      "tips": [
+        "Check continuity using limit equals function value at the point.",
+        "Choose the differentiation rule from the structure: product, quotient, chain or implicit differentiation.",
+        "For inverse-trigonometric derivatives, preserve the correct denominator and sign.",
+        "In parametric differentiation, divide dy/dt by dx/dt; do not differentiate as if y were directly a function of x."
+      ],
+      "common_mistakes": [
+        "Skipping domain/range restrictions.",
+        "Using a formula without checking its conditions.",
+        "Sign errors in derivatives, determinants and vector calculations.",
+        "Arithmetic mistakes caused by rushing the final simplification.",
+        "Writing only the final answer in long-form questions instead of showing the required steps."
+      ],
+      "formula_references": [
+        "Continuity at a point",
+        "Chain rule",
+        "Implicit differentiation",
+        "Inverse-trig derivative: sin",
+        "Inverse-trig derivative: cos",
+        "Inverse-trig derivative: tan",
+        "Inverse-trig derivative: cot",
+        "Inverse-trig derivative: sec",
+        "Inverse-trig derivative: csc",
+        "Exponential and logarithmic derivatives",
+        "Logarithmic differentiation",
+        "Parametric derivative",
+        "Second derivative",
+        "Product rule",
+        "Quotient rule",
+        "Power rule",
+        "Derivative of sin x",
+        "Derivative of cos x",
+        "Derivative of tan x",
+        "Derivative of cot x",
+        "Derivative of sec x",
+        "Derivative of csc x"
       ]
     },
     {
       "id": "c12-math-06",
-      "formulas": [
-        {
-          "label": "Rate of change",
-          "tex": "\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}",
-          "unit": ""
-        },
-        {
-          "label": "Critical point",
-          "tex": "f'(x)=0\\quad\\text{or }f'(x)\\text{ is undefined}",
-          "unit": ""
-        },
-        {
-          "label": "Increasing function test",
-          "tex": "f'(x)>0\\Rightarrow f(x)\\text{ is increasing}",
-          "unit": ""
-        },
-        {
-          "label": "Decreasing function test",
-          "tex": "f'(x)<0\\Rightarrow f(x)\\text{ is decreasing}",
-          "unit": ""
-        },
-        {
-          "label": "Second derivative maximum test",
-          "tex": "f'(a)=0,\\ f''(a)<0\\Rightarrow\\text{local maximum at }x=a",
-          "unit": ""
-        },
-        {
-          "label": "Second derivative minimum test",
-          "tex": "f'(a)=0,\\ f''(a)>0\\Rightarrow\\text{local minimum at }x=a",
-          "unit": ""
-        }
+      "name": "Applications of Derivatives",
+      "tips": [
+        "Find critical points from f'(x)=0 and also check points where f'(x) is undefined.",
+        "Use sign changes of f' to establish increasing or decreasing intervals.",
+        "For maxima/minima, verify the required conditions rather than stopping at f'(x)=0.",
+        "In rate-of-change problems, define the variables and their relationship before differentiating."
+      ],
+      "common_mistakes": [
+        "Skipping domain/range restrictions.",
+        "Using a formula without checking its conditions.",
+        "Sign errors in derivatives, determinants and vector calculations.",
+        "Arithmetic mistakes caused by rushing the final simplification.",
+        "Writing only the final answer in long-form questions instead of showing the required steps."
+      ],
+      "formula_references": [
+        "Rate of change",
+        "Critical point",
+        "Increasing function test",
+        "Decreasing function test",
+        "Second derivative maximum test",
+        "Second derivative minimum test"
       ]
     },
     {
       "id": "c12-math-07",
-      "formulas": [
-        {
-          "label": "Basic integration relation",
-          "tex": "\\int f(x)\\,dx=F(x)+C\\quad\\text{if }F'(x)=f(x)",
-          "unit": ""
-        },
-        {
-          "label": "Substitution",
-          "tex": "\\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du",
-          "unit": ""
-        },
-        {
-          "label": "Integration by parts",
-          "tex": "\\int u\\,dv=uv-\\int v\\,du",
-          "unit": ""
-        },
-        {
-          "label": "Definite integral",
-          "tex": "\\int_a^b f(x)\\,dx=F(b)-F(a)",
-          "unit": ""
-        },
-        {
-          "label": "Definite-integral symmetry",
-          "tex": "\\int_a^b f(x)\\,dx=\\int_a^b f(a+b-x)\\,dx",
-          "unit": ""
-        },
-        {
-          "label": "Even-function symmetry",
-          "tex": "\\int_{-a}^{a}f(x)\\,dx=2\\int_0^a f(x)\\,dx\\quad(f\\text{ even})",
-          "unit": ""
-        },
-        {
-          "label": "Odd-function symmetry",
-          "tex": "\\int_{-a}^{a}f(x)\\,dx=0\\quad(f\\text{ odd})",
-          "unit": ""
-        },
-        {
-          "label": "Standard integral: 1/(x²+a²)",
-          "tex": "\\int\\frac{dx}{x^2+a^2}=\\frac1a\\tan^{-1}\\frac{x}{a}+C",
-          "unit": ""
-        },
-        {
-          "label": "Standard integral: 1/(x²-a²)",
-          "tex": "\\int\\frac{dx}{x^2-a^2}=\\frac1{2a}\\ln\\left|\\frac{x-a}{x+a}\\right|+C",
-          "unit": ""
-        },
-        {
-          "label": "Standard integral: 1/√(x²+a²)",
-          "tex": "\\int\\frac{dx}{\\sqrt{x^2+a^2}}=\\ln\\left|x+\\sqrt{x^2+a^2}\\right|+C",
-          "unit": ""
-        },
-        {
-          "label": "Standard integral: 1/√(x²-a²)",
-          "tex": "\\int\\frac{dx}{\\sqrt{x^2-a^2}}=\\ln\\left|x+\\sqrt{x^2-a^2}\\right|+C",
-          "unit": ""
-        },
-        {
-          "label": "Standard integral: 1/√(a²-x²)",
-          "tex": "\\int\\frac{dx}{\\sqrt{a^2-x^2}}=\\sin^{-1}\\frac{x}{a}+C",
-          "unit": ""
-        },
-        {
-          "label": "Standard integral: 1/(ax²+bx+c)",
-          "tex": "\\int\\frac{dx}{ax^2+bx+c}\\quad\\text{(evaluate after completing the square / partial fractions)}",
-          "unit": ""
-        },
-        {
-          "label": "Standard integral: 1/√(ax²+bx+c)",
-          "tex": "\\int\\frac{dx}{\\sqrt{ax^2+bx+c}}\\quad\\text{(evaluate after completing the square)}",
-          "unit": ""
-        },
-        {
-          "label": "Linear-over-quadratic integral",
-          "tex": "\\int\\frac{px+q}{ax^2+bx+c}\\,dx",
-          "unit": ""
-        },
-        {
-          "label": "Linear-over-square-root-quadratic integral",
-          "tex": "\\int\\frac{px+q}{\\sqrt{ax^2+bx+c}}\\,dx",
-          "unit": ""
-        },
-        {
-          "label": "Square-root a²±x² integrals",
-          "tex": "\\int\\sqrt{a^2\\pm x^2}\\,dx",
-          "unit": ""
-        },
-        {
-          "label": "Square-root x²-a² integral",
-          "tex": "\\int\\sqrt{x^2-a^2}\\,dx",
-          "unit": ""
-        },
-        {
-          "label": "Square-root quadratic integral",
-          "tex": "\\int\\sqrt{ax^2+bx+c}\\,dx",
-          "unit": ""
-        },
-        {
-          "label": "Power integral",
-          "tex": "\\int x^n\\,dx=\\frac{x^{n+1}}{n+1}+C,\\quad n\\ne-1",
-          "unit": ""
-        },
-        {
-          "label": "Logarithmic integral",
-          "tex": "\\int\\frac{dx}{x}=\\ln|x|+C",
-          "unit": ""
-        },
-        {
-          "label": "Sine integral",
-          "tex": "\\int\\sin x\\,dx=-\\cos x+C",
-          "unit": ""
-        },
-        {
-          "label": "Cosine integral",
-          "tex": "\\int\\cos x\\,dx=\\sin x+C",
-          "unit": ""
-        },
-        {
-          "label": "Exponential integral",
-          "tex": "\\int e^x\\,dx=e^x+C",
-          "unit": ""
-        },
-        {
-          "label": "a^x integral",
-          "tex": "\\int a^x\\,dx=\\frac{a^x}{\\ln a}+C,\\quad a>0,\\ a\\ne1",
-          "unit": ""
-        },
-        {
-          "label": "Secant-squared integral",
-          "tex": "\\int\\sec^2x\\,dx=\\tan x+C",
-          "unit": ""
-        },
-        {
-          "label": "Cosecant-squared integral",
-          "tex": "\\int\\csc^2x\\,dx=-\\cot x+C",
-          "unit": ""
-        },
-        {
-          "label": "Secant-tangent integral",
-          "tex": "\\int\\sec x\\tan x\\,dx=\\sec x+C",
-          "unit": ""
-        },
-        {
-          "label": "Cosecant-cotangent integral",
-          "tex": "\\int\\csc x\\cot x\\,dx=-\\csc x+C",
-          "unit": ""
-        }
+      "name": "Integrals",
+      "tips": [
+        "Always include +C with an indefinite integral.",
+        "Look for substitution when the derivative of an inner expression is also present.",
+        "Use integration by parts when the integrand is a suitable product.",
+        "For definite integrals, apply limits after obtaining the antiderivative.",
+        "Use even/odd symmetry and definite-integral properties before doing long calculations."
+      ],
+      "common_mistakes": [
+        "Skipping domain/range restrictions.",
+        "Using a formula without checking its conditions.",
+        "Sign errors in derivatives, determinants and vector calculations.",
+        "Arithmetic mistakes caused by rushing the final simplification.",
+        "Writing only the final answer in long-form questions instead of showing the required steps."
+      ],
+      "formula_references": [
+        "Basic integration relation",
+        "Substitution",
+        "Integration by parts",
+        "Definite integral",
+        "Definite-integral symmetry",
+        "Even-function symmetry",
+        "Odd-function symmetry",
+        "Standard integral: 1/(x²+a²)",
+        "Standard integral: 1/(x²-a²)",
+        "Standard integral: 1/√(x²+a²)",
+        "Standard integral: 1/√(x²-a²)",
+        "Standard integral: 1/√(a²-x²)",
+        "Standard integral: 1/(ax²+bx+c)",
+        "Standard integral: 1/√(ax²+bx+c)",
+        "Linear-over-quadratic integral",
+        "Linear-over-square-root-quadratic integral",
+        "Square-root a²±x² integrals",
+        "Square-root x²-a² integral",
+        "Square-root quadratic integral",
+        "Power integral",
+        "Logarithmic integral",
+        "Sine integral",
+        "Cosine integral",
+        "Exponential integral",
+        "a^x integral",
+        "Secant-squared integral",
+        "Cosecant-squared integral",
+        "Secant-tangent integral",
+        "Cosecant-cotangent integral"
       ]
     },
     {
       "id": "c12-math-08",
-      "formulas": [
-        {
-          "label": "Area under a curve",
-          "tex": "A=\\int_a^b y\\,dx",
-          "unit": ""
-        },
-        {
-          "label": "Area between curves",
-          "tex": "A=\\int_a^b\\left[y_{\\text{upper}}-y_{\\text{lower}}\\right]dx",
-          "unit": ""
-        }
+      "name": "Applications of Integrals",
+      "tips": [
+        "Sketch the curves or identify their intersection points before setting up an area integral.",
+        "Use upper minus lower when integrating with respect to x.",
+        "Split the interval when the upper/lower curve changes.",
+        "Use absolute area where the signed integral would otherwise cancel regions."
+      ],
+      "common_mistakes": [
+        "Skipping domain/range restrictions.",
+        "Using a formula without checking its conditions.",
+        "Sign errors in derivatives, determinants and vector calculations.",
+        "Arithmetic mistakes caused by rushing the final simplification.",
+        "Writing only the final answer in long-form questions instead of showing the required steps."
+      ],
+      "formula_references": [
+        "Area under a curve",
+        "Area between curves"
       ]
     },
     {
       "id": "c12-math-09",
-      "formulas": [
-        {
-          "label": "Separation of variables",
-          "tex": "\\frac{dy}{dx}=f(x)g(y)\\Rightarrow\\frac{dy}{g(y)}=f(x)\\,dx",
-          "unit": ""
-        },
-        {
-          "label": "Homogeneous differential equation substitution",
-          "tex": "\\frac{dy}{dx}=F\\!\\left(\\frac yx\\right),\\qquad y=vx",
-          "unit": ""
-        },
-        {
-          "label": "Linear differential equation",
-          "tex": "\\frac{dy}{dx}+Py=Q",
-          "unit": ""
-        },
-        {
-          "label": "Integrating factor",
-          "tex": "\\operatorname{IF}=e^{\\int P\\,dx}",
-          "unit": ""
-        },
-        {
-          "label": "Solution of linear DE",
-          "tex": "y\\,\\operatorname{IF}=\\int Q\\,\\operatorname{IF}\\,dx+C",
-          "unit": ""
-        },
-        {
-          "label": "Linear DE with x as dependent variable",
-          "tex": "\\frac{dx}{dy}+Px=Q",
-          "unit": ""
-        },
-        {
-          "label": "Integrating factor with y as independent variable",
-          "tex": "\\operatorname{IF}=e^{\\int P\\,dy}",
-          "unit": ""
-        }
+      "name": "Differential Equations",
+      "tips": [
+        "Identify whether the differential equation is separable, homogeneous or linear before starting.",
+        "For homogeneous equations, use y=vx and replace dy/dx accordingly.",
+        "For dy/dx + Py = Q, calculate the integrating factor before integrating.",
+        "Keep the arbitrary constant until the final step and apply any initial condition afterward."
+      ],
+      "common_mistakes": [
+        "Skipping domain/range restrictions.",
+        "Using a formula without checking its conditions.",
+        "Sign errors in derivatives, determinants and vector calculations.",
+        "Arithmetic mistakes caused by rushing the final simplification.",
+        "Writing only the final answer in long-form questions instead of showing the required steps."
+      ],
+      "formula_references": [
+        "Separation of variables",
+        "Homogeneous differential equation substitution",
+        "Linear differential equation",
+        "Integrating factor",
+        "Solution of linear DE",
+        "Linear DE with x as dependent variable",
+        "Integrating factor with y as independent variable"
       ]
     },
     {
       "id": "c12-math-10",
-      "formulas": [
-        {
-          "label": "Magnitude of vector",
-          "tex": "|\\vec a|=\\sqrt{a_x^2+a_y^2+a_z^2}",
-          "unit": ""
-        },
-        {
-          "label": "Unit vector",
-          "tex": "\\hat a=\\frac{\\vec a}{|\\vec a|}",
-          "unit": ""
-        },
-        {
-          "label": "Direction cosines",
-          "tex": "l=\\frac{a_x}{|\\vec a|},\\quad m=\\frac{a_y}{|\\vec a|},\\quad n=\\frac{a_z}{|\\vec a|},\\quad l^2+m^2+n^2=1",
-          "unit": ""
-        },
-        {
-          "label": "Section formula",
-          "tex": "\\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad\\text{for internal division in ratio }m:n",
-          "unit": ""
-        },
-        {
-          "label": "Dot product",
-          "tex": "\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\theta",
-          "unit": ""
-        },
-        {
-          "label": "Dot product in components",
-          "tex": "\\vec a\\cdot\\vec b=a_xb_x+a_yb_y+a_zb_z",
-          "unit": ""
-        },
-        {
-          "label": "Cross-product magnitude",
-          "tex": "|\\vec a\\times\\vec b|=|\\vec a||\\vec b|\\sin\\theta",
-          "unit": ""
-        },
-        {
-          "label": "Cross product in components",
-          "tex": "\\vec a\\times\\vec b=\\begin{vmatrix}\\hat i&\\hat j&\\hat k\\\\a_x&a_y&a_z\\\\b_x&b_y&b_z\\end{vmatrix}",
-          "unit": ""
-        },
-        {
-          "label": "Scalar projection",
-          "tex": "\\operatorname{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|}",
-          "unit": ""
-        }
+      "name": "Vector Algebra",
+      "tips": [
+        "Check vector magnitude before forming a unit vector.",
+        "Use the dot product for angles/projections and the cross product for perpendicular-area relationships.",
+        "Remember that l^2+m^2+n^2=1 for direction cosines.",
+        "Keep scalar and vector products distinct; their outputs are different types of quantities."
+      ],
+      "common_mistakes": [
+        "Skipping domain/range restrictions.",
+        "Using a formula without checking its conditions.",
+        "Sign errors in derivatives, determinants and vector calculations.",
+        "Arithmetic mistakes caused by rushing the final simplification.",
+        "Writing only the final answer in long-form questions instead of showing the required steps."
+      ],
+      "formula_references": [
+        "Magnitude of vector",
+        "Unit vector",
+        "Direction cosines",
+        "Section formula",
+        "Dot product",
+        "Dot product in components",
+        "Cross-product magnitude",
+        "Cross product in components",
+        "Scalar projection"
       ]
     },
     {
       "id": "c12-math-11",
-      "formulas": [
-        {
-          "label": "Line in vector form",
-          "tex": "\\vec r=\\vec a+\\lambda\\vec b",
-          "unit": ""
-        },
-        {
-          "label": "Line in Cartesian form",
-          "tex": "\\frac{x-x_1}{a}=\\frac{y-y_1}{b}=\\frac{z-z_1}{c}",
-          "unit": ""
-        },
-        {
-          "label": "Direction ratios of line joining two points",
-          "tex": "(a,b,c)=(x_2-x_1,y_2-y_1,z_2-z_1)",
-          "unit": ""
-        },
-        {
-          "label": "Angle between two lines",
-          "tex": "\\cos\\theta=\\frac{|a_1a_2+b_1b_2+c_1c_2|}{\\sqrt{a_1^2+b_1^2+c_1^2}\\sqrt{a_2^2+b_2^2+c_2^2}}",
-          "unit": ""
-        },
-        {
-          "label": "Shortest distance between skew lines",
-          "tex": "d=\\frac{|(\\vec a_2-\\vec a_1)\\cdot(\\vec b_1\\times\\vec b_2)|}{|\\vec b_1\\times\\vec b_2|}",
-          "unit": ""
-        }
+      "name": "Three-Dimensional Geometry",
+      "tips": [
+        "Extract direction ratios carefully from the vector or Cartesian equation of a line.",
+        "For the angle between lines, use their direction ratios.",
+        "For skew-line distance, keep the vector order consistent in the scalar triple-product expression.",
+        "Check whether lines are parallel, intersecting or skew before choosing the distance method."
+      ],
+      "common_mistakes": [
+        "Skipping domain/range restrictions.",
+        "Using a formula without checking its conditions.",
+        "Sign errors in derivatives, determinants and vector calculations.",
+        "Arithmetic mistakes caused by rushing the final simplification.",
+        "Writing only the final answer in long-form questions instead of showing the required steps."
+      ],
+      "formula_references": [
+        "Line in vector form",
+        "Line in Cartesian form",
+        "Direction ratios of line joining two points",
+        "Angle between two lines",
+        "Shortest distance between skew lines"
       ]
     },
     {
       "id": "c12-math-12",
-      "formulas": [
-        {
-          "label": "Objective function",
-          "tex": "Z=ax+by",
-          "unit": ""
-        },
-        {
-          "label": "Linear constraint",
-          "tex": "a_1x+b_1y\\le c_1\\quad\\text{or}\\quad a_1x+b_1y\\ge c_1",
-          "unit": ""
-        },
-        {
-          "label": "Non-negativity constraints",
-          "tex": "x\\ge0,\\quad y\\ge0",
-          "unit": ""
-        }
+      "name": "Linear Programming",
+      "tips": [
+        "Define the decision variables before writing constraints.",
+        "Translate every verbal condition into a linear inequality carefully.",
+        "Include non-negativity constraints when the variables represent quantities.",
+        "Evaluate the objective function at the relevant corner points of the feasible region."
+      ],
+      "common_mistakes": [
+        "Skipping domain/range restrictions.",
+        "Using a formula without checking its conditions.",
+        "Sign errors in derivatives, determinants and vector calculations.",
+        "Arithmetic mistakes caused by rushing the final simplification.",
+        "Writing only the final answer in long-form questions instead of showing the required steps."
+      ],
+      "formula_references": [
+        "Objective function",
+        "Linear constraint",
+        "Non-negativity constraints"
       ]
     },
     {
       "id": "c12-math-13",
-      "formulas": [
-        {
-          "label": "Conditional probability",
-          "tex": "P(A\\mid B)=\\frac{P(A\\cap B)}{P(B)},\\quad P(B)>0",
-          "unit": ""
-        },
-        {
-          "label": "Multiplication theorem",
-          "tex": "P(A\\cap B)=P(A)P(B\\mid A)=P(B)P(A\\mid B)",
-          "unit": ""
-        },
-        {
-          "label": "Independent events",
-          "tex": "P(A\\cap B)=P(A)P(B)",
-          "unit": ""
-        },
-        {
-          "label": "Total probability",
-          "tex": "P(A)=\\sum_i P(B_i)P(A\\mid B_i)",
-          "unit": ""
-        },
-        {
-          "label": "Bayes' theorem",
-          "tex": "P(B_i\\mid A)=\\frac{P(B_i)P(A\\mid B_i)}{\\sum_jP(B_j)P(A\\mid B_j)}",
-          "unit": ""
-        }
+      "name": "Probability",
+      "tips": [
+        "Write the events clearly before applying conditional probability.",
+        "Check independence rather than assuming it from the wording.",
+        "Use total probability when the sample space is partitioned into mutually exclusive exhaustive cases.",
+        "For Bayes' theorem, identify the prior probabilities and the conditional probabilities before substituting."
+      ],
+      "common_mistakes": [
+        "Skipping domain/range restrictions.",
+        "Using a formula without checking its conditions.",
+        "Sign errors in derivatives, determinants and vector calculations.",
+        "Arithmetic mistakes caused by rushing the final simplification.",
+        "Writing only the final answer in long-form questions instead of showing the required steps."
+      ],
+      "formula_references": [
+        "Conditional probability",
+        "Multiplication theorem",
+        "Independent events",
+        "Total probability",
+        "Bayes' theorem"
       ]
     }
   ],
-  "audit_status": "CERTIFIED_FOR_CURRENT_SCOPE",
-  "certification_note": "Final certification based on the CBSE Class XII Mathematics 041 2026-27 syllabus boundary, with the current prescribed topic set retained. Practical/internal-assessment material is excluded."
+  "_audit": {
+    "status": "CORRECTED_AND_VALIDATED",
+    "basis": "Uploaded Class 12 Mathematics formula source",
+    "note": "This file is a tips layer derived from the supplied chapter/formula structure. No syllabus topics were added beyond the uploaded source.",
+    "validation": {
+      "chapter_count": 13,
+      "all_chapters_have_tips": true,
+      "all_chapters_have_formula_references": true,
+      "no_empty_tip_text": true
+    }
+  }
 }

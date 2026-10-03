@@ -2,16 +2,18 @@
   "subject": "c10-sci",
   "weightage": [
     {
-      "label": "Unit I: Chemical Substances — board-assessed portion (Ch 1)",
+      "label": "Unit I: Chemical Substances — board-assessed portion",
       "ids": [
-        "c10-sci-01"
+        "c10-sci-01",
+        "c10-sci-03",
+        "c10-sci-04",
+        "c10-sci-05"
       ],
       "marks": "25"
     },
     {
-      "label": "Unit II: World of Living (Ch 5–8)",
+      "label": "Unit II: World of Living — board-assessed portion",
       "ids": [
-        "c10-sci-05",
         "c10-sci-06",
         "c10-sci-07",
         "c10-sci-08"
@@ -19,30 +21,30 @@
       "marks": "25"
     },
     {
-      "label": "Unit III: Natural Phenomena (Ch 10–11)",
+      "label": "Unit III: Natural Phenomena — board-assessed portion",
       "ids": [
-        "c10-sci-10",
-        "c10-sci-11"
+        "c10-sci-11",
+        "c10-sci-12"
       ],
       "marks": "12"
     },
     {
-      "label": "Unit IV: Effects of Current (Ch 12–13)",
+      "label": "Unit IV: Effects of Current — board-assessed portion",
       "ids": [
-        "c10-sci-12",
-        "c10-sci-13"
+        "c10-sci-13",
+        "c10-sci-14"
       ],
       "marks": "13"
     },
     {
-      "label": "Unit V: Natural Resources (Ch 14)",
+      "label": "Unit V: Natural Resources",
       "ids": [
-        "c10-sci-14"
+        "c10-sci-15"
       ],
       "marks": "5"
     }
   ],
-  "note": "Official 2026-27 annual-exam unit marks: Chemical Substances 25, World of Living 25, Natural Phenomena 12, Effects of Current 13, Natural Resources 5; total 80, internal assessment 20. Acids, Bases and Salts; Metals and Non-metals; Carbon and its Compounds; and Evolution are explicitly identified as formative-only in the annual-exam structure. The formula/reference file therefore keeps only useful board-relevant formula material and excludes the formative-only Evolution chapter.",
+  "note": "Official 2026-27 annual-exam unit marks: Chemical Substances 25, World of Living 25, Natural Phenomena 12, Effects of Current 13, Natural Resources 5; total 80, internal assessment 20. Periodic Classification of Elements and Heredity and Evolution are not assessed in the year-end examination; Motor, Electromagnetic Induction and Electric Generator are assessed only formatively. The weightage section therefore maps only board-assessed chapters to the annual-exam units.",
   "reference": [
     {
       "label": "Chemical equations",
@@ -62,7 +64,8 @@
     },
     {
       "label": "Reproduction and heredity",
-      "text": "Keep a clear distinction between asexual and sexual reproduction, gamete formation, fertilisation and inheritance. For Mendelian monohybrid crosses, track genotype and phenotype separately."
+      "text": "Keep a clear distinction between asexual and sexual reproduction, gamete formation, fertilisation and inheritance. For Mendelian monohybrid crosses, track genotype and phenotype separately.",
+      "assessment_note": "Heredity is formative-only for the 2026-27 year-end examination."
     },
     {
       "label": "Light",
@@ -78,7 +81,8 @@
     },
     {
       "label": "Magnetic effects",
-      "text": "For a current-carrying conductor, the force depends on magnetic field, current and conductor length; remember Fleming's left-hand rule for direction."
+      "text": "For a current-carrying conductor, the force depends on magnetic field, current and conductor length; remember Fleming's left-hand rule for direction.",
+      "assessment_note": "Motor, electromagnetic induction and electric generator are formative-only."
     },
     {
       "label": "Our Environment",
@@ -93,11 +97,12 @@
     "Case-based and assertion-reason questions: test each statement against the scientific concept before selecting an option."
   ],
   "order": [
-    "World of Living and the board-assessed part of Chemical Substances first: together these units carry 50 of 80 marks.",
-    "Then Effects of Current (13 marks): Electricity → Magnetic Effects.",
-    "Then Natural Phenomena (12 marks): Light → Human Eye.",
-    "Finish with Our Environment (5 marks), then use mixed questions to connect concepts across units.",
-    "Study the formative-only chapters for school learning, but do not count them as annual-board marks."
+    "Unit I: Chemical Substances (25 marks)",
+    "Unit II: World of Living (25 marks)",
+    "Unit IV: Effects of Current (13 marks): Electricity → Magnetic Effects",
+    "Unit III: Natural Phenomena (12 marks): Light → Human Eye",
+    "Unit V: Natural Resources (5 marks): Our Environment",
+    "Study formative-only chapters for school learning, but do not count them as annual-board marks."
   ],
   "resources": [
     {
@@ -108,5 +113,23 @@
       "label": "NCERT textbooks",
       "url": "https://ncert.nic.in/textbook.php"
     }
-  ]
+  ],
+  "_audit": {
+    "session": "2026-27",
+    "source_of_truth": "CBSE Class 10 Science 2026-27 syllabus",
+    "purpose": "Corrected Science study-tips dataset while preserving the existing EdTracker organization.",
+    "changes": [
+      "Corrected all annual-exam unit-to-chapter mappings to match the EdTracker Science chapter IDs.",
+      "Removed the incorrect claim that Acids, Bases and Salts, Metals and Non-metals, and Carbon and its Compounds are formative-only.",
+      "Excluded Periodic Classification of Elements and Heredity and Evolution from annual-board weightage mapping.",
+      "Kept Motor, Electromagnetic Induction and Electric Generator identified as formative-only.",
+      "Clarified the assessment status of Heredity within the reproduction and heredity reference tip.",
+      "Preserved the existing study tips and mistake-prevention guidance unless correction was required for assessment scope."
+    ],
+    "scope_notes": [
+      "Weightage represents the official annual-examination unit marks.",
+      "Chapter IDs in the weightage section identify board-assessed EdTracker chapters only.",
+      "Formative-only topics remain useful for learning but are excluded from the 80-mark annual-board weightage."
+    ]
+  }
 }

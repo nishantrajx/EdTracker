@@ -1,132 +1,98 @@
 {
   "subject": "c12-pe",
   "session": "2026-27",
-  "scope": "CBSE Class XII Physical Education (048) 2026-27 written/theory Board-exam preparation for a private candidate; practical/internal-assessment preparation excluded.",
-  "weightage": [
+  "scope": "written/theory Board examination; practical and internal assessment excluded",
+  "chapters": [
     {
       "id": "c12-pe-01",
-      "marks": "05 + 04b*"
-    },
-    {
-      "id": "c12-pe-02",
-      "marks": "07"
-    },
-    {
-      "id": "c12-pe-03",
-      "marks": "06 + 01b*"
-    },
-    {
-      "id": "c12-pe-04",
-      "marks": "04 + 04b*"
-    },
-    {
-      "id": "c12-pe-05",
-      "marks": "07"
+      "formulas": [
+        {
+          "label": "Knock-out tournament matches",
+          "tex": "\\text{Matches}=N-1",
+          "unit": "matches"
+        },
+        {
+          "label": "Number of teams in upper half (odd N)",
+          "tex": "\\text{Upper half}=\\frac{N+1}{2}",
+          "unit": "teams"
+        },
+        {
+          "label": "Number of teams in lower half (odd N)",
+          "tex": "\\text{Lower half}=\\frac{N-1}{2}",
+          "unit": "teams"
+        },
+        {
+          "label": "Number of byes",
+          "tex": "\\text{Byes}=2^m-N\\quad\\text{where }2^m\\ge N",
+          "unit": "byes"
+        },
+        {
+          "label": "Byes in upper half (odd number of byes)",
+          "tex": "\\text{Upper-half byes}=\\frac{B-1}{2}",
+          "unit": "byes; B = total number of byes"
+        },
+        {
+          "label": "Byes in lower half (odd number of byes)",
+          "tex": "\\text{Lower-half byes}=\\frac{B+1}{2}",
+          "unit": "byes; B = total number of byes"
+        },
+        {
+          "label": "Teams in each half (even N)",
+          "tex": "\\text{Teams in each half}=\\frac{N}{2}",
+          "unit": "teams"
+        },
+        {
+          "label": "Number of rounds in a knock-out tournament",
+          "tex": "\\text{Rounds}=m\\quad\\text{where }2^m\\text{ is the next power of 2 at or above }N",
+          "unit": "rounds"
+        },
+        {
+          "label": "Single league matches",
+          "tex": "\\text{Matches}=\\frac{N(N-1)}{2}",
+          "unit": "matches"
+        },
+        {
+          "label": "Double league matches",
+          "tex": "\\text{Matches}=N(N-1)",
+          "unit": "matches"
+        }
+      ]
     },
     {
       "id": "c12-pe-06",
-      "marks": "08"
-    },
-    {
-      "id": "c12-pe-07",
-      "marks": "04 + 04b*"
-    },
-    {
-      "id": "c12-pe-08",
-      "marks": "10"
-    },
-    {
-      "id": "c12-pe-09",
-      "marks": "07"
-    },
-    {
-      "id": "c12-pe-10",
-      "marks": "09"
+      "formulas": [
+        {
+          "label": "Body Mass Index",
+          "tex": "\\mathrm{BMI}=\\frac{\\text{body mass (kg)}}{[\\text{height (m)}]^2}",
+          "unit": "kg m^{-2}"
+        },
+        {
+          "label": "Harvard Step Test fitness index",
+          "tex": "\\mathrm{Fitness\\ Index}=\\frac{\\text{duration of exercise in seconds}\\times100}{5.5\\times\\text{pulse count at 1-1.5 min after exercise}}",
+          "unit": "dimensionless"
+        },
+        {
+          "label": "BMR — male",
+          "tex": "\\mathrm{BMR}=(10\\times\\text{weight in kg})+(6.25\\times\\text{height in cm})-(5\\times\\text{age})+5",
+          "unit": "kcal/day"
+        },
+        {
+          "label": "BMR — female",
+          "tex": "\\mathrm{BMR}=(10\\times\\text{body weight in kg})+(6.25\\times\\text{height in cm})-(5\\times\\text{age})-161",
+          "unit": "kcal/day"
+        }
+      ]
     }
   ],
-  "note": "Official CBSE table prints the unit marks exactly as shown above. b* denotes concept-based questions such as tactile diagram, data interpretation or case-based study for visually impaired students. Theory is 70 marks; practical is separate and excluded from this private-candidate preparation scope.",
-  "reference": [
-    {
-      "label": "Unit 1 — Management of Sporting Events",
-      "text": "Revise the five functions of sports event management: planning, organising, staffing, directing and controlling. Know committee responsibilities before, during and after an event. Practise fixture procedures for knock-out tournaments including bye and seeding, league tournaments using staircase, cyclic and tabular methods, and combination tournaments. Distinguish intramural and extramural tournaments by meaning, objectives and significance. Know the listed community sports programmes: Sports Day, Health Run, Run for Fun, Run for Specific Cause and Run for Unity."
-    },
-    {
-      "label": "Unit 2 — Children and Women in Sports",
-      "text": "Revise WHO exercise guidelines for the prescribed age groups. Learn the listed postural deformities—knock knees, flat foot, round shoulders, lordosis, kyphosis, scoliosis and bow legs—and the corresponding corrective measures. Know physical, psychological and social benefits of women's participation in sports. Revise special considerations relating to menarche and menstrual dysfunction. Know the three components of the female athlete triad: osteoporosis, amenorrhea and eating disorders."
-    },
-    {
-      "label": "Unit 3 — Yoga as Preventive Measure for Lifestyle Disease",
-      "text": "For each prescribed lifestyle condition, learn the listed asanas/pranayamas together with their procedure, benefits and contraindications. Obesity: Tadasana, Katichakrasana, Pavanmuktasana, Matsyasana, Halasana, Paschimottanasana, Ardha-Matsyendrasana, Dhanurasana, Ushtrasana and Suryabedhan pranayama. Diabetes: Katichakrasana, Pavanmuktasana, Bhujangasana, Shalabhasana, Dhanurasana, Supta-Vajrasana, Paschimottanasana, Ardha-Matsyendrasana, Mandukasana, Gomukhasana, Yogmudra, Ushtrasana and Kapalabhati. Asthma: Tadasana, Urdhva Hastottanasana, Uttan Mandukasana, Bhujangasana, Dhanurasana, Ushtrasana, Vakrasana, Kapalabhati, Gomukhasana, Matsyasana and Anuloma-Viloma. Hypertension: Tadasana, Katichakrasana, Uttanpadasana, Ardha Halasana, Sarala Matsyasana, Gomukhasana, Uttan-Mandukasana, Vakrasana, Bhujangasana, Makarasana, Shavasana, Nadi-Shodhana and Sheetali pranayama. Back pain and arthritis: Tadasana, Urdhva Hastottanasana, Ardha-Chakrasana, Ushtrasana, Vakrasana, Sarala Matsyendrasana, Bhujangasana, Gomukhasana, Bhadrasana, Makarasana and Nadi-Shodhana pranayama."
-    },
-    {
-      "label": "Unit 4 — Physical Education and Sports for CWSN",
-      "text": "Know the roles and purposes of Special Olympics, Paralympics and Deaflympics. Understand classification and divisioning in sports. Revise the concept of inclusion in sports, why it is needed and how it is implemented. Know the advantages of physical activities for children with special needs. Revise strategies for making physical activities accessible to children with special needs."
-    },
-    {
-      "label": "Unit 5 — Sports and Nutrition",
-      "text": "Revise the concept of a balanced diet and nutrition. Learn macro- and micronutrients with their food sources and functions. Distinguish nutritive and non-nutritive components of diet. Revise healthy weight, pitfalls of dieting, food intolerance and food myths. Know dietary requirements before, during and after sports competition."
-    },
-    {
-      "label": "Unit 6 — Test and Measurement in Sports",
-      "text": "Know the SAI Khelo India Fitness Test for ages 5–8/classes 1–3: BMI, Flamingo Balance Test and Plate Tapping Test. For ages 9–18/classes 4–12, know BMI, 50 m speed test, 600 m run/walk, Sit and Reach flexibility test, and the strength tests: Partial Abdominal Curl-Up, Push-Ups for boys and Modified Push-Ups for girls. Revise the Harvard Step Test for cardiovascular fitness and practise its fitness-index calculation. Revise BMR computation. Know all six Rikli & Jones tests: Chair Stand, Arm Curl, Chair Sit and Reach, Back Scratch, Eight Foot Up and Go, and Six-Minute Walk. Know the Johnson–Methney Test of Motor Educability and its listed movements: Front Roll, Roll, Jumping Half-Turn and Jumping Full-Turn."
-    },
-    {
-      "label": "Unit 7 — Physiology and Injuries in Sport",
-      "text": "Revise physiological factors determining components of physical fitness. Know effects of exercise on the muscular system and on the cardio-respiratory system. Revise physiological changes due to ageing. For sports injuries, know the classification and the listed examples: soft-tissue injuries—abrasion, contusion, laceration, incision, sprain and strain; bone and joint injuries—dislocation and fractures including greenstick, comminuted, transverse, oblique and impacted fractures."
-    },
-    {
-      "label": "Unit 8 — Biomechanics and Sports",
-      "text": "Revise Newton's three laws of motion and their application in sports. Know the types of levers and their sports applications. Distinguish static and dynamic equilibrium and understand centre of gravity and its sports applications. Revise friction in sports. Understand projectile motion in sports and apply the prescribed concepts to sports situations."
-    },
-    {
-      "label": "Unit 9 — Psychology and Sports",
-      "text": "Know the definition of personality and its prescribed classifications: Jung classification and Big Five theory. Revise motivation, its types and techniques. Know reasons for exercise adherence, its benefits and strategies for enhancing adherence. Revise the meaning, concept and types of aggression in sports. Know the prescribed psychological attributes in sports: self-esteem, mental imagery, self-talk and goal setting."
-    },
-    {
-      "label": "Unit 10 — Training in Sports",
-      "text": "Revise the concept of talent identification and talent development in sports. Know the sports-training cycles: micro, meso and macro. Revise the types and methods used to develop strength, endurance and speed. Revise the types and methods used to develop flexibility and coordinative ability. Know the introduction and importance of circuit training."
-    }
-  ],
-  "mistakes": [
-    "Management of Sporting Events: mixing the five management functions, committee responsibilities, or tournament procedures.",
-    "Children and Women in Sports: confusing postural deformities with their corrective measures, or mixing menarche, menstrual dysfunction and the female athlete triad.",
-    "Yoga: writing an asana/pranayama name without learning its prescribed procedure, benefits and contraindications for the relevant lifestyle condition.",
-    "CWSN: confusing Special Olympics, Paralympics and Deaflympics, or mixing classification, divisioning and inclusion.",
-    "Sports and Nutrition: mixing macro- and micronutrients, nutritive and non-nutritive components, or pre/during/post-competition requirements.",
-    "Test and Measurement: confusing the age-group fitness batteries, test purpose, procedure, scoring/calculation and interpretation.",
-    "Physiology and Injuries: mixing effects of exercise on body systems with ageing changes, or confusing soft-tissue and bone/joint injuries.",
-    "Biomechanics: confusing Newton's laws, levers, equilibrium, centre of gravity, friction and projectile motion when applying them to sports situations.",
-    "Psychology: confusing personality, motivation, exercise adherence, aggression and the listed psychological attributes.",
-    "Training: mixing talent identification/development, training cycles and methods used to develop different fitness components."
-  ],
-  "order": [
-    "Start with Management of Sporting Events and master tournament terminology and fixture procedures.",
-    "Study Children and Women in Sports and make a compact deformity-to-correction and concept comparison sheet.",
-    "Study Yoga by lifestyle condition, keeping procedure, benefits and contraindications together for every prescribed asana/pranayama.",
-    "Study CWSN with clear distinctions between organisations, classification/divisioning, inclusion, advantages and accessibility strategies.",
-    "Complete Sports and Nutrition with nutrient/component comparisons and pre-, during- and post-competition requirements.",
-    "Practise Test and Measurement through test identification, procedure, scoring and calculation questions.",
-    "Study Physiology and Injuries by separating system effects, ageing changes and injury classifications.",
-    "Study Biomechanics through law/lever/equilibrium/friction/projectile concept-to-sports applications.",
-    "Finish Psychology by connecting each definition or theory with its prescribed type, technique or attribute.",
-    "Finish Training by separating talent development, training cycles, component-specific methods and circuit training.",
-    "Revise all ten units using short-answer recall followed by concept/application and case-based practice.",
-    "Keep practical-file and practical-performance preparation separate from the 70-mark written-theory revision."
-  ],
-  "resources": [
-    {
-      "label": "CBSE Physical Education 2026-27 syllabus",
-      "url": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/PhysicalEducation_SecP2_2026-27.pdf"
-    },
-    {
-      "label": "NCERT Textbooks",
-      "url": "https://ncert.nic.in/textbook.php"
-    },
-    {
-      "label": "CBSE Class XII 2026-27 SQP & Marking Scheme",
-      "url": "https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html"
-    }
-  ],
-  "audit_status": "CERTIFIED_FOR_CURRENT_THEORY_SCOPE",
-  "certification_note": "Tips are exam-preparation guidance derived from the CBSE 2026-27 theory syllabus. They do not claim to be official CBSE advice. Practical/internal-assessment preparation is excluded for the private-candidate scope."
+  "_audit": {
+    "status": "SOURCE_GROUNDED_CLEANED",
+    "source_file": "c12-pe.json",
+    "formula_chapters_present_in_source": [
+      "c12-pe-01",
+      "c12-pe-06"
+    ],
+    "formula_entry_count": 14,
+    "important_note": "Only formulas explicitly present in the uploaded source are retained. No biomechanics formulas have been added.",
+    "coverage_gap": "The source formula bank contains formulas only for Units 1 and 6. Absence of formulas for other PE units is preserved rather than filled from general knowledge."
+  }
 }

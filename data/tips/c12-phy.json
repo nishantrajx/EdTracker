@@ -1,5 +1,7 @@
 {
   "subject": "c12-phy",
+  "session": "2026-27",
+  "scope": "written/theory Board examination; practical and internal assessment excluded",
   "chapters": [
     {
       "id": "c12-phy-01",
@@ -187,11 +189,6 @@
         {
           "label": "Resistivity-conductivity relation",
           "tex": "\\rho=\\frac1\\sigma",
-          "unit": "\\Omega m"
-        },
-        {
-          "label": "Resistivity in Drude model",
-          "tex": "\\rho=\\frac{m}{ne^2\\tau}",
           "unit": "\\Omega m"
         },
         {
@@ -625,8 +622,8 @@
         },
         {
           "label": "Bohr orbit velocity",
-          "tex": "v_n=\\frac{1}{4\\pi\\varepsilon_0}\\frac{Ze^2}{\\hbar n}",
-          "unit": "m s⁻¹"
+          "tex": "\\displaystyle v_n=\\frac{Z e^2}{4\\pi\\varepsilon_0\\hbar n}",
+          "unit": "m s^{-1}"
         },
         {
           "label": "Bohr energy of hydrogen-like atom",
@@ -670,5 +667,27 @@
         }
       ]
     }
-  ]
+  ],
+  "_audit": {
+    "status": "SOURCE_GROUNDED_CLEANED",
+    "source_file": "c12-phy.json",
+    "formula_chapters_present_in_source": [
+      "c12-phy-01",
+      "c12-phy-02",
+      "c12-phy-03",
+      "c12-phy-04",
+      "c12-phy-05",
+      "c12-phy-06",
+      "c12-phy-07",
+      "c12-phy-08",
+      "c12-phy-09",
+      "c12-phy-10",
+      "c12-phy-11",
+      "c12-phy-12",
+      "c12-phy-13"
+    ],
+    "formula_entry_count": 120,
+    "syllabus_gap": "c12-phy-14 (Semiconductor Electronics) is present in the Class 12 syllabus but absent from the uploaded Physics formula source.",
+    "important_note": "Chapter 14 formulas are not inserted into the authoritative formula bank because the uploaded source does not contain them."
+  }
 }

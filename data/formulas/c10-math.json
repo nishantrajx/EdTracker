@@ -354,18 +354,6 @@
           "tex": "1+\\cot^2A=\\cosec^2A",
           "unit": "",
           "type": "supporting_result"
-        },
-        {
-          "label": "Reciprocal relationships",
-          "tex": "\\sin A=\\frac1{\\cosec A},\\quad\\cos A=\\frac1{\\sec A},\\quad\\tan A=\\frac1{\\cot A}",
-          "unit": "",
-          "type": "supporting_result"
-        },
-        {
-          "label": "Quotient relationships",
-          "tex": "\\tan A=\\frac{\\sin A}{\\cos A},\\quad\\cot A=\\frac{\\cos A}{\\sin A}",
-          "unit": "",
-          "type": "supporting_result"
         }
       ]
     },
@@ -656,12 +644,22 @@
   "_audit": {
     "session": "2026-27",
     "source_of_truth": "CBSE Class 10 Mathematics 2026-27 syllabus",
+    "subject_scope": "Mathematics Standard (Code 041)",
     "purpose": "Corrected formula dataset while preserving EdTracker chapter organization",
     "changes": [
-      "Added cone slant-height formula l = sqrt(r^2 + h^2).",
-      "Added total frequency N = sum f_i for grouped-data statistics.",
-      "Classified theorem/result entries separately from formulas."
+      "Made Mathematics Standard (041) and session 2026-27 explicit in metadata.",
+      "Removed duplicated reciprocal and quotient trigonometric relationships from the Trigonometric Identities chapter; they remain under Introduction to Trigonometry.",
+      "Kept the Applications of Trigonometry formula set focused on simple heights-and-distances relationships.",
+      "Preserved mathematically valid existing formulas and theorem/result classifications.",
+      "No unsupported advanced formulas were added."
     ],
-    "note": "Existing formula content was preserved; no unsupported coaching-site formulas were added."
-  }
+    "scope_notes": [
+      "The CBSE syllabus scope governs which formulas belong in EdTracker; derived formulas may be included when they directly support an in-scope topic.",
+      "Segment-area problems remain restricted by the syllabus to central angles of 60°, 90° and 120°.",
+      "Surface-area and volume problems concern combinations of two prescribed solids."
+    ]
+  },
+  "subject_name": "Mathematics Standard",
+  "subject_code": "041",
+  "session": "2026-27"
 }

@@ -1478,7 +1478,8 @@
             "assessment_status": "board_or_curriculum"
           }
         }
-      ]
+      ],
+      "scope_note": "This dataset represents Mathematics Standard (041). Mathematics Basic (241) is a separate CBSE course and is not included here."
     },
     {
       "id": "c10-sci",
@@ -1520,7 +1521,7 @@
           "audit": {
             "cbse_session": "2026-27",
             "structure_status": "valid_subdivision",
-            "assessment_status": "board_or_curriculum"
+            "assessment_status": "formative_only"
           }
         },
         {
@@ -1654,7 +1655,7 @@
           "audit": {
             "cbse_session": "2026-27",
             "structure_status": "valid_subdivision",
-            "assessment_status": "board_or_curriculum"
+            "assessment_status": "formative_only"
           }
         },
         {
@@ -1672,7 +1673,7 @@
           "audit": {
             "cbse_session": "2026-27",
             "structure_status": "valid_subdivision",
-            "assessment_status": "board_or_curriculum"
+            "assessment_status": "formative_only"
           }
         },
         {
@@ -1767,7 +1768,12 @@
           "audit": {
             "cbse_session": "2026-27",
             "structure_status": "valid_subdivision",
-            "assessment_status": "board_or_curriculum"
+            "assessment_status": "mixed_board_and_formative",
+            "formative_only_topics": [
+              "Electric motor (formative only)",
+              "Electromagnetic induction (formative only)",
+              "Electric generator (formative only)"
+            ]
           }
         },
         {
@@ -2199,17 +2205,13 @@
             "Board Examination: Factors that have enabled globalisation",
             "Interdisciplinary project / Multiple Assessment: Production across countries",
             "Interdisciplinary project / Multiple Assessment: Chinese toys in India",
-            "Interdisciplinary project / Multiple Assessment: Role of multinational corporations",
             "Interdisciplinary project / Multiple Assessment: World Trade Organisation",
-            "Interdisciplinary project / Multiple Assessment: Impact of globalisation in India",
-            "Interdisciplinary project / Multiple Assessment: The struggle for a fair globalisation",
-            "G20 and India’s role",
-            "Interdisciplinary project linkage"
+            "Interdisciplinary project / Multiple Assessment: The struggle for a fair globalisation"
           ],
           "audit": {
             "cbse_session": "2026-27",
             "structure_status": "valid_subdivision",
-            "assessment_status": "board_or_curriculum"
+            "assessment_status": "mixed_board_and_project_assessment"
           }
         },
         {
@@ -2660,7 +2662,8 @@
   "audit_policy": {
     "source_of_truth": "CBSE official curriculum 2026-27",
     "subdivision_rule": "EdTracker may subdivide official CBSE units/chapters; subdivisions must remain within the official CBSE scope.",
-    "third_party_rule": "Trusted third-party 2026-27 educational sources may corroborate, but may not expand the CBSE syllabus boundary.",
-    "study_concept_rule": "Derived learning/study concepts are kept separately from official syllabus topics."
+    "third_party_rule": "Third-party sources are not authoritative for syllabus inclusion and may not expand the CBSE syllabus boundary.",
+    "study_concept_rule": "Derived learning/study concepts are kept separately from official syllabus topics.",
+    "supporting_source_rule": "Official NCERT textbooks/current editions may be used for textbook mapping and learning-context verification; they do not expand the CBSE syllabus boundary."
   }
 }

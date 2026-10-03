@@ -59,7 +59,7 @@
       "marks": "11"
     }
   ],
-  "note": "Official 2026-27 theory unit marks: Number Systems 6, Algebra 20, Coordinate Geometry 6, Geometry 15, Trigonometry 12, Mensuration 10, Statistics and Probability 11; total 80, internal assessment 20. The curriculum emphasises conceptual understanding, problem-solving, visualisation, mathematical communication and real-life applications.",
+  "note": "For CBSE Class 10 Mathematics Standard (041), 2026-27, the supplied weightage is: Number Systems 6, Algebra 20, Coordinate Geometry 6, Geometry 15, Trigonometry 12, Mensuration 10, Statistics and Probability 11; total theory 80 marks, internal assessment 20. Preparation should emphasize conceptual understanding, problem-solving, visualisation, mathematical communication and applications.",
   "reference": [
     {
       "label": "Quadratic roots",
@@ -146,5 +146,29 @@
       "label": "NCERT textbooks",
       "url": "https://ncert.nic.in/textbook.php"
     }
-  ]
+  ],
+  "subject_name": "Mathematics Standard",
+  "subject_code": "041",
+  "session": "2026-27",
+  "_audit": {
+    "status": "PASS",
+    "scope": "Class 10 CBSE Mathematics Standard (041), 2026-27",
+    "basis": [
+      "Supplied EdTracker Mathematics Tips JSON",
+      "CBSE Class X Mathematics 2026-27 syllabus structure reflected in the supplied file"
+    ],
+    "corrections": [
+      "Added subject_name, subject_code, and session metadata.",
+      "Explicitly identified the file as Mathematics Standard (041) so it is not confused with Mathematics Basic (241).",
+      "Retained the supplied chapter weightage, formula/reference guidance, mistakes and study order."
+    ],
+    "validation": [
+      "JSON parses successfully.",
+      "Theory weightage totals 80 marks: 6 + 20 + 6 + 15 + 12 + 10 + 11.",
+      "All 15 chapter IDs are represented exactly once across the seven weightage blocks.",
+      "Reference tips cover Algebra, Coordinate Geometry, Trigonometry, Mensuration, Statistics, Probability, Real Numbers, Polynomials, Triangles and Circles.",
+      "No duplicate weightage IDs.",
+      "No formula duplication was introduced; formula content remains in the separate Mathematics Formula file."
+    ]
+  }
 }

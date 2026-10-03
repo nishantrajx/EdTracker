@@ -98,15 +98,20 @@
           "label": "Mendelian dominant phenotype ratio",
           "tex": "3:1",
           "unit": "",
-          "type": "ratio"
+          "type": "ratio",
+          "assessment_status": "formative_only"
         },
         {
           "label": "Mendelian monohybrid genotypic ratio",
           "tex": "1:2:1",
           "unit": "",
-          "type": "ratio"
+          "type": "ratio",
+          "assessment_status": "formative_only"
         }
-      ]
+      ],
+      "audit": {
+        "assessment_status": "formative_only"
+      }
     },
     {
       "id": "c10-sci-11",
@@ -331,8 +336,14 @@
       "Classified reaction patterns, definitions, biological equations, ratios, laws, constants, and conceptual relationships separately from mathematical formulas.",
       "Clarified the magnetic-field entry as a qualitative relationship rather than adding an unsupported advanced formula.",
       "Kept formative-only and genuinely non-formula chapters without invented formulas.",
-      "Did not add unsupported advanced Physics formulas."
+      "Did not add unsupported advanced Physics formulas.",
+      "Made Science subject name, subject code 086, and session 2026-27 explicit in metadata.",
+      "Marked Heredity ratio entries as formative-only because Heredity and Evolution are not assessed in the year-end examination."
     ],
-    "note": "This is a formula/equation-oriented dataset. Empty chapters are intentional where the syllabus content is primarily conceptual."
-  }
+    "note": "This is a formula/equation-oriented dataset. Empty chapters are intentional where the syllabus content is primarily conceptual.",
+    "subject_scope": "Science (Code 086)"
+  },
+  "subject_name": "Science",
+  "subject_code": "086",
+  "session": "2026-27"
 }

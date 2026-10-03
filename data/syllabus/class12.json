@@ -12,7 +12,8 @@
           "topics": [
             "Reading comprehension through an unseen passage",
             "Unseen case-based factual passage with verbal/visual inputs"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-eng-02",
@@ -22,7 +23,8 @@
             "Formal / informal invitation and reply — up to 50 words",
             "Letter based on verbal/visual input — job application with bio-data or resume; letter to the editor — approximately 120–150 words",
             "Article / report writing, descriptive and analytical in nature — 120–150 words"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-eng-03",
@@ -36,7 +38,8 @@
             "Poets and Pancakes",
             "The Interview",
             "Going Places"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-eng-04",
@@ -47,7 +50,8 @@
             "A Thing of Beauty",
             "A Roadside Stand",
             "Aunt Jennifer's Tigers"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-eng-05",
@@ -60,7 +64,8 @@
             "On the Face of It",
             "Memories of Childhood – The Cutting of My Long Hair",
             "Memories of Childhood – We Too are Human Beings"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         }
       ]
     },
@@ -76,7 +81,8 @@
             "Electric field, electric field due to a point charge, electric field lines",
             "Electric dipole, electric field due to a dipole, torque on a dipole in uniform electric field",
             "Electric flux, statement of Gauss's theorem and applications to find field due to infinitely long straight wire, uniformly charged infinite plane sheet, and uniformly charged thin spherical shell (field inside and outside)"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-phy-02",
@@ -88,7 +94,8 @@
             "Capacitors and capacitance; combination of capacitors in series and in parallel",
             "Capacitance of a parallel plate capacitor with and without dielectric medium between the plates",
             "Energy stored in a capacitor (no derivation, formulae only)"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-phy-03",
@@ -101,7 +108,8 @@
             "Internal resistance of a cell, potential difference and emf of a cell",
             "Combination of cells in series and in parallel",
             "Kirchhoff's rules and Wheatstone bridge"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-phy-04",
@@ -116,7 +124,8 @@
             "Torque experienced by a current loop in uniform magnetic field",
             "Current loop as a magnetic dipole and its magnetic dipole moment",
             "Moving coil galvanometer — current sensitivity and conversion to ammeter and voltmeter"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-phy-05",
@@ -129,7 +138,8 @@
             "Magnetic properties of materials — para-, dia- and ferro-magnetic substances with examples",
             "Magnetization of materials",
             "Effect of temperature on magnetic properties"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-phy-06",
@@ -139,7 +149,8 @@
             "Faraday's laws, induced EMF and current",
             "Lenz's law",
             "Self and mutual induction"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-phy-07",
@@ -150,7 +161,8 @@
             "LCR series circuit (phasors only) and resonance",
             "Power in AC circuits, power factor and wattless current",
             "AC generator and transformer"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-phy-08",
@@ -159,7 +171,8 @@
             "Basic idea of displacement current",
             "Electromagnetic waves, their characteristics and their transverse nature (qualitative idea only)",
             "Electromagnetic spectrum — radio waves, microwaves, infrared, visible, ultraviolet, X-rays and gamma rays — including elementary facts about their uses"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-phy-09",
@@ -170,7 +183,8 @@
             "Refraction at spherical surfaces; lenses; thin lens formula; lens maker's formula; magnification; power of a lens; combination of thin lenses in contact",
             "Refraction of light through a prism",
             "Optical instruments: microscopes and astronomical telescopes (reflecting and refracting) and their magnifying powers"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-phy-10",
@@ -181,7 +195,8 @@
             "Interference and Young's double slit experiment; expression for fringe width (no derivation, final expression only)",
             "Coherent sources and sustained interference of light",
             "Diffraction due to a single slit; width of central maxima (qualitative treatment only)"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-phy-11",
@@ -192,7 +207,8 @@
             "Einstein's photoelectric equation — particle nature of light",
             "Experimental study of photoelectric effect",
             "Matter waves — wave nature of particles; de-Broglie relation"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-phy-12",
@@ -202,7 +218,8 @@
             "Bohr model of hydrogen atom",
             "Expression for radius of nth possible orbit, velocity and energy of electron in nth orbit",
             "Hydrogen line spectra (qualitative treatment only)"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-phy-13",
@@ -213,7 +230,8 @@
             "Mass-energy relation and mass defect",
             "Binding energy per nucleon and its variation with mass number",
             "Nuclear fission and nuclear fusion"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-phy-14",
@@ -223,7 +241,8 @@
             "Intrinsic and extrinsic semiconductors — p and n type; p-n junction",
             "Semiconductor diode — I-V characteristics in forward and reverse bias",
             "Application of junction diode — diode as a rectifier"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         }
       ]
     },
@@ -240,7 +259,8 @@
             "Ideal and non-ideal solutions",
             "Colligative properties and determination of molar mass",
             "Abnormal molecular masses"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-chem-02",
@@ -251,7 +271,8 @@
             "Conductance of electrolytic solutions",
             "Electrolytic cells and electrolysis",
             "Batteries, fuel cells and corrosion"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-chem-03",
@@ -262,7 +283,8 @@
             "Integrated rate equations",
             "Temperature dependence of rate",
             "Collision theory of chemical reactions"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-chem-04",
@@ -274,7 +296,8 @@
             "Important compounds of transition elements",
             "Lanthanoids and actinoids",
             "Applications of d- and f-block elements"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-chem-05",
@@ -287,7 +310,8 @@
             "Bonding in coordination compounds",
             "Bonding in metal carbonyls",
             "Importance and applications"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-chem-06",
@@ -299,7 +323,8 @@
             "Physical properties",
             "Chemical reactions",
             "Polyhalogen compounds"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-chem-07",
@@ -309,7 +334,8 @@
             "Alcohols and phenols",
             "Commercially important alcohols",
             "Ethers"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-chem-08",
@@ -321,7 +347,8 @@
             "Uses of aldehydes and ketones",
             "Structure of carboxyl group",
             "Preparation, properties, reactions and uses of carboxylic acids"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-chem-09",
@@ -333,7 +360,8 @@
             "Preparation of diazonium salts",
             "Properties and chemical reactions of diazonium salts",
             "Importance of diazonium salts in synthesis of aromatic compounds"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-chem-10",
@@ -345,6 +373,43 @@
             "Vitamins",
             "Nucleic acids",
             "Hormones"
+          ],
+          "assessment_status": "board_assessed"
+        },
+        {
+          "id": "c12-chem-11",
+          "name": "Surface Chemistry (Formative Only)",
+          "assessment_status": "formative_only",
+          "topics": [
+            "Adsorption — physisorption and chemisorption; factors affecting adsorption of gases on solids",
+            "Colloidal state — distinction between true solutions, colloids and suspension; lyophilic and lyophobic properties of colloids; coagulation",
+            "Emulsions — types of emulsions"
+          ]
+        },
+        {
+          "id": "c12-chem-12",
+          "name": "General Principles and Processes of Isolation of Elements (Formative Only)",
+          "assessment_status": "formative_only",
+          "topics": [
+            "Principles and methods of extraction — concentration, oxidation, reduction, electrolytic method and refining"
+          ]
+        },
+        {
+          "id": "c12-chem-13",
+          "name": "Polymers (Formative Only)",
+          "assessment_status": "formative_only",
+          "topics": [
+            "Polymerisation",
+            "Homopolymers and copolymers with a few examples"
+          ]
+        },
+        {
+          "id": "c12-chem-14",
+          "name": "Chemistry in Everyday Life (Formative Only)",
+          "assessment_status": "formative_only",
+          "topics": [
+            "Chemicals in medicines — analgesics, tranquilizers, antiseptics, disinfectants, antimicrobials, antifertility drugs, antibiotics, antacids and antihistamines",
+            "Chemicals in food — preservatives, artificial sweetening agents and antioxidants"
           ]
         }
       ]
@@ -359,7 +424,8 @@
           "topics": [
             "Types of relations: reflexive, symmetric, transitive and equivalence relations",
             "One-to-one and onto functions"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-math-02",
@@ -368,7 +434,8 @@
             "Definition, range and domain",
             "Principal value branch",
             "Graphs of inverse trigonometric functions"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-math-03",
@@ -379,7 +446,8 @@
             "Addition, multiplication and scalar multiplication",
             "Non-commutativity of matrix multiplication and non-zero matrices whose product is zero (order 2)",
             "Invertible matrices and uniqueness of inverse"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-math-04",
@@ -390,7 +458,8 @@
             "Adjoint and inverse of a square matrix",
             "Consistency, inconsistency and number of solutions of linear systems",
             "Solving linear systems in two or three variables with a unique solution using inverse of a matrix"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-math-05",
@@ -403,7 +472,8 @@
             "Logarithmic differentiation",
             "Parametric differentiation",
             "Second-order derivatives"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-math-06",
@@ -414,7 +484,8 @@
             "Maxima and minima",
             "First derivative test and second derivative test",
             "Simple problems and real-life applications"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-math-07",
@@ -425,7 +496,8 @@
             "Evaluation of simple integrals of the following types and problems based on them: ∫ dx/(x² ± a²); ∫ dx/√(x² ± a²); ∫ dx/√(a² − x²); ∫ dx/(ax² + bx + c); ∫ dx/√(ax² + bx + c); ∫ (px + q)/(ax² + bx + c) dx; ∫ (px + q)/√(ax² + bx + c) dx; ∫ √(a² ± x²) dx; ∫ √(x² − a²) dx; ∫ √(ax² + bx + c) dx",
             "Fundamental Theorem of Calculus (without proof)",
             "Basic properties of definite integrals and evaluation of definite integrals"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-math-08",
@@ -433,7 +505,8 @@
           "topics": [
             "Area under simple curves",
             "Areas involving lines, circles, parabolas and ellipses in standard form"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-math-09",
@@ -444,7 +517,8 @@
             "Separation of variables",
             "Homogeneous differential equations of first order and first degree",
             "Linear differential equations"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-math-10",
@@ -457,7 +531,8 @@
             "Section formula in vector form",
             "Scalar (dot) product — interpretation, properties and applications",
             "Vector (cross) product — interpretation, properties and applications"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-math-11",
@@ -467,7 +542,8 @@
             "Cartesian and vector equations of a line",
             "Skew lines and shortest distance between two lines",
             "Angle between two lines"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-math-12",
@@ -478,7 +554,8 @@
             "Feasible and infeasible regions — bounded and unbounded",
             "Feasible and infeasible solutions",
             "Optimal feasible solutions; up to three non-trivial constraints"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-math-13",
@@ -489,7 +566,8 @@
             "Independent events",
             "Total probability",
             "Bayes' theorem"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         }
       ]
     },
@@ -506,7 +584,8 @@
             "Fixtures and their Procedures — Knock-Out (Bye & Seeding), League (Staircase, Cyclic, Tabular method) and Combination tournaments",
             "Intramural & Extramural tournaments — Meaning, Objectives & Significance",
             "Community sports program — Sports Day, Health Run, Run for Fun, Run for Specific Cause & Run for Unity"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-pe-02",
@@ -517,7 +596,8 @@
             "Women's participation in Sports — Physical, Psychological, and social benefits",
             "Special consideration — menarche and menstrual dysfunction",
             "Female athlete triad — osteoporosis, amenorrhea, eating disorders"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-pe-03",
@@ -528,7 +608,8 @@
             "Asthma: Procedure, Benefits & Contraindications for Tadasana, Urdhwahastottanasana, UttanMandukasana, Bhujangasana, Dhanurasana, Ushtrasana, Vakrasana, Kapalbhati, Gomukhasana, Matsyaasana, Anuloma-Viloma",
             "Hypertension: Procedure, Benefits & Contraindications for Tadasana, Katichakrasana, Uttanpadasana, Ardha Halasana, Sarala Matyasana, Gomukhasana, UttanMandukasana, Vakrasana, Bhujangasana, Makarasana, Shavasana, Nadi-shodhana pranayam, Sitli pranayam",
             "Back Pain and Arthritis: Procedure, Benefits & Contraindications of Tadasan, Urdhwahastottanasana, Ardh-Chakrasana, Ushtrasana, Vakrasana, Sarala Maysyendrsana, Bhujangasana, Gomukhasana, Bhadrasana, Makarasana, Nadi-Shodhana pranayama"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-pe-04",
@@ -539,7 +620,8 @@
             "Concept of Inclusion in sports, its need, and implementation",
             "Advantages of Physical Activities for children with special needs",
             "Strategies to make Physical Activities assessable for children with special needs"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-pe-05",
@@ -550,7 +632,8 @@
             "Nutritive & Non-Nutritive Components of Diet",
             "Eating for Weight control — A Healthy Weight, the Pitfalls of Dieting, Food Intolerance, and Food Myths",
             "Importance of Diet in Sports — Pre, During and Post competition requirements"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-pe-06",
@@ -561,7 +644,8 @@
             "Computing Basal Metabolic Rate (BMR)",
             "Rikli & Jones — Senior Citizen Fitness Test: Chair Stand Test for lower body strength; Arm Curl Test for upper body strength; Chair Sit & Reach Test for lower body flexibility; Back Scratch Test for upper body flexibility; Eight Foot Up & Go Test for agility; Six-Minute Walk Test for Aerobic Endurance",
             "Johnsen–Methney Test of Motor Educability — Front Roll, Roll, Jumping Half-Turn, Jumping Full-Turn"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-pe-07",
@@ -572,7 +656,8 @@
             "Effect of exercise on the Cardio-Respiratory System",
             "Physiological changes due to aging",
             "Sports injuries: Classification — Soft Tissue Injuries (Abrasion, Contusion, Laceration, Incision, Sprain & Strain); Bone & Joint Injuries (Dislocation); Fractures (Green Stick, Comminuted, Transverse, Oblique & Impacted); causes, prevention, aims & objectives of first aid, and management of injuries"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-pe-08",
@@ -583,7 +668,8 @@
             "Equilibrium — Dynamic & Static and Centre of Gravity and its application in sports",
             "Friction & Sports",
             "Projectile in Sports"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-pe-09",
@@ -594,7 +680,8 @@
             "Exercise Adherence — Reasons, Benefits & Strategies for Enhancing it",
             "Meaning, Concept & Types of Aggressions in Sports",
             "Psychological Attributes in Sports — Self-Esteem, Mental Imagery, Self-Talk, Goal Setting"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         },
         {
           "id": "c12-pe-10",
@@ -605,9 +692,22 @@
             "Types & Methods to Develop — Strength, Endurance, and Speed",
             "Types & Methods to Develop — Flexibility and Coordinative Ability",
             "Circuit Training — Introduction & its importance"
-          ]
+          ],
+          "assessment_status": "board_assessed"
         }
       ]
     }
-  ]
+  ],
+  "_audit": {
+    "status": "corrected",
+    "session": "2026-27",
+    "authority": "CBSE official Class XII 2026-27 subject curricula supplied in the conversation",
+    "scope_note": "This file represents the syllabus content for English Core (301), Physics (042), Chemistry (043), Mathematics (041), and Physical Education (048). Board-assessed and explicitly formative-only Chemistry content are distinguished.",
+    "corrections": [
+      "Added explicit assessment_status=board_assessed to existing chapters.",
+      "Added the four Chemistry Class XII 2026-27 topics explicitly included in the syllabus but assessed only formatively: Surface Chemistry; General Principles and Processes of Isolation of Elements; Polymers; Chemistry in Everyday Life.",
+      "Did not invent Physics excluded-content items because the supplied CBSE Physics PDF states that NCERT-marked exclusions are not assessed but does not enumerate those exclusions in the retrieved Class XII section.",
+      "Preserved the existing English, Physics, Mathematics and Physical Education chapter/topic content where it matches the supplied 2026-27 Class XII curriculum."
+    ]
+  }
 }

@@ -1,5 +1,9 @@
 {
   "subject": "c12-eng",
+  "subject_name": "English Core",
+  "subject_code": "301",
+  "session": "2026-27",
+  "scope": "CBSE Class XII English Core (301) 2026-27 written/theory Board-exam preparation; internal assessment (Listening, Speaking and Project Work) excluded for the private-candidate scope.",
   "weightage": [
     {
       "id": "c12-eng-01",
@@ -19,21 +23,84 @@
       "marks": "40"
     }
   ],
-  "note": "Official CBSE theory paper: 80 marks. Reading Skills = 22, Creative Writing Skills = 18, Literature Text Book and Supplementary Reading Text = 40. Internal assessment is separate (Listening 5, Speaking 5 and Project Work 10) and is excluded from this private-candidate theory scope.",
-  "mistakes": [
-    "Reading: answering from general knowledge instead of the passage; support answers with evidence from the given text.",
-    "Reading: confusing inference with a sentence copied from the passage; state the inference clearly and connect it to textual evidence.",
-    "Reading: overlooking the case-based visual/statistical input; use the information actually supplied in the passage and accompanying input.",
-    "Creative writing: losing marks through incorrect format, missing required parts, weak organisation, unsuitable tone, or ignoring the prescribed word range.",
-    "Creative writing: using memorised content that does not address the specific verbal/visual input.",
-    "Literature extracts: identifying an option or detail without explaining the relevant textual meaning when the question requires interpretation or inference.",
-    "Literature short answers: retelling the whole chapter instead of answering the exact inferential question in 40–50 words.",
-    "Literature: making character/theme claims without linking them to a relevant incident, image, event or textual reference.",
-    "Poetry: identifying a poetic feature without explaining its effect or connection to meaning when the question requires appreciation or analysis.",
-    "Vistas long answers: giving a chapter summary instead of demonstrating global comprehension and analytical/evaluative understanding.",
-    "Long answers: spending too much space on introduction and not developing the analytical or evaluative response within 120–150 words.",
-    "Internal assessment: spending this theory-tip section on Listening, Speaking or Project Work; those components are outside the private-candidate written-paper scope."
-  ],
+  "sections": {
+    "c12-eng-01": {
+      "name": "Reading Skills",
+      "tips": [
+        "Practise both prescribed unseen-passage types: literary/factual/descriptive and case-based factual passages with verbal/visual input.",
+        "Answer from the passage first; use general knowledge only when it is not being substituted for textual evidence.",
+        "For inference questions, state the inference and connect it to the relevant textual clue.",
+        "For case-based passages, read charts/statistical input carefully before answering.",
+        "Practise vocabulary through inference rather than isolated word memorisation."
+      ],
+      "mistakes": [
+        "Answering from general knowledge instead of passage evidence.",
+        "Confusing inference with a copied sentence.",
+        "Overlooking visual/statistical information in a case-based passage."
+      ]
+    },
+    "c12-eng-02": {
+      "name": "Creative Writing Skills",
+      "tips": [
+        "Maintain a separate format checklist for each prescribed writing task.",
+        "Keep notice and invitation/reply responses within 50 words.",
+        "Keep job applications, letters to the editor, articles and reports within 120–150 words.",
+        "Use the verbal/visual input supplied in the question rather than inserting memorised material.",
+        "Check format, organisation, tone, required information and word limit before submitting."
+      ],
+      "mistakes": [
+        "Incorrect format or missing required parts.",
+        "Unsuitable tone or weak organisation.",
+        "Ignoring the supplied verbal/visual input.",
+        "Exceeding or falling materially short of the prescribed word range."
+      ]
+    },
+    "c12-eng-03": {
+      "name": "Flamingo Prose",
+      "tips": [
+        "Read each prescribed prose text completely and track important incidents, themes and character/event development.",
+        "Prepare extract-based comprehension and interpretation questions separately from longer analytical answers.",
+        "For 40–50-word answers, answer the exact question with concise, evidence-linked inference.",
+        "For 120–150-word answers, develop an analytical/evaluative response rather than retelling the chapter.",
+        "Use relevant incidents, events and textual references as support."
+      ],
+      "mistakes": [
+        "Retelling the whole chapter instead of answering the exact question.",
+        "Making character/theme claims without textual support.",
+        "Writing long answers without analytical or evaluative development."
+      ]
+    },
+    "c12-eng-04": {
+      "name": "Flamingo Poetry",
+      "tips": [
+        "Revise the central idea and important images of every prescribed poem.",
+        "Prepare for extract questions involving comprehension, interpretation, analysis, inference and appreciation.",
+        "Identify relevant poetic features, but explain their effect or connection to meaning when required.",
+        "Use the poem's own images and ideas as evidence rather than generic poetry commentary.",
+        "Practise concise answers that directly connect the poetic detail to the question."
+      ],
+      "mistakes": [
+        "Identifying a poetic feature without explaining its effect when analysis is required.",
+        "Giving a generic theme instead of interpreting the supplied extract.",
+        "Using memorised commentary that does not address the question."
+      ]
+    },
+    "c12-eng-05": {
+      "name": "Vistas / Supplementary Reading",
+      "tips": [
+        "Read all prescribed Vistas texts for global comprehension rather than only memorising summaries.",
+        "Practise prose extracts and 40–50-word inferential answers separately.",
+        "For 120–150-word responses, use relevant incidents, events and themes as reference points.",
+        "Distinguish inference from direct textual detail when explaining an incident or character.",
+        "Practise analytical/evaluative questions that require understanding across the text."
+      ],
+      "mistakes": [
+        "Giving a chapter summary instead of answering the analytical question.",
+        "Making claims without linking them to an incident, event or theme.",
+        "Ignoring the exact wording of the question while recalling a memorised answer."
+      ]
+    }
+  },
   "order": [
     "Finish Reading Skills first: practise both unseen-passage types and train specifically for comprehension, interpretation, analysis, inference, evaluation and vocabulary through inference.",
     "Build separate format checklists for notice, formal/informal invitation and reply, job application with bio-data/resume, letter to the editor, article and report.",
@@ -60,9 +127,7 @@
       "url": "https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html"
     }
   ],
-  "session": "2026-27",
-  "scope": "CBSE Class XII English Core (301) 2026-27 written/theory Board-exam preparation; internal assessment (Listening, Speaking and Project Work) excluded for the private-candidate scope.",
-  "reference": [
+  "prescribed_text_reference": [
     {
       "label": "Section A — Reading Skills",
       "text": "Practise both prescribed unseen-passage types: one unseen passage that may be factual, descriptive or literary, and one unseen case-based factual passage using verbal/visual inputs such as statistical data or charts. The combined word limit for the two passages is 700–750 words. Focus on comprehension, interpretation, analysis, inference, evaluation and vocabulary through inference."
@@ -172,6 +237,17 @@
       "text": "Prepare both prescribed parts—The Cutting of My Long Hair and We Too are Human Beings—for prose-based questions. Practise inferential short answers and analytical/evaluative long answers using relevant incidents, events and themes."
     }
   ],
-  "audit_status": "CERTIFIED_FOR_CURRENT_THEORY_SCOPE",
-  "certification_note": "Tips were audited against the CBSE 2026-27 English Core (301) theory structure and prescribed literature/writing scope. Internal assessment is excluded for the private-candidate scope. The tips are study guidance, not official CBSE advice."
+  "_audit": {
+    "status": "CORRECTED_AND_VALIDATED",
+    "basis": "Uploaded Class 12 English Core 2026-27 source",
+    "validation": {
+      "theory_marks": 80,
+      "section_weightage_entries": 3,
+      "tips_sections": 5,
+      "prescribed_reference_entries": 27,
+      "internal_assessment_excluded": true,
+      "all_sections_have_tips": true
+    },
+    "note": "The source is already a certified theory-scope tips/reference file. This corrected version reorganizes the guidance into five usable study sections while preserving the source's prescribed writing limits, literature scope and internal-assessment exclusion."
+  }
 }
