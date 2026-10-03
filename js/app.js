@@ -38,13 +38,14 @@ function formulas(){const subs=DATA.subjects.filter(s=>FORM[s.id]),out=el('div')
 function tracker(){return el('div',{},DATA.subjects.map(s=>{const st=subStat(s);
  return det('s'+s.id,el('span',{class:'row'},ring(st),el('b',{},s.name),el('span',{class:'muted'},st.d+'/'+st.t)),
  s.chapters.length?s.chapters.map(c=>{const t=tp(c),d=t.filter(x=>isDone(x.id)).length;
-  return det(c.id,el('span',{class:'row'},el('span',{},c.name),el('span',{class:'muted'},d+'/'+t.length+' topics')),
+  return det(c.id,el('span',{class:'row prog',style:'--p:'+Math.round(t.length?d/t.length*100:0)+'%'},el('span',{},c.name),el('span',{class:'muted'},d+'/'+t.length+' topics')),
   [lk(s,c),...t.map(x=>el('label',{class:'chk'},el('input',{type:'checkbox',checked:!!isDone(x.id),onchange:ev=>{S.ticks=S.ticks||{};S.ticks[x.id]={v:ev.target.checked,t:Date.now()};save();render()}}),x.n))])}):el('p',{class:'muted'},'Topics for this subject arrive in the next update.'))}))}
+const ovr=rows=>{const t=rows.reduce((a,r)=>a+r.st.t,0),d=rows.reduce((a,r)=>a+r.st.d,0),p=t?Math.round(d/t*100):0;return t?el('div',{class:'ov',style:'--p:'+p+'%'},el('span',{},d+' of '+t+' topics covered'),el('b',{},p+'%')):''};
 function home(){const today=new Date();today.setHours(0,0,0,0);
  const rows=DATA.subjects.map(s=>{const e=S.exam&&S.exam[s.id],d=e?e.d:(DEF[s.id]||{}).date;return{s,e,d,days:d?Math.ceil((new Date(d+'T00:00')-today)/864e5):null,st:subStat(s)}});
  const nx=rows.filter(r=>r.days!=null&&r.days>=0).sort((a,b)=>a.days-b.days)[0];
  return el('div',{},
-  nx?el('div',{class:'card'},el('b',{},'Next exam'),el('div',{class:'big'},nx.days+(nx.days==1?' day':' days')),el('div',{class:'muted'},nx.s.name+' · '+new Date(nx.d+'T00:00').toLocaleDateString(undefined,{day:'numeric',month:'short',year:'numeric'})+(nx.e?'':' (estimated)'))):'',
+  nx?el('div',{class:'card'},el('b',{},'Next exam'),el('div',{class:'big'},String(nx.days),el('small',{},nx.days==1?' day':' days')),el('div',{class:'muted'},nx.s.name+' · '+new Date(nx.d+'T00:00').toLocaleDateString(undefined,{day:'numeric',month:'short',year:'numeric'})+(nx.e?'':' (estimated)')),ovr(rows)):'',
   el('p',{class:'muted'},'Tap a subject to see or edit its exam date. "Estimated" dates are guesses until CBSE releases the date sheet.'),
   rows.map(({s,e,d,days,st})=>{const left=st.t-st.d;
    return det('h'+s.id,el('span',{class:'row'},ring(st),el('b',{},s.name),el('span',{class:'muted'},days==null?'—':days>=0?days+' days':'Over')),[
@@ -52,7 +53,7 @@ function home(){const today=new Date();today.setHours(0,0,0,0);
     el('div',{class:'muted',style:'margin-top:8px'},st.t?left+' of '+st.t+' topics still uncovered':'Syllabus not added yet')])}))}
 let tipc='';
 const goTips=(s,c)=>{tab='tips';tipc=c.id;open.add('ts'+s.id);render();const t=document.querySelector('[data-c~="'+c.id+'"]');t&&t.scrollIntoView({block:'center'})};
-const lk=(s,c)=>{const b=[];if(FORM[s.id]&&(FORM[s.id][c.id]||[]).length)b.push(el('button',{onclick:()=>go(s,c)},'Formulas'));if(TIPS[s.id]&&(TIPS[s.id].weightage||[]).some(w=>(w.ids||[w.id]).includes(c.id)))b.push(el('button',{onclick:()=>goTips(s,c)},'Tips'));return b.length?el('div',{class:'go'},b):''};
+const lk=(s,c)=>{const b=[];if(FORM[s.id]&&(FORM[s.id][c.id]||[]).length)b.push(el('button',{class:'f',onclick:()=>go(s,c)},'Formulas'));if(TIPS[s.id]&&(TIPS[s.id].weightage||[]).some(w=>(w.ids||[w.id]).includes(c.id)))b.push(el('button',{class:'t',onclick:()=>goTips(s,c)},'Tips'));return b.length?el('div',{class:'go'},b):''};
 function tips(){const subs=DATA.subjects.filter(s=>TIPS[s.id]);
  if(!subs.length)return el('div',{class:'card'},el('b',{},'Tips'),el('p',{class:'muted'},'Tips for your subjects arrive in the next updates.'));
  const list=(h,a)=>a&&a.length?[el('div',{class:'tt'},h,el('span',{class:'tag'},'General advice')),el('ol',{class:'tl'},a.map(x=>el('li',{},x)))]:[];
@@ -65,17 +66,38 @@ function tips(){const subs=DATA.subjects.filter(s=>TIPS[s.id]);
    ...(T.resources&&T.resources.length?[el('div',{class:'tt'},'Resources'),...T.resources.map(r=>el('a',{href:r.url,target:'_blank',rel:'noopener',class:'lnk'},r.label))]:[])],subs.length==1)}))}
 function settings(){
  const inp=el('input',{type:'file',accept:'.json',style:'display:none',onchange:async ev=>{try{const j=JSON.parse(await ev.target.files[0].text());S={...S,...merge(S,j)};save();render();alert('Backup merged.')}catch(e){alert('That file could not be read.')}}});
- const profile=el('div',{class:'card'},el('b',{},S.profile.name+' · Class '+S.profile.cls),el('div',{class:'muted'},auth.currentUser.email));
+ const profile=el('div',{class:'card prof'},el('span',{class:'av','aria-hidden':'true'},String(S.profile.name||'?').trim().charAt(0).toUpperCase()),el('b',{},S.profile.name+' · Class '+S.profile.cls),el('div',{class:'muted'},auth.currentUser.email));
  const appearance=el('div',{class:'card'},el('b',{},'Appearance'),el('div',{class:'row seg'},THEMES.map(([k,l])=>el('button',{class:getTheme()==k?'on':'',onclick:()=>{applyTheme(k);render()}},l))));
  const backup=el('div',{class:'card'},el('b',{},'Backup'),el('div',{class:'row'},el('button',{onclick:()=>{const a=el('a',{href:URL.createObjectURL(new Blob([JSON.stringify({app:'board-tracker',v:1,profile:S.profile,ticks:S.ticks,exam:S.exam})],{type:'application/json'})),download:'study-backup.json'});a.click()}},'Export JSON'),el('button',{onclick:()=>inp.click()},'Import JSON'),inp));
  const signout=el('div',{class:'card'},el('button',{onclick:()=>auth.signOut()},'Sign out'));
  const danger=el('div',{class:'card danger'},el('b',{},'Change profile / reset'),el('p',{class:'muted'},'Warning: this erases your name, class, ticked topics and edited exam dates for this account on ALL devices. Export a backup first.'),el('button',{onclick:()=>{if(confirm('Erase all progress for this account and set up the profile again?')){S={wipe:1,ticks:{},exam:{}};store();start();sync()}}},'Reset everything'));
  return el('div',{},profile,appearance,backup,signout,danger)
 }
-const IC={home:'<path d="M4 11l8-7 8 7v8a1 1 0 0 1-1 1h-4v-6h-6v6H5a1 1 0 0 1-1-1z"/>',formulas:'<path d="M18 6H7l6 6-6 6h11"/>',tracker:'<circle cx="12" cy="12" r="9"/><path d="M8 12.5l3 3 5-6"/>',tips:'<path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.7.7 1 1.5 1 2.5h6c0-1 .3-1.8 1-2.5A6 6 0 0 0 12 3z"/>',settings:'<circle cx="12" cy="8" r="4"/><path d="M4 20c1.5-4 14.5-4 16 0"/>'};
-const nav=()=>el('nav',{},[['home','Home'],['formulas','Formulas'],['tracker','Syllabus'],['tips','Tips'],['settings','Profile']].map(([k,l])=>{const b=el('button',{class:tab==k?'on':'',onclick:()=>{tab=k;tipc='';render()}});b.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+IC[k]+'</svg><span>'+l+'</span>';return b}));
+const IC={home:'<path d="M4 10.5L12 4l8 6.5V19a1 1 0 0 1-1 1h-4.5v-5.5h-5V20H5a1 1 0 0 1-1-1z"/>',formulas:'<path d="M18 5H6.5l6 7-6 7H18"/>',tracker:'<path d="M11 6h10M11 12h10M11 18h10M3.5 6.5l1.5 1.5 3-3.5M3.5 12.5l1.5 1.5 3-3.5M3.5 18.5l1.5 1.5 3-3.5"/>',tips:'<path d="M9.5 18h5M10.5 21h3M12 3a6 6 0 0 0-3.6 10.8c.7.6 1.1 1.3 1.1 2.2h5c0-.9.4-1.6 1.1-2.2A6 6 0 0 0 12 3z"/>',settings:'<path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4.5 20c.8-3.6 3.8-5.5 7.5-5.5s6.7 1.9 7.5 5.5"/>'};
+const nav=()=>el('nav',{},[['home','Home'],['formulas','Formulas'],['tracker','Syllabus'],['tips','Tips'],['settings','Profile']].map(([k,l])=>{const b=el('button',{class:tab==k?'on':'',onclick:()=>{tab=k;tipc='';render()}});if(tab==k)b.setAttribute('aria-current','page');b.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+IC[k]+'</svg><span>'+l+'</span>';return b}));
+/* UI-only: preserve keyboard focus and animate tick/progress changes across the full re-render */
+const keyOf=l=>{const d=l.closest('details');return (d&&d.dataset.k||'')+'|'+l.textContent};
+function snapUI(){try{const a=document.activeElement,ring={};
+ app.querySelectorAll('.ring .fg').forEach(c=>{const d=c.closest('details');if(d)ring[d.dataset.k]=c.getAttribute('stroke-dashoffset')});
+ let f=null;
+ if(a&&a!==document.body&&app.contains(a)){
+  if(a.matches('nav button'))f={t:'nav',i:[...a.parentNode.children].indexOf(a)};
+  else if(a.matches('.chk input'))f={t:'chk',k:keyOf(a.parentNode)};
+  else if(a.matches('summary')&&a.parentNode.dataset.k)f={t:'sum',k:a.parentNode.dataset.k}}
+ return{ring,f}}catch(e){return null}}
+let lastChk={};
+function restoreUI(s){try{
+ const cur={};app.querySelectorAll('.chk').forEach(l=>{const i=l.querySelector('input'),k=keyOf(l);cur[k]=i.checked;if(lastChk[k]===false&&i.checked)i.classList.add('pop')});lastChk=cur;
+ if(!s)return;
+ app.querySelectorAll('.ring .fg').forEach(c=>{const d=c.closest('details'),p=d&&s.ring[d.dataset.k],n=c.getAttribute('stroke-dashoffset');
+  if(p!=null&&p!==n){c.setAttribute('stroke-dashoffset',p);c.getBoundingClientRect();c.setAttribute('stroke-dashoffset',n)}});
+ const f=s.f;if(!f)return;let t=null;
+ if(f.t=='nav')t=app.querySelectorAll('nav button')[f.i];
+ else if(f.t=='chk'){const l=[...app.querySelectorAll('.chk')].find(l=>keyOf(l)==f.k);t=l&&l.querySelector('input')}
+ else{const d=[...app.querySelectorAll('details')].find(d=>d.dataset.k==f.k);t=d&&d.querySelector(':scope>summary')}
+ t&&t.focus({preventScroll:true})}catch(e){}}
 function render(statusOnly){if(!S.profile||!DATA)return;if(statusOnly){const m=$('#msg');if(m)m.textContent=msg;m.className=stCls();return}
- const y=scrollY;app.replaceChildren(el('header',{},el('b',{},'Hi, '+S.profile.name),el('span',{id:'msg',class:stCls()},msg)),el('main',{},({home,formulas,tracker,tips,settings})[tab]()),nav());scrollTo(0,y)}
+ const y=scrollY,ui=snapUI();app.replaceChildren(el('header',{},el('b',{},'Hi, '+S.profile.name),el('span',{id:'msg',class:stCls()},msg)),el('main',{},({home,formulas,tracker,tips,settings})[tab]()),nav());scrollTo(0,y);restoreUI(ui)}
 function login(){let em,pw,er;app.replaceChildren(el('form',{class:'card login',onsubmit:ev=>{ev.preventDefault();er.textContent='';auth.signInWithEmailAndPassword(em.value.trim(),pw.value).catch(e=>er.textContent='Sign-in failed: '+e.code)}},el('h1',{},'EdTracker'),em=el('input',{type:'email',placeholder:'Email',autocomplete:'username'}),pw=el('input',{type:'password',placeholder:'Password',autocomplete:'current-password'}),er=el('p',{class:'err'}),
  el('button',{class:'pri',type:'submit'},'Sign in')))}
 function setup(){let nm,cl;app.replaceChildren(el('div',{class:'card login'},el('h1',{},'Welcome'),nm=el('input',{placeholder:'Your name'}),cl=el('select',{},el('option',{value:10},'Class 10'),el('option',{value:12},'Class 12')),
