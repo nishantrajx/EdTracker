@@ -4,375 +4,314 @@
   "subject_code": "041",
   "session": "2026-27",
   "scope": "CBSE Class XII Mathematics (041) 2026–27 written/theory Board-exam preparation; internal assessment excluded.",
-  "chapters": [
+  "weightage": [
     {
-      "id": "c12-math-01",
-      "name": "Relations and Functions",
-      "tips": [
-        "Check domain, codomain and range before deciding whether a function is one-one or onto.",
-        "Use the definition f(x1)=f(x2) => x1=x2 for one-one proofs.",
-        "For composition, verify that the output of the inner function lies in the domain of the outer function.",
-        "Do not assume an inverse exists; the function must be bijective for an inverse function."
+      "label": "Relations and Functions (Ch 1–2)",
+      "ids": [
+        "c12-math-01",
+        "c12-math-02"
       ],
-      "common_mistakes": [
-        "Skipping domain/range restrictions.",
-        "Using a formula without checking its conditions.",
-        "Sign errors in derivatives, determinants and vector calculations.",
-        "Arithmetic mistakes caused by rushing the final simplification.",
-        "Writing only the final answer in long-form questions instead of showing the required steps."
-      ],
-      "formula_references": [
-        "One-one function condition",
-        "Onto function condition"
-      ]
+      "marks": "8"
     },
     {
-      "id": "c12-math-02",
-      "name": "Inverse Trigonometric Functions",
-      "tips": [
-        "Write the principal-value range before simplifying an inverse-trigonometric expression.",
-        "Treat sin^-1 x, cos^-1 x and tan^-1 x as inverse functions, not reciprocals.",
-        "Check the sign and quadrant when using inverse-trigonometric identities.",
-        "Do not drop principal-value restrictions when converting between inverse functions."
+      "label": "Algebra (Ch 3–4)",
+      "ids": [
+        "c12-math-03",
+        "c12-math-04"
       ],
-      "common_mistakes": [
-        "Skipping domain/range restrictions.",
-        "Using a formula without checking its conditions.",
-        "Sign errors in derivatives, determinants and vector calculations.",
-        "Arithmetic mistakes caused by rushing the final simplification.",
-        "Writing only the final answer in long-form questions instead of showing the required steps."
-      ],
-      "formula_references": [
-        "Principal inverse relations",
-        "Reciprocal inverse relations",
-        "Principal-value relation: sin^{-1}",
-        "Principal-value relation: cos^{-1}",
-        "Principal-value relation: tan^{-1}"
-      ]
+      "marks": "10"
     },
     {
-      "id": "c12-math-03",
-      "name": "Matrices",
-      "tips": [
-        "Check matrix orders before addition or multiplication.",
-        "Matrix multiplication is generally not commutative: AB and BA must be treated separately.",
-        "For an inverse, first check that the matrix is square and nonsingular.",
-        "Keep row and column positions consistent when computing products and transposes."
+      "label": "Calculus (Ch 5–9)",
+      "ids": [
+        "c12-math-05",
+        "c12-math-06",
+        "c12-math-07",
+        "c12-math-08",
+        "c12-math-09"
       ],
-      "common_mistakes": [
-        "Skipping domain/range restrictions.",
-        "Using a formula without checking its conditions.",
-        "Sign errors in derivatives, determinants and vector calculations.",
-        "Arithmetic mistakes caused by rushing the final simplification.",
-        "Writing only the final answer in long-form questions instead of showing the required steps."
-      ],
-      "formula_references": [
-        "Matrix multiplication",
-        "Transpose",
-        "Transpose of a product",
-        "Symmetric matrix condition",
-        "Skew-symmetric matrix condition",
-        "Inverse of a product",
-        "Inverse matrix condition",
-        "Scalar multiplication",
-        "Matrix addition"
-      ]
+      "marks": "35"
     },
     {
-      "id": "c12-math-04",
-      "name": "Determinants",
-      "tips": [
-        "Use the correct cofactor sign pattern when expanding a determinant.",
-        "Before using A^-1 = adj(A)/|A|, verify that |A| is non-zero.",
-        "For area questions, take the absolute value of the determinant expression.",
-        "When solving AX=B by inverse matrices, verify that the coefficient matrix is invertible."
+      "label": "Vectors and Three-Dimensional Geometry (Ch 10–11)",
+      "ids": [
+        "c12-math-10",
+        "c12-math-11"
       ],
-      "common_mistakes": [
-        "Skipping domain/range restrictions.",
-        "Using a formula without checking its conditions.",
-        "Sign errors in derivatives, determinants and vector calculations.",
-        "Arithmetic mistakes caused by rushing the final simplification.",
-        "Writing only the final answer in long-form questions instead of showing the required steps."
-      ],
-      "formula_references": [
-        "2×2 determinant",
-        "3×3 determinant",
-        "Cofactor",
-        "Adjoint-inverse relation",
-        "Area of triangle",
-        "Inverse-matrix solution of linear equations"
-      ]
+      "marks": "14"
     },
     {
-      "id": "c12-math-05",
-      "name": "Continuity and Differentiability",
-      "tips": [
-        "Check continuity using limit equals function value at the point.",
-        "Choose the differentiation rule from the structure: product, quotient, chain or implicit differentiation.",
-        "For inverse-trigonometric derivatives, preserve the correct denominator and sign.",
-        "In parametric differentiation, divide dy/dt by dx/dt; do not differentiate as if y were directly a function of x."
+      "label": "Linear Programming (Ch 12)",
+      "ids": [
+        "c12-math-12"
       ],
-      "common_mistakes": [
-        "Skipping domain/range restrictions.",
-        "Using a formula without checking its conditions.",
-        "Sign errors in derivatives, determinants and vector calculations.",
-        "Arithmetic mistakes caused by rushing the final simplification.",
-        "Writing only the final answer in long-form questions instead of showing the required steps."
-      ],
-      "formula_references": [
-        "Continuity at a point",
-        "Chain rule",
-        "Implicit differentiation",
-        "Inverse-trig derivative: sin",
-        "Inverse-trig derivative: cos",
-        "Inverse-trig derivative: tan",
-        "Inverse-trig derivative: cot",
-        "Inverse-trig derivative: sec",
-        "Inverse-trig derivative: csc",
-        "Exponential and logarithmic derivatives",
-        "Logarithmic differentiation",
-        "Parametric derivative",
-        "Second derivative",
-        "Product rule",
-        "Quotient rule",
-        "Power rule",
-        "Derivative of sin x",
-        "Derivative of cos x",
-        "Derivative of tan x",
-        "Derivative of cot x",
-        "Derivative of sec x",
-        "Derivative of csc x"
-      ]
+      "marks": "5"
     },
     {
-      "id": "c12-math-06",
-      "name": "Applications of Derivatives",
-      "tips": [
-        "Find critical points from f'(x)=0 and also check points where f'(x) is undefined.",
-        "Use sign changes of f' to establish increasing or decreasing intervals.",
-        "For maxima/minima, verify the required conditions rather than stopping at f'(x)=0.",
-        "In rate-of-change problems, define the variables and their relationship before differentiating."
+      "label": "Probability (Ch 13)",
+      "ids": [
+        "c12-math-13"
       ],
-      "common_mistakes": [
-        "Skipping domain/range restrictions.",
-        "Using a formula without checking its conditions.",
-        "Sign errors in derivatives, determinants and vector calculations.",
-        "Arithmetic mistakes caused by rushing the final simplification.",
-        "Writing only the final answer in long-form questions instead of showing the required steps."
-      ],
-      "formula_references": [
-        "Rate of change",
-        "Critical point",
-        "Increasing function test",
-        "Decreasing function test",
-        "Second derivative maximum test",
-        "Second derivative minimum test"
-      ]
+      "marks": "8"
+    }
+  ],
+  "note": "Official CBSE 2026-27 theory unit marks: Relations and Functions 8, Algebra 10, Calculus 35, Vectors and Three-Dimensional Geometry 14, Linear Programming 5, Probability 8; total 80, internal assessment 20.",
+  "reference": [
+    {
+      "label": "Relations and Functions — Tip 1",
+      "text": "Check domain, codomain and range before deciding whether a function is one-one or onto."
     },
     {
-      "id": "c12-math-07",
-      "name": "Integrals",
-      "tips": [
-        "Always include +C with an indefinite integral.",
-        "Look for substitution when the derivative of an inner expression is also present.",
-        "Use integration by parts when the integrand is a suitable product.",
-        "For definite integrals, apply limits after obtaining the antiderivative.",
-        "Use even/odd symmetry and definite-integral properties before doing long calculations."
-      ],
-      "common_mistakes": [
-        "Skipping domain/range restrictions.",
-        "Using a formula without checking its conditions.",
-        "Sign errors in derivatives, determinants and vector calculations.",
-        "Arithmetic mistakes caused by rushing the final simplification.",
-        "Writing only the final answer in long-form questions instead of showing the required steps."
-      ],
-      "formula_references": [
-        "Basic integration relation",
-        "Substitution",
-        "Integration by parts",
-        "Definite integral",
-        "Definite-integral symmetry",
-        "Even-function symmetry",
-        "Odd-function symmetry",
-        "Standard integral: 1/(x²+a²)",
-        "Standard integral: 1/(x²-a²)",
-        "Standard integral: 1/√(x²+a²)",
-        "Standard integral: 1/√(x²-a²)",
-        "Standard integral: 1/√(a²-x²)",
-        "Standard integral: 1/(ax²+bx+c)",
-        "Standard integral: 1/√(ax²+bx+c)",
-        "Linear-over-quadratic integral",
-        "Linear-over-square-root-quadratic integral",
-        "Square-root a²±x² integrals",
-        "Square-root x²-a² integral",
-        "Square-root quadratic integral",
-        "Power integral",
-        "Logarithmic integral",
-        "Sine integral",
-        "Cosine integral",
-        "Exponential integral",
-        "a^x integral",
-        "Secant-squared integral",
-        "Cosecant-squared integral",
-        "Secant-tangent integral",
-        "Cosecant-cotangent integral"
-      ]
+      "label": "Relations and Functions — Tip 2",
+      "text": "Use the definition f(x1)=f(x2) => x1=x2 for one-one proofs."
     },
     {
-      "id": "c12-math-08",
-      "name": "Applications of Integrals",
-      "tips": [
-        "Sketch the curves or identify their intersection points before setting up an area integral.",
-        "Use upper minus lower when integrating with respect to x.",
-        "Split the interval when the upper/lower curve changes.",
-        "Use absolute area where the signed integral would otherwise cancel regions."
-      ],
-      "common_mistakes": [
-        "Skipping domain/range restrictions.",
-        "Using a formula without checking its conditions.",
-        "Sign errors in derivatives, determinants and vector calculations.",
-        "Arithmetic mistakes caused by rushing the final simplification.",
-        "Writing only the final answer in long-form questions instead of showing the required steps."
-      ],
-      "formula_references": [
-        "Area under a curve",
-        "Area between curves"
-      ]
+      "label": "Relations and Functions — Tip 3",
+      "text": "For composition, verify that the output of the inner function lies in the domain of the outer function."
     },
     {
-      "id": "c12-math-09",
-      "name": "Differential Equations",
-      "tips": [
-        "Identify whether the differential equation is separable, homogeneous or linear before starting.",
-        "For homogeneous equations, use y=vx and replace dy/dx accordingly.",
-        "For dy/dx + Py = Q, calculate the integrating factor before integrating.",
-        "Keep the arbitrary constant until the final step and apply any initial condition afterward."
-      ],
-      "common_mistakes": [
-        "Skipping domain/range restrictions.",
-        "Using a formula without checking its conditions.",
-        "Sign errors in derivatives, determinants and vector calculations.",
-        "Arithmetic mistakes caused by rushing the final simplification.",
-        "Writing only the final answer in long-form questions instead of showing the required steps."
-      ],
-      "formula_references": [
-        "Separation of variables",
-        "Homogeneous differential equation substitution",
-        "Linear differential equation",
-        "Integrating factor",
-        "Solution of linear DE",
-        "Linear DE with x as dependent variable",
-        "Integrating factor with y as independent variable"
-      ]
+      "label": "Relations and Functions — Tip 4",
+      "text": "Do not assume an inverse exists; the function must be bijective for an inverse function."
     },
     {
-      "id": "c12-math-10",
-      "name": "Vector Algebra",
-      "tips": [
-        "Check vector magnitude before forming a unit vector.",
-        "Use the dot product for angles/projections and the cross product for perpendicular-area relationships.",
-        "Remember that l^2+m^2+n^2=1 for direction cosines.",
-        "Keep scalar and vector products distinct; their outputs are different types of quantities."
-      ],
-      "common_mistakes": [
-        "Skipping domain/range restrictions.",
-        "Using a formula without checking its conditions.",
-        "Sign errors in derivatives, determinants and vector calculations.",
-        "Arithmetic mistakes caused by rushing the final simplification.",
-        "Writing only the final answer in long-form questions instead of showing the required steps."
-      ],
-      "formula_references": [
-        "Magnitude of vector",
-        "Unit vector",
-        "Direction cosines",
-        "Section formula",
-        "Dot product",
-        "Dot product in components",
-        "Cross-product magnitude",
-        "Cross product in components",
-        "Scalar projection"
-      ]
+      "label": "Inverse Trigonometric Functions — Tip 1",
+      "text": "Write the principal-value range before simplifying an inverse-trigonometric expression."
     },
     {
-      "id": "c12-math-11",
-      "name": "Three-Dimensional Geometry",
-      "tips": [
-        "Extract direction ratios carefully from the vector or Cartesian equation of a line.",
-        "For the angle between lines, use their direction ratios.",
-        "For skew-line distance, keep the vector order consistent in the scalar triple-product expression.",
-        "Check whether lines are parallel, intersecting or skew before choosing the distance method."
-      ],
-      "common_mistakes": [
-        "Skipping domain/range restrictions.",
-        "Using a formula without checking its conditions.",
-        "Sign errors in derivatives, determinants and vector calculations.",
-        "Arithmetic mistakes caused by rushing the final simplification.",
-        "Writing only the final answer in long-form questions instead of showing the required steps."
-      ],
-      "formula_references": [
-        "Line in vector form",
-        "Line in Cartesian form",
-        "Direction ratios of line joining two points",
-        "Angle between two lines",
-        "Shortest distance between skew lines"
-      ]
+      "label": "Inverse Trigonometric Functions — Tip 2",
+      "text": "Treat sin^-1 x, cos^-1 x and tan^-1 x as inverse functions, not reciprocals."
     },
     {
-      "id": "c12-math-12",
-      "name": "Linear Programming",
-      "tips": [
-        "Define the decision variables before writing constraints.",
-        "Translate every verbal condition into a linear inequality carefully.",
-        "Include non-negativity constraints when the variables represent quantities.",
-        "Evaluate the objective function at the relevant corner points of the feasible region."
-      ],
-      "common_mistakes": [
-        "Skipping domain/range restrictions.",
-        "Using a formula without checking its conditions.",
-        "Sign errors in derivatives, determinants and vector calculations.",
-        "Arithmetic mistakes caused by rushing the final simplification.",
-        "Writing only the final answer in long-form questions instead of showing the required steps."
-      ],
-      "formula_references": [
-        "Objective function",
-        "Linear constraint",
-        "Non-negativity constraints"
-      ]
+      "label": "Inverse Trigonometric Functions — Tip 3",
+      "text": "Check the sign and quadrant when using inverse-trigonometric identities."
     },
     {
-      "id": "c12-math-13",
-      "name": "Probability",
-      "tips": [
-        "Write the events clearly before applying conditional probability.",
-        "Check independence rather than assuming it from the wording.",
-        "Use total probability when the sample space is partitioned into mutually exclusive exhaustive cases.",
-        "For Bayes' theorem, identify the prior probabilities and the conditional probabilities before substituting."
-      ],
-      "common_mistakes": [
-        "Skipping domain/range restrictions.",
-        "Using a formula without checking its conditions.",
-        "Sign errors in derivatives, determinants and vector calculations.",
-        "Arithmetic mistakes caused by rushing the final simplification.",
-        "Writing only the final answer in long-form questions instead of showing the required steps."
-      ],
-      "formula_references": [
-        "Conditional probability",
-        "Multiplication theorem",
-        "Independent events",
-        "Total probability",
-        "Bayes' theorem"
-      ]
+      "label": "Inverse Trigonometric Functions — Tip 4",
+      "text": "Do not drop principal-value restrictions when converting between inverse functions."
+    },
+    {
+      "label": "Matrices — Tip 1",
+      "text": "Check matrix orders before addition or multiplication."
+    },
+    {
+      "label": "Matrices — Tip 2",
+      "text": "Matrix multiplication is generally not commutative: AB and BA must be treated separately."
+    },
+    {
+      "label": "Matrices — Tip 3",
+      "text": "For an inverse, first check that the matrix is square and nonsingular."
+    },
+    {
+      "label": "Matrices — Tip 4",
+      "text": "Keep row and column positions consistent when computing products and transposes."
+    },
+    {
+      "label": "Determinants — Tip 1",
+      "text": "Use the correct cofactor sign pattern when expanding a determinant."
+    },
+    {
+      "label": "Determinants — Tip 2",
+      "text": "Before using A^-1 = adj(A)/|A|, verify that |A| is non-zero."
+    },
+    {
+      "label": "Determinants — Tip 3",
+      "text": "For area questions, take the absolute value of the determinant expression."
+    },
+    {
+      "label": "Determinants — Tip 4",
+      "text": "When solving AX=B by inverse matrices, verify that the coefficient matrix is invertible."
+    },
+    {
+      "label": "Continuity and Differentiability — Tip 1",
+      "text": "Check continuity using limit equals function value at the point."
+    },
+    {
+      "label": "Continuity and Differentiability — Tip 2",
+      "text": "Choose the differentiation rule from the structure: product, quotient, chain or implicit differentiation."
+    },
+    {
+      "label": "Continuity and Differentiability — Tip 3",
+      "text": "For inverse-trigonometric derivatives, preserve the correct denominator and sign."
+    },
+    {
+      "label": "Continuity and Differentiability — Tip 4",
+      "text": "In parametric differentiation, divide dy/dt by dx/dt; do not differentiate as if y were directly a function of x."
+    },
+    {
+      "label": "Applications of Derivatives — Tip 1",
+      "text": "Find critical points from f'(x)=0 and also check points where f'(x) is undefined."
+    },
+    {
+      "label": "Applications of Derivatives — Tip 2",
+      "text": "Use sign changes of f' to establish increasing or decreasing intervals."
+    },
+    {
+      "label": "Applications of Derivatives — Tip 3",
+      "text": "For maxima/minima, verify the required conditions rather than stopping at f'(x)=0."
+    },
+    {
+      "label": "Applications of Derivatives — Tip 4",
+      "text": "In rate-of-change problems, define the variables and their relationship before differentiating."
+    },
+    {
+      "label": "Integrals — Tip 1",
+      "text": "Always include +C with an indefinite integral."
+    },
+    {
+      "label": "Integrals — Tip 2",
+      "text": "Look for substitution when the derivative of an inner expression is also present."
+    },
+    {
+      "label": "Integrals — Tip 3",
+      "text": "Use integration by parts when the integrand is a suitable product."
+    },
+    {
+      "label": "Integrals — Tip 4",
+      "text": "For definite integrals, apply limits after obtaining the antiderivative."
+    },
+    {
+      "label": "Integrals — Tip 5",
+      "text": "Use even/odd symmetry and definite-integral properties before doing long calculations."
+    },
+    {
+      "label": "Applications of Integrals — Tip 1",
+      "text": "Sketch the curves or identify their intersection points before setting up an area integral."
+    },
+    {
+      "label": "Applications of Integrals — Tip 2",
+      "text": "Use upper minus lower when integrating with respect to x."
+    },
+    {
+      "label": "Applications of Integrals — Tip 3",
+      "text": "Split the interval when the upper/lower curve changes."
+    },
+    {
+      "label": "Applications of Integrals — Tip 4",
+      "text": "Use absolute area where the signed integral would otherwise cancel regions."
+    },
+    {
+      "label": "Differential Equations — Tip 1",
+      "text": "Identify whether the differential equation is separable, homogeneous or linear before starting."
+    },
+    {
+      "label": "Differential Equations — Tip 2",
+      "text": "For homogeneous equations, use y=vx and replace dy/dx accordingly."
+    },
+    {
+      "label": "Differential Equations — Tip 3",
+      "text": "For dy/dx + Py = Q, calculate the integrating factor before integrating."
+    },
+    {
+      "label": "Differential Equations — Tip 4",
+      "text": "Keep the arbitrary constant until the final step and apply any initial condition afterward."
+    },
+    {
+      "label": "Vector Algebra — Tip 1",
+      "text": "Check vector magnitude before forming a unit vector."
+    },
+    {
+      "label": "Vector Algebra — Tip 2",
+      "text": "Use the dot product for angles/projections and the cross product for perpendicular-area relationships."
+    },
+    {
+      "label": "Vector Algebra — Tip 3",
+      "text": "Remember that l^2+m^2+n^2=1 for direction cosines."
+    },
+    {
+      "label": "Vector Algebra — Tip 4",
+      "text": "Keep scalar and vector products distinct; their outputs are different types of quantities."
+    },
+    {
+      "label": "Three-Dimensional Geometry — Tip 1",
+      "text": "Extract direction ratios carefully from the vector or Cartesian equation of a line."
+    },
+    {
+      "label": "Three-Dimensional Geometry — Tip 2",
+      "text": "For the angle between lines, use their direction ratios."
+    },
+    {
+      "label": "Three-Dimensional Geometry — Tip 3",
+      "text": "For skew-line distance, keep the vector order consistent in the scalar triple-product expression."
+    },
+    {
+      "label": "Three-Dimensional Geometry — Tip 4",
+      "text": "Check whether lines are parallel, intersecting or skew before choosing the distance method."
+    },
+    {
+      "label": "Linear Programming — Tip 1",
+      "text": "Define the decision variables before writing constraints."
+    },
+    {
+      "label": "Linear Programming — Tip 2",
+      "text": "Translate every verbal condition into a linear inequality carefully."
+    },
+    {
+      "label": "Linear Programming — Tip 3",
+      "text": "Include non-negativity constraints when the variables represent quantities."
+    },
+    {
+      "label": "Linear Programming — Tip 4",
+      "text": "Evaluate the objective function at the relevant corner points of the feasible region."
+    },
+    {
+      "label": "Probability — Tip 1",
+      "text": "Write the events clearly before applying conditional probability."
+    },
+    {
+      "label": "Probability — Tip 2",
+      "text": "Check independence rather than assuming it from the wording."
+    },
+    {
+      "label": "Probability — Tip 3",
+      "text": "Use total probability when the sample space is partitioned into mutually exclusive exhaustive cases."
+    },
+    {
+      "label": "Probability — Tip 4",
+      "text": "For Bayes' theorem, identify the prior probabilities and the conditional probabilities before substituting."
+    }
+  ],
+  "mistakes": [
+    "Skipping domain/range restrictions.",
+    "Using a formula without checking its conditions.",
+    "Sign errors in derivatives, determinants and vector calculations.",
+    "Arithmetic mistakes caused by rushing the final simplification.",
+    "Writing only the final answer in long-form questions instead of showing the required steps."
+  ],
+  "order": [
+    "Start with Relations and Functions (8 marks): Relations and Functions → Inverse Trigonometric Functions.",
+    "Then Algebra (10 marks): Matrices → Determinants.",
+    "Give the largest study block to Calculus (35 marks): Continuity and Differentiability → Applications of Derivatives → Integrals → Applications of Integrals → Differential Equations.",
+    "Then Vectors and Three-Dimensional Geometry (14 marks): Vector Algebra → Three-Dimensional Geometry.",
+    "Finish Linear Programming (5 marks) and Probability (8 marks), then revise mixed questions."
+  ],
+  "resources": [
+    {
+      "label": "CBSE 2026-27 Mathematics syllabus",
+      "url": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Maths_SecP2_2026-27.pdf"
+    },
+    {
+      "label": "NCERT textbooks",
+      "url": "https://ncert.nic.in/textbook.php"
     }
   ],
   "_audit": {
     "status": "CORRECTED_AND_VALIDATED",
-    "basis": "Uploaded Class 12 Mathematics formula source",
-    "note": "This file is a tips layer derived from the supplied chapter/formula structure. No syllabus topics were added beyond the uploaded source.",
-    "validation": {
-      "chapter_count": 13,
-      "all_chapters_have_tips": true,
-      "all_chapters_have_formula_references": true,
-      "no_empty_tip_text": true
-    }
+    "basis": [
+      "Existing Class 12 EdTracker tips content supplied for this subject",
+      "CBSE 2026-27 official course structure"
+    ],
+    "changes": [
+      "Restructured chapter-level tips into the top-level 'reference' array used by the Class 10 Tips JSON.",
+      "Promoted common mistakes to the top-level 'mistakes' array and removed exact duplicates.",
+      "Added official 2026-27 unit weightage so the EdTracker Tips page can render 'Marks by unit'.",
+      "Added top-level study order and official resource links.",
+      "Preserved the existing chapter tip wording; no new coaching content was introduced."
+    ],
+    "validation": [
+      "13 chapter entries supplied in the source.",
+      "53 chapter tips preserved in the display-compatible reference list.",
+      "5 unique common-mistake entries preserved.",
+      "Theory weightage totals 80 marks."
+    ]
   }
 }

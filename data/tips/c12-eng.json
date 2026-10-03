@@ -6,11 +6,17 @@
   "scope": "CBSE Class XII English Core (301) 2026-27 written/theory Board-exam preparation; internal assessment (Listening, Speaking and Project Work) excluded for the private-candidate scope.",
   "weightage": [
     {
-      "id": "c12-eng-01",
+      "label": "Reading Skills",
+      "ids": [
+        "c12-eng-01"
+      ],
       "marks": "22"
     },
     {
-      "id": "c12-eng-02",
+      "label": "Creative Writing Skills",
+      "ids": [
+        "c12-eng-02"
+      ],
       "marks": "18"
     },
     {
@@ -23,84 +29,126 @@
       "marks": "40"
     }
   ],
-  "sections": {
-    "c12-eng-01": {
-      "name": "Reading Skills",
-      "tips": [
-        "Practise both prescribed unseen-passage types: literary/factual/descriptive and case-based factual passages with verbal/visual input.",
-        "Answer from the passage first; use general knowledge only when it is not being substituted for textual evidence.",
-        "For inference questions, state the inference and connect it to the relevant textual clue.",
-        "For case-based passages, read charts/statistical input carefully before answering.",
-        "Practise vocabulary through inference rather than isolated word memorisation."
-      ],
-      "mistakes": [
-        "Answering from general knowledge instead of passage evidence.",
-        "Confusing inference with a copied sentence.",
-        "Overlooking visual/statistical information in a case-based passage."
-      ]
+  "reference": [
+    {
+      "label": "Reading Skills — Tip 1",
+      "text": "Practise both prescribed unseen-passage types: literary/factual/descriptive and case-based factual passages with verbal/visual input."
     },
-    "c12-eng-02": {
-      "name": "Creative Writing Skills",
-      "tips": [
-        "Maintain a separate format checklist for each prescribed writing task.",
-        "Keep notice and invitation/reply responses within 50 words.",
-        "Keep job applications, letters to the editor, articles and reports within 120–150 words.",
-        "Use the verbal/visual input supplied in the question rather than inserting memorised material.",
-        "Check format, organisation, tone, required information and word limit before submitting."
-      ],
-      "mistakes": [
-        "Incorrect format or missing required parts.",
-        "Unsuitable tone or weak organisation.",
-        "Ignoring the supplied verbal/visual input.",
-        "Exceeding or falling materially short of the prescribed word range."
-      ]
+    {
+      "label": "Reading Skills — Tip 2",
+      "text": "Answer from the passage first; use general knowledge only when it is not being substituted for textual evidence."
     },
-    "c12-eng-03": {
-      "name": "Flamingo Prose",
-      "tips": [
-        "Read each prescribed prose text completely and track important incidents, themes and character/event development.",
-        "Prepare extract-based comprehension and interpretation questions separately from longer analytical answers.",
-        "For 40–50-word answers, answer the exact question with concise, evidence-linked inference.",
-        "For 120–150-word answers, develop an analytical/evaluative response rather than retelling the chapter.",
-        "Use relevant incidents, events and textual references as support."
-      ],
-      "mistakes": [
-        "Retelling the whole chapter instead of answering the exact question.",
-        "Making character/theme claims without textual support.",
-        "Writing long answers without analytical or evaluative development."
-      ]
+    {
+      "label": "Reading Skills — Tip 3",
+      "text": "For inference questions, state the inference and connect it to the relevant textual clue."
     },
-    "c12-eng-04": {
-      "name": "Flamingo Poetry",
-      "tips": [
-        "Revise the central idea and important images of every prescribed poem.",
-        "Prepare for extract questions involving comprehension, interpretation, analysis, inference and appreciation.",
-        "Identify relevant poetic features, but explain their effect or connection to meaning when required.",
-        "Use the poem's own images and ideas as evidence rather than generic poetry commentary.",
-        "Practise concise answers that directly connect the poetic detail to the question."
-      ],
-      "mistakes": [
-        "Identifying a poetic feature without explaining its effect when analysis is required.",
-        "Giving a generic theme instead of interpreting the supplied extract.",
-        "Using memorised commentary that does not address the question."
-      ]
+    {
+      "label": "Reading Skills — Tip 4",
+      "text": "For case-based passages, read charts/statistical input carefully before answering."
     },
-    "c12-eng-05": {
-      "name": "Vistas / Supplementary Reading",
-      "tips": [
-        "Read all prescribed Vistas texts for global comprehension rather than only memorising summaries.",
-        "Practise prose extracts and 40–50-word inferential answers separately.",
-        "For 120–150-word responses, use relevant incidents, events and themes as reference points.",
-        "Distinguish inference from direct textual detail when explaining an incident or character.",
-        "Practise analytical/evaluative questions that require understanding across the text."
-      ],
-      "mistakes": [
-        "Giving a chapter summary instead of answering the analytical question.",
-        "Making claims without linking them to an incident, event or theme.",
-        "Ignoring the exact wording of the question while recalling a memorised answer."
-      ]
+    {
+      "label": "Reading Skills — Tip 5",
+      "text": "Practise vocabulary through inference rather than isolated word memorisation."
+    },
+    {
+      "label": "Creative Writing Skills — Tip 1",
+      "text": "Maintain a separate format checklist for each prescribed writing task."
+    },
+    {
+      "label": "Creative Writing Skills — Tip 2",
+      "text": "Keep notice and invitation/reply responses within 50 words."
+    },
+    {
+      "label": "Creative Writing Skills — Tip 3",
+      "text": "Keep job applications, letters to the editor, articles and reports within 120–150 words."
+    },
+    {
+      "label": "Creative Writing Skills — Tip 4",
+      "text": "Use the verbal/visual input supplied in the question rather than inserting memorised material."
+    },
+    {
+      "label": "Creative Writing Skills — Tip 5",
+      "text": "Check format, organisation, tone, required information and word limit before submitting."
+    },
+    {
+      "label": "Flamingo Prose — Tip 1",
+      "text": "Read each prescribed prose text completely and track important incidents, themes and character/event development."
+    },
+    {
+      "label": "Flamingo Prose — Tip 2",
+      "text": "Prepare extract-based comprehension and interpretation questions separately from longer analytical answers."
+    },
+    {
+      "label": "Flamingo Prose — Tip 3",
+      "text": "For 40–50-word answers, answer the exact question with concise, evidence-linked inference."
+    },
+    {
+      "label": "Flamingo Prose — Tip 4",
+      "text": "For 120–150-word answers, develop an analytical/evaluative response rather than retelling the chapter."
+    },
+    {
+      "label": "Flamingo Prose — Tip 5",
+      "text": "Use relevant incidents, events and textual references as support."
+    },
+    {
+      "label": "Flamingo Poetry — Tip 1",
+      "text": "Revise the central idea and important images of every prescribed poem."
+    },
+    {
+      "label": "Flamingo Poetry — Tip 2",
+      "text": "Prepare for extract questions involving comprehension, interpretation, analysis, inference and appreciation."
+    },
+    {
+      "label": "Flamingo Poetry — Tip 3",
+      "text": "Identify relevant poetic features, but explain their effect or connection to meaning when required."
+    },
+    {
+      "label": "Flamingo Poetry — Tip 4",
+      "text": "Use the poem's own images and ideas as evidence rather than generic poetry commentary."
+    },
+    {
+      "label": "Flamingo Poetry — Tip 5",
+      "text": "Practise concise answers that directly connect the poetic detail to the question."
+    },
+    {
+      "label": "Vistas / Supplementary Reading — Tip 1",
+      "text": "Read all prescribed Vistas texts for global comprehension rather than only memorising summaries."
+    },
+    {
+      "label": "Vistas / Supplementary Reading — Tip 2",
+      "text": "Practise prose extracts and 40–50-word inferential answers separately."
+    },
+    {
+      "label": "Vistas / Supplementary Reading — Tip 3",
+      "text": "For 120–150-word responses, use relevant incidents, events and themes as reference points."
+    },
+    {
+      "label": "Vistas / Supplementary Reading — Tip 4",
+      "text": "Distinguish inference from direct textual detail when explaining an incident or character."
+    },
+    {
+      "label": "Vistas / Supplementary Reading — Tip 5",
+      "text": "Practise analytical/evaluative questions that require understanding across the text."
     }
-  },
+  ],
+  "mistakes": [
+    "Answering from general knowledge instead of passage evidence.",
+    "Confusing inference with a copied sentence.",
+    "Overlooking visual/statistical information in a case-based passage.",
+    "Incorrect format or missing required parts.",
+    "Unsuitable tone or weak organisation.",
+    "Ignoring the supplied verbal/visual input.",
+    "Exceeding or falling materially short of the prescribed word range.",
+    "Retelling the whole chapter instead of answering the exact question.",
+    "Making character/theme claims without textual support.",
+    "Writing long answers without analytical or evaluative development.",
+    "Identifying a poetic feature without explaining its effect when analysis is required.",
+    "Giving a generic theme instead of interpreting the supplied extract.",
+    "Using memorised commentary that does not address the question.",
+    "Giving a chapter summary instead of answering the analytical question.",
+    "Making claims without linking them to an incident, event or theme.",
+    "Ignoring the exact wording of the question while recalling a memorised answer."
+  ],
   "order": [
     "Finish Reading Skills first: practise both unseen-passage types and train specifically for comprehension, interpretation, analysis, inference, evaluation and vocabulary through inference.",
     "Build separate format checklists for notice, formal/informal invitation and reply, job application with bio-data/resume, letter to the editor, article and report.",
@@ -127,6 +175,32 @@
       "url": "https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html"
     }
   ],
+  "_audit": {
+    "status": "CORRECTED_AND_VALIDATED",
+    "basis": "Original supplied Class 12 source file",
+    "changes": [
+      "Restructured the source into the same top-level Tips JSON contract used by Class 10.",
+      "Preserved the supplied tip wording.",
+      "Promoted section/chapter mistakes into the top-level mistakes array and removed exact duplicates.",
+      "Added display-compatible weightage labels while preserving the supplied marks and chapter/section IDs.",
+      "Preserved the supplied study order and resources.",
+      "Removed the Listening and speaking assessment tip because the file scope excludes internal assessment."
+    ],
+    "validation": [
+      "5 source sections/units preserved.",
+      "25 supplied tips preserved in reference.",
+      "16 unique mistake entries preserved.",
+      "The supplied theory weightage is retained."
+    ],
+    "corrections": [
+      "Restructured the source into the same top-level Tips JSON contract used by Class 10.",
+      "Preserved the supplied tip wording.",
+      "Promoted section/chapter mistakes into the top-level mistakes array and removed exact duplicates.",
+      "Added display-compatible weightage labels while preserving the supplied marks and chapter/section IDs.",
+      "Preserved the supplied study order and resources.",
+      "Removed the Listening and speaking assessment tip because the file scope excludes internal assessment."
+    ]
+  },
   "prescribed_text_reference": [
     {
       "label": "Section A — Reading Skills",
@@ -236,18 +310,5 @@
       "label": "Vistas — Memories of Childhood",
       "text": "Prepare both prescribed parts—The Cutting of My Long Hair and We Too are Human Beings—for prose-based questions. Practise inferential short answers and analytical/evaluative long answers using relevant incidents, events and themes."
     }
-  ],
-  "_audit": {
-    "status": "CORRECTED_AND_VALIDATED",
-    "basis": "Uploaded Class 12 English Core 2026-27 source",
-    "validation": {
-      "theory_marks": 80,
-      "section_weightage_entries": 3,
-      "tips_sections": 5,
-      "prescribed_reference_entries": 27,
-      "internal_assessment_excluded": true,
-      "all_sections_have_tips": true
-    },
-    "note": "The source is already a certified theory-scope tips/reference file. This corrected version reorganizes the guidance into five usable study sections while preserving the source's prescribed writing limits, literature scope and internal-assessment exclusion."
-  }
+  ]
 }

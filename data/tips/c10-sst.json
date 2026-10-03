@@ -122,12 +122,24 @@
       "Clarified the restricted assessment scope of The Making of a Global World.",
       "Clarified the board/project split for Globalisation and the Indian Economy.",
       "Preserved Age of Industrialisation as periodic-assessment only, Lifelines of National Economy as map-pointing focused, and Consumer Rights as project work.",
-      "Removed the unsupported standalone G20 and India’s role reference tip from the board-preparation tips."
+      "Removed the unsupported standalone G20 and India’s role reference tip from the board-preparation tips.",
+      "Added subject_name, subject_code, and session metadata to match the standardized Tips JSON contract."
     ],
     "scope_notes": [
       "History and Geography map pointing is included in their respective 20-mark subject allocations.",
       "Globalisation and the Indian Economy contains both board-assessed and internally assessed/project content.",
       "Consumer Rights is not treated as a board theory chapter."
+    ],
+    "corrections": [
+      "Preserved the official 20-mark-per-discipline structure and corrected labels to distinguish assessed chapters/portions.",
+      "Clarified the restricted assessment scope of The Making of a Global World.",
+      "Clarified the board/project split for Globalisation and the Indian Economy.",
+      "Preserved Age of Industrialisation as periodic-assessment only, Lifelines of National Economy as map-pointing focused, and Consumer Rights as project work.",
+      "Removed the unsupported standalone G20 and India’s role reference tip from the board-preparation tips.",
+      "Added subject_name, subject_code, and session metadata to match the standardized Tips JSON contract."
     ]
-  }
+  },
+  "subject_name": "Social Science",
+  "subject_code": "087",
+  "session": "2026-27"
 }

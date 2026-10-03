@@ -6,200 +6,290 @@
   "scope": "CBSE Class XII Chemistry (043) 2026–27 written/theory Board-exam preparation; practical/internal-assessment material excluded.",
   "weightage": [
     {
-      "id": "c12-chem-01",
+      "label": "Solutions",
+      "ids": [
+        "c12-chem-01"
+      ],
       "marks": "7"
     },
     {
-      "id": "c12-chem-02",
+      "label": "Electrochemistry",
+      "ids": [
+        "c12-chem-02"
+      ],
       "marks": "9"
     },
     {
-      "id": "c12-chem-03",
+      "label": "Chemical Kinetics",
+      "ids": [
+        "c12-chem-03"
+      ],
       "marks": "7"
     },
     {
-      "id": "c12-chem-04",
+      "label": "d- and f-Block Elements",
+      "ids": [
+        "c12-chem-04"
+      ],
       "marks": "7"
     },
     {
-      "id": "c12-chem-05",
+      "label": "Coordination Compounds",
+      "ids": [
+        "c12-chem-05"
+      ],
       "marks": "7"
     },
     {
-      "id": "c12-chem-06",
+      "label": "Haloalkanes and Haloarenes",
+      "ids": [
+        "c12-chem-06"
+      ],
       "marks": "6"
     },
     {
-      "id": "c12-chem-07",
+      "label": "Alcohols, Phenols and Ethers",
+      "ids": [
+        "c12-chem-07"
+      ],
       "marks": "6"
     },
     {
-      "id": "c12-chem-08",
+      "label": "Aldehydes, Ketones and Carboxylic Acids",
+      "ids": [
+        "c12-chem-08"
+      ],
       "marks": "8"
     },
     {
-      "id": "c12-chem-09",
+      "label": "Amines",
+      "ids": [
+        "c12-chem-09"
+      ],
       "marks": "6"
     },
     {
-      "id": "c12-chem-10",
+      "label": "Biomolecules",
+      "ids": [
+        "c12-chem-10"
+      ],
       "marks": "7"
     }
   ],
-  "chapters": [
+  "reference": [
     {
-      "id": "c12-chem-01",
-      "name": "Solutions",
-      "marks": "7",
-      "tips": [
-        "Keep molarity and molality distinct; check whether temperature can affect the concentration expression.",
-        "For colligative properties, identify the correct property and apply the van't Hoff factor when abnormal association or dissociation is involved.",
-        "In numerical questions, write the known quantities and units before substituting.",
-        "Check whether the question asks for molar mass, elevation/depression or osmotic pressure before choosing the relation.",
-        "Link abnormal molar mass to association/dissociation rather than treating it as an unrelated exception."
-      ],
-      "common_mistakes": [
-        "Confusing molarity and molality.",
-        "Applying colligative-property relations without checking the van't Hoff factor."
-      ]
+      "label": "Solutions — Tip 1",
+      "text": "Keep molarity and molality distinct; check whether temperature can affect the concentration expression."
     },
     {
-      "id": "c12-chem-02",
-      "name": "Electrochemistry",
-      "marks": "9",
-      "tips": [
-        "Identify anode and cathode from oxidation and reduction rather than relying only on sign memory.",
-        "Write the overall cell reaction before constructing the Nernst reaction quotient.",
-        "Keep conductance, conductivity and molar conductivity distinct.",
-        "For electrolysis, track charge passed and electron stoichiometry carefully.",
-        "Connect batteries, fuel cells and corrosion to electrochemical-cell principles."
-      ],
-      "common_mistakes": [
-        "Reversing anode/cathode or oxidation/reduction signs.",
-        "Using the Nernst equation with an incorrect reaction quotient."
-      ]
+      "label": "Solutions — Tip 2",
+      "text": "For colligative properties, identify the correct property and apply the van't Hoff factor when abnormal association or dissociation is involved."
     },
     {
-      "id": "c12-chem-03",
-      "name": "Chemical Kinetics",
-      "marks": "7",
-      "tips": [
-        "Identify the reaction order before choosing an integrated rate equation or half-life relation.",
-        "Keep rate units separate from rate-constant units.",
-        "For Arrhenius questions, identify the quantities being compared before substituting.",
-        "Use concentration data exactly as specified; do not mix initial and instantaneous values.",
-        "Connect collision theory with activation energy and temperature dependence."
-      ],
-      "common_mistakes": [
-        "Mixing zero-order and first-order equations/half-life relations.",
-        "Confusing rate-constant units with reaction-rate units."
-      ]
+      "label": "Solutions — Tip 3",
+      "text": "In numerical questions, write the known quantities and units before substituting."
     },
     {
-      "id": "c12-chem-04",
-      "name": "d- and f-Block Elements",
-      "marks": "7",
-      "tips": [
-        "Revise periodic position and electronic configuration before transition-metal trends.",
-        "Separate general transition-metal behaviour from specific exceptions and compounds.",
-        "Learn important compounds with their preparation, properties and uses.",
-        "Keep lanthanoids and actinoids distinct.",
-        "Use a compact trend table for repeated revision."
-      ],
-      "common_mistakes": [
-        "Memorising trends without distinguishing exceptions and compounds."
-      ]
+      "label": "Solutions — Tip 4",
+      "text": "Check whether the question asks for molar mass, elevation/depression or osmotic pressure before choosing the relation."
     },
     {
-      "id": "c12-chem-05",
-      "name": "Coordination Compounds",
-      "marks": "7",
-      "tips": [
-        "Identify central metal, ligands, coordination number and oxidation state before naming a complex.",
-        "Apply nomenclature systematically.",
-        "Classify the relevant types of isomerism from the actual structure.",
-        "Use Werner's theory and bonding concepts to explain geometry and coordination number.",
-        "Check the overall complex charge before calculating oxidation state."
-      ],
-      "common_mistakes": [
-        "Losing track of ligand names, coordination number, oxidation state, geometry or isomerism."
-      ]
+      "label": "Solutions — Tip 5",
+      "text": "Link abnormal molar mass to association/dissociation rather than treating it as an unrelated exception."
     },
     {
-      "id": "c12-chem-06",
-      "name": "Haloalkanes and Haloarenes",
-      "marks": "6",
-      "tips": [
-        "Identify the substrate class and C–X bond before choosing a reaction.",
-        "Keep substitution and elimination reactions distinct.",
-        "Remember that haloarenes do not behave exactly like haloalkanes.",
-        "Write reagents and conditions along with reactions.",
-        "Revise polyhalogen compounds with their prescribed uses."
-      ],
-      "common_mistakes": [
-        "Writing organic reactions without checking reagent, condition, substrate class and major product."
-      ]
+      "label": "Electrochemistry — Tip 1",
+      "text": "Identify anode and cathode from oxidation and reduction rather than relying only on sign memory."
     },
     {
-      "id": "c12-chem-07",
-      "name": "Alcohols, Phenols and Ethers",
-      "marks": "6",
-      "tips": [
-        "Classify the alcohol, phenol or ether before predicting its reaction.",
-        "Distinguish reactions of alcohols from reactions of phenols.",
-        "Track oxidation products carefully for primary and secondary alcohols.",
-        "Learn commercially important alcohols with their uses.",
-        "For ethers, identify the groups and conditions before predicting cleavage products."
-      ],
-      "common_mistakes": [
-        "Writing organic reactions without checking reagent, condition, substrate class and major product."
-      ]
+      "label": "Electrochemistry — Tip 2",
+      "text": "Write the overall cell reaction before constructing the Nernst reaction quotient."
     },
     {
-      "id": "c12-chem-08",
-      "name": "Aldehydes, Ketones and Carboxylic Acids",
-      "marks": "8",
-      "tips": [
-        "Identify aldehyde, ketone or carboxylic acid before selecting a reaction.",
-        "Organise carbonyl reactions by reagent and product.",
-        "Check oxidation/reduction conditions carefully.",
-        "Use structural formulas when distinguishing similar carbonyl compounds.",
-        "Connect carboxylic-acid acidity, preparation, reactions and uses."
-      ],
-      "common_mistakes": [
-        "Writing organic reactions without checking reagent, condition, substrate class and major product."
-      ]
+      "label": "Electrochemistry — Tip 3",
+      "text": "Keep conductance, conductivity and molar conductivity distinct."
     },
     {
-      "id": "c12-chem-09",
-      "name": "Amines",
-      "marks": "6",
-      "tips": [
-        "Classify the amine before discussing basicity or chemical behaviour.",
-        "Keep basicity trends separate from nucleophilic reactions.",
-        "Learn diazotisation and coupling as a connected sequence.",
-        "Track the aromatic ring and diazonium group carefully.",
-        "Use reaction maps for synthesis involving diazonium salts."
-      ],
-      "common_mistakes": [
-        "Confusing amine basicity trends or mixing diazotisation and coupling conditions."
-      ]
+      "label": "Electrochemistry — Tip 4",
+      "text": "For electrolysis, track charge passed and electron stoichiometry carefully."
     },
     {
-      "id": "c12-chem-10",
-      "name": "Biomolecules",
-      "marks": "7",
-      "tips": [
-        "Organise carbohydrates by type, monomer and examples.",
-        "Connect proteins with amino acids, peptide linkage and function.",
-        "Learn enzymes through their catalytic role.",
-        "Use a compact table for vitamins and prescribed functions.",
-        "Distinguish nucleic acids and hormones by structure and function."
-      ],
-      "common_mistakes": [
-        "Memorising classifications without connecting monomers, linkages, functions and examples."
-      ]
+      "label": "Electrochemistry — Tip 5",
+      "text": "Connect batteries, fuel cells and corrosion to electrochemical-cell principles."
+    },
+    {
+      "label": "Chemical Kinetics — Tip 1",
+      "text": "Identify the reaction order before choosing an integrated rate equation or half-life relation."
+    },
+    {
+      "label": "Chemical Kinetics — Tip 2",
+      "text": "Keep rate units separate from rate-constant units."
+    },
+    {
+      "label": "Chemical Kinetics — Tip 3",
+      "text": "For Arrhenius questions, identify the quantities being compared before substituting."
+    },
+    {
+      "label": "Chemical Kinetics — Tip 4",
+      "text": "Use concentration data exactly as specified; do not mix initial and instantaneous values."
+    },
+    {
+      "label": "Chemical Kinetics — Tip 5",
+      "text": "Connect collision theory with activation energy and temperature dependence."
+    },
+    {
+      "label": "d- and f-Block Elements — Tip 1",
+      "text": "Revise periodic position and electronic configuration before transition-metal trends."
+    },
+    {
+      "label": "d- and f-Block Elements — Tip 2",
+      "text": "Separate general transition-metal behaviour from specific exceptions and compounds."
+    },
+    {
+      "label": "d- and f-Block Elements — Tip 3",
+      "text": "Learn important compounds with their preparation, properties and uses."
+    },
+    {
+      "label": "d- and f-Block Elements — Tip 4",
+      "text": "Keep lanthanoids and actinoids distinct."
+    },
+    {
+      "label": "d- and f-Block Elements — Tip 5",
+      "text": "Use a compact trend table for repeated revision."
+    },
+    {
+      "label": "Coordination Compounds — Tip 1",
+      "text": "Identify central metal, ligands, coordination number and oxidation state before naming a complex."
+    },
+    {
+      "label": "Coordination Compounds — Tip 2",
+      "text": "Apply nomenclature systematically."
+    },
+    {
+      "label": "Coordination Compounds — Tip 3",
+      "text": "Classify the relevant types of isomerism from the actual structure."
+    },
+    {
+      "label": "Coordination Compounds — Tip 4",
+      "text": "Use Werner's theory and bonding concepts to explain geometry and coordination number."
+    },
+    {
+      "label": "Coordination Compounds — Tip 5",
+      "text": "Check the overall complex charge before calculating oxidation state."
+    },
+    {
+      "label": "Haloalkanes and Haloarenes — Tip 1",
+      "text": "Identify the substrate class and C–X bond before choosing a reaction."
+    },
+    {
+      "label": "Haloalkanes and Haloarenes — Tip 2",
+      "text": "Keep substitution and elimination reactions distinct."
+    },
+    {
+      "label": "Haloalkanes and Haloarenes — Tip 3",
+      "text": "Remember that haloarenes do not behave exactly like haloalkanes."
+    },
+    {
+      "label": "Haloalkanes and Haloarenes — Tip 4",
+      "text": "Write reagents and conditions along with reactions."
+    },
+    {
+      "label": "Haloalkanes and Haloarenes — Tip 5",
+      "text": "Revise polyhalogen compounds with their prescribed uses."
+    },
+    {
+      "label": "Alcohols, Phenols and Ethers — Tip 1",
+      "text": "Classify the alcohol, phenol or ether before predicting its reaction."
+    },
+    {
+      "label": "Alcohols, Phenols and Ethers — Tip 2",
+      "text": "Distinguish reactions of alcohols from reactions of phenols."
+    },
+    {
+      "label": "Alcohols, Phenols and Ethers — Tip 3",
+      "text": "Track oxidation products carefully for primary and secondary alcohols."
+    },
+    {
+      "label": "Alcohols, Phenols and Ethers — Tip 4",
+      "text": "Learn commercially important alcohols with their uses."
+    },
+    {
+      "label": "Alcohols, Phenols and Ethers — Tip 5",
+      "text": "For ethers, identify the groups and conditions before predicting cleavage products."
+    },
+    {
+      "label": "Aldehydes, Ketones and Carboxylic Acids — Tip 1",
+      "text": "Identify aldehyde, ketone or carboxylic acid before selecting a reaction."
+    },
+    {
+      "label": "Aldehydes, Ketones and Carboxylic Acids — Tip 2",
+      "text": "Organise carbonyl reactions by reagent and product."
+    },
+    {
+      "label": "Aldehydes, Ketones and Carboxylic Acids — Tip 3",
+      "text": "Check oxidation/reduction conditions carefully."
+    },
+    {
+      "label": "Aldehydes, Ketones and Carboxylic Acids — Tip 4",
+      "text": "Use structural formulas when distinguishing similar carbonyl compounds."
+    },
+    {
+      "label": "Aldehydes, Ketones and Carboxylic Acids — Tip 5",
+      "text": "Connect carboxylic-acid acidity, preparation, reactions and uses."
+    },
+    {
+      "label": "Amines — Tip 1",
+      "text": "Classify the amine before discussing basicity or chemical behaviour."
+    },
+    {
+      "label": "Amines — Tip 2",
+      "text": "Keep basicity trends separate from nucleophilic reactions."
+    },
+    {
+      "label": "Amines — Tip 3",
+      "text": "Learn diazotisation and coupling as a connected sequence."
+    },
+    {
+      "label": "Amines — Tip 4",
+      "text": "Track the aromatic ring and diazonium group carefully."
+    },
+    {
+      "label": "Amines — Tip 5",
+      "text": "Use reaction maps for synthesis involving diazonium salts."
+    },
+    {
+      "label": "Biomolecules — Tip 1",
+      "text": "Organise carbohydrates by type, monomer and examples."
+    },
+    {
+      "label": "Biomolecules — Tip 2",
+      "text": "Connect proteins with amino acids, peptide linkage and function."
+    },
+    {
+      "label": "Biomolecules — Tip 3",
+      "text": "Learn enzymes through their catalytic role."
+    },
+    {
+      "label": "Biomolecules — Tip 4",
+      "text": "Use a compact table for vitamins and prescribed functions."
+    },
+    {
+      "label": "Biomolecules — Tip 5",
+      "text": "Distinguish nucleic acids and hormones by structure and function."
     }
+  ],
+  "mistakes": [
+    "Confusing molarity and molality.",
+    "Applying colligative-property relations without checking the van't Hoff factor.",
+    "Reversing anode/cathode or oxidation/reduction signs.",
+    "Using the Nernst equation with an incorrect reaction quotient.",
+    "Mixing zero-order and first-order equations/half-life relations.",
+    "Confusing rate-constant units with reaction-rate units.",
+    "Memorising trends without distinguishing exceptions and compounds.",
+    "Losing track of ligand names, coordination number, oxidation state, geometry or isomerism.",
+    "Writing organic reactions without checking reagent, condition, substrate class and major product.",
+    "Confusing amine basicity trends or mixing diazotisation and coupling conditions.",
+    "Memorising classifications without connecting monomers, linkages, functions and examples."
   ],
   "order": [
     "Do Solutions, Electrochemistry and Chemical Kinetics first; practise their numerical patterns immediately after learning each concept.",
@@ -226,14 +316,19 @@
   ],
   "_audit": {
     "status": "CORRECTED_AND_VALIDATED",
-    "basis": "Uploaded source file",
-    "validation": {
-      "chapter_count": 10,
-      "weightage_entries": 10,
-      "total_theory_marks": 70,
-      "tips_per_chapter": 5,
-      "all_tip_text_non_empty": true
-    },
-    "note": "Organized the source into a chapter-wise tips layer. The source's ten theory units, marks, study order, mistakes and reference scope are preserved; no separately listed formative-only topics were added."
+    "basis": "Original supplied Class 12 source file",
+    "changes": [
+      "Restructured the source into the same top-level Tips JSON contract used by Class 10.",
+      "Preserved the supplied tip wording.",
+      "Promoted section/chapter mistakes into the top-level mistakes array and removed exact duplicates.",
+      "Added display-compatible weightage labels while preserving the supplied marks and chapter/section IDs.",
+      "Preserved the supplied study order and resources."
+    ],
+    "validation": [
+      "10 source sections/units preserved.",
+      "50 supplied tips preserved in reference.",
+      "11 unique mistake entries preserved.",
+      "The supplied theory weightage is retained."
+    ]
   }
 }

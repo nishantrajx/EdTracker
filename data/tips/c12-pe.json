@@ -1,98 +1,338 @@
 {
   "subject": "c12-pe",
+  "subject_name": "Physical Education",
+  "subject_code": "048",
   "session": "2026-27",
-  "scope": "written/theory Board examination; practical and internal assessment excluded",
-  "chapters": [
+  "scope": "CBSE Class XII Physical Education (048) 2026-27 written/theory Board-exam preparation for a private candidate; practical/internal-assessment preparation excluded.",
+  "weightage": [
     {
-      "id": "c12-pe-01",
-      "formulas": [
-        {
-          "label": "Knock-out tournament matches",
-          "tex": "\\text{Matches}=N-1",
-          "unit": "matches"
-        },
-        {
-          "label": "Number of teams in upper half (odd N)",
-          "tex": "\\text{Upper half}=\\frac{N+1}{2}",
-          "unit": "teams"
-        },
-        {
-          "label": "Number of teams in lower half (odd N)",
-          "tex": "\\text{Lower half}=\\frac{N-1}{2}",
-          "unit": "teams"
-        },
-        {
-          "label": "Number of byes",
-          "tex": "\\text{Byes}=2^m-N\\quad\\text{where }2^m\\ge N",
-          "unit": "byes"
-        },
-        {
-          "label": "Byes in upper half (odd number of byes)",
-          "tex": "\\text{Upper-half byes}=\\frac{B-1}{2}",
-          "unit": "byes; B = total number of byes"
-        },
-        {
-          "label": "Byes in lower half (odd number of byes)",
-          "tex": "\\text{Lower-half byes}=\\frac{B+1}{2}",
-          "unit": "byes; B = total number of byes"
-        },
-        {
-          "label": "Teams in each half (even N)",
-          "tex": "\\text{Teams in each half}=\\frac{N}{2}",
-          "unit": "teams"
-        },
-        {
-          "label": "Number of rounds in a knock-out tournament",
-          "tex": "\\text{Rounds}=m\\quad\\text{where }2^m\\text{ is the next power of 2 at or above }N",
-          "unit": "rounds"
-        },
-        {
-          "label": "Single league matches",
-          "tex": "\\text{Matches}=\\frac{N(N-1)}{2}",
-          "unit": "matches"
-        },
-        {
-          "label": "Double league matches",
-          "tex": "\\text{Matches}=N(N-1)",
-          "unit": "matches"
-        }
-      ]
+      "label": "Management of Sporting Events",
+      "ids": [
+        "c12-pe-01"
+      ],
+      "marks": "05 + 04b*"
     },
     {
-      "id": "c12-pe-06",
-      "formulas": [
-        {
-          "label": "Body Mass Index",
-          "tex": "\\mathrm{BMI}=\\frac{\\text{body mass (kg)}}{[\\text{height (m)}]^2}",
-          "unit": "kg m^{-2}"
-        },
-        {
-          "label": "Harvard Step Test fitness index",
-          "tex": "\\mathrm{Fitness\\ Index}=\\frac{\\text{duration of exercise in seconds}\\times100}{5.5\\times\\text{pulse count at 1-1.5 min after exercise}}",
-          "unit": "dimensionless"
-        },
-        {
-          "label": "BMR — male",
-          "tex": "\\mathrm{BMR}=(10\\times\\text{weight in kg})+(6.25\\times\\text{height in cm})-(5\\times\\text{age})+5",
-          "unit": "kcal/day"
-        },
-        {
-          "label": "BMR — female",
-          "tex": "\\mathrm{BMR}=(10\\times\\text{body weight in kg})+(6.25\\times\\text{height in cm})-(5\\times\\text{age})-161",
-          "unit": "kcal/day"
-        }
-      ]
+      "label": "Children and Women in Sports",
+      "ids": [
+        "c12-pe-02"
+      ],
+      "marks": "07"
+    },
+    {
+      "label": "Yoga as Preventive Measure for Lifestyle Disease",
+      "ids": [
+        "c12-pe-03"
+      ],
+      "marks": "06 + 01b*"
+    },
+    {
+      "label": "Physical Education and Sports for CWSN",
+      "ids": [
+        "c12-pe-04"
+      ],
+      "marks": "04 + 04b*"
+    },
+    {
+      "label": "Sports and Nutrition",
+      "ids": [
+        "c12-pe-05"
+      ],
+      "marks": "07"
+    },
+    {
+      "label": "Test and Measurement in Sports",
+      "ids": [
+        "c12-pe-06"
+      ],
+      "marks": "08"
+    },
+    {
+      "label": "Physiology and Injuries in Sport",
+      "ids": [
+        "c12-pe-07"
+      ],
+      "marks": "04 + 04b*"
+    },
+    {
+      "label": "Biomechanics and Sports",
+      "ids": [
+        "c12-pe-08"
+      ],
+      "marks": "10"
+    },
+    {
+      "label": "Psychology and Sports",
+      "ids": [
+        "c12-pe-09"
+      ],
+      "marks": "07"
+    },
+    {
+      "label": "Training in Sports",
+      "ids": [
+        "c12-pe-10"
+      ],
+      "marks": "09"
+    }
+  ],
+  "reference": [
+    {
+      "label": "Management of Sporting Events — Tip 1",
+      "text": "Memorise the five management functions: planning, organising, staffing, directing and controlling."
+    },
+    {
+      "label": "Management of Sporting Events — Tip 2",
+      "text": "Keep committee responsibilities separated into before-event, during-event and after-event duties."
+    },
+    {
+      "label": "Management of Sporting Events — Tip 3",
+      "text": "Practise knock-out fixtures, especially bye and seeding procedures, instead of only reading them."
+    },
+    {
+      "label": "Management of Sporting Events — Tip 4",
+      "text": "Keep staircase, cyclic and tabular league methods distinct and know when each is used."
+    },
+    {
+      "label": "Management of Sporting Events — Tip 5",
+      "text": "Revise intramural vs extramural tournaments and the listed community sports programmes."
+    },
+    {
+      "label": "Children and Women in Sports — Tip 1",
+      "text": "Study the prescribed WHO exercise guidelines by age group."
+    },
+    {
+      "label": "Children and Women in Sports — Tip 2",
+      "text": "Make a deformity → corrective measure table for knock knees, flat foot, round shoulders, lordosis, kyphosis, scoliosis and bow legs."
+    },
+    {
+      "label": "Children and Women in Sports — Tip 3",
+      "text": "Separate the physical, psychological and social benefits of women's participation."
+    },
+    {
+      "label": "Children and Women in Sports — Tip 4",
+      "text": "Keep menarche, menstrual dysfunction and female athlete triad as separate concepts."
+    },
+    {
+      "label": "Children and Women in Sports — Tip 5",
+      "text": "Memorise the three components of the female athlete triad: osteoporosis, amenorrhea and eating disorders."
+    },
+    {
+      "label": "Yoga as Preventive Measure for Lifestyle Disease — Tip 1",
+      "text": "Study yoga by lifestyle disease rather than memorising all asanas as one list."
+    },
+    {
+      "label": "Yoga as Preventive Measure for Lifestyle Disease — Tip 2",
+      "text": "For every prescribed asana/pranayama, learn procedure, benefits and contraindications together."
+    },
+    {
+      "label": "Yoga as Preventive Measure for Lifestyle Disease — Tip 3",
+      "text": "Use separate tables for obesity, diabetes, asthma, hypertension, and back pain/arthritis."
+    },
+    {
+      "label": "Yoga as Preventive Measure for Lifestyle Disease — Tip 4",
+      "text": "Practise writing the correct asana list for a given disease without mixing conditions."
+    },
+    {
+      "label": "Yoga as Preventive Measure for Lifestyle Disease — Tip 5",
+      "text": "Pay particular attention to contraindications because simply naming the asana is incomplete."
+    },
+    {
+      "label": "Physical Education and Sports for CWSN — Tip 1",
+      "text": "Keep Special Olympics, Paralympics and Deaflympics clearly differentiated."
+    },
+    {
+      "label": "Physical Education and Sports for CWSN — Tip 2",
+      "text": "Understand classification and divisioning as separate concepts."
+    },
+    {
+      "label": "Physical Education and Sports for CWSN — Tip 3",
+      "text": "Learn inclusion through its meaning, need and implementation."
+    },
+    {
+      "label": "Physical Education and Sports for CWSN — Tip 4",
+      "text": "Revise the advantages of physical activity for children with special needs."
+    },
+    {
+      "label": "Physical Education and Sports for CWSN — Tip 5",
+      "text": "Prepare practical examples of strategies that make physical activities accessible."
+    },
+    {
+      "label": "Sports and Nutrition — Tip 1",
+      "text": "Build a table of macro- and micronutrients with food sources and functions."
+    },
+    {
+      "label": "Sports and Nutrition — Tip 2",
+      "text": "Keep nutritive and non-nutritive components distinct."
+    },
+    {
+      "label": "Sports and Nutrition — Tip 3",
+      "text": "Revise balanced diet, healthy weight, dieting pitfalls, food intolerance and food myths together."
+    },
+    {
+      "label": "Sports and Nutrition — Tip 4",
+      "text": "Separate pre-, during- and post-competition dietary requirements."
+    },
+    {
+      "label": "Sports and Nutrition — Tip 5",
+      "text": "Use examples of foods and nutrients to strengthen recall instead of memorising definitions alone."
+    },
+    {
+      "label": "Test and Measurement in Sports — Tip 1",
+      "text": "First identify the correct fitness test and the prescribed age/class group."
+    },
+    {
+      "label": "Test and Measurement in Sports — Tip 2",
+      "text": "Learn each test's purpose, procedure, scoring and interpretation together."
+    },
+    {
+      "label": "Test and Measurement in Sports — Tip 3",
+      "text": "Practise Harvard Step Test fitness-index calculations separately from conceptual questions."
+    },
+    {
+      "label": "Test and Measurement in Sports — Tip 4",
+      "text": "Keep the Rikli & Jones six-test battery distinct from the SAI Khelo India tests."
+    },
+    {
+      "label": "Test and Measurement in Sports — Tip 5",
+      "text": "Revise BMR computation and the Johnson–Methney movements as separate test-and-measurement topics."
+    },
+    {
+      "label": "Physiology and Injuries in Sport — Tip 1",
+      "text": "Separate physiological factors determining fitness components from general effects of exercise."
+    },
+    {
+      "label": "Physiology and Injuries in Sport — Tip 2",
+      "text": "Study muscular and cardio-respiratory effects in separate comparison tables."
+    },
+    {
+      "label": "Physiology and Injuries in Sport — Tip 3",
+      "text": "Keep physiological changes due to ageing distinct from acute exercise effects."
+    },
+    {
+      "label": "Physiology and Injuries in Sport — Tip 4",
+      "text": "Classify sports injuries before memorising examples."
+    },
+    {
+      "label": "Physiology and Injuries in Sport — Tip 5",
+      "text": "Separate soft-tissue injuries from bone/joint injuries and learn the listed fracture types."
+    },
+    {
+      "label": "Biomechanics and Sports — Tip 1",
+      "text": "Learn each of Newton's three laws with one clear sports application."
+    },
+    {
+      "label": "Biomechanics and Sports — Tip 2",
+      "text": "Make a table for first-, second- and third-class levers with sports examples."
+    },
+    {
+      "label": "Biomechanics and Sports — Tip 3",
+      "text": "Keep static and dynamic equilibrium distinct."
+    },
+    {
+      "label": "Biomechanics and Sports — Tip 4",
+      "text": "Connect centre of gravity and friction to actual sports situations."
+    },
+    {
+      "label": "Biomechanics and Sports — Tip 5",
+      "text": "Practise projectile-motion applications conceptually rather than memorising isolated statements."
+    },
+    {
+      "label": "Psychology and Sports — Tip 1",
+      "text": "Learn personality definition and keep Jung classification separate from the Big Five theory."
+    },
+    {
+      "label": "Psychology and Sports — Tip 2",
+      "text": "Distinguish motivation types from motivation techniques."
+    },
+    {
+      "label": "Psychology and Sports — Tip 3",
+      "text": "Study exercise adherence through reasons, benefits and strategies."
+    },
+    {
+      "label": "Psychology and Sports — Tip 4",
+      "text": "Keep aggression's meaning, concept and types clearly separated."
+    },
+    {
+      "label": "Psychology and Sports — Tip 5",
+      "text": "Revise self-esteem, mental imagery, self-talk and goal setting as distinct psychological attributes."
+    },
+    {
+      "label": "Training in Sports — Tip 1",
+      "text": "Keep talent identification and talent development as separate stages/concepts."
+    },
+    {
+      "label": "Training in Sports — Tip 2",
+      "text": "Memorise micro, meso and macro cycles and understand their relationship."
+    },
+    {
+      "label": "Training in Sports — Tip 3",
+      "text": "Study strength, endurance and speed methods separately."
+    },
+    {
+      "label": "Training in Sports — Tip 4",
+      "text": "Do the same for flexibility and coordinative ability methods."
+    },
+    {
+      "label": "Training in Sports — Tip 5",
+      "text": "Understand the purpose and importance of circuit training rather than memorising only its definition."
+    }
+  ],
+  "mistakes": [
+    "Mixing the five management functions, committee responsibilities or tournament procedures.",
+    "Confusing postural deformities with their corrective measures or mixing menarche, menstrual dysfunction and the female athlete triad.",
+    "Writing an asana/pranayama name without its prescribed procedure, benefits and contraindications.",
+    "Confusing Special Olympics, Paralympics and Deaflympics, or mixing classification, divisioning and inclusion.",
+    "Mixing macro/micronutrients, nutritive/non-nutritive components or pre/during/post-competition requirements.",
+    "Confusing age-group fitness batteries, test purpose, procedure, scoring/calculation and interpretation.",
+    "Mixing exercise effects with ageing changes or confusing soft-tissue and bone/joint injuries.",
+    "Confusing Newton's laws, levers, equilibrium, centre of gravity, friction and projectile motion in sports applications.",
+    "Confusing personality, motivation, exercise adherence, aggression and the listed psychological attributes.",
+    "Mixing talent identification/development, training cycles and methods for different fitness components."
+  ],
+  "order": [
+    "Start with Management of Sporting Events and master tournament terminology and fixture procedures.",
+    "Study Children and Women in Sports and make a compact deformity-to-correction and concept comparison sheet.",
+    "Study Yoga by lifestyle condition, keeping procedure, benefits and contraindications together for every prescribed asana/pranayama.",
+    "Study CWSN with clear distinctions between organisations, classification/divisioning, inclusion, advantages and accessibility strategies.",
+    "Complete Sports and Nutrition with nutrient/component comparisons and pre-, during- and post-competition requirements.",
+    "Practise Test and Measurement through test identification, procedure, scoring and calculation questions.",
+    "Study Physiology and Injuries by separating system effects, ageing changes and injury classifications.",
+    "Study Biomechanics through law/lever/equilibrium/friction/projectile concept-to-sports applications.",
+    "Finish Psychology by connecting each definition or theory with its prescribed type, technique or attribute.",
+    "Finish Training by separating talent development, training cycles, component-specific methods and circuit training.",
+    "Revise all ten units using short-answer recall followed by concept/application and case-based practice.",
+    "Keep practical-file and practical-performance preparation separate from the 70-mark written-theory revision."
+  ],
+  "resources": [
+    {
+      "label": "CBSE Physical Education 2026-27 syllabus",
+      "url": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/PhysicalEducation_SecP2_2026-27.pdf"
+    },
+    {
+      "label": "NCERT Textbooks",
+      "url": "https://ncert.nic.in/textbook.php"
+    },
+    {
+      "label": "CBSE Class XII 2026-27 SQP & Marking Scheme",
+      "url": "https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html"
     }
   ],
   "_audit": {
-    "status": "SOURCE_GROUNDED_CLEANED",
-    "source_file": "c12-pe.json",
-    "formula_chapters_present_in_source": [
-      "c12-pe-01",
-      "c12-pe-06"
+    "status": "CORRECTED_AND_VALIDATED",
+    "basis": "Original supplied Class 12 source file",
+    "changes": [
+      "Restructured the source into the same top-level Tips JSON contract used by Class 10.",
+      "Preserved the supplied tip wording.",
+      "Promoted section/chapter mistakes into the top-level mistakes array and removed exact duplicates.",
+      "Added display-compatible weightage labels while preserving the supplied marks and chapter/section IDs.",
+      "Preserved the supplied study order and resources."
     ],
-    "formula_entry_count": 14,
-    "important_note": "Only formulas explicitly present in the uploaded source are retained. No biomechanics formulas have been added.",
-    "coverage_gap": "The source formula bank contains formulas only for Units 1 and 6. Absence of formulas for other PE units is preserved rather than filled from general knowledge."
+    "validation": [
+      "10 source sections/units preserved.",
+      "50 supplied tips preserved in reference.",
+      "10 unique mistake entries preserved.",
+      "The supplied theory weightage is retained."
+    ]
   }
 }

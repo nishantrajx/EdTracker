@@ -1,9 +1,7 @@
 {
   "subject": "c12-pe",
-  "subject_name": "Physical Education",
-  "subject_code": "048",
   "session": "2026-27",
-  "scope": "CBSE Class XII Physical Education (048) 2026–27 written/theory Board-exam preparation; practical/internal-assessment material excluded.",
+  "scope": "written/theory Board examination; practical and internal assessment excluded",
   "chapters": [
     {
       "id": "c12-pe-01",
@@ -57,39 +55,8 @@
           "label": "Double league matches",
           "tex": "\\text{Matches}=N(N-1)",
           "unit": "matches"
-        },
-        {
-          "label": "Knock-out matches",
-          "tex": "M=N-1",
-          "unit": "matches"
-        },
-        {
-          "label": "Number of rounds in knock-out",
-          "tex": "R=m,\\quad 2^m\\ge N",
-          "unit": "rounds"
         }
-      ],
-      "name": "Management of Sporting Events"
-    },
-    {
-      "id": "c12-pe-02",
-      "name": "Children and Women in Sports",
-      "formulas": []
-    },
-    {
-      "id": "c12-pe-03",
-      "name": "Yoga as Preventive measure for Lifestyle Disease",
-      "formulas": []
-    },
-    {
-      "id": "c12-pe-04",
-      "name": "Physical Education & Sports for CWSN",
-      "formulas": []
-    },
-    {
-      "id": "c12-pe-05",
-      "name": "Sports & Nutrition",
-      "formulas": []
+      ]
     },
     {
       "id": "c12-pe-06",
@@ -114,94 +81,18 @@
           "tex": "\\mathrm{BMR}=(10\\times\\text{body weight in kg})+(6.25\\times\\text{height in cm})-(5\\times\\text{age})-161",
           "unit": "kcal/day"
         }
-      ],
-      "name": "Test and Measurement in Sports"
-    },
-    {
-      "id": "c12-pe-07",
-      "name": "Physiology & Injuries in Sport",
-      "formulas": []
-    },
-    {
-      "id": "c12-pe-08",
-      "name": "Biomechanics and Sports",
-      "formulas": [
-        {
-          "label": "Newton's second law",
-          "tex": "F=ma",
-          "unit": "force"
-        },
-        {
-          "label": "Momentum",
-          "tex": "p=mv",
-          "unit": "momentum"
-        },
-        {
-          "label": "Impulse",
-          "tex": "J=\\Delta p=F\\Delta t",
-          "unit": "impulse"
-        },
-        {
-          "label": "Work",
-          "tex": "W=Fd\\cos\\theta",
-          "unit": "work"
-        },
-        {
-          "label": "Power",
-          "tex": "P=\\frac{W}{t}",
-          "unit": "power"
-        },
-        {
-          "label": "Kinetic energy",
-          "tex": "KE=\\frac12mv^2",
-          "unit": "energy"
-        },
-        {
-          "label": "Torque",
-          "tex": "\\tau=Fd\\sin\\theta",
-          "unit": "torque"
-        },
-        {
-          "label": "Linear velocity",
-          "tex": "v=\\frac{d}{t}",
-          "unit": "velocity"
-        },
-        {
-          "label": "Acceleration",
-          "tex": "a=\\frac{\\Delta v}{\\Delta t}",
-          "unit": "acceleration"
-        }
       ]
-    },
-    {
-      "id": "c12-pe-09",
-      "name": "Psychology and Sports",
-      "formulas": []
-    },
-    {
-      "id": "c12-pe-10",
-      "name": "Training in Sports",
-      "formulas": []
     }
   ],
   "_audit": {
-    "status": "CORRECTED_AND_VALIDATED",
-    "authority": "CBSE Class XII Physical Education (048), 2026-27 official curriculum",
+    "status": "SOURCE_GROUNDED_CLEANED",
     "source_file": "c12-pe.json",
-    "web_source": "CBSE Class XII Physical Education (048), 2026-27 official curriculum",
-    "corrections": [
-      "Expanded the file from the supplied 2 formula-bearing units to the complete 10-unit syllabus structure.",
-      "Preserved the supplied tournament and fitness-test formulas.",
-      "Added core biomechanics relationships directly associated with Newton's laws, work, power, torque and motion.",
-      "Left conceptual-only units without invented formulas.",
-      "Did not impose an alternative BMR equation because the official syllabus specifies computing BMR but does not prescribe one equation."
+    "formula_chapters_present_in_source": [
+      "c12-pe-01",
+      "c12-pe-06"
     ],
-    "validation": {
-      "chapter_count": 10,
-      "unique_chapter_ids": true,
-      "unique_formula_labels_within_chapter": true,
-      "unique_tex_within_chapter": true,
-      "non_empty_formula_fields": true
-    }
+    "formula_entry_count": 14,
+    "important_note": "Only formulas explicitly present in the uploaded source are retained. No biomechanics formulas have been added.",
+    "coverage_gap": "The source formula bank contains formulas only for Units 1 and 6. Absence of formulas for other PE units is preserved rather than filled from general knowledge."
   }
 }

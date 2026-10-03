@@ -124,12 +124,16 @@
       "Excluded Periodic Classification of Elements and Heredity and Evolution from annual-board weightage mapping.",
       "Kept Motor, Electromagnetic Induction and Electric Generator identified as formative-only.",
       "Clarified the assessment status of Heredity within the reproduction and heredity reference tip.",
-      "Preserved the existing study tips and mistake-prevention guidance unless correction was required for assessment scope."
+      "Preserved the existing study tips and mistake-prevention guidance unless correction was required for assessment scope.",
+      "Added subject_name, subject_code, and session metadata to match the standardized Tips JSON contract."
     ],
     "scope_notes": [
       "Weightage represents the official annual-examination unit marks.",
       "Chapter IDs in the weightage section identify board-assessed EdTracker chapters only.",
       "Formative-only topics remain useful for learning but are excluded from the 80-mark annual-board weightage."
     ]
-  }
+  },
+  "subject_name": "Science",
+  "subject_code": "086",
+  "session": "2026-27"
 }
